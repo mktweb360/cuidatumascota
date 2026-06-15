@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description: "Las mejores guías y reseñas de productos para mascotas. Alimentación, salud, accesorios y todo lo que necesita tu perro o gato.",
   metadataBase: new URL("https://www.cuidatumascota.es"),
   openGraph: { type: "website", locale: "es_ES", siteName: "CuidaTuMascota.es" },
+  verification: {
+    google: "8pvgQ5R0iQ6WHklqEaMBBuazOzpBIskFvk2livTaa-w",
+  },
 };
 
 const websiteSchema = {
