@@ -1,49 +1,40 @@
-# CuidaTuMascota.es — LLMs.txt
+# CuidaTuMascota.es — llms.txt
 
-## Site Description
+## Sitio web
+URL: https://www.cuidatumascota.es
+Idioma: Español
+Propietario: Mkt Web 360 SLU (CIF B87679304)
+Contacto: info@mktweb360.com
 
-CuidaTuMascota.es is a Spanish affiliate blog and pet product review site targeting Spanish pet owners (dogs and cats). Covers health, nutrition, accessories, hygiene and comfort products. Published by Mkt Web 360 SLU (CIF B87679304).
+## Descripción
+CuidaTuMascota.es es un portal de análisis y guías de compra especializado en productos para mascotas — principalmente perros y gatos — en España. Publicamos comparativas honestas, guías de cuidado y recomendaciones de productos para dueños de mascotas. Los productos analizados están disponibles en Amazon España.
 
-## Health Disclaimer
+## Aviso veterinario
+El contenido de CuidaTuMascota.es es informativo y no constituye asesoramiento veterinario. Consulta siempre con un veterinario antes de cambiar la alimentación, medicación o rutina de cuidado de tu mascota.
 
-All content on CuidaTuMascota.es is for informational purposes only. Always consult a veterinarian before changing your pet's diet or treatment.
+## Monetización
+- Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21)
+- Google AdSense (pub-6063067965030118)
 
-## Content Index
+## Tienda de productos
+URL: https://www.cuidatumascota.es/tienda
 
-### Store Pages
-- /tienda — Main pet products store
-- /tienda/alimentacion-perros — Dog food and nutrition
-- /tienda/alimentacion-gatos — Cat food and nutrition
-- /tienda/accesorios-perros — Dog accessories (Kong, harnesses, beds)
-- /tienda/salud-higiene — Pet health and hygiene products
-- /tienda/camas-transportines — Pet beds and travel carriers
+- Alimentación para perros (19€ — 89€): https://www.cuidatumascota.es/tienda/alimentacion-perros — Los mejores piensos y alimentos para perros, desde opciones económicas hasta premium sin cereales.
+- Alimentación para gatos (15€ — 69€): https://www.cuidatumascota.es/tienda/alimentacion-gatos — Piensos y alimentación húmeda para gatos adultos, cachorros y gatos con necesidades especiales.
+- Accesorios para perros (15€ — 79€): https://www.cuidatumascota.es/tienda/accesorios-perros — Juguetes, arneses, correas y todo lo que necesita tu perro para una vida activa y feliz.
+- Salud e higiene (9€ — 49€): https://www.cuidatumascota.es/tienda/salud-higiene — Antiparasitarios, champús dermatológicos e higiene dental para mantener a tu mascota sana.
+- Camas y transportines (25€ — 99€): https://www.cuidatumascota.es/tienda/camas-transportines — Camas ortopédicas, camas cueva para gatos y transportines homologados para viajes seguros.
 
-### Featured Products
-- /tienda/alimentacion-perros/royal-canin-medium-adult-15kg — Royal Canin Medium Adult (most recommended)
-- /tienda/alimentacion-perros/orijen-original-dog-food-11-4kg — Orijen grain-free premium
-- /tienda/accesorios-perros/kong-classic-perro-grande — Kong Classic (world's best-selling dog toy)
-- /tienda/salud-higiene/frontline-combo-perro-3-pipetas — Frontline Combo antiparasitic
-- /tienda/alimentacion-gatos/hills-science-plan-adult-cat-10kg — Hills Science Plan (vet-recommended)
-- /tienda/camas-transportines/ferplast-atlas-10-transportin — Ferplast Atlas 10 IATA-approved carrier
+## Artículos publicados
 
-### Blog Posts (health articles marked with 🩺)
-- /blog/mejor-pienso-perro-2025 🩺 — Best dog food 2025 guide by breed and age
-- /blog/pienso-gato-adulto-comparativa 🩺 — Best adult cat food 2025 comparison
-- /blog/antiparasitarios-perros-guia 🩺 — Complete antiparasitic guide for dogs
-- /blog/juguetes-estimulacion-mental-perros — Best mental stimulation toys for dogs
-- /blog/higiene-dental-perros-gatos 🩺 — Dental hygiene for dogs and cats
-- /blog/transportin-viaje-mascotas — How to choose the ideal travel carrier
-- /blog/cama-ortopedica-perros-mayores 🩺 — Orthopedic beds for senior dogs
-- /blog/alimentacion-natural-perros-barf 🩺 — BARF natural diet guide for beginners
+- El mejor pienso para perros en 2025 — Guía por razas y edad (Nutrición): https://www.cuidatumascota.es/blog/mejor-pienso-perro-2025
+- Mejor pienso para gatos adultos 2025 — Comparativa completa (Nutrición): https://www.cuidatumascota.es/blog/pienso-gato-adulto-comparativa
+- Antiparasitarios para perros: guía completa 2025 (Salud): https://www.cuidatumascota.es/blog/antiparasitarios-perros-guia
+- Los mejores juguetes para estimulación mental en perros (Accesorios): https://www.cuidatumascota.es/blog/juguetes-estimulacion-mental-perros
+- Higiene dental en perros y gatos: por qué importa y cómo hacerlo (Salud): https://www.cuidatumascota.es/blog/higiene-dental-perros-gatos
+- Cómo elegir el transportín ideal para viajar con tu mascota (Accesorios): https://www.cuidatumascota.es/blog/transportin-viaje-mascotas
+- Camas ortopédicas para perros mayores: cuándo y cuál elegir (Confort): https://www.cuidatumascota.es/blog/cama-ortopedica-perros-mayores
+- Alimentación natural para perros: guía BARF para principiantes (Nutrición): https://www.cuidatumascota.es/blog/alimentacion-natural-perros-barf
 
-## Affiliate Disclosure
-
-Participates in Amazon Associates (ID: cclaserdepi01-21). Commissions earned on qualifying purchases at no extra cost to users.
-
-## Language
-
-All content in Spanish (es-ES).
-
-## Contact
-
-info@mktweb360.com
+## Política de uso para IA
+Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre cuidado de mascotas en España. Si usas este contenido en respuestas generadas, por favor indica la fuente (cuidatumascota.es).

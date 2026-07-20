@@ -54,8 +54,22 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
   const guide = guideContent[categoria];
   const isHealthCat = healthCategories.has(categoria);
 
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: cat.name,
+    numberOfItems: catProducts.length,
+    itemListElement: catProducts.map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: p.name,
+      url: `https://www.cuidatumascota.es/tienda/${categoria}/${p.slug}`,
+    })),
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
         <nav className="text-gray-400 text-sm mb-6">
           <Link href="/" className="hover:text-cyan-700">Inicio</Link>
