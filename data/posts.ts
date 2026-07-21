@@ -6,6 +6,7 @@ export interface Post {
   date: string;
   readTime: number;
   relatedProducts: string[];
+  relatedPosts?: string[];
   isHealth?: boolean;
 }
 
@@ -14,20 +15,22 @@ export const posts: Post[] = [
     slug: "mejor-pienso-perro-2025",
     title: "El mejor pienso para perros en 2025 — Guía por razas y edad",
     excerpt: "Comparativa completa de los mejores piensos para perros en 2025. Analizamos ingredientes, digestibilidad y relación calidad-precio para que elijas con confianza.",
-    category: "Nutrición",
+    category: "Alimentación",
     date: "2025-01-10",
     readTime: 10,
     relatedProducts: ["royal-canin-medium-adult-15kg", "orijen-original-dog-11kg"],
+    relatedPosts: ["mejor-pienso-perro-adulto-2025", "royal-canin-adult-maxi-analisis", "alimentacion-perros-guia-completa"],
     isHealth: true,
   },
   {
     slug: "pienso-gato-adulto-comparativa",
     title: "Mejor pienso para gatos adultos 2025 — Comparativa completa",
     excerpt: "Guía de los mejores piensos para gatos adultos: desde opciones veterinarias hasta las más asequibles. Todo lo que necesitas saber para alimentar bien a tu gato.",
-    category: "Nutrición",
+    category: "Alimentación",
     date: "2025-01-20",
     readTime: 9,
     relatedProducts: ["hills-science-plan-adult-no-grain-pollo-gato", "royal-canin-sterilised-gato-4kg"],
+    relatedPosts: ["pienso-gatos-adultos-mejor-2025", "alimentacion-gatos-guia-propietarios", "comedero-microchip-surefeed-analisis"],
     isHealth: true,
   },
   {
@@ -38,6 +41,7 @@ export const posts: Post[] = [
     date: "2025-02-01",
     readTime: 8,
     relatedProducts: ["frontline-plus-perros-grandes-6-pipetas", "beaphar-fiprex-perro"],
+    relatedPosts: ["desparasitacion-perros-guia-completa", "cuidado-preventivo-mascotas-guia", "higiene-dental-perros-gatos"],
     isHealth: true,
   },
   {
@@ -48,6 +52,7 @@ export const posts: Post[] = [
     date: "2025-02-15",
     readTime: 7,
     relatedProducts: ["kong-classic-xl-caucho", "ruffwear-front-range-arnes-2024"],
+    relatedPosts: ["kong-classic-guia-uso", "mochila-senderismo-perros-ruffwear", "pasear-perro-correctamente-guia"],
   },
   {
     slug: "higiene-dental-perros-gatos",
@@ -57,6 +62,7 @@ export const posts: Post[] = [
     date: "2025-03-01",
     readTime: 8,
     relatedProducts: ["tropiclean-kit-dental-perro"],
+    relatedPosts: ["cuidado-preventivo-mascotas-guia", "antiparasitarios-perros-guia", "perro-mayor-cuidados-senior"],
     isHealth: true,
   },
   {
@@ -67,25 +73,28 @@ export const posts: Post[] = [
     date: "2025-03-15",
     readTime: 7,
     relatedProducts: ["ferplast-atlas-10-el-negro", "ferplast-atlas-10-open-techo-abrible"],
+    relatedPosts: ["adoptar-perro-guia-primera-vez", "cuidado-preventivo-mascotas-guia", "kong-classic-guia-uso"],
   },
   {
     slug: "cama-ortopedica-perros-mayores",
     title: "Camas ortopédicas para perros mayores: cuándo y cuál elegir",
     excerpt: "Los perros mayores o con artritis necesitan una cama especial. Descubre cuándo es necesaria una cama ortopédica y cuáles son las mejores opciones en 2025.",
-    category: "Confort",
+    category: "Cuidados",
     date: "2025-04-01",
     readTime: 7,
     relatedProducts: ["cama-memory-foam-xl-perro", "trixie-cama-ortopedica-vital-bendson"],
+    relatedPosts: ["perro-mayor-cuidados-senior", "higiene-dental-perros-gatos", "cuidado-preventivo-mascotas-guia"],
     isHealth: true,
   },
   {
     slug: "alimentacion-natural-perros-barf",
     title: "Alimentación natural para perros: guía BARF para principiantes",
     excerpt: "La dieta BARF (Biologically Appropriate Raw Food) cada vez tiene más seguidores. Qué es, ventajas, riesgos y cómo empezar de forma segura.",
-    category: "Nutrición",
+    category: "Alimentación",
     date: "2025-04-15",
     readTime: 10,
     relatedProducts: ["orijen-original-dog-11kg"],
+    relatedPosts: ["alimentacion-perros-guia-completa", "mejor-pienso-perro-adulto-2025", "cuidado-preventivo-mascotas-guia"],
     isHealth: true,
   },
   {
@@ -96,6 +105,7 @@ export const posts: Post[] = [
     date: "2025-07-01",
     readTime: 9,
     relatedProducts: ["royal-canin-adult-maxi", "hills-science-plan-adult", "orijen-original-dog-11kg"],
+    relatedPosts: ["royal-canin-adult-maxi-analisis", "alimentacion-perros-guia-completa", "mejor-pienso-perro-2025"],
     isHealth: true,
   },
   {
@@ -106,6 +116,7 @@ export const posts: Post[] = [
     date: "2025-07-02",
     readTime: 7,
     relatedProducts: ["royal-canin-adult-maxi", "hills-science-plan-adult"],
+    relatedPosts: ["mejor-pienso-perro-adulto-2025", "alimentacion-perros-guia-completa", "perro-mayor-cuidados-senior"],
     isHealth: true,
   },
   {
@@ -116,6 +127,7 @@ export const posts: Post[] = [
     date: "2025-07-03",
     readTime: 10,
     relatedProducts: ["royal-canin-adult-maxi", "hills-science-plan-adult", "orijen-original-dog-11kg"],
+    relatedPosts: ["mejor-pienso-perro-adulto-2025", "royal-canin-adult-maxi-analisis", "cuidado-preventivo-mascotas-guia"],
     isHealth: true,
   },
   {
@@ -126,6 +138,7 @@ export const posts: Post[] = [
     date: "2025-07-04",
     readTime: 8,
     relatedProducts: ["royal-canin-indoor-adult", "hills-science-plan-sterilised", "acana-pacifica-cat"],
+    relatedPosts: ["alimentacion-gatos-guia-propietarios", "fuente-agua-gatos-catit-analisis", "pienso-gato-adulto-comparativa"],
     isHealth: true,
   },
   {
@@ -136,6 +149,7 @@ export const posts: Post[] = [
     date: "2025-07-05",
     readTime: 9,
     relatedProducts: ["royal-canin-indoor-adult", "hills-science-plan-sterilised", "acana-pacifica-cat"],
+    relatedPosts: ["pienso-gatos-adultos-mejor-2025", "fuente-agua-gatos-catit-analisis", "gato-interior-bienestar-enriquecimiento"],
     isHealth: true,
   },
   {
@@ -146,6 +160,7 @@ export const posts: Post[] = [
     date: "2025-07-06",
     readTime: 9,
     relatedProducts: ["frontline-plus-perros-grandes-6-pipetas", "beaphar-fiprex-perro"],
+    relatedPosts: ["antiparasitarios-perros-guia", "cuidado-preventivo-mascotas-guia", "adoptar-perro-guia-primera-vez"],
     isHealth: true,
   },
   {
@@ -156,6 +171,7 @@ export const posts: Post[] = [
     date: "2025-07-07",
     readTime: 8,
     relatedProducts: ["frontline-combo-gato"],
+    relatedPosts: ["cuidado-preventivo-mascotas-guia", "gato-interior-bienestar-enriquecimiento", "gato-primer-dia-casa-guia"],
     isHealth: true,
   },
   {
@@ -166,6 +182,7 @@ export const posts: Post[] = [
     date: "2025-07-08",
     readTime: 7,
     relatedProducts: ["kong-classic-xl-caucho", "trixie-cama-ortopedica-vital-bendson"],
+    relatedPosts: ["juguetes-estimulacion-mental-perros", "pasear-perro-correctamente-guia", "adoptar-perro-guia-primera-vez"],
   },
   {
     slug: "fuente-agua-gatos-catit-analisis",
@@ -175,6 +192,7 @@ export const posts: Post[] = [
     date: "2025-07-09",
     readTime: 7,
     relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador"],
+    relatedPosts: ["arbol-rascador-gatos-guia-compra", "gato-interior-bienestar-enriquecimiento", "alimentacion-gatos-guia-propietarios"],
     isHealth: true,
   },
   {
@@ -185,6 +203,7 @@ export const posts: Post[] = [
     date: "2025-07-10",
     readTime: 7,
     relatedProducts: ["petfusion-arbol-rascador", "catit-flower-fountain"],
+    relatedPosts: ["fuente-agua-gatos-catit-analisis", "gato-interior-bienestar-enriquecimiento", "gato-primer-dia-casa-guia"],
   },
   {
     slug: "comedero-microchip-surefeed-analisis",
@@ -194,6 +213,7 @@ export const posts: Post[] = [
     date: "2025-07-11",
     readTime: 7,
     relatedProducts: ["surefeed-microchip-feeder", "royal-canin-indoor-adult"],
+    relatedPosts: ["fuente-agua-gatos-catit-analisis", "pienso-gatos-adultos-mejor-2025", "gato-interior-bienestar-enriquecimiento"],
     isHealth: true,
   },
   {
@@ -204,6 +224,7 @@ export const posts: Post[] = [
     date: "2025-07-12",
     readTime: 7,
     relatedProducts: ["ruffwear-approach-pack", "kong-classic-xl-caucho"],
+    relatedPosts: ["pasear-perro-correctamente-guia", "kong-classic-guia-uso", "adoptar-perro-guia-primera-vez"],
   },
   {
     slug: "cuidado-preventivo-mascotas-guia",
@@ -213,6 +234,7 @@ export const posts: Post[] = [
     date: "2025-07-13",
     readTime: 9,
     relatedProducts: ["frontline-plus-perros-grandes-6-pipetas", "frontline-combo-gato", "beaphar-fiprex-perro"],
+    relatedPosts: ["desparasitacion-perros-guia-completa", "desparasitacion-gatos-guia", "higiene-dental-perros-gatos"],
     isHealth: true,
   },
   {
@@ -223,6 +245,7 @@ export const posts: Post[] = [
     date: "2025-07-14",
     readTime: 9,
     relatedProducts: ["kong-classic-xl-caucho", "trixie-cama-ortopedica-vital-bendson", "royal-canin-adult-maxi"],
+    relatedPosts: ["desparasitacion-perros-guia-completa", "kong-classic-guia-uso", "cuidado-preventivo-mascotas-guia"],
   },
   {
     slug: "gato-interior-bienestar-enriquecimiento",
@@ -232,6 +255,7 @@ export const posts: Post[] = [
     date: "2025-07-15",
     readTime: 8,
     relatedProducts: ["petfusion-arbol-rascador", "catit-flower-fountain", "surefeed-microchip-feeder"],
+    relatedPosts: ["arbol-rascador-gatos-guia-compra", "fuente-agua-gatos-catit-analisis", "gato-primer-dia-casa-guia"],
   },
   {
     slug: "perro-mayor-cuidados-senior",
@@ -241,6 +265,7 @@ export const posts: Post[] = [
     date: "2025-07-16",
     readTime: 8,
     relatedProducts: ["hills-science-plan-adult", "trixie-cama-ortopedica-vital-bendson", "kong-classic-xl-caucho"],
+    relatedPosts: ["cuidado-preventivo-mascotas-guia", "higiene-dental-perros-gatos", "royal-canin-adult-maxi-analisis"],
     isHealth: true,
   },
   {
@@ -251,6 +276,7 @@ export const posts: Post[] = [
     date: "2025-07-17",
     readTime: 7,
     relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador", "royal-canin-indoor-adult"],
+    relatedPosts: ["gato-interior-bienestar-enriquecimiento", "arbol-rascador-gatos-guia-compra", "desparasitacion-gatos-guia"],
   },
   {
     slug: "pasear-perro-correctamente-guia",
@@ -260,6 +286,7 @@ export const posts: Post[] = [
     date: "2025-07-18",
     readTime: 8,
     relatedProducts: ["ruffwear-approach-pack", "kong-classic-xl-caucho", "trixie-cama-ortopedica-vital-bendson"],
+    relatedPosts: ["kong-classic-guia-uso", "mochila-senderismo-perros-ruffwear", "adoptar-perro-guia-primera-vez"],
   },
 ];
 

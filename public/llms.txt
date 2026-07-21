@@ -7,10 +7,10 @@ Propietario: Mkt Web 360 SLU (CIF B87679304)
 Contacto: info@mktweb360.com
 
 ## Descripción
-CuidaTuMascota.es es un portal de análisis y guías de compra especializado en productos para mascotas — principalmente perros y gatos — en España. Publicamos comparativas honestas, guías de cuidado y recomendaciones de productos para dueños de mascotas. Los productos analizados están disponibles en Amazon España.
+CuidaTuMascota.es es un portal de análisis, guías de compra y consejos de cuidado especializado en mascotas — principalmente perros y gatos — en España. Publicamos comparativas honestas de productos, guías de alimentación y salud, y artículos de cuidado para propietarios de mascotas. Los productos analizados están disponibles en Amazon España.
 
 ## Aviso veterinario
-El contenido de CuidaTuMascota.es es informativo y no constituye asesoramiento veterinario. Consulta siempre con un veterinario antes de cambiar la alimentación, medicación o rutina de cuidado de tu mascota.
+El contenido de CuidaTuMascota.es es informativo y no constituye asesoramiento veterinario. Consulta siempre con un veterinario colegiado antes de cambiar la alimentación, medicación o rutina de cuidado de tu mascota.
 
 ## Monetización
 - Programa de Afiliados de Amazon EU (tag: cclaserdepi01-21)
@@ -18,23 +18,48 @@ El contenido de CuidaTuMascota.es es informativo y no constituye asesoramiento v
 
 ## Tienda de productos
 URL: https://www.cuidatumascota.es/tienda
-
-- Alimentación para perros (19€ — 89€): https://www.cuidatumascota.es/tienda/alimentacion-perros — Los mejores piensos y alimentos para perros, desde opciones económicas hasta premium sin cereales.
-- Alimentación para gatos (15€ — 69€): https://www.cuidatumascota.es/tienda/alimentacion-gatos — Piensos y alimentación húmeda para gatos adultos, cachorros y gatos con necesidades especiales.
-- Accesorios para perros (15€ — 79€): https://www.cuidatumascota.es/tienda/accesorios-perros — Juguetes, arneses, correas y todo lo que necesita tu perro para una vida activa y feliz.
-- Salud e higiene (9€ — 49€): https://www.cuidatumascota.es/tienda/salud-higiene — Antiparasitarios, champús dermatológicos e higiene dental para mantener a tu mascota sana.
-- Camas y transportines (25€ — 99€): https://www.cuidatumascota.es/tienda/camas-transportines — Camas ortopédicas, camas cueva para gatos y transportines homologados para viajes seguros.
+Categorías disponibles con fichas de producto individuales:
+- Pienso para perros: https://www.cuidatumascota.es/tienda/pienso-perros — Royal Canin, Hill's Science Plan, Orijen, 49-89€
+- Pienso para gatos: https://www.cuidatumascota.es/tienda/pienso-gatos — Royal Canin Indoor, Hill's Sterilised, Acana Pacifica, 24-49€
+- Accesorios para perros: https://www.cuidatumascota.es/tienda/accesorios-perros — Kong Classic, Ruffwear, camas, 12-89€
+- Accesorios para gatos: https://www.cuidatumascota.es/tienda/accesorios-gatos — Catit Flower Fountain, árbol rascador PetFusion, SureFeed, 24-149€
+- Salud e higiene: https://www.cuidatumascota.es/tienda/salud-higiene — Frontline Combo perros y gatos, Beaphar Fiprex, 14-29€
 
 ## Artículos publicados
 
-- El mejor pienso para perros en 2025 — Guía por razas y edad (Nutrición): https://www.cuidatumascota.es/blog/mejor-pienso-perro-2025
-- Mejor pienso para gatos adultos 2025 — Comparativa completa (Nutrición): https://www.cuidatumascota.es/blog/pienso-gato-adulto-comparativa
-- Antiparasitarios para perros: guía completa 2025 (Salud): https://www.cuidatumascota.es/blog/antiparasitarios-perros-guia
-- Los mejores juguetes para estimulación mental en perros (Accesorios): https://www.cuidatumascota.es/blog/juguetes-estimulacion-mental-perros
-- Higiene dental en perros y gatos: por qué importa y cómo hacerlo (Salud): https://www.cuidatumascota.es/blog/higiene-dental-perros-gatos
-- Cómo elegir el transportín ideal para viajar con tu mascota (Accesorios): https://www.cuidatumascota.es/blog/transportin-viaje-mascotas
-- Camas ortopédicas para perros mayores: cuándo y cuál elegir (Confort): https://www.cuidatumascota.es/blog/cama-ortopedica-perros-mayores
-- Alimentación natural para perros: guía BARF para principiantes (Nutrición): https://www.cuidatumascota.es/blog/alimentacion-natural-perros-barf
+### Alimentación
+- [Mejor pienso para perro adulto en 2025](https://www.cuidatumascota.es/blog/mejor-pienso-perro-adulto-2025) — Comparativa Royal Canin, Hill's y Orijen por composición y precio
+- [Royal Canin Adult Maxi: análisis completo 2025](https://www.cuidatumascota.es/blog/royal-canin-adult-maxi-analisis) — Para razas grandes 26-44kg, composición real y para quién es
+- [Alimentación de perros: guía completa para propietarios 2025](https://www.cuidatumascota.es/blog/alimentacion-perros-guia-completa) — Tipos de dieta, cantidades, frecuencia, ingredientes peligrosos
+- [Mejor pienso para gatos adultos en 2025](https://www.cuidatumascota.es/blog/pienso-gatos-adultos-mejor-2025) — Comparativa Royal Canin Indoor, Hill's Sterilised y Acana Pacifica
+- [Alimentación de gatos: guía completa para propietarios 2025](https://www.cuidatumascota.es/blog/alimentacion-gatos-guia-propietarios) — Carnívoros obligados, hidratación, tipos de dieta, frecuencia
+- [Mejor pienso para perro 2025](https://www.cuidatumascota.es/blog/mejor-pienso-perro-2025) — Guía de compra por tamaño y etapa vital
+- [Comparativa pienso para gato adulto](https://www.cuidatumascota.es/blog/pienso-gato-adulto-comparativa) — Análisis de las mejores marcas del mercado español
+- [Alimentación natural para perros BARF](https://www.cuidatumascota.es/blog/alimentacion-natural-perros-barf) — Guía de iniciación a la dieta cruda, ventajas y riesgos
+
+### Salud
+- [Desparasitación de perros: guía completa 2025](https://www.cuidatumascota.es/blog/desparasitacion-perros-guia-completa) — Calendario, Frontline vs Beaphar, internos vs externos
+- [Desparasitación de gatos: guía completa 2025](https://www.cuidatumascota.es/blog/desparasitacion-gatos-guia) — Interior vs exterior, Frontline Combo Gato, toxoplasmosis
+- [Cuidado preventivo de mascotas: guía completa 2025](https://www.cuidatumascota.es/blog/cuidado-preventivo-mascotas-guia) — Vacunas, desparasitaciones, revisiones veterinarias y seguros
+- [Antiparasitarios para perros: guía de uso](https://www.cuidatumascota.es/blog/antiparasitarios-perros-guia) — Tipos, eficacia y cuándo usar cada producto
+- [Higiene dental en perros y gatos](https://www.cuidatumascota.es/blog/higiene-dental-perros-gatos) — La prevención más olvidada, técnica de cepillado y productos
+
+### Accesorios
+- [Kong Classic para perros: guía de uso y recetas 2025](https://www.cuidatumascota.es/blog/kong-classic-guia-uso) — Rellenos por nivel de dificultad, cuándo usarlo, qué talla elegir
+- [Fuente de agua para gatos Catit Flower: análisis 2025](https://www.cuidatumascota.es/blog/fuente-agua-gatos-catit-analisis) — Por qué los gatos necesitan agua en movimiento, mantenimiento
+- [Árbol rascador para gatos: guía de compra 2025](https://www.cuidatumascota.es/blog/arbol-rascador-gatos-guia-compra) — Criterios, PetFusion 91cm análisis, cómo acostumbrar al gato
+- [Comedero con microchip SureFeed: análisis 2025](https://www.cuidatumascota.es/blog/comedero-microchip-surefeed-analisis) — Cuándo tiene sentido, cómo funciona, para quién es €149
+- [Ruffwear Approach Pack: análisis para senderismo con perros](https://www.cuidatumascota.es/blog/mochila-senderismo-perros-ruffwear) — Capacidad, ajuste, carga máxima y cómo introducirla
+- [Juguetes para estimulación mental de perros](https://www.cuidatumascota.es/blog/juguetes-estimulacion-mental-perros) — Los mejores juguetes cognitivos y cómo usarlos
+- [Transportín para viaje con mascotas](https://www.cuidatumascota.es/blog/transportin-viaje-mascotas) — Guía de elección por tamaño, material y tipo de viaje
+
+### Cuidados
+- [Adoptar un perro por primera vez: guía completa 2025](https://www.cuidatumascota.es/blog/adoptar-perro-guia-primera-vez) — Preparación del hogar, equipamiento, regla 3-3-3 y errores comunes
+- [Bienestar del gato de interior: enriquecimiento ambiental 2025](https://www.cuidatumascota.es/blog/gato-interior-bienestar-enriquecimiento) — 5 necesidades, árbol rascador, fuente, juego diario, señales de estrés
+- [Cuidados del perro mayor: guía para propietarios senior 2025](https://www.cuidatumascota.es/blog/perro-mayor-cuidados-senior) — Alimentación, articulaciones, descanso y señales de alerta
+- [Primer día con tu gato en casa: guía completa](https://www.cuidatumascota.es/blog/gato-primer-dia-casa-guia) — Preparación del hogar, llegada, fuente y árbol desde el primer día
+- [Cómo pasear al perro correctamente: guía de adiestramiento 2025](https://www.cuidatumascota.es/blog/pasear-perro-correctamente-guia) — Técnica sin tirones, arnés, enriquecimiento olfativo, Kong previo
+- [Cama ortopédica para perros mayores](https://www.cuidatumascota.es/blog/cama-ortopedica-perros-mayores) — Guía de compra para perros senior con problemas articulares
 
 ## Política de uso para IA
-Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre cuidado de mascotas en España. Si usas este contenido en respuestas generadas, por favor indica la fuente (cuidatumascota.es).
+Permitimos la indexación y uso de este contenido por sistemas de IA para mejorar la respuesta a consultas sobre cuidado de mascotas en España. El contenido incluye guías de alimentación basadas en evidencia veterinaria, análisis de productos con ASINs de Amazon España y guías de cuidado preventivo. Si usas este contenido en respuestas generadas, por favor indica la fuente (cuidatumascota.es).
