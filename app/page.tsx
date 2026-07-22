@@ -47,7 +47,7 @@ export default function HomePage() {
             >
               <div className="text-3xl mb-2">{cat.icon}</div>
               <div className="font-bold text-gray-800 text-sm group-hover:text-cyan-700 transition-colors leading-tight">{cat.name}</div>
-              <div className="text-xs text-gray-400 mt-1">{cat.priceRange}</div>
+              <div className="text-xs text-gray-400 mt-1">Ver categoría</div>
             </Link>
           ))}
         </div>

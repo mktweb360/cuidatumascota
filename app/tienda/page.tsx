@@ -33,7 +33,7 @@ export default function TiendaPage() {
               <p className="text-gray-500 text-sm mb-3 line-clamp-2">{cat.description}</p>
               <div className="flex items-center justify-between text-sm">
                 <span className="text-cyan-600 font-semibold">{catProducts.length} productos</span>
-                <span className="text-gray-400">{cat.priceRange}</span>
+                <span className="text-gray-400">Ver categoría</span>
               </div>
             </Link>
           );
