@@ -4,30 +4,100 @@ import { useEffect, useState } from "react";
 import Script from "next/script";
 import Link from "next/link";
 
-const CONSENT_KEY = "cuidatumascota_consent";
+const CONSENT_KEY = "cuidatumascota_consent_v2";
+const LEGACY_CONSENT_KEY = "cuidatumascota_consent";
+
+type Consent = { advertising: boolean; analytics: boolean };
+
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+    dataLayer?: unknown[];
+  }
+}
+
+function pushConsentUpdate(consent: Consent) {
+  const ads = consent.advertising ? "granted" : "denied";
+  const analytics = consent.analytics ? "granted" : "denied";
+  const payload = {
+    ad_storage: ads,
+    ad_user_data: ads,
+    ad_personalization: ads,
+    analytics_storage: analytics,
+  };
+
+  if (typeof window.gtag === "function") {
+    window.gtag("consent", "update", payload);
+  } else {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(["consent", "update", payload]);
+  }
+}
+
+/** Lee el consentimiento guardado, migrando la clave antigua si existe. */
+function readStoredConsent(): Consent | null {
+  const legacy = localStorage.getItem(LEGACY_CONSENT_KEY);
+  if (legacy) {
+    localStorage.removeItem(LEGACY_CONSENT_KEY);
+    if (!localStorage.getItem(CONSENT_KEY)) {
+      const migrated: Consent =
+        legacy === "accepted"
+          ? { advertising: true, analytics: true }
+          : { advertising: false, analytics: false };
+      localStorage.setItem(CONSENT_KEY, JSON.stringify(migrated));
+      return migrated;
+    }
+  }
+
+  const stored = localStorage.getItem(CONSENT_KEY);
+  if (!stored) return null;
+
+  try {
+    const parsed = JSON.parse(stored) as Partial<Consent>;
+    return {
+      advertising: parsed.advertising === true,
+      analytics: parsed.analytics === true,
+    };
+  } catch {
+    localStorage.removeItem(CONSENT_KEY);
+    return null;
+  }
+}
 
 export default function CookieBanner() {
   const [show, setShow] = useState(false);
   const [accepted, setAccepted] = useState(false);
 
   useEffect(() => {
-    const stored = localStorage.getItem(CONSENT_KEY);
-    if (stored === "accepted") {
-      setAccepted(true);
-    } else if (!stored) {
+    const consent = readStoredConsent();
+    if (consent) {
+      // Re-emitimos el update en cada carga: el default del <head> es "denied".
+      pushConsentUpdate(consent);
+      setAccepted(consent.advertising);
+    } else {
       setShow(true);
     }
   }, []);
 
-  function accept() {
-    localStorage.setItem(CONSENT_KEY, "accepted");
-    setAccepted(true);
+  useEffect(() => {
+    const reopen = () => setShow(true);
+    window.addEventListener("openCookieBanner", reopen);
+    return () => window.removeEventListener("openCookieBanner", reopen);
+  }, []);
+
+  function save(consent: Consent) {
+    localStorage.setItem(CONSENT_KEY, JSON.stringify(consent));
+    pushConsentUpdate(consent);
+    setAccepted(consent.advertising);
     setShow(false);
   }
 
+  function accept() {
+    save({ advertising: true, analytics: true });
+  }
+
   function reject() {
-    localStorage.setItem(CONSENT_KEY, "rejected");
-    setShow(false);
+    save({ advertising: false, analytics: false });
   }
 
   return (

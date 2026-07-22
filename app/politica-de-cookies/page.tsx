@@ -31,9 +31,9 @@ export default function PoliticaCookiesPage() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="px-3 py-2 border border-gray-100">cuidatumascota_consent</td>
+                  <td className="px-3 py-2 border border-gray-100">cuidatumascota_consent_v2</td>
                   <td className="px-3 py-2 border border-gray-100">Técnica propia</td>
-                  <td className="px-3 py-2 border border-gray-100">Guardar preferencia de consentimiento</td>
+                  <td className="px-3 py-2 border border-gray-100">Guardar preferencia de consentimiento (publicidad y analítica)</td>
                   <td className="px-3 py-2 border border-gray-100">Permanente (localStorage)</td>
                 </tr>
                 <tr className="bg-gray-50">
