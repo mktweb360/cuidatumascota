@@ -1,67 +1,25 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import Script from "next/script";
 import Link from "next/link";
 
-const CONSENT_KEY = "cuidatumascota_consent_v2";
-const LEGACY_CONSENT_KEY = "cuidatumascota_consent";
-
-type Consent = { advertising: boolean; analytics: boolean };
+const CONSENT_KEY = "cuidatumascota_consent";
 
 declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
-    dataLayer?: unknown[];
   }
 }
 
-function pushConsentUpdate(consent: Consent) {
-  const ads = consent.advertising ? "granted" : "denied";
-  const analytics = consent.analytics ? "granted" : "denied";
-  const payload = {
-    ad_storage: ads,
-    ad_user_data: ads,
-    ad_personalization: ads,
-    analytics_storage: analytics,
-  };
-
-  if (typeof window.gtag === "function") {
-    window.gtag("consent", "update", payload);
-  } else {
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push(["consent", "update", payload]);
-  }
-}
-
-/** Lee el consentimiento guardado, migrando la clave antigua si existe. */
-function readStoredConsent(): Consent | null {
-  const legacy = localStorage.getItem(LEGACY_CONSENT_KEY);
-  if (legacy) {
-    localStorage.removeItem(LEGACY_CONSENT_KEY);
-    if (!localStorage.getItem(CONSENT_KEY)) {
-      const migrated: Consent =
-        legacy === "accepted"
-          ? { advertising: true, analytics: true }
-          : { advertising: false, analytics: false };
-      localStorage.setItem(CONSENT_KEY, JSON.stringify(migrated));
-      return migrated;
-    }
-  }
-
-  const stored = localStorage.getItem(CONSENT_KEY);
-  if (!stored) return null;
-
-  try {
-    const parsed = JSON.parse(stored) as Partial<Consent>;
-    return {
-      advertising: parsed.advertising === true,
-      analytics: parsed.analytics === true,
-    };
-  } catch {
-    localStorage.removeItem(CONSENT_KEY);
-    return null;
-  }
+function pushConsentUpdate(granted: boolean) {
+  if (typeof window.gtag !== "function") return;
+  const state = granted ? "granted" : "denied";
+  window.gtag("consent", "update", {
+    ad_storage: state,
+    ad_user_data: state,
+    ad_personalization: state,
+    analytics_storage: state,
+  });
 }
 
 export default function CookieBanner() {
@@ -69,35 +27,30 @@ export default function CookieBanner() {
   const [accepted, setAccepted] = useState(false);
 
   useEffect(() => {
-    const consent = readStoredConsent();
-    if (consent) {
-      // Re-emitimos el update en cada carga: el default del <head> es "denied".
-      pushConsentUpdate(consent);
-      setAccepted(consent.advertising);
-    } else {
+    const stored = localStorage.getItem(CONSENT_KEY);
+    if (stored === "accepted") {
+      setAccepted(true);
+      // El layout pone default 'denied' en cada carga — hay que reaplicar
+      // la decisión ya guardada del usuario.
+      pushConsentUpdate(true);
+    } else if (stored === "rejected") {
+      pushConsentUpdate(false);
+    } else if (!stored) {
       setShow(true);
     }
   }, []);
 
-  useEffect(() => {
-    const reopen = () => setShow(true);
-    window.addEventListener("openCookieBanner", reopen);
-    return () => window.removeEventListener("openCookieBanner", reopen);
-  }, []);
-
-  function save(consent: Consent) {
-    localStorage.setItem(CONSENT_KEY, JSON.stringify(consent));
-    pushConsentUpdate(consent);
-    setAccepted(consent.advertising);
-    setShow(false);
-  }
-
   function accept() {
-    save({ advertising: true, analytics: true });
+    localStorage.setItem(CONSENT_KEY, "accepted");
+    setAccepted(true);
+    setShow(false);
+    pushConsentUpdate(true);
   }
 
   function reject() {
-    save({ advertising: false, analytics: false });
+    localStorage.setItem(CONSENT_KEY, "rejected");
+    setShow(false);
+    pushConsentUpdate(false);
   }
 
   return (
@@ -109,7 +62,6 @@ export default function CookieBanner() {
           crossOrigin="anonymous"
         />
       )}
-
       {show && (
         <div className="fixed bottom-0 inset-x-0 z-50 p-4 bg-gray-900 border-t-2 border-cyan-500 shadow-2xl">
           <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-4">

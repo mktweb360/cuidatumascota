@@ -39,6 +39,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es" className="h-full antialiased">
       <head>
+        {/* Google Consent Mode v2 — todo denegado por defecto hasta que el
+            usuario decida en el banner de cookies */}
         <Script
           id="consent-mode-default"
           strategy="beforeInteractive"
@@ -56,6 +58,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             `,
           }}
         />
+        {/* AdSense — cargado condicionalmente por CookieBanner tras consentimiento */}
+        <meta name="google-adsense-account" content="ca-pub-6063067965030118" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       </head>

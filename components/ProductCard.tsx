@@ -21,8 +21,7 @@ export default function ProductCard({ product }: Props) {
           </div>
         )}
         <h3 className="font-bold text-gray-900 text-base leading-tight mb-2">{product.name}</h3>
-        <p className="text-gray-500 text-sm mb-4 flex-1">{product.shortDescription}</p>
-
+        <p className="text-gray-500 text-sm mb-5 flex-1">{product.shortDescription}</p>
         <div className="space-y-2">
           <a
             href={amazonLink(product.asin)}

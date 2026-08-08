@@ -17,6 +17,9 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   return {
     title: `${product.name} — Análisis y opinión`,
     description: product.shortDescription,
+    alternates: {
+      canonical: `https://www.cuidatumascota.es/tienda/${product.categorySlug}/${product.slug}`,
+    },
   };
 }
 
@@ -28,16 +31,17 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
 
   const related = getProductsByCategory(categoria).filter((p) => p.slug !== producto).slice(0, 2);
 
-  // Sin `offers` (precio) ni `aggregateRating`: precio y opiniones solo pueden
-  // mostrarse vía la API oficial de Amazon (Creators API). Emitir precio estático
-  // o ratings de Amazon incumple el Operating Agreement de Amazon y la política
-  // de datos estructurados de Google.
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
     description: product.shortDescription,
     sku: product.asin,
+    offers: {
+      "@type": "Offer",
+      url: amazonLink(product.asin),
+      seller: { "@type": "Organization", name: "Amazon España" },
+    },
   };
 
   const breadcrumbSchema = {
@@ -55,8 +59,22 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
-      { "@type": "Question", name: `¿Es seguro ${product.name} para mi mascota?`, acceptedAnswer: { "@type": "Answer", text: `${product.name} cumple con la normativa CE. Consulta siempre con tu veterinario antes de cambiar la alimentación o tratamiento de tu mascota.` } },
-      { "@type": "Question", name: `¿Dónde comprar ${product.name}?`, acceptedAnswer: { "@type": "Answer", text: `Puedes ver el precio actualizado y comprar ${product.name} en su ficha de Amazon.es. El precio varía según disponibilidad y ofertas.` } },
+      {
+        "@type": "Question",
+        name: `¿Es seguro ${product.name} para mi mascota?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `${product.name} cumple con la normativa CE. Consulta siempre con tu veterinario antes de cambiar la alimentación o tratamiento de tu mascota.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `¿Dónde puedo comprar ${product.name}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `Puedes comprarlo directamente en Amazon.es a través de nuestro enlace. Amazon ofrece envío rápido y política de devoluciones sencilla.`,
+        },
+      },
     ],
   };
 
@@ -65,7 +83,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10">
         <nav className="text-gray-400 text-sm mb-6 flex flex-wrap gap-1">
           <Link href="/" className="hover:text-cyan-700">Inicio</Link>
@@ -76,14 +93,11 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
           <span className="mx-1">›</span>
           <span className="text-gray-700">{product.name}</span>
         </nav>
-
         {product.isHealth && <VetDisclaimer />}
-
         <div className="grid md:grid-cols-2 gap-8 mb-10">
           <div className="bg-cyan-50 rounded-2xl flex items-center justify-center p-12">
             <span className="text-8xl">{cat.icon}</span>
           </div>
-
           <div>
             {product.badge && (
               <span className="inline-block bg-cyan-100 text-cyan-700 text-xs font-bold px-3 py-1 rounded-full mb-3">
@@ -91,22 +105,19 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               </span>
             )}
             <h1 className="text-2xl font-extrabold text-gray-900 mb-2">{product.name}</h1>
-            <p className="text-gray-600 mb-4">{product.shortDescription}</p>
-
+            <p className="text-gray-600 mb-6">{product.shortDescription}</p>
             <a
               href={amazonLink(product.asin)}
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-center py-4 px-6 rounded-xl text-lg transition-colors mb-2"
             >
-              Comprar en Amazon →
+              Ver precio en Amazon →
             </a>
-            <p className="text-xs text-gray-400 text-center">Precio puede variar. Enlace de afiliado.</p>
+            <p className="text-xs text-gray-400 text-center">Precio actualizado en Amazon. Enlace de afiliado.</p>
           </div>
         </div>
-
         <AffiliateDisclosure />
-
         <div className="grid md:grid-cols-2 gap-6 mb-10">
           <div className="bg-green-50 border border-green-100 rounded-2xl p-6">
             <h2 className="font-extrabold text-green-800 mb-3">✓ Puntos positivos</h2>
@@ -118,7 +129,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               ))}
             </ul>
           </div>
-
           <div className="bg-red-50 border border-red-100 rounded-2xl p-6">
             <h2 className="font-extrabold text-red-800 mb-3">✗ A tener en cuenta</h2>
             <ul className="space-y-2">
@@ -130,7 +140,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
             </ul>
           </div>
         </div>
-
         <div className="bg-white rounded-2xl border border-gray-100 p-6 mb-10">
           <h2 className="font-extrabold text-gray-900 mb-4">Especificaciones</h2>
           <dl className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -142,7 +151,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
             ))}
           </dl>
         </div>
-
         <div className="bg-white rounded-2xl border border-gray-100 p-6 mb-10">
           <h2 className="font-extrabold text-gray-900 mb-5">Preguntas frecuentes</h2>
           <div className="space-y-4">
@@ -151,8 +159,8 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               <p className="text-gray-600 text-sm mt-1">{product.name} cumple con la normativa CE. Consulta siempre con tu veterinario antes de cambiar la alimentación o tratamiento.</p>
             </div>
             <div>
-              <h3 className="font-bold text-gray-800 text-sm">¿Dónde comprar {product.name}?</h3>
-              <p className="text-gray-600 text-sm mt-1">Puedes ver el precio actualizado y comprarlo en su ficha de Amazon.es a través de nuestro enlace. El precio varía según disponibilidad y ofertas.</p>
+              <h3 className="font-bold text-gray-800 text-sm">¿Cuánto cuesta {product.name}?</h3>
+              <p className="text-gray-600 text-sm mt-1">Consulta el precio actualizado directamente en Amazon, donde puede variar según disponibilidad y ofertas activas.</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-800 text-sm">¿Dónde puedo comprar {product.name}?</h3>
@@ -160,7 +168,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
             </div>
           </div>
         </div>
-
         {related.length > 0 && (
           <div>
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">También te puede interesar</h2>
