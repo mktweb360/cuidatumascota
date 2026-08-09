@@ -9,11 +9,13 @@ export interface Post {
   relatedPosts?: string[];
   isHealth?: boolean;
   categoryCta?: { href: string; text: string };
+  image?: string;
 }
 
 export const posts: Post[] = [
   {
     slug: "mejor-pienso-perro-2025",
+    image: "/images/blog/mejor-pienso-perro-2025.jpg",
     title: "El mejor pienso para perros en 2025 — Guía por razas y edad",
     excerpt: "Comparativa completa de los mejores piensos para perros en 2025. Analizamos ingredientes, digestibilidad y relación calidad-precio para que elijas con confianza.",
     category: "Alimentación",
@@ -25,6 +27,7 @@ export const posts: Post[] = [
   },
   {
     slug: "pienso-gato-adulto-comparativa",
+    image: "/images/blog/pienso-gato-adulto-comparativa.jpg",
     title: "Mejor pienso para gatos adultos 2025 — Comparativa completa",
     excerpt: "Guía de los mejores piensos para gatos adultos: desde opciones veterinarias hasta las más asequibles. Todo lo que necesitas saber para alimentar bien a tu gato.",
     category: "Alimentación",
@@ -36,6 +39,7 @@ export const posts: Post[] = [
   },
   {
     slug: "antiparasitarios-perros-guia",
+    image: "/images/blog/antiparasitarios-perros-guia.jpg",
     title: "Antiparasitarios para perros: guía completa 2025",
     excerpt: "Todo lo que necesitas saber sobre antiparasitarios para perros: tipos, frecuencia de aplicación y las mejores opciones del mercado.",
     category: "Salud",
@@ -47,6 +51,7 @@ export const posts: Post[] = [
   },
   {
     slug: "juguetes-estimulacion-mental-perros",
+    image: "/images/blog/juguetes-estimulacion-mental-perros.jpg",
     title: "Los mejores juguetes para estimulación mental en perros",
     excerpt: "Un perro estimulado mentalmente es un perro feliz. Descubre los mejores juguetes interactivos para mantener a tu perro entretenido y cognitivamente activo.",
     category: "Accesorios",
@@ -57,6 +62,7 @@ export const posts: Post[] = [
   },
   {
     slug: "higiene-dental-perros-gatos",
+    image: "/images/blog/higiene-dental-perros-gatos.jpg",
     title: "Higiene dental en perros y gatos: por qué importa y cómo hacerlo",
     excerpt: "El 80% de los perros mayores de 3 años tienen problemas dentales. Guía práctica para limpiar los dientes de tu mascota y prevenir enfermedades periodontales.",
     category: "Salud",
@@ -68,6 +74,7 @@ export const posts: Post[] = [
   },
   {
     slug: "transportin-viaje-mascotas",
+    image: "/images/blog/transportin-viaje-mascotas.jpg",
     title: "Cómo elegir el transportín ideal para viajar con tu mascota",
     excerpt: "Guía completa para elegir el transportín perfecto: normativa IATA para vuelos, tamaños, materiales y las mejores opciones del mercado.",
     category: "Accesorios",
@@ -79,6 +86,7 @@ export const posts: Post[] = [
   },
   {
     slug: "cama-ortopedica-perros-mayores",
+    image: "/images/blog/cama-ortopedica-perros-mayores.jpg",
     title: "Camas ortopédicas para perros mayores: cuándo y cuál elegir",
     excerpt: "Los perros mayores o con artritis necesitan una cama especial. Descubre cuándo es necesaria una cama ortopédica y cuáles son las mejores opciones en 2025.",
     category: "Cuidados",
@@ -90,6 +98,7 @@ export const posts: Post[] = [
   },
   {
     slug: "alimentacion-natural-perros-barf",
+    image: "/images/blog/alimentacion-natural-perros-barf.jpg",
     title: "Alimentación natural para perros: guía BARF para principiantes",
     excerpt: "La dieta BARF (Biologically Appropriate Raw Food) cada vez tiene más seguidores. Qué es, ventajas, riesgos y cómo empezar de forma segura.",
     category: "Alimentación",
@@ -101,6 +110,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejor-pienso-perro-adulto-2025",
+    image: "/images/blog/mejor-pienso-perro-adulto-2025.jpg",
     title: "Mejor pienso para perro adulto en 2025 — Comparativa completa",
     excerpt: "Comparativa de los mejores piensos para perro adulto: Royal Canin, Hill's Science Plan y Orijen. Guía por raza, tamaño y presupuesto.",
     category: "Alimentación",
@@ -112,6 +122,7 @@ export const posts: Post[] = [
   },
   {
     slug: "royal-canin-adult-maxi-analisis",
+    image: "/images/blog/royal-canin-adult-maxi-analisis.jpg",
     title: "Royal Canin Adult Maxi: análisis completo y opiniones 2025",
     excerpt: "Análisis detallado del Royal Canin Adult Maxi: composición real, para qué razas es ideal y si justifica su precio frente a alternativas.",
     category: "Alimentación",
@@ -123,6 +134,7 @@ export const posts: Post[] = [
   },
   {
     slug: "alimentacion-perros-guia-completa",
+    image: "/images/blog/alimentacion-perros-guia-completa.jpg",
     title: "Alimentación de perros: guía completa para propietarios 2025",
     excerpt: "Todo lo que necesitas saber sobre la alimentación de tu perro: tipos de dieta, frecuencia, cantidades, ingredientes a evitar y cómo elegir el pienso correcto.",
     category: "Alimentación",
@@ -135,6 +147,7 @@ export const posts: Post[] = [
   },
   {
     slug: "pienso-gatos-adultos-mejor-2025",
+    image: "/images/blog/pienso-gatos-adultos-mejor-2025.jpg",
     title: "Mejor pienso para gatos adultos en 2025 — Guía de compra",
     excerpt: "Los mejores piensos para gatos adultos en 2025: Royal Canin Indoor, Hill's Sterilised y Acana Pacifica. Comparativa por composición, precio y tipo de gato.",
     category: "Alimentación",
@@ -146,6 +159,7 @@ export const posts: Post[] = [
   },
   {
     slug: "alimentacion-gatos-guia-propietarios",
+    image: "/images/blog/alimentacion-gatos-guia-propietarios.jpg",
     title: "Alimentación de gatos: guía completa para propietarios 2025",
     excerpt: "Todo sobre la alimentación de tu gato: tipos de dieta, cantidades, ingredientes peligrosos, hidratación y cómo elegir el pienso más adecuado.",
     category: "Alimentación",
@@ -158,6 +172,7 @@ export const posts: Post[] = [
   },
   {
     slug: "desparasitacion-perros-guia-completa",
+    image: "/images/blog/desparasitacion-perros-guia-completa.jpg",
     title: "Desparasitación de perros: guía completa 2025",
     excerpt: "Todo sobre la desparasitación de perros: cuándo hacerla, qué productos usar, diferencia entre parásitos externos e internos y el calendario recomendado.",
     category: "Salud",
@@ -169,6 +184,7 @@ export const posts: Post[] = [
   },
   {
     slug: "desparasitacion-gatos-guia",
+    image: "/images/blog/desparasitacion-gatos-guia.jpg",
     title: "Desparasitación de gatos: guía completa 2025",
     excerpt: "Cómo y cuándo desparasitar a tu gato: calendario recomendado, diferencia entre parásitos externos e internos y los mejores productos del mercado.",
     category: "Salud",
@@ -180,6 +196,7 @@ export const posts: Post[] = [
   },
   {
     slug: "kong-classic-guia-uso",
+    image: "/images/blog/kong-classic-guia-uso.jpg",
     title: "Kong Classic para perros: guía de uso y recetas 2025",
     excerpt: "Cómo usar el Kong Classic para mantener a tu perro entretenido: rellenos, congelado, nivel de dificultad y por qué es el juguete más recomendado por veterinarios.",
     category: "Accesorios",
@@ -190,6 +207,7 @@ export const posts: Post[] = [
   },
   {
     slug: "fuente-agua-gatos-catit-analisis",
+    image: "/images/blog/fuente-agua-gatos-catit-analisis.jpg",
     title: "Fuente de agua para gatos Catit Flower: análisis completo 2025",
     excerpt: "Por qué los gatos necesitan agua en movimiento y análisis completo de la Catit Flower Fountain: filtración, consumo real de agua y mantenimiento.",
     category: "Accesorios",
@@ -201,6 +219,7 @@ export const posts: Post[] = [
   },
   {
     slug: "arbol-rascador-gatos-guia-compra",
+    image: "/images/blog/arbol-rascador-gatos-guia-compra.jpg",
     title: "Árbol rascador para gatos: guía de compra y análisis 2025",
     excerpt: "Cómo elegir el mejor árbol rascador para tu gato: altura, estabilidad, materiales y análisis del PetFusion Tree de 91cm. Por qué es imprescindible en casa.",
     category: "Accesorios",
@@ -211,6 +230,7 @@ export const posts: Post[] = [
   },
   {
     slug: "comedero-microchip-surefeed-analisis",
+    image: "/images/blog/comedero-microchip-surefeed-analisis.jpg",
     title: "Comedero con microchip SureFeed: análisis completo y para quién es 2025",
     excerpt: "Análisis del comedero con microchip SureFeed Microchip Pet Feeder: cómo funciona, cuándo tiene sentido comprarlo y si el precio de €149 está justificado.",
     category: "Accesorios",
@@ -222,6 +242,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mochila-senderismo-perros-ruffwear",
+    image: "/images/blog/mochila-senderismo-perros-ruffwear.jpg",
     title: "Ruffwear Approach Pack: análisis completo para senderismo con perros 2025",
     excerpt: "Análisis de la mochila Ruffwear Approach Pack para perros: capacidad, ajuste, materiales y para qué tipo de senderismo es la opción correcta.",
     category: "Accesorios",
@@ -232,6 +253,7 @@ export const posts: Post[] = [
   },
   {
     slug: "cuidado-preventivo-mascotas-guia",
+    image: "/images/blog/cuidado-preventivo-mascotas-guia.jpg",
     title: "Cuidado preventivo de mascotas: guía completa 2025",
     excerpt: "Guía completa de cuidado preventivo para perros y gatos: vacunas, desparasitaciones, revisiones veterinarias anuales y hábitos que evitan enfermedades costosas.",
     category: "Salud",
@@ -244,6 +266,7 @@ export const posts: Post[] = [
   },
   {
     slug: "adoptar-perro-guia-primera-vez",
+    image: "/images/blog/adoptar-perro-guia-primera-vez.jpg",
     title: "Adoptar un perro por primera vez: guía completa 2025",
     excerpt: "Todo lo que necesitas saber antes de adoptar un perro: preparación del hogar, equipamiento esencial, primeros días y errores más comunes de los nuevos propietarios.",
     category: "Cuidados",
@@ -255,6 +278,7 @@ export const posts: Post[] = [
   },
   {
     slug: "gato-interior-bienestar-enriquecimiento",
+    image: "/images/blog/gato-interior-bienestar-enriquecimiento.jpg",
     title: "Bienestar del gato de interior: guía de enriquecimiento ambiental 2025",
     excerpt: "Cómo mejorar la calidad de vida de un gato que vive en interior: enriquecimiento ambiental, estimulación sensorial, espacios verticales y señales de estrés.",
     category: "Cuidados",
@@ -266,6 +290,7 @@ export const posts: Post[] = [
   },
   {
     slug: "perro-mayor-cuidados-senior",
+    image: "/images/blog/perro-mayor-cuidados-senior.jpg",
     title: "Cuidados del perro mayor: guía para propietarios de perros senior 2025",
     excerpt: "Cómo cuidar a un perro mayor: cambios de alimentación, salud articular, visitas veterinarias, adaptación del entorno y señales de alerta en la etapa senior.",
     category: "Cuidados",
@@ -277,6 +302,7 @@ export const posts: Post[] = [
   },
   {
     slug: "gato-primer-dia-casa-guia",
+    image: "/images/blog/gato-primer-dia-casa-guia.jpg",
     title: "Primer día con tu gato en casa: guía completa para nuevos propietarios",
     excerpt: "Cómo preparar el hogar para la llegada de un gato nuevo, qué esperar los primeros días y cómo facilitar la adaptación del gato a su nuevo entorno.",
     category: "Cuidados",
@@ -287,6 +313,7 @@ export const posts: Post[] = [
   },
   {
     slug: "pasear-perro-correctamente-guia",
+    image: "/images/blog/pasear-perro-correctamente-guia.jpg",
     title: "Cómo pasear al perro correctamente: guía de adiestramiento básico 2025",
     excerpt: "Guía práctica para pasear al perro sin tirones: técnicas de adiestramiento básico, el arnés correcto y cómo construir hábitos de paseo saludables.",
     category: "Cuidados",
@@ -297,6 +324,7 @@ export const posts: Post[] = [
   },
   {
     slug: "cuidados-cachorro-primer-mes",
+    image: "/images/blog/cuidados-cachorro-primer-mes.jpg",
     title: "Cómo cuidar un cachorro los primeros meses: guía completa",
     excerpt: "Todo lo que necesitas saber para los primeros meses con tu cachorro: alimentación, vacunas, socialización, higiene y equipo esencial.",
     category: "Cuidados",
@@ -308,6 +336,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejor-pienso-cachorro-guia",
+    image: "/images/blog/mejor-pienso-cachorro-guia.jpg",
     title: "Mejor pienso para cachorro 2025: guía de compra y comparativa",
     excerpt: "Qué buscar en un pienso para cachorro, cuáles son los mejores del mercado y cómo elegir según la raza y el tamaño de tu perro.",
     category: "Alimentación",
@@ -320,6 +349,7 @@ export const posts: Post[] = [
   },
   {
     slug: "calendario-vacunas-cachorro",
+    image: "/images/blog/calendario-vacunas-cachorro.jpg",
     title: "Calendario de vacunas para cachorro en España 2025",
     excerpt: "Guía completa del calendario vacunal para cachorros en España: qué vacunas, a qué edad, cuáles son obligatorias y cuánto cuestan.",
     category: "Salud",
@@ -332,6 +362,7 @@ export const posts: Post[] = [
   },
   {
     slug: "cuidados-gatito-primer-mes",
+    image: "/images/blog/cuidados-gatito-primer-mes.jpg",
     title: "Cómo cuidar un gatito en casa: guía para los primeros meses",
     excerpt: "Todo lo que necesitas saber al traer un gatito a casa: alimentación, bandeja, socialización, juego y primeras visitas al veterinario.",
     category: "Cuidados",
@@ -343,6 +374,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ordenes-basicas-perro-guia",
+    image: "/images/blog/ordenes-basicas-perro-guia.jpg",
     title: "Órdenes básicas para perros: cómo enseñarlas paso a paso",
     excerpt: "Aprende a enseñar a tu perro las 5 órdenes básicas — siéntate, quieto, ven, échate y suelta — con refuerzo positivo y sin castigo.",
     category: "Adiestramiento",
@@ -354,6 +386,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ansiedad-separacion-perros",
+    image: "/images/blog/ansiedad-separacion-perros.jpg",
     title: "Ansiedad por separación en perros: causas, síntomas y soluciones",
     excerpt: "Qué es la ansiedad por separación, cómo identificarla y cómo tratarla para que tu perro aprenda a estar solo sin sufrimiento.",
     category: "Comportamiento",
@@ -365,6 +398,7 @@ export const posts: Post[] = [
   },
   {
     slug: "perro-tira-de-la-correa-solucion",
+    image: "/images/blog/perro-tira-de-la-correa-solucion.jpg",
     title: "Perro que tira de la correa: por qué ocurre y cómo solucionarlo",
     excerpt: "Guía práctica para enseñar a tu perro a caminar sin tirar usando refuerzo positivo. Funciona a cualquier edad.",
     category: "Adiestramiento",
@@ -376,6 +410,7 @@ export const posts: Post[] = [
   },
   {
     slug: "perro-ladra-mucho-soluciones",
+    image: "/images/blog/perro-ladra-mucho-soluciones.jpg",
     title: "Perro que ladra mucho: causas y soluciones efectivas",
     excerpt: "Por qué ladra tu perro, qué tipos de ladrido existen y cómo reducirlo sin suprimir una conducta natural.",
     category: "Comportamiento",

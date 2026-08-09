@@ -6,9 +6,27 @@ interface Props {
   product: Product;
 }
 
+const CATEGORY_IMAGES: Record<string, string> = {
+  "alimentacion-perros": "/images/products/alimentacion-perros.jpg",
+  "alimentacion-gatos":  "/images/products/alimentacion-gatos.jpg",
+  "salud-higiene":       "/images/products/salud-higiene.jpg",
+  "accesorios-perros":   "/images/products/accesorios-perros.jpg",
+  "accesorios-gatos":    "/images/products/accesorios-gatos.jpg",
+  "camas-transportines": "/images/products/camas-transportines.jpg",
+};
+
 export default function ProductCard({ product }: Props) {
+  const imgSrc = CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/alimentacion-perros.jpg";
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col">
+      <a href={amazonLink(product.asin)} target="_blank" rel="noopener noreferrer sponsored" className="block overflow-hidden bg-gray-50">
+        <img
+          src={imgSrc}
+          alt={product.name}
+          className="w-full h-44 object-cover hover:scale-105 transition-transform duration-300"
+          loading="lazy"
+        />
+      </a>
       {product.badge && (
         <div className="bg-cyan-600 text-white text-xs font-bold px-3 py-1 text-center">
           {product.badge}

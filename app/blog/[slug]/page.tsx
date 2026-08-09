@@ -503,6 +503,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <span>⏱ {post.readTime} min de lectura</span>
         </div>
 
+        {post.image && (
+          <div className="mb-8 -mx-4 sm:-mx-6 overflow-hidden rounded-xl">
+            <img
+              src={post.image}
+              alt={post.title}
+              className="w-full h-56 sm:h-72 object-cover"
+              loading="eager"
+            />
+          </div>
+        )}
+
         {post.isHealth && <VetDisclaimer />}
         <AffiliateDisclosure />
 
@@ -580,12 +591,19 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 <Link
                   key={p.slug}
                   href={`/blog/${p.slug}`}
-                  className="block bg-white rounded-2xl border border-gray-100 p-5 hover:shadow-md transition-shadow"
+                  className="block bg-white rounded-2xl border border-gray-100 hover:shadow-md transition-shadow overflow-hidden"
                 >
-                  <span className="text-xs font-bold text-cyan-600 uppercase tracking-wide">{p.category}</span>
-                  <h3 className="font-bold text-gray-900 mt-1 mb-2 leading-tight">{p.title}</h3>
-                  <p className="text-gray-500 text-sm line-clamp-3">{p.excerpt}</p>
-                  <span className="text-cyan-700 font-semibold text-sm mt-3 inline-block">Leer artículo →</span>
+                  {p.image && (
+                    <div className="h-36 overflow-hidden bg-gray-100">
+                      <img src={p.image} alt={p.title} className="w-full h-full object-cover" loading="lazy" />
+                    </div>
+                  )}
+                  <div className="p-5">
+                    <span className="text-xs font-bold text-cyan-600 uppercase tracking-wide">{p.category}</span>
+                    <h3 className="font-bold text-gray-900 mt-1 mb-2 leading-tight">{p.title}</h3>
+                    <p className="text-gray-500 text-sm line-clamp-3">{p.excerpt}</p>
+                    <span className="text-cyan-700 font-semibold text-sm mt-3 inline-block">Leer artículo →</span>
+                  </div>
                 </Link>
               ))}
             </div>

@@ -660,7 +660,6 @@ export const products: Product[] = [
     cons: ["Precio medio-alto", "Algunos perros tardan en adaptarse"],
     specs: { "Peso": "14 kg", "Proteína": "26%", "Grasa": "14%", "Probióticos": "S. thermophilus" },
     relatedPosts: ["alimentacion-perros-guia-completa"],
-    relatedProducts: ["royal-canin-medium-adult-15kg", "pedigree-vital-protection-adult-15kg"],
   },
   {
     slug: "hills-science-diet-adult-perro-12kg",
@@ -679,7 +678,6 @@ export const products: Product[] = [
     cons: ["El más caro del segmento", "Pollo en forma de harina (no pollo fresco)"],
     specs: { "Peso": "12 kg", "Proteína": "18.5%", "Grasa": "11.5%", "Antioxidantes": "Vitaminas C y E" },
     relatedPosts: ["alimentacion-perros-guia-completa", "cuidado-preventivo-mascotas-guia"],
-    relatedProducts: ["royal-canin-medium-adult-15kg"],
   },
   // ALIMENTACIÓN GATOS
   {
@@ -699,7 +697,6 @@ export const products: Product[] = [
     cons: ["Precio elevado para saco de 4 kg", "Contiene cereales"],
     specs: { "Peso": "4 kg", "Proteína": "28%", "Grasa": "12%", "Tipo": "Gatos de interior" },
     relatedPosts: ["alimentacion-gatos-guia-propietarios", "gato-interior-bienestar-enriquecimiento"],
-    relatedProducts: ["lifelong-adult-salmon-rice-gato-10kg"],
   },
   {
     slug: "purina-one-adult-pollo-gato-7-5kg",
@@ -718,7 +715,6 @@ export const products: Product[] = [
     cons: ["No apto para gatos con sensibilidades digestivas", "Contiene cereales"],
     specs: { "Peso": "7.5 kg", "Proteína": "36%", "Grasa": "14%", "Taurina": "Sí" },
     relatedPosts: ["alimentacion-gatos-guia-propietarios"],
-    relatedProducts: ["lifelong-adult-salmon-rice-gato-10kg", "royal-canin-indoor-adult-gato-4kg"],
   },
   {
     slug: "hills-science-diet-sterilised-gato-10kg",
@@ -738,7 +734,6 @@ export const products: Product[] = [
     specs: { "Peso": "10 kg", "Proteína": "34.9%", "Grasa": "9.3%", "L-carnitina": "Sí" },
     badge: "Para esterilizados",
     relatedPosts: ["alimentacion-gatos-guia-propietarios", "cuidado-preventivo-mascotas-guia"],
-    relatedProducts: ["royal-canin-indoor-adult-gato-4kg"],
   },
   // SALUD E HIGIENE
   {
@@ -759,7 +754,6 @@ export const products: Product[] = [
     specs: { "Duración": "8 meses", "Para": "Perros >8 kg", "Resistencia": "Agua y baño", "Principios activos": "Imidacloprid + flumetrina" },
     badge: "8 meses protección",
     relatedPosts: ["cuidado-preventivo-mascotas-guia"],
-    relatedProducts: ["frontline-plus-perros-pequenos-3-pipetas"],
   },
   {
     slug: "frontline-combo-perros-20-40kg-3p",
@@ -778,7 +772,6 @@ export const products: Product[] = [
     cons: ["Aplicación mensual obligatoria", "Puede engrasar ligeramente el pelo en zona de aplicación"],
     specs: { "Contenido": "3 pipetas", "Para": "Perros 20-40 kg", "Frecuencia": "Mensual", "Acción": "24 horas" },
     relatedPosts: ["cuidado-preventivo-mascotas-guia"],
-    relatedProducts: ["seresto-collar-antiparasitario-perro-grande", "frontline-plus-perros-pequenos-3-pipetas"],
   },
   {
     slug: "virbac-clorexyderm-champu-500ml",
@@ -798,7 +791,6 @@ export const products: Product[] = [
     specs: { "Volumen": "500 ml", "Principio activo": "Clorhexidina 3%", "Tipo": "Dermatológico", "pH": "Neutro" },
     isHealth: true,
     relatedPosts: ["cuidado-preventivo-mascotas-guia"],
-    relatedProducts: ["virbac-sebocalm-champu-perro"],
   },
   // ACCESORIOS PERROS
   {
@@ -818,7 +810,6 @@ export const products: Product[] = [
     cons: ["Plástico (no apto para masticadores agresivos)", "Tamaño puede ser pequeño para razas muy grandes"],
     specs: { "Material": "Polipropileno", "Capacidad": "~900 ml", "Diámetro": "24 cm", "Lavado": "Lavavajillas" },
     relatedPosts: ["alimentacion-perros-guia-completa"],
-    relatedProducts: ["kong-classic-xl-caucho"],
   },
   {
     slug: "chuckit-ultra-ball-talla-m",
@@ -837,7 +828,6 @@ export const products: Product[] = [
     cons: ["No apta para destructores extremos", "Talla M puede quedar pequeña para razas muy grandes"],
     specs: { "Diámetro": "6.4 cm (M)", "Material": "Caucho natural", "Flotabilidad": "Sí", "Compatible": "Lanzadores Chuckit" },
     relatedPosts: ["juguetes-estimulacion-mental-perros"],
-    relatedProducts: ["kong-classic-xl-caucho"],
   },
   {
     slug: "trixie-pelota-snack-jumble-ball",
@@ -856,7 +846,6 @@ export const products: Product[] = [
     cons: ["Tamaño limitado para razas muy grandes", "No apta para destructores extremos"],
     specs: { "Diámetro": "7 cm", "Material": "Caucho natural", "Lavado": "Lavavajillas", "Apertura": "Ajustable" },
     relatedPosts: ["juguetes-estimulacion-mental-perros"],
-    relatedProducts: ["kong-classic-xl-caucho", "chuckit-ultra-ball-talla-m"],
   },
   // ACCESORIOS GATOS
   {
@@ -876,7 +865,6 @@ export const products: Product[] = [
     cons: ["Efecto gradual (2-4 semanas para máximo efecto)", "Recambio relativamente caro"],
     specs: { "Cobertura": "70 m²", "Duración": "30 días por recambio", "Voltaje": "230V", "Feromonas": "F3 sintéticas" },
     relatedPosts: ["gato-interior-bienestar-enriquecimiento", "transportin-viaje-mascotas"],
-    relatedProducts: ["bedsure-cama-cueva-gato-40cm"],
   },
   {
     slug: "petfusion-cat-scratcher-lounge",
@@ -895,7 +883,6 @@ export const products: Product[] = [
     cons: ["Genera viruta de cartón en el suelo", "No es rascador vertical"],
     specs: { "Dimensiones": "55 x 36 x 15 cm", "Material": "Cartón corrugado reciclado", "Incluye": "Bolsa de hierba gatera", "Reversible": "Sí" },
     relatedPosts: ["gato-interior-bienestar-enriquecimiento"],
-    relatedProducts: ["bedsure-cama-cueva-gato-40cm", "bedsure-cama-antistress-invierno-50cm"],
   },
   {
     slug: "catit-circuito-bolas-senses",
@@ -914,7 +901,6 @@ export const products: Product[] = [
     cons: ["Ruidoso sobre suelo duro", "Bola puede salirse en gatos muy enérgicos"],
     specs: { "Piezas": "30 piezas", "Longitud montado": "~150 cm", "Batería bola": "2 AAA incluidas", "Ampliable": "Sí" },
     relatedPosts: ["gato-interior-bienestar-enriquecimiento"],
-    relatedProducts: ["petfusion-cat-scratcher-lounge", "catit-flower-fountain"],
   },
 ];
 
