@@ -14,6 +14,7 @@ export interface Product {
   badge?: string;
   categorySlug: string;
   isHealth?: boolean;
+  relatedPosts?: string[];
   category?: string;
   categoryName?: string;
   priceMin?: number;
@@ -92,6 +93,7 @@ export const products: Product[] = [
     cons: ["Precio superior a marcas básicas", "Contiene cereales"],
     specs: { "Peso": "15 kg", "Raza": "Mediana (11-25 kg)", "Edad": "Adulto 1-7 años", "Formato": "Croquetas secas" },
     badge: "Más vendido",
+    relatedPosts: ["mejor-pienso-perro-2025", "alimentacion-perros-guia-completa"],
   },
   {
     slug: "orijen-original-dog-11kg",
@@ -110,6 +112,7 @@ export const products: Product[] = [
     cons: ["Precio elevado", "Bolsas de tamaño limitado en Amazon"],
     specs: { "Peso": "11.4 kg", "Proteína animal": "85%", "Cereales": "Sin cereales", "Conservantes": "Sin conservantes artificiales" },
     badge: "Premium sin cereales",
+    relatedPosts: ["mejor-pienso-perro-adulto-2025", "alimentacion-natural-perros-barf"],
   },
   {
     slug: "pedigree-vital-protection-adult-15kg",
@@ -201,6 +204,7 @@ export const products: Product[] = [
     cons: ["No sirve para masticadores extremos (usar Kong Extreme)", "Apto para lavavajillas pero puede perder forma"],
     specs: { "Talla": "XL (perros grandes)", "Material": "Caucho natural", "Rellenable": "Sí", "Lavable": "Apto lavavajillas" },
     badge: "Recomendado veterinarios",
+    relatedPosts: ["kong-classic-guia-uso", "juguetes-estimulacion-mental-perros"],
   },
   {
     slug: "ruffwear-front-range-arnes-2024",
@@ -256,6 +260,7 @@ export const products: Product[] = [
     specs: { "Para perros": "Grandes", "Pipetas": "6 (6 meses)", "Pulgas": "24h", "Garrapatas": "48h", "Activos": "Fipronil + (S)-metopreno" },
     badge: "Más vendido",
     isHealth: true,
+    relatedPosts: ["antiparasitarios-perros-guia", "desparasitacion-perros-guia-completa", "cuidado-preventivo-mascotas-guia"],
   },
   {
     slug: "frontline-plus-perros-pequenos-3-pipetas",
@@ -310,6 +315,7 @@ export const products: Product[] = [
     cons: ["Resultados más lentos que limpieza profesional", "Algunos perros rechazan el sabor"],
     specs: { "Incluye": "Gel dental + cepillo de dedos", "Activo": "Extracto menta verde", "Cepillado": "No obligatorio", "Beneficio": "Elimina sarro y mal aliento" },
     isHealth: true,
+    relatedPosts: ["higiene-dental-perros-gatos", "cuidado-preventivo-mascotas-guia"],
   },
   // CAMAS Y TRANSPORTINES
   {
@@ -329,6 +335,7 @@ export const products: Product[] = [
     cons: ["Sin cojín incluido en este modelo", "Solo para mascotas hasta 5 kg"],
     specs: { "Medidas": "32,5 x 48 x 29 cm", "Carga máx.": "5 kg", "Material": "Plástico reciclado + puerta hierro", "IATA": "Compatible", "Color": "Negro" },
     badge: "Más vendido",
+    relatedPosts: ["transportin-viaje-mascotas"],
   },
   {
     slug: "ferplast-atlas-10-open-techo-abrible",
@@ -399,6 +406,7 @@ export const products: Product[] = [
     cons: ["Interior solo lavado a mano", "Tarda en recuperar forma tras el lavado"],
     specs: { "Medidas": "90 x 80 cm", "Material": "Materiales reciclados", "Funda": "Lavable 40°C máquina", "Interior": "Lavado a mano", "Color": "Gris" },
     isHealth: true,
+    relatedPosts: ["cama-ortopedica-perros-mayores", "perro-mayor-cuidados-senior"],
   },
   // ALIMENTACIÓN PERROS (ampliación blog)
   {
@@ -418,6 +426,7 @@ export const products: Product[] = [
     cons: ["Contiene cereales", "Precio superior a marcas básicas"],
     specs: { "Peso": "15 kg", "Raza": "Grande (26-44 kg)", "Edad": "Adulto 15 meses-5 años", "Formato": "Croquetas secas" },
     badge: "Específico razas grandes",
+    relatedPosts: ["mejor-pienso-perro-adulto-2025", "royal-canin-adult-maxi-analisis", "alimentacion-perros-guia-completa"],
   },
   {
     slug: "hills-science-plan-adult",
@@ -436,6 +445,7 @@ export const products: Product[] = [
     cons: ["Contiene cereales", "Precio superior a marcas estándar"],
     specs: { "Peso": "14 kg", "Primer ingrediente": "Pollo", "Omega": "3 y 6", "Edad": "Adulto" },
     badge: "Respaldo veterinario",
+    relatedPosts: ["mejor-pienso-perro-adulto-2025", "perro-mayor-cuidados-senior"],
   },
   // ALIMENTACIÓN GATOS (ampliación blog)
   {
@@ -455,6 +465,7 @@ export const products: Product[] = [
     cons: ["Contiene cereales", "No indicado para gatos de exterior muy activos"],
     specs: { "Peso": "4 kg", "Para": "Gatos de interior 1-7 años", "Bolas de pelo": "Control activo", "Formato": "Croquetas secas" },
     badge: "Mejor para gatos de interior",
+    relatedPosts: ["pienso-gatos-adultos-mejor-2025", "gato-interior-bienestar-enriquecimiento", "gato-primer-dia-casa-guia"],
   },
   {
     slug: "hills-science-plan-sterilised",
@@ -491,6 +502,7 @@ export const products: Product[] = [
     cons: ["Precio elevado", "Puede no gustar a gatos poco acostumbrados al pescado"],
     specs: { "Peso": "4,5 kg", "Ingredientes animales": "75%", "Cereales": "Sin cereales", "Proteína base": "Pescado salvaje" },
     badge: "Premium sin cereales",
+    relatedPosts: ["pienso-gatos-adultos-mejor-2025", "alimentacion-gatos-guia-propietarios"],
   },
   // SALUD E HIGIENE (ampliación blog)
   {
@@ -511,6 +523,7 @@ export const products: Product[] = [
     specs: { "Presentación": "3 pipetas", "Activos": "Fipronil + (S)-metopreno", "Para": "Gatos", "Eficacia pulgas": "4 semanas" },
     badge: "Específico para gatos",
     isHealth: true,
+    relatedPosts: ["desparasitacion-gatos-guia", "cuidado-preventivo-mascotas-guia"],
   },
   {
     slug: "beaphar-fiprex-perro",
@@ -549,6 +562,7 @@ export const products: Product[] = [
     cons: ["Solo para perros adultos (más de 18 meses)", "Precio elevado"],
     specs: { "Uso": "Senderismo / trekking", "Ajuste": "5 puntos", "Carga máx.": "25% del peso del perro", "Resistente al agua": "Sí" },
     badge: "Mejor para senderismo",
+    relatedPosts: ["mochila-senderismo-perros-ruffwear", "pasear-perro-correctamente-guia"],
   },
   // ACCESORIOS GATOS (ampliación blog)
   {
@@ -568,6 +582,7 @@ export const products: Product[] = [
     cons: ["Requiere filtros de repuesto periódicos", "Necesita limpieza semanal"],
     specs: { "Capacidad": "3 litros", "Filtración": "Carbón activo + espuma", "Modos de flujo": "3", "Para": "Gatos" },
     badge: "Más vendida",
+    relatedPosts: ["fuente-agua-gatos-catit-analisis", "gato-interior-bienestar-enriquecimiento"],
   },
   {
     slug: "petfusion-arbol-rascador",
@@ -586,6 +601,7 @@ export const products: Product[] = [
     cons: ["Requiere montaje inicial", "Precio elevado"],
     specs: { "Altura": "91 cm", "Material postes": "Sisal 100%", "Plataformas": "2", "Juguete": "Pelota colgante" },
     badge: "Mejor estabilidad",
+    relatedPosts: ["arbol-rascador-gatos-guia-compra", "gato-interior-bienestar-enriquecimiento"],
   },
   {
     slug: "surefeed-microchip-feeder",
@@ -604,6 +620,7 @@ export const products: Product[] = [
     cons: ["Precio elevado", "Algunos animales tardan días en acostumbrarse a la tapa"],
     specs: { "Lectura": "Microchip ISO / collar RFID", "Registros": "Hasta 32", "Compatible": "Pienso seco y húmedo", "Alimentación": "4 pilas AA" },
     badge: "Mejor para varias mascotas",
+    relatedPosts: ["comedero-microchip-surefeed-analisis", "gato-interior-bienestar-enriquecimiento"],
   },
 ];
 

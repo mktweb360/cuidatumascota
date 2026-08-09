@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { categories, products, getProductBySlug, getProductsByCategory, amazonLink } from "@/data/products";
+import { getPostBySlug } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import VetDisclaimer from "@/components/VetDisclaimer";
@@ -30,6 +31,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
   if (!product || !cat) notFound();
 
   const related = getProductsByCategory(categoria).filter((p) => p.slug !== producto).slice(0, 2);
+  const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
   const productSchema = {
     "@context": "https://schema.org",
@@ -168,6 +170,28 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
             </div>
           </div>
         </div>
+        {relatedGuides.length > 0 && (
+          <div className="mb-10">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-5">Guías relacionadas</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {relatedGuides.map((p) => p && (
+                <a
+                  key={p.slug}
+                  href={`/blog/${p.slug}`}
+                  className="flex items-start gap-3 bg-cyan-50 border border-cyan-100 rounded-2xl p-4 hover:bg-cyan-100 transition-colors group"
+                >
+                  <span className="text-cyan-600 text-xl shrink-0 mt-0.5">📖</span>
+                  <div>
+                    <span className="text-xs font-bold text-cyan-600 uppercase tracking-wide">{p.category}</span>
+                    <h3 className="font-bold text-gray-900 text-sm mt-0.5 leading-tight group-hover:text-cyan-700 transition-colors">{p.title}</h3>
+                    <span className="text-cyan-700 font-semibold text-xs mt-1 inline-block">Leer guía →</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
         {related.length > 0 && (
           <div>
             <h2 className="text-xl font-extrabold text-gray-900 mb-5">También te puede interesar</h2>

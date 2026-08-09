@@ -8,6 +8,7 @@ export interface Post {
   relatedProducts: string[];
   relatedPosts?: string[];
   isHealth?: boolean;
+  categoryCta?: { href: string; text: string };
 }
 
 export const posts: Post[] = [
@@ -18,7 +19,7 @@ export const posts: Post[] = [
     category: "Alimentación",
     date: "2025-01-10",
     readTime: 10,
-    relatedProducts: ["royal-canin-medium-adult-15kg", "orijen-original-dog-11kg"],
+    relatedProducts: ["royal-canin-medium-adult-15kg", "orijen-original-dog-11kg", "pedigree-vital-protection-adult-15kg"],
     relatedPosts: ["mejor-pienso-perro-adulto-2025", "royal-canin-adult-maxi-analisis", "alimentacion-perros-guia-completa"],
     isHealth: true,
   },
@@ -40,7 +41,7 @@ export const posts: Post[] = [
     category: "Salud",
     date: "2025-02-01",
     readTime: 8,
-    relatedProducts: ["frontline-plus-perros-grandes-6-pipetas", "beaphar-fiprex-perro"],
+    relatedProducts: ["frontline-plus-perros-grandes-6-pipetas", "beaphar-fiprex-perro", "frontline-plus-perros-pequenos-3-pipetas"],
     relatedPosts: ["desparasitacion-perros-guia-completa", "cuidado-preventivo-mascotas-guia", "higiene-dental-perros-gatos"],
     isHealth: true,
   },
@@ -61,7 +62,7 @@ export const posts: Post[] = [
     category: "Salud",
     date: "2025-03-01",
     readTime: 8,
-    relatedProducts: ["tropiclean-kit-dental-perro"],
+    relatedProducts: ["tropiclean-kit-dental-perro", "virbac-sebocalm-champu-perro"],
     relatedPosts: ["cuidado-preventivo-mascotas-guia", "antiparasitarios-perros-guia", "perro-mayor-cuidados-senior"],
     isHealth: true,
   },
@@ -74,6 +75,7 @@ export const posts: Post[] = [
     readTime: 7,
     relatedProducts: ["ferplast-atlas-10-el-negro", "ferplast-atlas-10-open-techo-abrible"],
     relatedPosts: ["adoptar-perro-guia-primera-vez", "cuidado-preventivo-mascotas-guia", "kong-classic-guia-uso"],
+    categoryCta: { href: "/tienda/camas-transportines", text: "Ver todos los transportines y camas →" },
   },
   {
     slug: "cama-ortopedica-perros-mayores",
@@ -126,9 +128,10 @@ export const posts: Post[] = [
     category: "Alimentación",
     date: "2025-07-03",
     readTime: 10,
-    relatedProducts: ["royal-canin-adult-maxi", "hills-science-plan-adult", "orijen-original-dog-11kg"],
+    relatedProducts: ["royal-canin-adult-maxi", "hills-science-plan-adult", "orijen-original-dog-11kg", "pedigree-vital-protection-adult-15kg"],
     relatedPosts: ["mejor-pienso-perro-adulto-2025", "royal-canin-adult-maxi-analisis", "cuidado-preventivo-mascotas-guia"],
     isHealth: true,
+    categoryCta: { href: "/tienda/alimentacion-perros", text: "Ver todos los piensos para perros →" },
   },
   {
     slug: "pienso-gatos-adultos-mejor-2025",
@@ -137,7 +140,7 @@ export const posts: Post[] = [
     category: "Alimentación",
     date: "2025-07-04",
     readTime: 8,
-    relatedProducts: ["royal-canin-indoor-adult", "hills-science-plan-sterilised", "acana-pacifica-cat"],
+    relatedProducts: ["royal-canin-indoor-adult", "hills-science-plan-sterilised", "acana-pacifica-cat", "lifelong-adult-salmon-rice-gato-10kg"],
     relatedPosts: ["alimentacion-gatos-guia-propietarios", "fuente-agua-gatos-catit-analisis", "pienso-gato-adulto-comparativa"],
     isHealth: true,
   },
@@ -148,9 +151,10 @@ export const posts: Post[] = [
     category: "Alimentación",
     date: "2025-07-05",
     readTime: 9,
-    relatedProducts: ["royal-canin-indoor-adult", "hills-science-plan-sterilised", "acana-pacifica-cat"],
+    relatedProducts: ["royal-canin-indoor-adult", "hills-science-plan-sterilised", "acana-pacifica-cat", "lifelong-adult-salmon-rice-gato-10kg"],
     relatedPosts: ["pienso-gatos-adultos-mejor-2025", "fuente-agua-gatos-catit-analisis", "gato-interior-bienestar-enriquecimiento"],
     isHealth: true,
+    categoryCta: { href: "/tienda/alimentacion-gatos", text: "Ver todos los piensos para gatos →" },
   },
   {
     slug: "desparasitacion-perros-guia-completa",
@@ -159,7 +163,7 @@ export const posts: Post[] = [
     category: "Salud",
     date: "2025-07-06",
     readTime: 9,
-    relatedProducts: ["frontline-plus-perros-grandes-6-pipetas", "beaphar-fiprex-perro"],
+    relatedProducts: ["frontline-plus-perros-grandes-6-pipetas", "beaphar-fiprex-perro", "frontline-plus-perros-pequenos-3-pipetas"],
     relatedPosts: ["antiparasitarios-perros-guia", "cuidado-preventivo-mascotas-guia", "adoptar-perro-guia-primera-vez"],
     isHealth: true,
   },
@@ -233,9 +237,10 @@ export const posts: Post[] = [
     category: "Salud",
     date: "2025-07-13",
     readTime: 9,
-    relatedProducts: ["frontline-plus-perros-grandes-6-pipetas", "frontline-combo-gato", "beaphar-fiprex-perro"],
+    relatedProducts: ["frontline-plus-perros-grandes-6-pipetas", "frontline-combo-gato", "beaphar-fiprex-perro", "virbac-sebocalm-champu-perro"],
     relatedPosts: ["desparasitacion-perros-guia-completa", "desparasitacion-gatos-guia", "higiene-dental-perros-gatos"],
     isHealth: true,
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver todos los productos de salud →" },
   },
   {
     slug: "adoptar-perro-guia-primera-vez",
@@ -246,6 +251,7 @@ export const posts: Post[] = [
     readTime: 9,
     relatedProducts: ["kong-classic-xl-caucho", "trixie-cama-ortopedica-vital-bendson", "royal-canin-adult-maxi"],
     relatedPosts: ["desparasitacion-perros-guia-completa", "kong-classic-guia-uso", "cuidado-preventivo-mascotas-guia"],
+    categoryCta: { href: "/tienda/accesorios-perros", text: "Ver todos los accesorios para perros →" },
   },
   {
     slug: "gato-interior-bienestar-enriquecimiento",
@@ -254,8 +260,9 @@ export const posts: Post[] = [
     category: "Cuidados",
     date: "2025-07-15",
     readTime: 8,
-    relatedProducts: ["petfusion-arbol-rascador", "catit-flower-fountain", "surefeed-microchip-feeder"],
+    relatedProducts: ["petfusion-arbol-rascador", "catit-flower-fountain", "surefeed-microchip-feeder", "bedsure-cama-antistress-invierno-50cm", "bedsure-cama-cueva-gato-40cm"],
     relatedPosts: ["arbol-rascador-gatos-guia-compra", "fuente-agua-gatos-catit-analisis", "gato-primer-dia-casa-guia"],
+    categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver todos los accesorios para gatos →" },
   },
   {
     slug: "perro-mayor-cuidados-senior",
@@ -275,7 +282,7 @@ export const posts: Post[] = [
     category: "Cuidados",
     date: "2025-07-17",
     readTime: 7,
-    relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador", "royal-canin-indoor-adult"],
+    relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador", "royal-canin-indoor-adult", "bedsure-cama-cueva-gato-40cm"],
     relatedPosts: ["gato-interior-bienestar-enriquecimiento", "arbol-rascador-gatos-guia-compra", "desparasitacion-gatos-guia"],
   },
   {
