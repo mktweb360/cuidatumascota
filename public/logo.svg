@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 46" height="46">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon box -->
+  <rect x="0" y="3" width="40" height="40" rx="10" fill="url(#g)"/>
+  <!-- Icon -->
+  <g transform="translate(0,3)">
+  <!-- Toe pads -->
+  <circle cx="11" cy="9"  r="2.6" fill="white"/>
+  <circle cx="19" cy="9"  r="2.6" fill="white"/>
+  <circle cx="7"  cy="16" r="2.1" fill="white"/>
+  <circle cx="23" cy="16" r="2.1" fill="white"/>
+  <!-- Main pad -->
+  <ellipse cx="15" cy="22" rx="6.5" ry="5.2" fill="white"/>
+</g>
+  <!-- Site name -->
+  <text x="50" y="31" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-weight="800" font-size="20" fill="#0e7490">CuidaTuMascota</text>
+  <!-- TLD -->
+  <text x="211" y="31" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-weight="400" font-size="13" fill="#94a3b8">.es</text>
+</svg>
