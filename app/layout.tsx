@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Geist } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
+
+/* CWV: next/font self-hosts Geist, subsets to latin, applies display:swap and
+   emits a preload <link> automatically — eliminates any FOUT and removes the
+   render-blocking Google Fonts network round-trip.                            */
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: {
@@ -44,8 +53,14 @@ const orgSchema = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className="h-full antialiased">
+    <html lang="es" className={`${geistSans.variable} h-full antialiased`}>
       <head>
+        {/* CWV: Preconnect to AdSense — opens the TCP connection before the
+            user accepts cookies so the script loads with minimal latency.     */}
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
+
         {/* Google Consent Mode v2 — todo denegado por defecto hasta que el
             usuario decida en el banner de cookies */}
         <Script
