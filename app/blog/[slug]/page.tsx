@@ -441,8 +441,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
+    dateModified: post.date,
+    url: `https://www.cuidatumascota.es/blog/${slug}`,
+    mainEntityOfPage: `https://www.cuidatumascota.es/blog/${slug}`,
     author: { "@type": "Organization", name: "CuidaTuMascota.es" },
-    publisher: { "@type": "Organization", name: "CuidaTuMascota.es", url: "https://www.cuidatumascota.es" },
+    publisher: {
+      "@type": "Organization",
+      name: "Mkt Web 360 SLU",
+      url: "https://www.cuidatumascota.es",
+      logo: { "@type": "ImageObject", url: "https://www.cuidatumascota.es/logo.png" },
+    },
+    inLanguage: "es",
   };
 
   const faqItems = content.flatMap((s) => s.faqs ?? []);
@@ -456,10 +465,21 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     })),
   } : null;
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.cuidatumascota.es" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.cuidatumascota.es/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://www.cuidatumascota.es/blog/${slug}` },
+    ],
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <article className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
         <nav className="text-gray-400 text-sm mb-6">

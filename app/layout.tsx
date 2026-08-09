@@ -24,14 +24,21 @@ const websiteSchema = {
   name: "CuidaTuMascota.es",
   url: "https://www.cuidatumascota.es",
   description: "Guías y reseñas de productos para mascotas — perros y gatos",
-  potentialAction: { "@type": "SearchAction", target: "https://www.cuidatumascota.es/tienda", query: "productos mascotas" },
+  inLanguage: "es",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://www.cuidatumascota.es/blog?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
 };
 
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "CuidaTuMascota.es — Mkt Web 360 SLU",
+  name: "CuidaTuMascota.es",
+  legalName: "Mkt Web 360 SLU",
   url: "https://www.cuidatumascota.es",
+  logo: { "@type": "ImageObject", url: "https://www.cuidatumascota.es/logo.png" },
   contactPoint: { "@type": "ContactPoint", email: "info@mktweb360.com", contactType: "customer service" },
 };
 
