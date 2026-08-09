@@ -435,6 +435,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const relatedProducts = post.relatedProducts.map((s) => getProductBySlug(s)).filter(Boolean);
   const relatedPosts = (post.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
+  const AUTHOR = {
+    "@type": "Person",
+    name: "Elena García",
+    jobTitle: "Auxiliar Veterinaria",
+    url: "https://www.cuidatumascota.es/sobre-nosotros",
+    description: "Auxiliar veterinaria con 8 años de experiencia en clínicas de pequeños animales en Madrid.",
+    knowsAbout: ["nutrición animal", "cuidado de mascotas", "salud veterinaria", "comportamiento canino y felino"],
+  };
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -444,15 +453,23 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     dateModified: post.date,
     url: `https://www.cuidatumascota.es/blog/${slug}`,
     mainEntityOfPage: `https://www.cuidatumascota.es/blog/${slug}`,
-    author: { "@type": "Organization", name: "CuidaTuMascota.es" },
+    author: AUTHOR,
     publisher: {
       "@type": "Organization",
-      name: "Mkt Web 360 SLU",
+      name: "CuidaTuMascota.es",
       url: "https://www.cuidatumascota.es",
       logo: { "@type": "ImageObject", url: "https://www.cuidatumascota.es/logo.png" },
     },
     inLanguage: "es",
-    image: { "@type": "ImageObject", url: `https://www.cuidatumascota.es/blog/${slug}/opengraph-image`, width: 1200, height: 630 },
+    image: post.image
+      ? { "@type": "ImageObject", url: `https://www.cuidatumascota.es${post.image}` }
+      : { "@type": "ImageObject", url: `https://www.cuidatumascota.es/blog/${slug}/opengraph-image`, width: 1200, height: 630 },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["#respuesta-directa", "h1"],
+    },
+    about: { "@type": "Thing", name: post.category },
+    keywords: post.category,
   };
 
   const faqItems = content.flatMap((s) => s.faqs ?? []);
@@ -495,12 +512,23 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <span className="text-xs font-bold text-cyan-600 uppercase tracking-wide">{post.category}</span>
           {post.isHealth && <span className="text-sm">🩺</span>}
         </div>
-        <h1 className="text-3xl font-extrabold text-gray-900 mt-2 mb-3 leading-tight">{post.title}</h1>
-        <p className="text-gray-500 text-lg mb-4">{post.excerpt}</p>
+        <h1 className="text-3xl font-extrabold text-gray-900 mt-2 mb-4 leading-tight">{post.title}</h1>
 
-        <div className="flex items-center gap-4 text-sm text-gray-400 mb-6 pb-6 border-b border-gray-100">
+        <div id="respuesta-directa" className="bg-cyan-50 border-l-4 border-cyan-500 rounded-r-xl px-5 py-4 mb-6">
+          <p className="text-xs font-bold text-cyan-700 uppercase tracking-wide mb-1.5">Respuesta directa</p>
+          <p className="text-gray-800 font-medium leading-relaxed">{post.excerpt}</p>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-3 text-sm text-gray-400 mb-6 pb-6 border-b border-gray-100">
           <span>📅 {new Date(post.date).toLocaleDateString("es-ES", { year: "numeric", month: "long", day: "numeric" })}</span>
+          <span>·</span>
           <span>⏱ {post.readTime} min de lectura</span>
+          <span>·</span>
+          <span className="flex items-center gap-1 text-gray-500">
+            <span>✍️</span>
+            <Link href="/sobre-nosotros" className="font-medium text-cyan-700 hover:underline">Elena García</Link>
+            <span className="text-gray-400">— Auxiliar Veterinaria</span>
+          </span>
         </div>
 
         {post.image && (

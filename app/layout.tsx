@@ -48,7 +48,15 @@ const orgSchema = {
   legalName: "Mkt Web 360 SLU",
   url: "https://www.cuidatumascota.es",
   logo: { "@type": "ImageObject", url: "https://www.cuidatumascota.es/logo.png" },
-  contactPoint: { "@type": "ContactPoint", email: "info@mktweb360.com", contactType: "customer service" },
+  description: "Portal especializado en alimentación, salud y accesorios para perros y gatos. Analizamos y comparamos los mejores productos del mercado para el bienestar de tu mascota.",
+  foundingDate: "2024",
+  areaServed: { "@type": "Country", name: "España" },
+  knowsAbout: ["alimentación para mascotas", "salud veterinaria", "accesorios para perros", "accesorios para gatos", "cuidado de animales domésticos"],
+  contactPoint: { "@type": "ContactPoint", email: "info@mktweb360.com", contactType: "customer service", availableLanguage: "Spanish" },
+  sameAs: [
+    "https://www.instagram.com/cuidatumascota.es",
+    "https://www.facebook.com/cuidatumascota.es",
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
