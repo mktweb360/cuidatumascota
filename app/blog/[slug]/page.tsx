@@ -452,6 +452,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       logo: { "@type": "ImageObject", url: "https://www.cuidatumascota.es/logo.png" },
     },
     inLanguage: "es",
+    image: { "@type": "ImageObject", url: `https://www.cuidatumascota.es/blog/${slug}/opengraph-image`, width: 1200, height: 630 },
   };
 
   const faqItems = content.flatMap((s) => s.faqs ?? []);
