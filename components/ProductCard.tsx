@@ -12,6 +12,7 @@ const CATEGORY_IMAGES: Record<string, string> = {
   "accesorios-perros":   "/images/products/accesorios-perros.jpg",
   "accesorios-gatos":    "/images/products/accesorios-gatos.jpg",
   "camas-transportines": "/images/products/camas-transportines.jpg",
+  "juguetes-mascotas": "/images/products/juguetes-mascotas.jpg",
 };
 
 export default function ProductCard({ product }: Props) {
