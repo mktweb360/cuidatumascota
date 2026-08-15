@@ -49,6 +49,21 @@ function renderWithLinks(text: string, links?: Array<{phrase: string; href: stri
   return <>{text}</>
 }
 
+const articleSources: Record<string, { label: string; url: string }[]> = {
+  "pienso-gato-adulto-comparativa": [
+    { label: "WSAVA — Directrices mundiales de nutrición para animales de compañía", url: "https://wsava.org/global-guidelines/global-nutrition-guidelines/" },
+    { label: "AVEPA — Asociación de Veterinarios Especialistas en Pequeños Animales", url: "https://www.avepa.org" },
+  ],
+  "higiene-dental-perros-gatos": [
+    { label: "WSAVA — Directrices de salud bucodental en animales de compañía", url: "https://wsava.org/global-guidelines/dental-guidelines/" },
+    { label: "Consejo General de Colegios Veterinarios de España", url: "https://www.colvet.es" },
+  ],
+  "desparasitacion-gatos-guia": [
+    { label: "AVEPA — Control de parásitos en pequeños animales", url: "https://www.avepa.org" },
+    { label: "WSAVA — Guías de control de parásitos", url: "https://wsava.org/global-guidelines/vaccination-guidelines/" },
+  ],
+};
+
 const articleContent: Record<string, ArticleSection[]> = {
   "mejor-pienso-perro-2025": [
     { text: "Elegir el pienso correcto para tu perro es una de las decisiones más importantes que tomarás como dueño. La alimentación impacta directamente en la salud, el peso, el pelaje y la longevidad de tu perro. Con cientos de opciones en el mercado, esta guía te ayudará a elegir con criterio." },
@@ -658,6 +673,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </div>
           </div>
         )}
+
+      {articleSources[slug] && (
+        <div className="mt-2 mb-6 pt-3 border-t border-gray-100">
+          <p className="text-xs text-gray-400 font-medium mb-1">Referencias</p>
+          <ul className="space-y-0.5">
+            {articleSources[slug].map((src, i) => (
+              <li key={i}><a href={src.url} target="_blank" rel="noopener" className="text-xs text-gray-400 hover:text-gray-500 underline transition-colors">{src.label}</a></li>
+            ))}
+          </ul>
+        </div>
+      )}
       </article>
 
           {/* Sidebar — solo desktop, thematic ad, no intrusivo */}
