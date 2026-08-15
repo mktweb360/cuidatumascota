@@ -12,6 +12,7 @@ export interface Product {
   cons: string[];
   specs: Record<string, string>;
   badge?: string;
+  image?: string;
   categorySlug: string;
   isHealth?: boolean;
   relatedPosts?: string[];
