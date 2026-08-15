@@ -2,6 +2,7 @@ import Link from "next/link";
 import { categories, getFeaturedProducts } from "@/data/products";
 import { getLatestPosts } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
+import HeroBackground from "@/components/HeroBackground";
 
 export default function HomePage() {
   const featured = getFeaturedProducts(6);
@@ -10,8 +11,9 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-cyan-700 via-cyan-600 to-teal-700 text-white py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="relative overflow-hidden text-white py-20 px-4" style={{minHeight: "520px"}}>
+        <HeroBackground overlay="from-cyan-900/90 via-teal-800/80 to-cyan-900/85" />
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div className="text-5xl mb-4">🐾🐕🐈</div>
           <h1 className="text-3xl sm:text-5xl font-extrabold mb-4 leading-tight">
             Todo lo que tu mascota<br className="hidden sm:block" /> necesita, bien elegido
