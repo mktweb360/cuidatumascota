@@ -420,6 +420,32 @@ export const posts: Post[] = [
     relatedPosts: ["ansiedad-separacion-perros", "ordenes-basicas-perro-guia", "juguetes-estimulacion-mental-perros"],
     categoryCta: { href: "/tienda/accesorios-perros", text: "Ver juguetes y accesorios →" },
   },
+  {
+    slug: "cepillado-pelo-perro-guia",
+    image: "/images/blog/cepillado-pelo-perro-guia.jpg",
+    title: "Cepillado del perro: guía completa por tipo de pelo 2025",
+    excerpt: "Cómo cepillar a tu perro según su tipo de pelo, cada cuánto hacerlo y qué herramienta usar para reducir la muda, evitar nudos y mantener la piel sana.",
+    category: "Cuidados",
+    date: "2025-08-10",
+    readTime: 8,
+    relatedProducts: ["virbac-sebocalm-champu-perro", "furminator-deshedding-perro"],
+    relatedPosts: ["higiene-dental-perros-gatos", "cuidado-preventivo-mascotas-guia", "perro-mayor-cuidados-senior"],
+    isHealth: true,
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver cepillos y productos de higiene →" },
+  },
+  {
+    slug: "esterilizacion-gatos-guia-completa",
+    image: "/images/blog/esterilizacion-gatos-guia-completa.jpg",
+    title: "Esterilización de gatos: guía completa 2025 — cuándo, cómo y cuidados",
+    excerpt: "Todo sobre la esterilización de gatos y gatas: edad recomendada, en qué consiste la cirugía, cuidados postoperatorios y cómo evitar el sobrepeso después.",
+    category: "Salud",
+    date: "2025-08-12",
+    readTime: 9,
+    relatedProducts: ["hills-science-plan-sterilised", "royal-canin-sterilised-gato-4kg"],
+    relatedPosts: ["gato-interior-bienestar-enriquecimiento", "cuidado-preventivo-mascotas-guia", "pienso-gatos-adultos-mejor-2025"],
+    isHealth: true,
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver productos de salud para gatos →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
