@@ -592,7 +592,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               {i === 3 && (
                 <AdSenseAd
                   slot="3456789012"
-                  format="auto"
                   className="my-6 py-2 border-y border-gray-100"
                 />
               )}
@@ -714,7 +713,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                 <p className="text-xs text-gray-400 uppercase tracking-wide text-center mb-3">Publicidad</p>
                 <AdSenseAd
                   slot="7654321098"
-                  format="vertical"
+                  format="rectangle"
                   responsive={false}
                   className="min-h-[250px]"
                 />

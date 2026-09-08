@@ -28,30 +28,6 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   };
 }
 
-/** Genera una puntuación estable (4.1–4.9) basada en el slug */
-function stableRating(slug: string): { score: string; count: number } {
-  let h = 0;
-  for (let i = 0; i < slug.length; i++) h = ((h << 5) - h + slug.charCodeAt(i)) | 0;
-  const score = (4.1 + ((Math.abs(h) % 9) / 10)).toFixed(1);
-  const count = 120 + (Math.abs(h >> 4) % 800);
-  return { score, count };
-}
-
-function StarRating({ score }: { score: string }) {
-  const n = parseFloat(score);
-  const full = Math.floor(n);
-  const half = n - full >= 0.3;
-  return (
-    <span className="flex items-center gap-0.5">
-      {[1, 2, 3, 4, 5].map((i) => (
-        <svg key={i} viewBox="0 0 20 20" className={`w-4 h-4 ${i <= full ? "text-amber-400" : i === full + 1 && half ? "text-amber-300" : "text-gray-200"}`} fill="currentColor">
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-        </svg>
-      ))}
-    </span>
-  );
-}
-
 export default async function ProductoPage({ params }: { params: Promise<{ categoria: string; producto: string }> }) {
   const { categoria, producto } = await params;
   const product = getProductBySlug(producto);
@@ -60,7 +36,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
 
   const related = getProductsByCategory(categoria).filter((p) => p.slug !== producto).slice(0, 3);
   const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
-  const { score, count } = stableRating(product.slug);
 
   const productSchema = {
     "@context": "https://schema.org",
@@ -69,20 +44,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
     description: product.shortDescription,
     sku: product.asin,
     image: `https://www.cuidatumascota.es/images/products/${product.categorySlug}.jpg`,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: score,
-      reviewCount: count,
-      bestRating: "5",
-      worstRating: "1",
-    },
-    offers: {
-      "@type": "Offer",
-      url: amazonLink(product.asin),
-      priceCurrency: "EUR",
-      availability: "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: "Amazon España" },
-    },
   };
 
   const breadcrumbSchema = {
@@ -193,11 +154,11 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               {product.name}
             </h1>
 
-            {/* Rating */}
+            {/* Sello editorial (sin datos de valoración inventados) */}
             <div className="flex items-center gap-2 mb-4">
-              <StarRating score={score} />
-              <span className="font-bold text-gray-800 text-sm">{score}</span>
-              <span className="text-gray-400 text-sm">({count.toLocaleString("es-ES")} valoraciones)</span>
+              <span className="inline-flex items-center gap-1 text-xs font-semibold text-cyan-700 bg-cyan-50 border border-cyan-200 px-2.5 py-1 rounded-full">
+                ✓ Analizado por nuestro equipo
+              </span>
             </div>
 
             {/* Descripción */}
@@ -232,7 +193,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
                 <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current shrink-0">
                   <path d="M7 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-7.8-3.9L5.7 7H3c-.6 0-1-.4-1-1s.4-1 1-1h4c.5 0 .9.3 1 .8l.3 1.2h11c.7 0 1.2.7 1 1.4l-2 6c-.1.4-.5.6-.9.6H9.2c-.5 0-.9-.3-1-.9z"/>
                 </svg>
-                Comprar en Amazon →
+                Ver oferta actualizada →
               </a>
 
               {/* CTA secundaria */}
