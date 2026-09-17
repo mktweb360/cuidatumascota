@@ -3,17 +3,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Sobre nosotros — CuidaTuMascota.es",
-  description: "Somos un equipo especializado en bienestar animal. Conoce a Elena García, Auxiliar Veterinaria, y cómo seleccionamos los productos que recomendamos para perros y gatos.",
+  description: "Somos el equipo editorial de CuidaTuMascota.es. Conoce cómo investigamos y seleccionamos los productos que recomendamos para perros y gatos, y por qué nunca sustituimos el consejo veterinario.",
 };
 
 const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Elena García",
-  jobTitle: "Auxiliar Veterinaria",
-  description: "Auxiliar veterinaria con 8 años de experiencia en clínicas de pequeños animales en Madrid. Especializada en nutrición animal y comportamiento canino y felino.",
+  "@type": "Organization",
+  name: "Equipo Editorial de CuidaTuMascota.es",
+  description: "Equipo editorial de CuidaTuMascota.es (Mkt Web 360 SLU). Comparamos ingredientes, composición nutricional, certificaciones y opiniones verificadas de propietarios antes de recomendar cualquier producto, con apoyo de IA en investigación y redacción bajo revisión editorial. No somos veterinarios: nuestro contenido es informativo y nunca sustituye la consulta veterinaria profesional.",
   url: "https://www.cuidatumascota.es/sobre-nosotros",
-  worksFor: {
+  parentOrganization: {
     "@type": "Organization",
     name: "CuidaTuMascota.es",
     url: "https://www.cuidatumascota.es",
@@ -36,10 +35,9 @@ const orgSchema = {
   legalName: "Mkt Web 360 SLU",
   url: "https://www.cuidatumascota.es",
   logo: { "@type": "ImageObject", url: "https://www.cuidatumascota.es/logo.png" },
-  description: "Portal especializado en alimentación, salud y accesorios para perros y gatos. Analizamos productos con criterio veterinario para que elijas con confianza.",
+  description: "Portal especializado en alimentación, salud y accesorios para perros y gatos. Comparamos productos con información contrastada para que elijas con confianza.",
   foundingDate: "2024",
   areaServed: { "@type": "Country", name: "España" },
-  employee: [personSchema],
   contactPoint: { "@type": "ContactPoint", email: "info@mktweb360.com", contactType: "customer service" },
 };
 
@@ -62,15 +60,13 @@ export default function SobreNosotrosPage() {
         {/* Author profile */}
         <div className="flex items-start gap-5 bg-cyan-50 border border-cyan-100 rounded-2xl p-6 mb-10">
           <div className="shrink-0 w-16 h-16 rounded-full bg-cyan-200 flex items-center justify-center text-2xl font-extrabold text-cyan-800">
-            EG
+            CM
           </div>
           <div>
-            <p className="font-extrabold text-gray-900 text-lg leading-tight">Elena García</p>
-            <p className="text-cyan-700 font-semibold text-sm mb-2">Auxiliar Veterinaria · 8 años de experiencia</p>
+            <p className="font-extrabold text-gray-900 text-lg leading-tight">Equipo Editorial de CuidaTuMascota.es</p>
+            <p className="text-cyan-700 font-semibold text-sm mb-2">Mkt Web 360 SLU</p>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Auxiliar veterinaria con 8 años de experiencia en clínicas de pequeños animales en Madrid.
-              Especializada en nutrición animal, comportamiento canino y felino, y cuidado preventivo de mascotas.
-              Responsable de la selección, análisis y verificación de todos los productos recomendados en CuidaTuMascota.es.
+              No somos veterinarios. Nuestro equipo compara ingredientes, composición nutricional, certificaciones de seguridad y opiniones verificadas de propietarios antes de recomendar cualquier producto, con apoyo de herramientas de IA en la investigación y redacción, siempre con revisión editorial. El contenido de este portal es informativo y nunca sustituye la consulta con tu veterinario.
             </p>
             <div className="flex flex-wrap gap-2 mt-3">
               {["Nutrición animal", "Comportamiento canino", "Salud preventiva", "Antiparasitarios"].map((tag) => (
