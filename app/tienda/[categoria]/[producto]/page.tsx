@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
     openGraph: {
       title: `${product.name} — Análisis completo`,
       description: product.shortDescription,
-      images: [{ url: `https://www.cuidatumascota.es/images/products/${product.categorySlug}.jpg` }],
+      images: [{ url: product.image ? `https://www.cuidatumascota.es${product.image}` : `https://www.cuidatumascota.es/images/products/${product.categorySlug}.jpg` }],
     },
   };
 }
@@ -68,7 +68,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
     name: product.name,
     description: product.shortDescription,
     sku: product.asin,
-    image: `https://www.cuidatumascota.es/images/products/${product.categorySlug}.jpg`,
+    image: product.image ? `https://www.cuidatumascota.es${product.image}` : `https://www.cuidatumascota.es/images/products/${product.categorySlug}.jpg`,
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: score,
@@ -81,7 +81,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
       url: amazonLink(product.asin),
       priceCurrency: "EUR",
       availability: "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: "Amazon España" },
+      
     },
   };
 
@@ -108,12 +108,12 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
       {
         "@type": "Question",
         name: `¿Dónde puedo comprar ${product.name}?`,
-        acceptedAnswer: { "@type": "Answer", text: `Puedes comprarlo directamente en Amazon.es a través de nuestro enlace. Amazon ofrece envío rápido y política de devoluciones sencilla en España.` },
+        acceptedAnswer: { "@type": "Answer", text: `Puedes comprarlo directamente a través de nuestro enlace. El vendedor ofrece envío rápido y política de devoluciones sencilla en España.` },
       },
       {
         "@type": "Question",
         name: `¿Cuánto cuesta ${product.name}?`,
-        acceptedAnswer: { "@type": "Answer", text: `El precio puede variar. Consulta el precio actualizado en Amazon.es haciendo clic en el botón de compra.` },
+        acceptedAnswer: { "@type": "Answer", text: `El precio puede variar. Consulta el precio actualizado haciendo clic en el botón de compra.` },
       },
     ],
   };
@@ -151,7 +151,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
           <div className="relative">
             <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-cyan-50 to-gray-50 border border-gray-100 aspect-square flex items-center justify-center">
               <img
-                src={`/images/products/${product.categorySlug}.jpg`}
+                src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
                 alt={product.name}
                 className="w-full h-full object-cover"
                 loading="eager"
@@ -216,7 +216,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
 
             {/* Precio / CTA block */}
             <div className="bg-gray-50 border border-gray-200 rounded-2xl p-5 mb-4">
-              <p className="text-xs text-gray-400 uppercase tracking-wide font-semibold mb-1">Precio en Amazon</p>
+              <p className="text-xs text-gray-400 uppercase tracking-wide font-semibold mb-1">Precio actual</p>
               <p className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
                 Ver precio actualizado
                 <span className="text-xs font-normal text-gray-400">(puede variar)</span>
@@ -232,7 +232,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
                 <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current shrink-0">
                   <path d="M7 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-7.8-3.9L5.7 7H3c-.6 0-1-.4-1-1s.4-1 1-1h4c.5 0 .9.3 1 .8l.3 1.2h11c.7 0 1.2.7 1 1.4l-2 6c-.1.4-.5.6-.9.6H9.2c-.5 0-.9-.3-1-.9z"/>
                 </svg>
-                Comprar en Amazon →
+                Comprar ahora →
               </a>
 
               {/* CTA secundaria */}
@@ -249,7 +249,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               {[
                 { icon: "🚚", label: "Envío Prime", sub: "Gratis en pedidos" },
                 { icon: "↩️", label: "Devoluciones", sub: "30 días sin coste" },
-                { icon: "🔒", label: "Pago seguro", sub: "Amazon Checkout" },
+                { icon: "🔒", label: "Pago seguro", sub: "Pago seguro" },
               ].map(({ icon, label, sub }) => (
                 <div key={label} className="bg-white border border-gray-100 rounded-xl py-3 px-2">
                   <div className="text-lg mb-0.5">{icon}</div>
@@ -261,7 +261,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
 
             {/* Affiliate notice */}
             <p className="text-xs text-gray-400 mt-4 pl-3 border-l-2 border-gray-200">
-              Enlace de afiliado Amazon Associates (cclaserdepi01-21). Si compras a través de nuestro enlace recibimos una pequeña comisión sin coste adicional para ti.
+              Enlace de afiliado. Si compras a través de nuestro enlace recibimos una pequeña comisión sin coste adicional para ti.
             </p>
           </div>
         </div>
@@ -332,15 +332,15 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               },
               {
                 q: `¿Cuánto cuesta ${product.name}?`,
-                a: `El precio en Amazon varía según disponibilidad y promociones activas. Haz clic en el botón de compra para ver el precio actualizado en tiempo real.`,
+                a: `El precio varía según disponibilidad y promociones activas. Haz clic en el botón de compra para ver el precio actualizado en tiempo real.`,
               },
               {
                 q: `¿Tiene envío rápido ${product.name}?`,
-                a: `Sí, si eres cliente de Amazon Prime el envío es gratuito y llega en 1-2 días en la mayoría de localidades de España.`,
+                a: `Sí, si tienes una suscripción de envío premium activa, el envío es gratuito y llega en 1-2 días en la mayoría de localidades de España.`,
               },
               {
                 q: `¿Puedo devolver ${product.name} si no me convence?`,
-                a: `Amazon ofrece política de devoluciones de 30 días sin coste para la mayoría de productos. Consulta las condiciones específicas en la página de Amazon.`,
+                a: `El vendedor ofrece política de devoluciones de 30 días sin coste para la mayoría de productos. Consulta las condiciones específicas en la ficha del producto.`,
               },
             ].map(({ q, a }) => (
               <details key={q} className="group py-4 cursor-pointer">
@@ -396,14 +396,14 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
         {/* ── CTA final sticky-style ── */}
         <div className="bg-gradient-to-r from-cyan-600 to-cyan-700 rounded-2xl p-6 text-white text-center">
           <p className="font-extrabold text-lg mb-1">¿Listo para comprar {product.name}?</p>
-          <p className="text-cyan-100 text-sm mb-4">Ver el precio actualizado y comprarlo directamente en Amazon.es</p>
+          <p className="text-cyan-100 text-sm mb-4">Ver el precio actualizado y comprarlo directamente</p>
           <a
             href={amazonLink(product.asin)}
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold py-3.5 px-8 rounded-xl transition-colors shadow-md"
           >
-            🛒 Ir a Amazon.es →
+            🛒 Ir a la tienda →
           </a>
           <p className="text-cyan-200 text-xs mt-3">Enlace de afiliado · Sin coste adicional para ti</p>
         </div>
