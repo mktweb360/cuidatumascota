@@ -6,7 +6,7 @@ import ProductCard from "@/components/ProductCard";
 export const metadata: Metadata = {
   title: "Tienda — Los mejores productos para perros y gatos | CuidaTuMascota.es",
   description:
-    "Encuentra los mejores productos para tu mascota. Alimentación, accesorios, salud y más. Comparativas honestas y precios actualizados en Amazon.",
+    "Encuentra los mejores productos para tu mascota. Alimentación, accesorios, salud y más. Comparativas honestas y precios actualizados.",
   alternates: { canonical: "https://www.cuidatumascota.es/tienda" },
 };
 
@@ -101,7 +101,7 @@ export default function TiendaPage() {
             </div>
 
             <p className="text-xs text-gray-400 mt-8 pl-3 border-l-2 border-gray-200">
-              Enlace de afiliado Amazon Associates (cclaserdepi01-21). Recibimos una comisión sin coste adicional para ti.
+              Enlace de afiliado. Recibimos una comisión sin coste adicional para ti.
             </p>
           </main>
         </div>

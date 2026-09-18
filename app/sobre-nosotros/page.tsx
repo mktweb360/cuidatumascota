@@ -121,7 +121,7 @@ export default function SobreNosotrosPage() {
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
               <p className="font-semibold text-amber-900 mb-3">Programas de afiliados que utilizamos:</p>
               <ul className="space-y-2 text-sm text-amber-800">
-                <li><strong>Amazon Associates (cclaserdepi01-21):</strong> Somos afiliados de Amazon España. Recibimos una comisión sin coste adicional para ti cuando realizas una compra a través de nuestros enlaces.</li>
+                <li><strong>Programa de afiliación:</strong> Somos afiliados de distintos programas de partners comerciales. Recibimos una comisión sin coste adicional para ti cuando realizas una compra a través de nuestros enlaces. Más detalle en nuestra política de privacidad.</li>
                 <li><strong>Google AdSense (pub-6063067965030118):</strong> Publicidad contextual de Google, únicamente con tu consentimiento de cookies.</li>
               </ul>
             </div>

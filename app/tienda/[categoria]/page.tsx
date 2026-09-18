@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   if (!cat) return {};
   return {
     title: `${cat.name} — Análisis y comparativas | CuidaTuMascota.es`,
-    description: `Los mejores productos de ${cat.name} para tu mascota. Análisis honestos, pros y contras, y precios actualizados en Amazon.`,
+    description: `Los mejores productos de ${cat.name} para tu mascota. Análisis honestos, pros y contras, y precios actualizados.`,
     alternates: { canonical: `https://www.cuidatumascota.es/tienda/${categoria}` },
     openGraph: {
       title: `${cat.name} — Análisis y comparativas`,
@@ -109,7 +109,7 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
               </nav>
               <div className="px-4 py-3 border-t border-gray-100">
                 <p className="text-xs text-gray-400 leading-relaxed">
-                  Análisis independientes · Precios en Amazon
+                  Análisis independientes · Precios actualizados
                 </p>
               </div>
             </div>
@@ -167,7 +167,7 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
             )}
 
             <p className="text-xs text-gray-400 mt-8 pl-3 border-l-2 border-gray-200">
-              Enlace de afiliado Amazon Associates (cclaserdepi01-21). Recibimos una comisión sin coste adicional para ti.
+              Enlace de afiliado. Recibimos una comisión sin coste adicional para ti.
             </p>
           </main>
         </div>

@@ -77,7 +77,7 @@ export default function HomePage() {
             {[
               { icon: "🔍", title: "Análisis honestos", desc: "Evaluamos cada producto con criterios veterinarios y de bienestar animal. Sin pagos por reseñas positivas." },
               { icon: "🩺", title: "Respaldo veterinario", desc: "Los artículos de salud y nutrición incluyen siempre el aviso de consulta veterinaria. Tu mascota primero." },
-              { icon: "💰", title: "Mejor precio en Amazon", desc: "Comparamos precios para que encuentres siempre la mejor oferta en Amazon.es para tu mascota." },
+              { icon: "💰", title: "Mejor precio", desc: "Comparamos precios para que encuentres siempre la mejor oferta para tu mascota." },
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-2xl p-6 shadow-sm">
                 <div className="text-3xl mb-3">{item.icon}</div>
