@@ -5,6 +5,9 @@ import { posts } from "@/data/posts";
 export const metadata: Metadata = {
   title: "Blog — Guías de salud y cuidado para mascotas",
   description: "Artículos, guías de compra y consejos de cuidado para perros y gatos. Todo en español.",
+  alternates: {
+    canonical: "https://www.cuidatumascota.es/blog",
+  },
 };
 
 const allCategories = [...new Set(posts.map((p) => p.category))];

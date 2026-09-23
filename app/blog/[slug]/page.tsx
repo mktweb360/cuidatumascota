@@ -17,7 +17,21 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
-  return { title: post.title, description: post.excerpt };
+  return {
+    title: post.title,
+    description: post.excerpt,
+    alternates: {
+      canonical: `https://www.cuidatumascota.es/blog/${post.slug}`,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      type: "article",
+      publishedTime: post.date,
+      url: `https://www.cuidatumascota.es/blog/${post.slug}`,
+      images: post.image ? [{ url: `https://www.cuidatumascota.es${post.image}` }] : undefined,
+    },
+  };
 }
 
 interface ArticleSection {

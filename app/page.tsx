@@ -1,9 +1,16 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { categories, getFeaturedProducts } from "@/data/products";
 import { getLatestPosts } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
 import HeroBackground from "@/components/HeroBackground";
 import EmailCaptureSection from "@/components/EmailCaptureSection";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.cuidatumascota.es/",
+  },
+};
 
 export default function HomePage() {
   const featured = getFeaturedProducts(6);
