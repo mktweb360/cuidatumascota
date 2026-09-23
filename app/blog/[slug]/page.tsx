@@ -76,6 +76,25 @@ const articleSources: Record<string, { label: string; url: string }[]> = {
     { label: "AVEPA — Control de parásitos en pequeños animales", url: "https://www.avepa.org" },
     { label: "WSAVA — Guías de control de parásitos", url: "https://wsava.org/global-guidelines/vaccination-guidelines/" },
   ],
+  "antiparasitarios-perros-guia": [
+    { label: "ESCCAP — Guía de control de endoparásitos (GL1) en perros y gatos", url: "https://www.esccap.org/guidelines/gl1/" },
+    { label: "ESCCAP — Guía de control de ectoparásitos (GL3) en perros y gatos", url: "https://www.esccap.org/guidelines/gl3/" },
+  ],
+  "desparasitacion-perros-guia-completa": [
+    { label: "ESCCAP — Guía de control de endoparásitos (GL1) en perros y gatos", url: "https://www.esccap.org/guidelines/gl1/" },
+    { label: "AVEPA — Asociación de Veterinarios Especialistas en Pequeños Animales", url: "https://www.avepa.org" },
+  ],
+  "calendario-vacunas-cachorro": [
+    { label: "WSAVA — Directrices mundiales de vacunación de perros y gatos", url: "https://wsava.org/global-guidelines/vaccination-guidelines/" },
+    { label: "Consejo General de Colegios Veterinarios de España", url: "https://www.colvet.es" },
+  ],
+  "esterilizacion-gatos-guia-completa": [
+    { label: "AVEPA — Informe sobre esterilización quirúrgica en perros, gatos y hurones", url: "https://avepa.org/pdf/7_temas_sociales/Informe_AVEPA_esterilizacion.pdf" },
+    { label: "WSAVA — Directrices para el control de la reproducción en perros y gatos", url: "https://wsava.org/global-guidelines/" },
+  ],
+  "eliminar-pulgas-casa-guia-completa": [
+    { label: "ESCCAP — Guía de control de ectoparásitos (GL3): pulgas y garrapatas", url: "https://www.esccap.org/guidelines/gl3/" },
+  ],
 };
 
 const articleContent: Record<string, ArticleSection[]> = {
