@@ -54,7 +54,7 @@ const orgSchema = {
   knowsAbout: ["alimentación para mascotas", "salud veterinaria", "accesorios para perros", "accesorios para gatos", "cuidado de animales domésticos"],
   contactPoint: { "@type": "ContactPoint", email: "info@mktweb360.com", contactType: "customer service", availableLanguage: "Spanish" },
   sameAs: [
-    "https://www.instagram.com/cuidatumascota.es",
+    "https://www.instagram.com/ctmascota",
     "https://www.facebook.com/cuidatumascota.es",
   ],
 };

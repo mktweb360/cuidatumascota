@@ -521,6 +521,29 @@ export const posts: Post[] = [
     isHealth: true,
     categoryCta: { href: "/tienda/salud-higiene", text: "Ver antiparasitarios y productos de salud →" },
   },
+  {
+    slug: "bolas-de-pelo-gatos-prevencion",
+    title: "Bolas de pelo en gatos: cuándo son normales, cuándo preocuparse y cómo prevenirlas (2026)",
+    excerpt: "Una bola de pelo ocasional es habitual en un gato adulto: el pelo tragado al acicalarse se acumula en el estómago y se expulsa por vómito. Deja de ser normal si aumenta la frecuencia, si hay arcadas sin expulsar nada o si el gato deja de comer más de un día. La prevención más eficaz es el cepillado frecuente, apoyado por fibra en la dieta o pasta de malta.",
+    category: "Salud",
+    date: "2026-09-25",
+    readTime: 9,
+    relatedProducts: ["furminator-deshedding-gato-pelo-largo", "furminator-deshedding-gato-pelo-corto", "gimcat-malt-soft-extra-pasta-malta-gato-100g", "royal-canin-hairball-care-gato-2kg", "purina-one-bifensis-sterilcat-hairball-8x800g"],
+    relatedPosts: ["alimentacion-gatos-guia-propietarios", "gato-interior-bienestar-enriquecimiento", "pienso-gato-adulto-comparativa", "eliminar-pulgas-casa-guia-completa"],
+    isHealth: true,
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver cepillos y productos anti-bolas de pelo →" },
+  },
+  {
+    slug: "cortar-unas-perro-gato-guia-paso-a-paso",
+    title: "Cómo cortar las uñas a un perro o a un gato paso a paso: cuándo, con qué y qué hacer si sangra (2026)",
+    excerpt: "Hay que cortar las uñas cuando se oyen al caminar sobre suelo duro, se enganchan en alfombras o empiezan a curvarse. En gatos se corta solo la punta blanca; en perros, en pasos pequeños y parando antes de llegar a la parte viva, sobre todo en uñas oscuras. Ten a mano un hemostático por si se sangra.",
+    category: "Cuidados",
+    date: "2026-10-09",
+    readTime: 8,
+    relatedProducts: ["trixie-tijeras-cortaunas-perros", "candure-cortaunas-perro-gato-pequenos-animales", "cortaunas-gato-profesional-acero-inoxidable-tijera", "epica-cortaunas-perros-grandes-cuchilla-semicircular", "artero-x-top-polvo-hemostatico-unas-15g"],
+    relatedPosts: ["cepillado-pelo-perro-guia", "cuidado-preventivo-mascotas-guia", "ordenes-basicas-perro-guia", "gato-interior-bienestar-enriquecimiento"],
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver cortaúñas y productos de aseo →" },
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
