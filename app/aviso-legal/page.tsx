@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso legal — CuidaTuMascota.es",
+  title: "Aviso legal",
   description: "Aviso legal de CuidaTuMascota.es — Mkt Web 360 SLU, CIF B87679304.",
 };
 

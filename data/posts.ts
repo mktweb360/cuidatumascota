@@ -16,8 +16,8 @@ export const posts: Post[] = [
   {
     slug: "mejor-pienso-perro-2025",
     image: "/images/blog/mejor-pienso-perro-2025.jpg",
-    title: "El mejor pienso para perros en 2025 — Guía por razas y edad",
-    excerpt: "Comparativa completa de los mejores piensos para perros en 2025. Analizamos ingredientes, digestibilidad y relación calidad-precio para que elijas con confianza.",
+    title: "El mejor pienso para perros — Guía por razas y edad",
+    excerpt: "Comparativa completa de los mejores piensos para perros. Analizamos ingredientes, digestibilidad y relación calidad-precio para que elijas con confianza.",
     category: "Alimentación",
     date: "2025-01-10",
     readTime: 10,
@@ -28,7 +28,7 @@ export const posts: Post[] = [
   {
     slug: "pienso-gato-adulto-comparativa",
     image: "/images/blog/pienso-gato-adulto-comparativa.jpg",
-    title: "Mejor pienso para gatos adultos 2025 — Comparativa completa",
+    title: "Mejor pienso para gatos adultos — Comparativa completa",
     excerpt: "Guía de los mejores piensos para gatos adultos: desde opciones veterinarias hasta las más asequibles. Todo lo que necesitas saber para alimentar bien a tu gato.",
     category: "Alimentación",
     date: "2025-01-20",
@@ -40,7 +40,7 @@ export const posts: Post[] = [
   {
     slug: "antiparasitarios-perros-guia",
     image: "/images/blog/antiparasitarios-perros-guia.jpg",
-    title: "Antiparasitarios para perros: guía completa 2025",
+    title: "Antiparasitarios para perros: guía completa",
     excerpt: "Todo lo que necesitas saber sobre antiparasitarios para perros: tipos, frecuencia de aplicación y las mejores opciones del mercado.",
     category: "Salud",
     date: "2025-02-01",
@@ -88,7 +88,7 @@ export const posts: Post[] = [
     slug: "cama-ortopedica-perros-mayores",
     image: "/images/blog/cama-ortopedica-perros-mayores.jpg",
     title: "Camas ortopédicas para perros mayores: cuándo y cuál elegir",
-    excerpt: "Los perros mayores o con artritis necesitan una cama especial. Descubre cuándo es necesaria una cama ortopédica y cuáles son las mejores opciones en 2025.",
+    excerpt: "Los perros mayores o con artritis necesitan una cama especial. Descubre cuándo es necesaria una cama ortopédica y cuáles son las mejores opciones.",
     category: "Cuidados",
     date: "2025-04-01",
     readTime: 7,
@@ -111,7 +111,7 @@ export const posts: Post[] = [
   {
     slug: "mejor-pienso-perro-adulto-2025",
     image: "/images/blog/mejor-pienso-perro-adulto-2025.jpg",
-    title: "Mejor pienso para perro adulto en 2025 — Comparativa completa",
+    title: "Mejor pienso para perro adulto — Comparativa completa",
     excerpt: "Comparativa de los mejores piensos para perro adulto: Royal Canin, Hill's Science Plan y Orijen. Guía por raza, tamaño y presupuesto.",
     category: "Alimentación",
     date: "2025-07-01",
@@ -123,7 +123,7 @@ export const posts: Post[] = [
   {
     slug: "royal-canin-adult-maxi-analisis",
     image: "/images/blog/royal-canin-adult-maxi-analisis.jpg",
-    title: "Royal Canin Adult Maxi: análisis completo y opiniones 2025",
+    title: "Royal Canin Adult Maxi: análisis completo y opiniones",
     excerpt: "Análisis detallado del Royal Canin Adult Maxi: composición real, para qué razas es ideal y si justifica su precio frente a alternativas.",
     category: "Alimentación",
     date: "2025-07-02",
@@ -135,7 +135,7 @@ export const posts: Post[] = [
   {
     slug: "alimentacion-perros-guia-completa",
     image: "/images/blog/alimentacion-perros-guia-completa.jpg",
-    title: "Alimentación de perros: guía completa para propietarios 2025",
+    title: "Alimentación de perros: guía completa para propietarios",
     excerpt: "Todo lo que necesitas saber sobre la alimentación de tu perro: tipos de dieta, frecuencia, cantidades, ingredientes a evitar y cómo elegir el pienso correcto.",
     category: "Alimentación",
     date: "2025-07-03",
@@ -148,8 +148,8 @@ export const posts: Post[] = [
   {
     slug: "pienso-gatos-adultos-mejor-2025",
     image: "/images/blog/pienso-gatos-adultos-mejor-2025.jpg",
-    title: "Mejor pienso para gatos adultos en 2025 — Guía de compra",
-    excerpt: "Los mejores piensos para gatos adultos en 2025: Royal Canin Indoor, Hill's Sterilised y Acana Pacifica. Comparativa por composición, precio y tipo de gato.",
+    title: "Mejor pienso para gatos adultos — Guía de compra",
+    excerpt: "Los mejores piensos para gatos adultos: Royal Canin Indoor, Hill's Sterilised y Acana Pacifica. Comparativa por composición, precio y tipo de gato.",
     category: "Alimentación",
     date: "2025-07-04",
     readTime: 8,
@@ -160,7 +160,7 @@ export const posts: Post[] = [
   {
     slug: "alimentacion-gatos-guia-propietarios",
     image: "/images/blog/alimentacion-gatos-guia-propietarios.jpg",
-    title: "Alimentación de gatos: guía completa para propietarios 2025",
+    title: "Alimentación de gatos: guía completa para propietarios",
     excerpt: "Todo sobre la alimentación de tu gato: tipos de dieta, cantidades, ingredientes peligrosos, hidratación y cómo elegir el pienso más adecuado.",
     category: "Alimentación",
     date: "2025-07-05",
@@ -173,7 +173,7 @@ export const posts: Post[] = [
   {
     slug: "desparasitacion-perros-guia-completa",
     image: "/images/blog/desparasitacion-perros-guia-completa.jpg",
-    title: "Desparasitación de perros: guía completa 2025",
+    title: "Desparasitación de perros: guía completa",
     excerpt: "Todo sobre la desparasitación de perros: cuándo hacerla, qué productos usar, diferencia entre parásitos externos e internos y el calendario recomendado.",
     category: "Salud",
     date: "2025-07-06",
@@ -185,7 +185,7 @@ export const posts: Post[] = [
   {
     slug: "desparasitacion-gatos-guia",
     image: "/images/blog/desparasitacion-gatos-guia.jpg",
-    title: "Desparasitación de gatos: guía completa 2025",
+    title: "Desparasitación de gatos: guía completa",
     excerpt: "Cómo y cuándo desparasitar a tu gato: calendario recomendado, diferencia entre parásitos externos e internos y los mejores productos del mercado.",
     category: "Salud",
     date: "2025-07-07",
@@ -197,7 +197,7 @@ export const posts: Post[] = [
   {
     slug: "kong-classic-guia-uso",
     image: "/images/blog/kong-classic-guia-uso.jpg",
-    title: "Kong Classic para perros: guía de uso y recetas 2025",
+    title: "Kong Classic para perros: guía de uso y recetas",
     excerpt: "Cómo usar el Kong Classic para mantener a tu perro entretenido: rellenos, congelado, nivel de dificultad y por qué es el juguete más recomendado por veterinarios.",
     category: "Accesorios",
     date: "2025-07-08",
@@ -208,7 +208,7 @@ export const posts: Post[] = [
   {
     slug: "fuente-agua-gatos-catit-analisis",
     image: "/images/blog/fuente-agua-gatos-catit-analisis.jpg",
-    title: "Fuente de agua para gatos Catit Flower: análisis completo 2025",
+    title: "Fuente de agua para gatos Catit Flower: análisis completo",
     excerpt: "Por qué los gatos necesitan agua en movimiento y análisis completo de la Catit Flower Fountain: filtración, consumo real de agua y mantenimiento.",
     category: "Accesorios",
     date: "2025-07-09",
@@ -220,7 +220,7 @@ export const posts: Post[] = [
   {
     slug: "arbol-rascador-gatos-guia-compra",
     image: "/images/blog/arbol-rascador-gatos-guia-compra.jpg",
-    title: "Árbol rascador para gatos: guía de compra y análisis 2025",
+    title: "Árbol rascador para gatos: guía de compra y análisis",
     excerpt: "Cómo elegir el mejor árbol rascador para tu gato: altura, estabilidad, materiales y análisis del PetFusion Tree de 91cm. Por qué es imprescindible en casa.",
     category: "Accesorios",
     date: "2025-07-10",
@@ -231,8 +231,8 @@ export const posts: Post[] = [
   {
     slug: "comedero-microchip-surefeed-analisis",
     image: "/images/blog/comedero-microchip-surefeed-analisis.jpg",
-    title: "Comedero con microchip SureFeed: análisis completo y para quién es 2025",
-    excerpt: "Análisis del comedero con microchip SureFeed Microchip Pet Feeder: cómo funciona, cuándo tiene sentido comprarlo y si el precio de €149 está justificado.",
+    title: "Comedero con microchip SureFeed: análisis completo y para quién es",
+    excerpt: "Análisis del comedero con microchip SureFeed Microchip Pet Feeder: cómo funciona, cuándo tiene sentido comprarlo y si su precio está justificado.",
     category: "Accesorios",
     date: "2025-07-11",
     readTime: 7,
@@ -243,7 +243,7 @@ export const posts: Post[] = [
   {
     slug: "mochila-senderismo-perros-ruffwear",
     image: "/images/blog/mochila-senderismo-perros-ruffwear.jpg",
-    title: "Ruffwear Approach Pack: análisis completo para senderismo con perros 2025",
+    title: "Ruffwear Approach Pack: análisis completo para senderismo con perros",
     excerpt: "Análisis de la mochila Ruffwear Approach Pack para perros: capacidad, ajuste, materiales y para qué tipo de senderismo es la opción correcta.",
     category: "Accesorios",
     date: "2025-07-12",
@@ -254,7 +254,7 @@ export const posts: Post[] = [
   {
     slug: "cuidado-preventivo-mascotas-guia",
     image: "/images/blog/cuidado-preventivo-mascotas-guia.jpg",
-    title: "Cuidado preventivo de mascotas: guía completa 2025",
+    title: "Cuidado preventivo de mascotas: guía completa",
     excerpt: "Guía completa de cuidado preventivo para perros y gatos: vacunas, desparasitaciones, revisiones veterinarias anuales y hábitos que evitan enfermedades costosas.",
     category: "Salud",
     date: "2025-07-13",
@@ -267,7 +267,7 @@ export const posts: Post[] = [
   {
     slug: "adoptar-perro-guia-primera-vez",
     image: "/images/blog/adoptar-perro-guia-primera-vez.jpg",
-    title: "Adoptar un perro por primera vez: guía completa 2025",
+    title: "Adoptar un perro por primera vez: guía completa",
     excerpt: "Todo lo que necesitas saber antes de adoptar un perro: preparación del hogar, equipamiento esencial, primeros días y errores más comunes de los nuevos propietarios.",
     category: "Cuidados",
     date: "2025-07-14",
@@ -279,7 +279,7 @@ export const posts: Post[] = [
   {
     slug: "gato-interior-bienestar-enriquecimiento",
     image: "/images/blog/gato-interior-bienestar-enriquecimiento.jpg",
-    title: "Bienestar del gato de interior: guía de enriquecimiento ambiental 2025",
+    title: "Bienestar del gato de interior: guía de enriquecimiento ambiental",
     excerpt: "Cómo mejorar la calidad de vida de un gato que vive en interior: enriquecimiento ambiental, estimulación sensorial, espacios verticales y señales de estrés.",
     category: "Cuidados",
     date: "2025-07-15",
@@ -291,7 +291,7 @@ export const posts: Post[] = [
   {
     slug: "perro-mayor-cuidados-senior",
     image: "/images/blog/perro-mayor-cuidados-senior.jpg",
-    title: "Cuidados del perro mayor: guía para propietarios de perros senior 2025",
+    title: "Cuidados del perro mayor: guía para propietarios de perros senior",
     excerpt: "Cómo cuidar a un perro mayor: cambios de alimentación, salud articular, visitas veterinarias, adaptación del entorno y señales de alerta en la etapa senior.",
     category: "Cuidados",
     date: "2025-07-16",
@@ -314,7 +314,7 @@ export const posts: Post[] = [
   {
     slug: "pasear-perro-correctamente-guia",
     image: "/images/blog/pasear-perro-correctamente-guia.jpg",
-    title: "Cómo pasear al perro correctamente: guía de adiestramiento básico 2025",
+    title: "Cómo pasear al perro correctamente: guía de adiestramiento básico",
     excerpt: "Guía práctica para pasear al perro sin tirones: técnicas de adiestramiento básico, el arnés correcto y cómo construir hábitos de paseo saludables.",
     category: "Cuidados",
     date: "2025-07-18",
@@ -337,7 +337,7 @@ export const posts: Post[] = [
   {
     slug: "mejor-pienso-cachorro-guia",
     image: "/images/blog/mejor-pienso-cachorro-guia.jpg",
-    title: "Mejor pienso para cachorro 2025: guía de compra y comparativa",
+    title: "Mejor pienso para cachorro: guía de compra y comparativa",
     excerpt: "Qué buscar en un pienso para cachorro, cuáles son los mejores del mercado y cómo elegir según la raza y el tamaño de tu perro.",
     category: "Alimentación",
     date: "2025-08-01",
@@ -350,7 +350,7 @@ export const posts: Post[] = [
   {
     slug: "calendario-vacunas-cachorro",
     image: "/images/blog/calendario-vacunas-cachorro.jpg",
-    title: "Calendario de vacunas para cachorro en España 2025",
+    title: "Calendario de vacunas para cachorro en España",
     excerpt: "Guía completa del calendario vacunal para cachorros en España: qué vacunas, a qué edad, cuáles son obligatorias y cuánto cuestan.",
     category: "Salud",
     date: "2025-08-01",
@@ -422,8 +422,7 @@ export const posts: Post[] = [
   },
   {
     slug: "cepillado-pelo-perro-guia",
-    image: "/images/blog/cepillado-pelo-perro-guia.jpg",
-    title: "Cepillado del perro: guía completa por tipo de pelo 2025",
+    title: "Cepillado del perro: guía completa por tipo de pelo",
     excerpt: "Cómo cepillar a tu perro según su tipo de pelo, cada cuánto hacerlo y qué herramienta usar para reducir la muda, evitar nudos y mantener la piel sana.",
     category: "Cuidados",
     date: "2025-08-10",
@@ -435,8 +434,7 @@ export const posts: Post[] = [
   },
   {
     slug: "esterilizacion-gatos-guia-completa",
-    image: "/images/blog/esterilizacion-gatos-guia-completa.jpg",
-    title: "Esterilización de gatos: guía completa 2025 — cuándo, cómo y cuidados",
+    title: "Esterilización de gatos: guía completa — cuándo, cómo y cuidados",
     excerpt: "Todo sobre la esterilización de gatos y gatas: edad recomendada, en qué consiste la cirugía, cuidados postoperatorios y cómo evitar el sobrepeso después.",
     category: "Salud",
     date: "2025-08-12",
@@ -448,7 +446,6 @@ export const posts: Post[] = [
   },
   {
     slug: "adiestramiento-clicker-perros-guia-inicio",
-    image: "/images/blog/adiestramiento-clicker-perros-guia-inicio.jpg",
     title: "Adiestramiento con clicker para perros: guía para empezar 2026",
     excerpt: "Qué es el clicker training, por qué marca mejor la conducta que la voz, cómo \"cargar\" el clicker en 3 sesiones y los errores más comunes al empezar con tu perro.",
     category: "Adiestramiento",
@@ -460,7 +457,6 @@ export const posts: Post[] = [
   },
   {
     slug: "royal-canin-kitten-analisis",
-    image: "/images/blog/royal-canin-kitten-analisis.jpg",
     title: "Royal Canin Kitten: análisis completo y cuándo empezar a darlo 2026",
     excerpt: "Análisis del pienso Royal Canin Kitten: composición, a qué edad exacta empezar, cuándo hacer la transición a adulto y si compensa frente a alternativas.",
     category: "Alimentación",
@@ -473,7 +469,6 @@ export const posts: Post[] = [
   },
   {
     slug: "purina-pro-plan-puppy-start-analisis",
-    image: "/images/blog/purina-pro-plan-puppy-start-analisis.jpg",
     title: "Purina Pro Plan Puppy Start: análisis completo para cachorros 2026",
     excerpt: "Análisis del pienso Purina Pro Plan Medium Puppy Start: composición, para qué cachorros es adecuado, calendario de tomas y cuándo pasar a la fórmula adulta.",
     category: "Alimentación",
@@ -486,7 +481,6 @@ export const posts: Post[] = [
   },
   {
     slug: "savic-nestor-arenero-analisis",
-    image: "/images/blog/savic-nestor-arenero-analisis.jpg",
     title: "Savic Nestor: análisis del arenero cerrado y cómo elegir el tuyo 2026",
     excerpt: "Análisis del arenero cerrado Savic Nestor: ventajas y desventajas frente a un arenero abierto, mantenimiento, filtro de carbón y cómo elegir tamaño y ubicación.",
     category: "Cuidados",
@@ -498,7 +492,6 @@ export const posts: Post[] = [
   },
   {
     slug: "baskerville-bozal-cesta-analisis",
-    image: "/images/blog/baskerville-bozal-cesta-analisis.jpg",
     title: "Bozal de cesta Baskerville: cuándo usarlo y cómo acostumbrar a tu perro 2026",
     excerpt: "Análisis del bozal de cesta Baskerville Classic: en qué situaciones es recomendable, diferencias con el bozal de tela y cómo habituar a tu perro sin estrés.",
     category: "Adiestramiento",
@@ -510,7 +503,6 @@ export const posts: Post[] = [
   },
   {
     slug: "eliminar-pulgas-casa-guia-completa",
-    image: "/images/blog/eliminar-pulgas-casa-guia-completa.jpg",
     title: "Cómo eliminar las pulgas de casa (no solo del perro o del gato): guía completa 2026",
     excerpt: "Tratar solo al perro o al gato no basta: la mayor parte del ciclo de vida de la pulga transcurre en el hogar. Guía paso a paso para desinfestar la casa, el coche y las zonas exteriores, y evitar que la infestación vuelva.",
     category: "Salud",

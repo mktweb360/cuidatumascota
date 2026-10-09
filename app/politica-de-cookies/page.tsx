@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de cookies — CuidaTuMascota.es",
+  title: "Política de cookies",
   description: "Qué cookies utilizamos en CuidaTuMascota.es y cómo gestionarlas.",
 };
 

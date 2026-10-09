@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: `${product.name} — Análisis y opinión`,
+    title: { absolute: `${product.name}: análisis y opinión` },
     description: product.shortDescription,
     alternates: {
       canonical: `https://www.cuidatumascota.es/tienda/${product.categorySlug}/${product.slug}`,
@@ -28,29 +28,6 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   };
 }
 
-/** Genera una puntuación estable (4.1–4.9) basada en el slug */
-function stableRating(slug: string): { score: string; count: number } {
-  let h = 0;
-  for (let i = 0; i < slug.length; i++) h = ((h << 5) - h + slug.charCodeAt(i)) | 0;
-  const score = (4.1 + ((Math.abs(h) % 9) / 10)).toFixed(1);
-  const count = 120 + (Math.abs(h >> 4) % 800);
-  return { score, count };
-}
-
-function StarRating({ score }: { score: string }) {
-  const n = parseFloat(score);
-  const full = Math.floor(n);
-  const half = n - full >= 0.3;
-  return (
-    <span className="flex items-center gap-0.5">
-      {[1, 2, 3, 4, 5].map((i) => (
-        <svg key={i} viewBox="0 0 20 20" className={`w-4 h-4 ${i <= full ? "text-amber-400" : i === full + 1 && half ? "text-amber-300" : "text-gray-200"}`} fill="currentColor">
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-        </svg>
-      ))}
-    </span>
-  );
-}
 
 export default async function ProductoPage({ params }: { params: Promise<{ categoria: string; producto: string }> }) {
   const { categoria, producto } = await params;
@@ -60,30 +37,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
 
   const related = getProductsByCategory(categoria).filter((p) => p.slug !== producto).slice(0, 3);
   const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
-  const { score, count } = stableRating(product.slug);
 
-  const productSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.name,
-    description: product.shortDescription,
-    sku: product.asin,
-    image: product.image ? `https://www.cuidatumascota.es${product.image}` : `https://www.cuidatumascota.es/images/products/${product.categorySlug}.jpg`,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: score,
-      reviewCount: count,
-      bestRating: "5",
-      worstRating: "1",
-    },
-    offers: {
-      "@type": "Offer",
-      url: amazonLink(product.asin),
-      priceCurrency: "EUR",
-      availability: "https://schema.org/InStock",
-      
-    },
-  };
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -122,7 +76,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
@@ -165,12 +118,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
                 </span>
               </div>
             )}
-            {/* Verified badge */}
-            <div className="absolute bottom-4 right-4">
-              <span className="bg-white/90 backdrop-blur-sm border border-gray-100 text-gray-600 text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm flex items-center gap-1.5">
-                <span className="text-cyan-500">✓</span> Análisis verificado
-              </span>
-            </div>
           </div>
 
           {/* Ficha del producto */}
@@ -182,10 +129,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
                 <span>{cat.icon}</span>
                 <span>{cat.name}</span>
               </Link>
-              <span className="text-xs text-green-600 font-semibold bg-green-50 px-2.5 py-1 rounded-full flex items-center gap-1">
-                <span className="inline-block w-1.5 h-1.5 bg-green-500 rounded-full"></span>
-                En stock
-              </span>
             </div>
 
             {/* Nombre */}
@@ -193,12 +136,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               {product.name}
             </h1>
 
-            {/* Rating */}
-            <div className="flex items-center gap-2 mb-4">
-              <StarRating score={score} />
-              <span className="font-bold text-gray-800 text-sm">{score}</span>
-              <span className="text-gray-400 text-sm">({count.toLocaleString("es-ES")} valoraciones)</span>
-            </div>
 
             {/* Descripción */}
             <p className="text-gray-600 leading-relaxed mb-5">{product.shortDescription}</p>
@@ -244,20 +181,6 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
               </Link>
             </div>
 
-            {/* Trust bar */}
-            <div className="grid grid-cols-3 gap-3 text-center">
-              {[
-                { icon: "🚚", label: "Envío Prime", sub: "Gratis en pedidos" },
-                { icon: "↩️", label: "Devoluciones", sub: "30 días sin coste" },
-                { icon: "🔒", label: "Pago seguro", sub: "Pago seguro" },
-              ].map(({ icon, label, sub }) => (
-                <div key={label} className="bg-white border border-gray-100 rounded-xl py-3 px-2">
-                  <div className="text-lg mb-0.5">{icon}</div>
-                  <div className="text-xs font-bold text-gray-700 leading-tight">{label}</div>
-                  <div className="text-xs text-gray-400 leading-tight">{sub}</div>
-                </div>
-              ))}
-            </div>
 
             {/* Affiliate notice */}
             <p className="text-xs text-gray-400 mt-4 pl-3 border-l-2 border-gray-200">

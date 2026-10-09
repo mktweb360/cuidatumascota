@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sobre nosotros — CuidaTuMascota.es",
+  title: "Sobre nosotros",
   description: "Somos el equipo editorial de CuidaTuMascota.es. Conoce cómo investigamos y seleccionamos los productos que recomendamos para perros y gatos, y por qué nunca sustituimos el consejo veterinario.",
 };
 
