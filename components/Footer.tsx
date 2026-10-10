@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CookiePreferencesButton from "@/components/CookiePreferencesButton";
 import { categories } from "@/data/products";
 
 export default function Footer() {
@@ -48,6 +49,7 @@ export default function Footer() {
               <li><Link href="/aviso-legal" className="hover:text-cyan-400 transition-colors">Aviso legal</Link></li>
               <li><Link href="/politica-de-privacidad" className="hover:text-cyan-400 transition-colors">Privacidad</Link></li>
               <li><Link href="/politica-de-cookies" className="hover:text-cyan-400 transition-colors">Cookies</Link></li>
+              <li><CookiePreferencesButton /></li>
             </ul>
           </div>
         </div>
