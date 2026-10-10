@@ -8,6 +8,7 @@ import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import VetDisclaimer from "@/components/VetDisclaimer";
 import AdSenseAd from "@/components/AdSenseAd";
+import { isActiveSlot } from "@/lib/adsense";
 
 export async function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -885,6 +886,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           {/* Sidebar — solo desktop, thematic ad, no intrusivo */}
           <aside className="hidden lg:block">
             <div className="sticky top-6 space-y-6">
+              {isActiveSlot("7654321098") && (
               <div className="rounded-xl border border-gray-100 bg-gray-50 p-4">
                 <p className="text-xs text-gray-400 uppercase tracking-wide text-center mb-3">Publicidad</p>
                 <AdSenseAd
@@ -894,6 +896,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   className="min-h-[250px]"
                 />
               </div>
+              )}
               {/* CTA temático según categoría del post */}
               {post.categoryCta && (
                 <div className="rounded-xl bg-cyan-50 border border-cyan-100 p-5 text-center">
