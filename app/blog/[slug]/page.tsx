@@ -8,7 +8,6 @@ import ProductCard from "@/components/ProductCard";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 import VetDisclaimer from "@/components/VetDisclaimer";
 import AdSenseAd from "@/components/AdSenseAd";
-import { isActiveSlot } from "@/lib/adsense";
 
 export async function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
@@ -699,7 +698,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
-        <div className="lg:grid lg:grid-cols-[1fr_280px] lg:gap-10 lg:items-start">
+        <div className="lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 lg:items-start">
 
       <article>
         <nav className="text-gray-400 text-sm mb-6">
@@ -751,11 +750,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <div key={i}>
               {/* Ad mid-article — after 3rd section, thematic + non-intrusive */}
               {i === 3 && (
-                <AdSenseAd
-                  slot="3456789012"
-                  format="auto"
-                  className="my-6 py-2 border-y border-gray-100"
-                />
+                <AdSenseAd placement="contenido" />
               )}
               {section.heading && (
                 <h2 className="text-xl font-extrabold text-gray-900 mt-8 mb-3">{section.heading}</h2>
@@ -886,17 +881,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           {/* Sidebar — solo desktop, thematic ad, no intrusivo */}
           <aside className="hidden lg:block">
             <div className="sticky top-6 space-y-6">
-              {isActiveSlot("7654321098") && (
-              <div className="rounded-xl border border-gray-100 bg-gray-50 p-4">
-                <p className="text-xs text-gray-400 uppercase tracking-wide text-center mb-3">Publicidad</p>
-                <AdSenseAd
-                  slot="7654321098"
-                  format="vertical"
-                  responsive={false}
-                  className="min-h-[250px]"
-                />
-              </div>
-              )}
+              <AdSenseAd placement="lateral" />
               {/* CTA temático según categoría del post */}
               {post.categoryCta && (
                 <div className="rounded-xl bg-cyan-50 border border-cyan-100 p-5 text-center">
