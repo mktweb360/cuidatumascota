@@ -10,6 +10,11 @@ export interface ProductRedirect {
 
 export const productRedirects: ProductRedirect[] = [
   {
+    source: "/blog/pienso-gatos-adultos-mejor-2025",
+    destination: "/blog/pienso-gato-adulto-comparativa",
+    motivo: "Fusión de contenido duplicado (10/10/2026, autorizada por José): dos artículos con la misma intención (mejor pienso para gatos adultos). Se conserva la URL sin año.",
+  },
+  {
     source: "/tienda/accesorios-gatos/petfusion-cat-scratcher-lounge",
     destination: "/tienda/accesorios-gatos",
     motivo: "Descatalogado (06/09/2026, sesión de ampliación de catálogo). ASIN original B00KJ8DPRM confirmado inactivo en amazon.es (404). No se encontró sustituto exacto en stock (variante equivalente B01NC0A463 también sin disponibilidad al verificar) — redirige a la categoría.",

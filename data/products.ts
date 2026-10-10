@@ -473,7 +473,7 @@ export const products: Product[] = [
     cons: ["Contiene cereales", "No indicado para gatos de exterior muy activos"],
     specs: { "Peso": "4 kg", "Para": "Gatos de interior 1-7 años", "Bolas de pelo": "Control activo", "Formato": "Croquetas secas" },
     badge: "Mejor para gatos de interior",
-    relatedPosts: ["pienso-gatos-adultos-mejor-2025", "gato-interior-bienestar-enriquecimiento", "gato-primer-dia-casa-guia"],
+    relatedPosts: ["pienso-gato-adulto-comparativa", "gato-interior-bienestar-enriquecimiento", "gato-primer-dia-casa-guia"],
   },
   {
     slug: "hills-science-plan-sterilised",
@@ -510,7 +510,7 @@ export const products: Product[] = [
     cons: ["Precio elevado", "Puede no gustar a gatos poco acostumbrados al pescado"],
     specs: { "Peso": "4,5 kg", "Ingredientes animales": "75%", "Cereales": "Sin cereales", "Proteína base": "Pescado salvaje" },
     badge: "Premium sin cereales",
-    relatedPosts: ["pienso-gatos-adultos-mejor-2025", "alimentacion-gatos-guia-propietarios"],
+    relatedPosts: ["pienso-gato-adulto-comparativa", "alimentacion-gatos-guia-propietarios"],
   },
   // SALUD E HIGIENE (ampliación blog)
   {
@@ -1049,7 +1049,7 @@ export const products: Product[] = [
     pros: ["Reduce vómitos post-comida por ingesta demasiado rápida", "Apoya el control de peso en gatos esterilizados o sedentarios", "Melamina resistente, apta para lavavajillas, sin BPA", "Base antideslizante en la mayoría de modelos de este tipo", "Complementa (no sustituye) el ajuste de ración diaria"],
     cons: ["Gatos muy voraces pueden tardar en adaptarse las primeras veces", "No es un comedero de precisión — sigue siendo necesario medir la ración diaria aparte"],
     specs: { "Material": "Melamina apta lavavajillas", "Diseño": "Laberinto antivoracidad", "Especies": "Gatos", "Beneficio principal": "Ingesta lenta + control de peso" },
-    relatedPosts: ["pienso-gatos-adultos-mejor-2025", "esterilizacion-gatos-guia-completa"],
+    relatedPosts: ["pienso-gato-adulto-comparativa", "esterilizacion-gatos-guia-completa"],
   },
 
   // ===== AMPLIACIÓN DE CATÁLOGO 07/09/2026 — 30 productos nuevos, ASIN verificados individualmente en amazon.es =====
