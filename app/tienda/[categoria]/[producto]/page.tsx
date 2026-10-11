@@ -5,6 +5,7 @@ import { categories, products, getProductBySlug, getProductsByCategory, amazonLi
 import { getPostBySlug } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
 import VetDisclaimer from "@/components/VetDisclaimer";
+import { productTitle, relatedInCategory } from "@/lib/seo";
 
 export async function generateStaticParams() {
   return products.map((p) => ({ categoria: p.categorySlug, producto: p.slug }));
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: `${product.name}: análisis y opinión` },
+    title: { absolute: productTitle(product.name, "análisis y opinión") },
     description: product.shortDescription,
     alternates: {
       canonical: `https://www.cuidatumascota.es/tienda/${product.categorySlug}/${product.slug}`,
@@ -35,7 +36,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
   const cat = categories.find((c) => c.slug === categoria);
   if (!product || !cat) notFound();
 
-  const related = getProductsByCategory(categoria).filter((p) => p.slug !== producto).slice(0, 3);
+  const related = relatedInCategory(getProductsByCategory(categoria), producto, 3);
   const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
 
