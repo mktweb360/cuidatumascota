@@ -627,7 +627,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   if (!post) notFound();
 
   const content = articleContent[slug] ?? [];
-  const relatedProducts = post.relatedProducts.map((s) => getProductBySlug(s)).filter(Boolean);
+  const relatedProducts = post.relatedProducts.map((s) => getProductBySlug(s)).filter((p) => p && !p.unavailable);
   const relatedPosts = (post.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
   const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
   const sameCategoryPosts = posts

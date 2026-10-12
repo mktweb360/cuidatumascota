@@ -20,6 +20,8 @@ export interface Product {
   categoryName?: string;
   priceMin?: number;
   fullDescription?: string;
+  /** Fecha en que se comprobó que no se puede comprar en Amazon.es: se oculta de la web. */
+  unavailable?: string;
 }
 
 export interface Category {
@@ -145,6 +147,7 @@ export const products: Product[] = [
   // ALIMENTACIÓN GATOS
   {
     slug: "hills-science-plan-adult-no-grain-pollo-gato",
+    unavailable: "2026-10-12",
     name: "Hill's Science Plan Adult No Grain Pollo Gato",
     asin: "B08GYDSWXR",
     image: "/images/products/hills-science-plan-adult-no-grain-pollo-gato.jpg",
@@ -243,6 +246,7 @@ export const products: Product[] = [
   // SALUD E HIGIENE
   {
     slug: "frontline-plus-perros-grandes-6-pipetas",
+    unavailable: "2026-10-12",
     name: "Frontline Plus Antiparasitario Perros Grandes 6 Pipetas",
     asin: "B092WGYFYJ",
     image: "/images/products/frontline-plus-perros-grandes-6-pipetas.jpg",
@@ -264,6 +268,7 @@ export const products: Product[] = [
   },
   {
     slug: "frontline-plus-perros-pequenos-3-pipetas",
+    unavailable: "2026-10-12",
     name: "Frontline Plus Antiparasitario Perros Pequeños 2-10kg 3 Pipetas",
     asin: "B01HS7GC6S",
     image: "/images/products/frontline-plus-perros-pequenos-3-pipetas.jpg",
@@ -302,6 +307,7 @@ export const products: Product[] = [
   },
   {
     slug: "tropiclean-kit-dental-perro",
+    unavailable: "2026-10-12",
     name: "TropiClean Kit Dental Completo Perros Gel + Cepillo",
     asin: "B09NMQT4YX",
     image: "/images/products/tropiclean-kit-dental-perro.jpg",
@@ -398,6 +404,7 @@ export const products: Product[] = [
   },
   {
     slug: "trixie-cama-ortopedica-vital-bendson",
+    unavailable: "2026-10-12",
     name: "Trixie Cama Ortopédica Vital Bendson Perro 90x80cm Gris",
     asin: "B084GXKGFS",
     image: "/images/products/trixie-cama-ortopedica-vital-bendson.jpg",
@@ -848,6 +855,7 @@ export const products: Product[] = [
   // JUGUETES PARA MASCOTAS
   {
     slug: "alfombra-olfativa-perros-snuffle-mat",
+    unavailable: "2026-10-12",
     name: "Alfombra Olfativa para Perros Snuffle Mat — Enriquecimiento Mental",
     asin: "B08LVGFBLZ",
     image: "/images/products/alfombra-olfativa-perros-snuffle-mat.jpg",
@@ -903,6 +911,7 @@ export const products: Product[] = [
   },
   {
     slug: "snuffle-mat-olfativo-perros-premium",
+    unavailable: "2026-10-12",
     name: "Snuffle Mat Alfombra Olfativa Perros Premium — Foraging Skills",
     asin: "B0F22KMRZB",
     image: "/images/products/snuffle-mat-olfativo-perros-premium.jpg",
@@ -921,6 +930,7 @@ export const products: Product[] = [
   },
   {
     slug: "websun-juguetes-gatos-20-piezas-plumas",
+    unavailable: "2026-10-12",
     name: "WEBSUN Juguetes para Gatos 20 Piezas — Set Interactivo con Plumas",
     asin: "B07DPGQQ5V",
     image: "/images/products/websun-juguetes-gatos-20-piezas-plumas.jpg",
@@ -998,6 +1008,7 @@ export const products: Product[] = [
   },
   {
     slug: "rinonera-porta-premios-adiestramiento-perro",
+    unavailable: "2026-10-12",
     name: "Riñonera Porta Premios para Adiestramiento Canino",
     asin: "B0CC4Z5CS9",
     category: "Accesorios para perros",
@@ -1017,6 +1028,7 @@ export const products: Product[] = [
   // ACCESORIOS GATOS — enriquecimiento
   {
     slug: "rascador-pared-vertical-gato-sisal",
+    unavailable: "2026-10-12",
     name: "Rascador de Pared Vertical para Gatos en Sisal",
     asin: "B09L4LJCHH",
     category: "Accesorios para gatos",
@@ -1035,6 +1047,7 @@ export const products: Product[] = [
   },
   {
     slug: "comedero-lento-antivoracidad-gato",
+    unavailable: "2026-10-12",
     name: "Comedero Antivoracidad de Melamina para Gatos",
     asin: "B0CDR4YLXQ",
     category: "Accesorios para gatos",
@@ -1853,7 +1866,7 @@ export const products: Product[] = [
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
-  return products.filter((p) => p.categorySlug === categorySlug);
+  return products.filter((p) => p.categorySlug === categorySlug && !p.unavailable);
 }
 
 export function getProductBySlug(slug: string): Product | undefined {
@@ -1861,7 +1874,7 @@ export function getProductBySlug(slug: string): Product | undefined {
 }
 
 export function getFeaturedProducts(count = 6): Product[] {
-  return products.filter((p) => p.badge).slice(0, count);
+  return products.filter((p) => p.badge && !p.unavailable).slice(0, count);
 }
 
 export { amazonLink };
