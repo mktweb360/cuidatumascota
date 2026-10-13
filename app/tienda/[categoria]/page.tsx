@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   if (!cat) return {};
   return {
     title: `${cat.name} — Análisis y comparativas | CuidaTuMascota.es`,
-    description: `Los mejores productos de ${cat.name} para tu mascota. Análisis honestos, pros y contras, y precios actualizados.`,
+    description: `Los mejores productos de ${cat.name} para tu mascota. Análisis honestos con pros y contras.`,
     alternates: { canonical: `https://www.cuidatumascota.es/tienda/${categoria}` },
     openGraph: {
       title: `${cat.name} — Análisis y comparativas`,

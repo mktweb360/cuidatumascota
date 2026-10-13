@@ -13,7 +13,7 @@ export default function Footer() {
               <span className="font-extrabold text-white text-lg">CuidaTuMascota.es</span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
-              Guías y reseñas de productos para mascotas. Ayudamos a los dueños de perros y gatos a elegir los mejores productos para sus compañeros.
+              Guías y análisis de productos para mascotas. Ayudamos a los dueños de perros y gatos a elegir los mejores productos para sus compañeros.
             </p>
           </div>
 

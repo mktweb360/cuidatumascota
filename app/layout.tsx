@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: "CuidaTuMascota.es — Salud, cuidado y accesorios para perros y gatos",
     template: "%s | CuidaTuMascota.es",
   },
-  description: "Las mejores guías y reseñas de productos para mascotas. Alimentación, salud, accesorios y todo lo que necesita tu perro o gato.",
+  description: "Guías y análisis de productos para mascotas. Alimentación, salud, accesorios y todo lo que necesita tu perro o gato.",
   metadataBase: new URL("https://www.cuidatumascota.es"),
   openGraph: { type: "website", locale: "es_ES", siteName: "CuidaTuMascota.es" },
   verification: {
@@ -31,7 +31,7 @@ const websiteSchema = {
   "@type": "WebSite",
   name: "CuidaTuMascota.es",
   url: "https://www.cuidatumascota.es",
-  description: "Guías y reseñas de productos para mascotas — perros y gatos",
+  description: "Guías y análisis de productos para mascotas — perros y gatos",
   inLanguage: "es",
   potentialAction: {
     "@type": "SearchAction",

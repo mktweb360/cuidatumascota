@@ -27,7 +27,7 @@ export default function HomePage() {
             Todo lo que tu mascota<br className="hidden sm:block" /> necesita, bien elegido
           </h1>
           <p className="text-cyan-100 text-lg sm:text-xl mb-8 max-w-2xl mx-auto">
-            Guías honestas y reseñas verificadas de alimentación, salud y accesorios para perros y gatos. Sin publicidad encubierta.
+            Guías honestas y análisis de alimentación, salud y accesorios para perros y gatos. Sin publicidad encubierta.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/tienda" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl text-lg transition-colors">
@@ -82,7 +82,7 @@ export default function HomePage() {
           <h2 className="text-2xl font-extrabold text-gray-900 mb-8">¿Por qué confiar en CuidaTuMascota.es?</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {[
-              { icon: "🔍", title: "Análisis honestos", desc: "Evaluamos cada producto con criterios veterinarios y de bienestar animal. Sin pagos por reseñas positivas." },
+              { icon: "🔍", title: "Análisis honestos", desc: "Evaluamos cada producto con criterios veterinarios y de bienestar animal. Sin pagos por recomendar productos." },
               { icon: "🩺", title: "Respaldo veterinario", desc: "Los artículos de salud y nutrición incluyen siempre el aviso de consulta veterinaria. Tu mascota primero." },
               { icon: "🛒", title: "Enlaces directos a Amazon.es", desc: "Te llevamos a la ficha de Amazon.es de cada producto para que veas allí el precio y la disponibilidad actualizados." },
             ].map((item) => (
