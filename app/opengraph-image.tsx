@@ -42,7 +42,7 @@ export default async function Image() {
             maxWidth: 800,
           }}
         >
-          Guías y reseñas para el cuidado de tu perro y gato
+          Guías y análisis para el cuidado de tu perro y gato
         </div>
         <div
           style={{

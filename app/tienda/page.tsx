@@ -6,7 +6,7 @@ import ProductCard from "@/components/ProductCard";
 export const metadata: Metadata = {
   title: "Tienda — Los mejores productos para perros y gatos",
   description:
-    "Encuentra los mejores productos para tu mascota. Alimentación, accesorios, salud y más. Comparativas honestas y precios actualizados.",
+    "Encuentra los mejores productos para tu mascota. Alimentación, accesorios, salud y más. Comparativas honestas con pros y contras.",
   alternates: { canonical: "https://www.cuidatumascota.es/tienda" },
 };
 

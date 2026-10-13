@@ -10,7 +10,7 @@ const personSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Equipo Editorial de CuidaTuMascota.es",
-  description: "Equipo editorial de CuidaTuMascota.es (Mkt Web 360 SLU). Comparamos ingredientes, composición nutricional, certificaciones y opiniones verificadas de propietarios antes de recomendar cualquier producto, con apoyo de IA en investigación y redacción bajo revisión editorial. No somos veterinarios: nuestro contenido es informativo y nunca sustituye la consulta veterinaria profesional.",
+  description: "Equipo editorial de CuidaTuMascota.es (Mkt Web 360 SLU). Comparamos ingredientes, composición nutricional, certificaciones y fuentes veterinarias antes de recomendar cualquier producto, con apoyo de IA en investigación y redacción bajo revisión editorial. No somos veterinarios: nuestro contenido es informativo y nunca sustituye la consulta veterinaria profesional.",
   url: "https://www.cuidatumascota.es/sobre-nosotros",
   parentOrganization: {
     "@type": "Organization",
@@ -66,7 +66,7 @@ export default function SobreNosotrosPage() {
             <p className="font-extrabold text-gray-900 text-lg leading-tight">Equipo Editorial de CuidaTuMascota.es</p>
             <p className="text-cyan-700 font-semibold text-sm mb-2">Mkt Web 360 SLU</p>
             <p className="text-gray-600 text-sm leading-relaxed">
-              No somos veterinarios. Nuestro equipo compara ingredientes, composición nutricional, certificaciones de seguridad y opiniones verificadas de propietarios antes de recomendar cualquier producto, con apoyo de herramientas de IA en la investigación y redacción, siempre con revisión editorial. El contenido de este portal es informativo y nunca sustituye la consulta con tu veterinario.
+              No somos veterinarios. Nuestro equipo compara ingredientes, composición nutricional, certificaciones de seguridad y fuentes veterinarias antes de recomendar cualquier producto, con apoyo de herramientas de IA en la investigación y redacción, siempre con revisión editorial. El contenido de este portal es informativo y nunca sustituye la consulta con tu veterinario.
             </p>
             <div className="flex flex-wrap gap-2 mt-3">
               {["Nutrición animal", "Comportamiento canino", "Salud preventiva", "Antiparasitarios"].map((tag) => (
@@ -93,8 +93,8 @@ export default function SobreNosotrosPage() {
               {[
                 "Análisis de ingredientes y composición nutricional (especialmente en alimentación)",
                 "Verificación de seguridad y certificaciones (CE, normativa europea de bienestar animal)",
-                "Estudio de valoraciones verificadas de propietarios en múltiples plataformas",
-                "Comparativa de relación calidad-precio en el mercado español",
+                "Consulta de fuentes veterinarias y de la documentación del fabricante",
+                "Comparativa de formatos, tallas y características en el mercado español",
                 "Revisión de contraindicaciones y compatibilidad con distintos perfiles de mascota",
               ].map((item) => (
                 <li key={item} className="flex gap-2">
@@ -126,7 +126,7 @@ export default function SobreNosotrosPage() {
               </ul>
             </div>
             <p className="text-sm text-gray-600 mt-3">
-              Las comisiones nos permiten mantener y mejorar el portal. <strong>Nunca aceptamos pagos por reseñas positivas ni por posicionamiento preferente de productos.</strong> Nuestras opiniones son siempre honestas, independientes y basadas en criterio técnico.
+              Las comisiones nos permiten mantener y mejorar el portal. <strong>Nunca aceptamos pagos por recomendar productos ni por posicionamiento preferente de productos.</strong> Nuestras opiniones son siempre honestas, independientes y basadas en criterio técnico.
             </p>
           </div>
 
