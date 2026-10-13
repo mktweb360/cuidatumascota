@@ -56,7 +56,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-6 space-y-2 text-xs text-gray-500">
           <p>
-            <strong className="text-gray-400">Aviso de afiliados:</strong> CuidaTuMascota.es participa en el Programa de Afiliados de Amazon EU (cclaserdepi01-21). Los precios son orientativos y pueden variar.
+            <strong className="text-gray-400">Aviso de afiliados:</strong> CuidaTuMascota.es participa en el Programa de Afiliados de Amazon EU. En calidad de Afiliado de Amazon, obtenemos ingresos por las compras adscritas que cumplen los requisitos aplicables.
           </p>
           <p>© {new Date().getFullYear()} Mkt Web 360 SLU — CIF B87679304 — info@mktweb360.com</p>
         </div>

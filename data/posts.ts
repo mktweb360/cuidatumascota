@@ -14,6 +14,29 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "regalos-navidad-reyes-perros-gatos",
+    title: "Regalos de Navidad y Reyes para perros, gatos y sus dueños: ideas según la mascota (2026)",
+    excerpt: "El regalo que acierta es el que encaja con lo que necesita el animal: un juguete rellenable o de olfato para el perro que se aburre, una cama ortopédica para el perro mayor, una caña con plumas y un rascador estable para el gato de interior. Para el dueño, lo más útil es lo que le ahorra trabajo, como un rodillo quitapelos o un buen cepillo.",
+    category: "Accesorios",
+    date: "2026-10-13",
+    readTime: 9,
+    relatedProducts: ["kong-extreme-talla-mediana", "trixie-dog-activity-turn-around", "kong-puppy-goodie-bone", "bedsure-sofa-cama-ortopedica-perro-grande", "feandrea-arbol-gatos-143cm", "pawaboo-varita-plumas-gatos-pack-4", "petstages-nina-ottosson-melon-madness", "bedsure-cama-cueva-gato-40cm", "ace2ace-rodillo-quitapelos-reutilizable", "trixie-walker-active-botas-neopreno"],
+    relatedPosts: ["black-friday-mascotas-que-comprar", "juguetes-estimulacion-mental-perros", "arbol-rascador-gatos-guia-compra", "cama-ortopedica-perros-mayores"],
+    categoryCta: { href: "/tienda/juguetes-mascotas", text: "Ver juguetes para perros y gatos →" },
+  },
+  {
+    slug: "black-friday-mascotas-que-comprar",
+    title: "Black Friday 2026 para mascotas: qué merece la pena comprar, cómo elegir y qué evitar",
+    excerpt: "En Black Friday (27 de noviembre de 2026) y Cyber Monday (30 de noviembre) compensa adelantar compras duraderas que ya ibas a hacer: una cama de la talla correcta, un transportín, un arnés, una fuente o un comedero lento. Comprueba antes la talla, el vendedor y quién envía. Y en Navidad, mantén fuera de su alcance el chocolate, las uvas y pasas, los dulces con xilitol, el espumillón y los cables.",
+    category: "Accesorios",
+    date: "2026-10-13",
+    readTime: 10,
+    relatedProducts: ["bedsure-sofa-cama-ortopedica-perro-grande", "ksiia-cama-ortopedica-perro-xl", "bedsure-cama-antistress-invierno-50cm", "amazon-basics-transportin-2-puertas-48cm", "petsafe-easy-walk-arnes-antitirones", "rabbitgoo-arnes-perro-antitirones-l", "trixie-comedero-slow-bowl-espiral", "feelneedy-fuente-gatos-acero-inoxidable-2-8l", "surefeed-microchip-feeder", "kong-extreme-talla-mediana"],
+    relatedPosts: ["regalos-navidad-reyes-perros-gatos", "transportin-viaje-mascotas", "cama-ortopedica-perros-mayores", "perro-tira-de-la-correa-solucion"],
+    isHealth: true,
+    categoryCta: { href: "/tienda", text: "Ver todas las categorías de la tienda →" },
+  },
+  {
     slug: "mejor-pienso-perro-2025",
     image: "/images/blog/mejor-pienso-perro-2025.jpg",
     title: "El mejor pienso para perros — Guía por razas y edad",
