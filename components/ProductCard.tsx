@@ -45,7 +45,7 @@ export default function ProductCard({ product }: Props) {
             href={`/tienda/${product.categorySlug}/${product.slug}`}
             className="block w-full bg-cyan-600 hover:bg-cyan-700 text-white font-bold text-sm py-2.5 px-4 rounded-xl text-center transition-colors"
           >
-            Ver análisis y precio →
+            Ver análisis →
           </Link>
         </div>
       </div>
