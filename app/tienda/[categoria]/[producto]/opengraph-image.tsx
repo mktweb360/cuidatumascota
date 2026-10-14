@@ -14,7 +14,7 @@ export default async function Image({ params }: { params: Promise<{ categoria: s
   const product = getProductBySlug(producto);
   const name = product?.name ?? "Producto";
   const description = product?.shortDescription ?? "";
-  const badge = product?.badge;
+  // Cumplimiento Amazon Associates: sin precios, valoraciones ni distintivos tipo «más vendido» (no se pinta product.badge).
 
   return new ImageResponse(
     (
@@ -31,21 +31,19 @@ export default async function Image({ params }: { params: Promise<{ categoria: s
           padding: "70px 80px",
         }}
       >
-        {badge && (
-          <div
-            style={{
-              background: "rgba(255,255,255,0.20)",
-              borderRadius: 999,
-              padding: "8px 22px",
-              fontSize: 18,
-              color: "white",
-              fontWeight: 700,
-              marginBottom: 24,
-            }}
-          >
-            {badge}
-          </div>
-        )}
+        <div
+          style={{
+            background: "rgba(255,255,255,0.20)",
+            borderRadius: 999,
+            padding: "8px 22px",
+            fontSize: 18,
+            color: "white",
+            fontWeight: 700,
+            marginBottom: 24,
+          }}
+        >
+          Análisis
+        </div>
         <div
           style={{
             fontSize: 52,

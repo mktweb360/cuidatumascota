@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: "article",
       publishedTime: post.date,
       url: `https://www.cuidatumascota.es/blog/${post.slug}`,
-      images: post.image ? [{ url: `https://www.cuidatumascota.es${post.image}` }] : undefined,
+      // og:image y twitter:image los genera app/blog/[slug]/opengraph-image.tsx (título + foto del post).
     },
   };
 }
