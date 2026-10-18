@@ -22,7 +22,7 @@ Categorías disponibles con fichas de producto individuales:
 - Pienso para perros: https://www.cuidatumascota.es/tienda/alimentacion-perros — Royal Canin, Hill's Science Plan, Orijen
 - Pienso para gatos: https://www.cuidatumascota.es/tienda/alimentacion-gatos — Royal Canin Indoor, Hill's Sterilised, Acana Pacifica
 - Accesorios para perros: https://www.cuidatumascota.es/tienda/accesorios-perros — Kong Classic, Ruffwear, camas
-- Accesorios para gatos: https://www.cuidatumascota.es/tienda/accesorios-gatos — Catit Flower Fountain, árbol rascador PetFusion, SureFeed
+- Accesorios para gatos: https://www.cuidatumascota.es/tienda/accesorios-gatos — Catit Flower Fountain, árboles y postes rascadores, transportines, areneros, SureFeed
 - Salud e higiene: https://www.cuidatumascota.es/tienda/salud-higiene — Frontline Combo perros y gatos, Beaphar Fiprex
 
 ## Artículos publicados
@@ -48,11 +48,12 @@ Categorías disponibles con fichas de producto individuales:
 ### Accesorios
 - [Kong Classic para perros: guía de uso y recetas](https://www.cuidatumascota.es/blog/kong-classic-guia-uso) — Rellenos por nivel de dificultad, cuándo usarlo, qué talla elegir
 - [Fuente de agua para gatos Catit Flower: análisis](https://www.cuidatumascota.es/blog/fuente-agua-gatos-catit-analisis) — Por qué los gatos necesitan agua en movimiento, mantenimiento
-- [Árbol rascador para gatos: guía de compra](https://www.cuidatumascota.es/blog/arbol-rascador-gatos-guia-compra) — Criterios, PetFusion 91cm análisis, cómo acostumbrar al gato
+- [Rascador para gatos: tipos, árbol rascador y cómo elegir el adecuado](https://www.cuidatumascota.es/blog/arbol-rascador-gatos-guia-compra) — Poste vertical, cartón horizontal, de pared o árbol; altura, materiales, dónde ponerlo y cómo conseguir que lo use (Cats Protection)
 - [Comedero con microchip SureFeed: análisis](https://www.cuidatumascota.es/blog/comedero-microchip-surefeed-analisis) — Cuándo tiene sentido, cómo funciona y para quién es
 - [Ruffwear Approach Pack: análisis para senderismo con perros](https://www.cuidatumascota.es/blog/mochila-senderismo-perros-ruffwear) — Capacidad, ajuste, carga máxima y cómo introducirla
 - [Juguetes para estimulación mental de perros](https://www.cuidatumascota.es/blog/juguetes-estimulacion-mental-perros) — Los mejores juguetes cognitivos y cómo usarlos
 - [Transportín para viaje con mascotas](https://www.cuidatumascota.es/blog/transportin-viaje-mascotas) — Guía de elección por tamaño, material y tipo de viaje
+- [Transportín para gato: rígido, blando o mochila, tamaño según su peso y cómo acostumbrarlo (guía 2026)](https://www.cuidatumascota.es/blog/transportin-para-gato-guia) — Apertura superior, tamaño por peso, avión (ejemplo de Iberia), coche, veterinario y entrenamiento paso a paso (International Cat Care y Cats Protection)
 - [Arenero para gatos: cómo elegir tipo, tamaño, arena y ubicación (guía 2026)](https://www.cuidatumascota.es/blog/mejor-arenero-para-gatos-guia) — Abierto, cerrado, entrada superior o autolimpiable; regla de 1,5 veces el gato y n+1 (International Cat Care), arenas, limpieza, cuándo ir al veterinario y comparativa
 
 ### Cuidados
