@@ -1445,6 +1445,7 @@ export const products: Product[] = [
     slug: "nobleza-alfombrilla-refrescante-perros-xxl",
     name: "Nobleza Alfombrilla Refrescante para Perros Extra Grandes 120x80cm",
     asin: "B072JTQ9NL",
+    unavailable: "2026-10-18",
     category: "Camas y transportines",
     categorySlug: "camas-transportines",
     categoryName: "Camas y transportines",
