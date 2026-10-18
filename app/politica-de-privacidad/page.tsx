@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de privacidad",
+  title: "Política de privacidad y protección de datos",
   description: "Política de privacidad y protección de datos de CuidaTuMascota.es.",
   alternates: { canonical: "https://www.cuidatumascota.es/politica-de-privacidad" },
 };
@@ -23,13 +23,14 @@ export default function PoliticaPrivacidadPage() {
           <ul className="space-y-1">
             <li><strong>Identidad:</strong> Mkt Web 360 SLU · <strong>CIF:</strong> B87679304</li>
             <li><strong>Email:</strong> info@mktweb360.com</li>
+            <li>Resto de datos del titular en el <Link href="/aviso-legal" className="text-cyan-700 hover:underline">aviso legal</Link></li>
           </ul>
         </section>
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">2. Datos que recopilamos</h2>
           <ul className="space-y-1">
-            <li><strong>Formulario de contacto:</strong> nombre y email</li>
-            <li><strong>Cookies publicitarias:</strong> con consentimiento (ver política de cookies)</li>
+            <li><strong><Link href="/contacto" className="text-cyan-700 hover:underline">Formulario de contacto</Link>:</strong> nombre y email</li>
+            <li><strong>Cookies publicitarias:</strong> con consentimiento (ver <Link href="/politica-de-cookies" className="text-cyan-700 hover:underline">política de cookies</Link>)</li>
             <li><strong>Google AdSense (ca-pub-6063067965030118):</strong> solo con consentimiento</li>
             <li><strong>Amazon Associates:</strong> Amazon gestiona sus propios datos según su política</li>
           </ul>

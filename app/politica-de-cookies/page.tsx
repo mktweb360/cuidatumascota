@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de cookies",
+  title: "Política de cookies y cómo gestionarlas",
   description: "Qué cookies utilizamos en CuidaTuMascota.es y cómo gestionarlas.",
   alternates: { canonical: "https://www.cuidatumascota.es/politica-de-cookies" },
 };
@@ -67,7 +67,7 @@ export default function PoliticaCookiesPage() {
             <li>Gestiona publicidad de Google en <a href="https://www.google.com/settings/ads" className="text-cyan-700 hover:underline" target="_blank" rel="noopener noreferrer">google.com/settings/ads</a></li>
           </ul>
         </section>
-        <p>Más información en nuestra <Link href="/politica-de-privacidad" className="text-cyan-700 hover:underline">política de privacidad</Link> o escríbenos a info@mktweb360.com.</p>
+        <p>Más información en nuestra <Link href="/politica-de-privacidad" className="text-cyan-700 hover:underline">política de privacidad</Link> o escríbenos a info@mktweb360.com desde la <Link href="/contacto" className="text-cyan-700 hover:underline">página de contacto</Link>.</p>
         <p className="text-xs text-gray-400">Última actualización: octubre de 2026</p>
       </div>
     </div>

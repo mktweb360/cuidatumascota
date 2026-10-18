@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contacto",
+  title: "Contacto: dudas, sugerencias y errores",
   description: "¿Tienes alguna pregunta o sugerencia sobre el cuidado de tu perro o gato? Contacta con el equipo de CuidaTuMascota.es.",
   alternates: { canonical: "/contacto" },
 };

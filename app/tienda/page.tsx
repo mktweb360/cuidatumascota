@@ -4,7 +4,7 @@ import { categories, getFeaturedProducts, getProductsByCategory } from "@/data/p
 import ProductCard from "@/components/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Tienda — Los mejores productos para perros y gatos",
+  title: "Tienda de productos para perros y gatos",
   description:
     "Encuentra los mejores productos para tu mascota. Alimentación, accesorios, salud y más. Comparativas honestas con pros y contras.",
   alternates: { canonical: "https://www.cuidatumascota.es/tienda" },

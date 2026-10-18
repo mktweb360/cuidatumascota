@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso legal",
+  title: "Aviso legal: titular y condiciones de uso",
   description: "Aviso legal de CuidaTuMascota.es — Mkt Web 360 SLU, CIF B87679304.",
   alternates: { canonical: "https://www.cuidatumascota.es/aviso-legal" },
 };
@@ -23,13 +23,13 @@ export default function AvisoLegalPage() {
             <li><strong>Razón social:</strong> Mkt Web 360 SLU</li>
             <li><strong>CIF:</strong> B87679304</li>
             <li><strong>Domicilio social:</strong> España</li>
-            <li><strong>Email:</strong> info@mktweb360.com</li>
+            <li><strong>Email:</strong> info@mktweb360.com (también desde la <Link href="/contacto" className="text-cyan-700 hover:underline">página de contacto</Link>)</li>
             <li><strong>Sitio web:</strong> https://www.cuidatumascota.es</li>
           </ul>
         </section>
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">2. Objeto y ámbito</h2>
-          <p>El presente Aviso Legal regula el acceso y uso de www.cuidatumascota.es. El acceso implica la aceptación de este Aviso Legal.</p>
+          <p>El presente Aviso Legal regula el acceso y uso de www.cuidatumascota.es. El acceso implica la aceptación de este Aviso Legal. El tratamiento de datos personales se explica en la <Link href="/politica-de-privacidad" className="text-cyan-700 hover:underline">política de privacidad</Link> y el uso de cookies, en la <Link href="/politica-de-cookies" className="text-cyan-700 hover:underline">política de cookies</Link>.</p>
         </section>
         <section>
           <h2 className="text-lg font-extrabold text-gray-900 mb-2">3. Carácter informativo del contenido</h2>

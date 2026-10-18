@@ -122,7 +122,7 @@ export default function SobreNosotrosPage() {
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-5">
               <p className="font-semibold text-amber-900 mb-3">Programas de afiliados que utilizamos:</p>
               <ul className="space-y-2 text-sm text-amber-800">
-                <li><strong>Programa de afiliación:</strong> Somos afiliados de distintos programas de partners comerciales. Recibimos una comisión sin coste adicional para ti cuando realizas una compra a través de nuestros enlaces. Más detalle en nuestra política de privacidad.</li>
+                <li><strong>Programa de afiliación:</strong> Somos afiliados de distintos programas de partners comerciales. Recibimos una comisión sin coste adicional para ti cuando realizas una compra a través de nuestros enlaces. Más detalle en nuestra <Link href="/politica-de-privacidad" className="text-cyan-700 hover:underline">política de privacidad</Link>.</li>
                 <li><strong>Google AdSense (pub-6063067965030118):</strong> Publicidad contextual de Google, únicamente con tu consentimiento de cookies.</li>
               </ul>
             </div>
@@ -134,6 +134,7 @@ export default function SobreNosotrosPage() {
           <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 text-sm text-gray-600">
             <p className="font-semibold text-gray-800 mb-1">Datos de la empresa</p>
             <p>Mkt Web 360 SLU · CIF: B87679304 · <a href="mailto:info@mktweb360.com" className="text-cyan-700 hover:underline">info@mktweb360.com</a></p>
+            <p className="mt-1"><Link href="/contacto" className="text-cyan-700 hover:underline">Contacto</Link> · <Link href="/aviso-legal" className="text-cyan-700 hover:underline">Aviso legal</Link></p>
           </div>
         </div>
       </div>
