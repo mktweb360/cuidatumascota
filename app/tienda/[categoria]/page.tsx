@@ -3,6 +3,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { categories, getProductsByCategory } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
+import { getPostBySlug } from "@/data/posts";
+
+// Guías del blog enlazadas desde cada categoría (enlazado interno hacia las guías de compra).
+const categoryGuides: Record<string, string[]> = {
+  "accesorios-gatos": ["mejor-arenero-para-gatos-guia", "savic-nestor-arenero-analisis", "arbol-rascador-gatos-guia-compra", "fuente-agua-gatos-catit-analisis"],
+};
 
 export function generateStaticParams() {
   return categories.map((c) => ({ categoria: c.slug }));
@@ -142,6 +148,21 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
                 </Link>
               ))}
             </div>
+
+            {(categoryGuides[cat.slug] ?? []).length > 0 && (
+              <div className="mb-6 rounded-2xl border border-cyan-100 bg-cyan-50/50 p-4">
+                <p className="text-sm font-bold text-gray-900 mb-2">Guías de compra relacionadas</p>
+                <ul className="space-y-1">
+                  {(categoryGuides[cat.slug] ?? []).map((s) => getPostBySlug(s)).filter(Boolean).map((g) => (
+                    <li key={g!.slug}>
+                      <Link href={`/blog/${g!.slug}`} className="text-sm text-cyan-700 hover:text-cyan-900 hover:underline">
+                        {g!.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             {/* Product count bar */}
             <div className="flex items-center justify-between mb-5 pb-4 border-b border-gray-100">

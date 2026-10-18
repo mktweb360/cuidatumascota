@@ -10,6 +10,10 @@ export interface Post {
   isHealth?: boolean;
   categoryCta?: { href: string; text: string };
   image?: string;
+  /** Title SEO (≤ 60 caracteres, sin la marca). Si no existe se usa `title`. */
+  seoTitle?: string;
+  /** Meta description (140-155 caracteres). Si no existe se usa `excerpt`. */
+  metaDescription?: string;
 }
 
 export const posts: Post[] = [
@@ -296,7 +300,7 @@ export const posts: Post[] = [
     date: "2025-07-15",
     readTime: 8,
     relatedProducts: ["petfusion-arbol-rascador", "catit-flower-fountain", "surefeed-microchip-feeder", "bedsure-cama-antistress-invierno-50cm", "bedsure-cama-cueva-gato-40cm"],
-    relatedPosts: ["arbol-rascador-gatos-guia-compra", "fuente-agua-gatos-catit-analisis", "gato-primer-dia-casa-guia"],
+    relatedPosts: ["arbol-rascador-gatos-guia-compra", "fuente-agua-gatos-catit-analisis", "gato-primer-dia-casa-guia", "mejor-arenero-para-gatos-guia"],
     categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver todos los accesorios para gatos →" },
   },
   {
@@ -320,7 +324,7 @@ export const posts: Post[] = [
     date: "2025-07-17",
     readTime: 7,
     relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador", "royal-canin-indoor-adult", "bedsure-cama-cueva-gato-40cm"],
-    relatedPosts: ["gato-interior-bienestar-enriquecimiento", "arbol-rascador-gatos-guia-compra", "desparasitacion-gatos-guia"],
+    relatedPosts: ["mejor-arenero-para-gatos-guia", "gato-interior-bienestar-enriquecimiento", "arbol-rascador-gatos-guia-compra", "desparasitacion-gatos-guia"],
   },
   {
     slug: "pasear-perro-correctamente-guia",
@@ -380,7 +384,7 @@ export const posts: Post[] = [
     date: "2025-08-01",
     readTime: 10,
     relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador", "royal-canin-indoor-adult", "frontline-combo-gato"],
-    relatedPosts: ["gato-primer-dia-casa-guia", "gato-interior-bienestar-enriquecimiento", "alimentacion-gatos-guia-propietarios", "desparasitacion-gatos-guia"],
+    relatedPosts: ["gato-primer-dia-casa-guia", "mejor-arenero-para-gatos-guia", "gato-interior-bienestar-enriquecimiento", "alimentacion-gatos-guia-propietarios", "desparasitacion-gatos-guia"],
     categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver accesorios esenciales para gatitos →" },
   },
   {
@@ -498,7 +502,7 @@ export const posts: Post[] = [
     date: "2026-09-07",
     readTime: 8,
     relatedProducts: ["savic-nestor-arenero-cerrado-gatos", "amazon-basics-alfombra-arenero-gatos"],
-    relatedPosts: ["gato-interior-bienestar-enriquecimiento", "gato-primer-dia-casa-guia", "alimentacion-gatos-guia-propietarios"],
+    relatedPosts: ["mejor-arenero-para-gatos-guia", "gato-interior-bienestar-enriquecimiento", "gato-primer-dia-casa-guia", "alimentacion-gatos-guia-propietarios"],
     categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver areneros y accesorios de higiene felina →" },
   },
   {
@@ -546,6 +550,20 @@ export const posts: Post[] = [
     relatedProducts: ["trixie-tijeras-cortaunas-perros", "candure-cortaunas-perro-gato-pequenos-animales", "cortaunas-gato-profesional-acero-inoxidable-tijera", "epica-cortaunas-perros-grandes-cuchilla-semicircular", "artero-x-top-polvo-hemostatico-unas-15g"],
     relatedPosts: ["cepillado-pelo-perro-guia", "cuidado-preventivo-mascotas-guia", "ordenes-basicas-perro-guia", "gato-interior-bienestar-enriquecimiento"],
     categoryCta: { href: "/tienda/salud-higiene", text: "Ver cortaúñas y productos de aseo →" },
+  },
+  {
+    slug: "mejor-arenero-para-gatos-guia",
+    title: "Arenero para gatos: cómo elegir tipo, tamaño, arena y ubicación (guía 2026)",
+    seoTitle: "Arenero para gatos: tipos, tamaño y cuál elegir (2026)",
+    metaDescription: "Qué arenero para gatos elegir: abierto, cerrado, de entrada superior o autolimpiable. Tamaño, cuántos poner, qué arena y dónde, con fuentes veterinarias.",
+    excerpt: "El mejor arenero para gatos es el que tu gato usa sin dudar: largo como 1,5 veces su cuerpo (de la nariz a la base de la cola), con unos 3 cm de arena fina, aglomerante y sin perfume, en un rincón tranquilo lejos de la comida. Pon uno por gato más uno extra. Abierto o cerrado depende del gato; los de entrada superior no sirven para gatitos ni gatos mayores.",
+    category: "Cuidados",
+    date: "2026-10-18",
+    readTime: 10,
+    relatedProducts: ["feandrea-arenero-gato-bordes-altos-abierto-xl", "rotho-biala-arenero-cerrado-filtro-carbon", "savic-nestor-arenero-cerrado-gatos", "iris-ohyama-arenero-entrada-superior-tecl-20", "petkit-pura-max-2-arenero-autolimpiable", "biokats-diamond-care-classic-arena-sin-fragancia-10l", "cats-best-original-arena-vegetal-aglomerante-10l", "amazon-basics-alfombra-arenero-gatos"],
+    relatedPosts: ["savic-nestor-arenero-analisis", "gato-primer-dia-casa-guia", "cuidados-gatito-primer-mes", "gato-interior-bienestar-enriquecimiento"],
+    isHealth: true,
+    categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver areneros y arenas para gatos →" },
   },
 ];
 
