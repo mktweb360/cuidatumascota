@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Política de cookies",
   description: "Qué cookies utilizamos en CuidaTuMascota.es y cómo gestionarlas.",
+  alternates: { canonical: "https://www.cuidatumascota.es/politica-de-cookies" },
 };
 
 export default function PoliticaCookiesPage() {
@@ -43,6 +44,12 @@ export default function PoliticaCookiesPage() {
                   <td className="px-3 py-2 border border-gray-100">Variable (Google)</td>
                 </tr>
                 <tr>
+                  <td className="px-3 py-2 border border-gray-100">_ga, _ga_*</td>
+                  <td className="px-3 py-2 border border-gray-100">Analítica (Google Analytics 4)</td>
+                  <td className="px-3 py-2 border border-gray-100">Medir de forma agregada las visitas y los clics a Amazon (Google Analytics 4; solo con consentimiento)</td>
+                  <td className="px-3 py-2 border border-gray-100">2 años</td>
+                </tr>
+                <tr>
                   <td className="px-3 py-2 border border-gray-100">Amazon</td>
                   <td className="px-3 py-2 border border-gray-100">Afiliados terceros</td>
                   <td className="px-3 py-2 border border-gray-100">Rastreo conversiones de afiliado</td>
@@ -61,7 +68,7 @@ export default function PoliticaCookiesPage() {
           </ul>
         </section>
         <p>Más información en nuestra <Link href="/politica-de-privacidad" className="text-cyan-700 hover:underline">política de privacidad</Link> o escríbenos a info@mktweb360.com.</p>
-        <p className="text-xs text-gray-400">Última actualización: junio 2025</p>
+        <p className="text-xs text-gray-400">Última actualización: octubre de 2026</p>
       </div>
     </div>
   );

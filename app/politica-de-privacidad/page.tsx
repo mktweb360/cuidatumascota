@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Política de privacidad",
   description: "Política de privacidad y protección de datos de CuidaTuMascota.es.",
+  alternates: { canonical: "https://www.cuidatumascota.es/politica-de-privacidad" },
 };
 
 export default function PoliticaPrivacidadPage() {

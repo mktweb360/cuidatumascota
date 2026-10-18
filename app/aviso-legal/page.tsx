@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Aviso legal",
   description: "Aviso legal de CuidaTuMascota.es — Mkt Web 360 SLU, CIF B87679304.",
+  alternates: { canonical: "https://www.cuidatumascota.es/aviso-legal" },
 };
 
 export default function AvisoLegalPage() {
