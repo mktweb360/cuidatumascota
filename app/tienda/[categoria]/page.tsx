@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   const cat = categories.find((c) => c.slug === categoria);
   if (!cat) return {};
   return {
-    title: `${cat.name} — Análisis y comparativas | CuidaTuMascota.es`,
+    title: `${cat.name}: guía de compra y comparativa`,
     description: `Los mejores productos de ${cat.name} para tu mascota. Análisis honestos con pros y contras.`,
     alternates: { canonical: `https://www.cuidatumascota.es/tienda/${categoria}` },
     openGraph: {
