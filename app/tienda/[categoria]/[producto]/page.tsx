@@ -5,7 +5,7 @@ import { categories, products, getProductBySlug, getProductsByCategory, amazonLi
 import { getPostBySlug } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
 import VetDisclaimer from "@/components/VetDisclaimer";
-import { productTitle, relatedInCategory } from "@/lib/seo";
+import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
 
 export async function generateStaticParams() {
   return products.map((p) => ({ categoria: p.categorySlug, producto: p.slug }));
@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: productTitle(product.name, "análisis y opinión") },
+    title: { absolute: productTitleUnique(product, products, "análisis y opinión") },
     description: product.shortDescription,
     alternates: {
       canonical: `https://www.cuidatumascota.es/tienda/${product.categorySlug}/${product.slug}`,
