@@ -417,7 +417,7 @@ export const posts: Post[] = [
     date: "2025-08-01",
     readTime: 10,
     relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador", "royal-canin-indoor-adult", "frontline-combo-gato"],
-    relatedPosts: ["gato-primer-dia-casa-guia", "mejor-arenero-para-gatos-guia", "gato-interior-bienestar-enriquecimiento", "alimentacion-gatos-guia-propietarios", "desparasitacion-gatos-guia"],
+    relatedPosts: ["gato-primer-dia-casa-guia", "mejor-arenero-para-gatos-guia", "arenero-autolimpiable-gatos", "gato-interior-bienestar-enriquecimiento", "alimentacion-gatos-guia-propietarios", "desparasitacion-gatos-guia"],
     categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver accesorios esenciales para gatitos →" },
   },
   {
@@ -545,7 +545,7 @@ export const posts: Post[] = [
     date: "2026-09-07",
     readTime: 8,
     relatedProducts: ["savic-nestor-arenero-cerrado-gatos", "amazon-basics-alfombra-arenero-gatos"],
-    relatedPosts: ["mejor-arenero-para-gatos-guia", "gato-interior-bienestar-enriquecimiento", "gato-primer-dia-casa-guia", "alimentacion-gatos-guia-propietarios"],
+    relatedPosts: ["mejor-arenero-para-gatos-guia", "arenero-autolimpiable-gatos", "gato-interior-bienestar-enriquecimiento", "gato-primer-dia-casa-guia", "alimentacion-gatos-guia-propietarios"],
     categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver areneros y accesorios de higiene felina →" },
   },
   {
@@ -608,7 +608,7 @@ export const posts: Post[] = [
     date: "2026-10-18",
     readTime: 10,
     relatedProducts: ["feandrea-arenero-gato-bordes-altos-abierto-xl", "rotho-biala-arenero-cerrado-filtro-carbon", "savic-nestor-arenero-cerrado-gatos", "iris-ohyama-arenero-entrada-superior-tecl-20", "petkit-pura-max-2-arenero-autolimpiable", "biokats-diamond-care-classic-arena-sin-fragancia-10l", "cats-best-original-arena-vegetal-aglomerante-10l", "amazon-basics-alfombra-arenero-gatos"],
-    relatedPosts: ["savic-nestor-arenero-analisis", "gato-primer-dia-casa-guia", "cuidados-gatito-primer-mes", "gato-interior-bienestar-enriquecimiento"],
+    relatedPosts: ["arenero-autolimpiable-gatos", "savic-nestor-arenero-analisis", "gato-primer-dia-casa-guia", "cuidados-gatito-primer-mes", "gato-interior-bienestar-enriquecimiento"],
     isHealth: true,
     categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver areneros y arenas para gatos →" },
   },
@@ -624,6 +624,20 @@ export const posts: Post[] = [
     relatedProducts: ["amazon-basics-transportin-2-puertas-48cm", "ferplast-atlas-20-open-transportin-gato-8kg", "ferplast-atlas-10-open-techo-abrible", "amazon-basics-transportin-blando-gato-entrada-superior", "pepper-transportin-blando-gato-7kg", "pecute-mochila-transportin-gatos"],
     relatedPosts: ["transportin-viaje-mascotas", "gato-primer-dia-casa-guia", "cuidados-gatito-primer-mes", "mejor-arenero-para-gatos-guia"],
     categoryCta: { href: "/tienda/camas-transportines", text: "Ver transportines para gatos →" },
+  },
+  {
+    slug: "arenero-autolimpiable-gatos",
+    title: "Arenero autolimpiable para gatos: cómo funciona, qué arena usa y cuándo no conviene (guía 2026)",
+    seoTitle: "Arenero autolimpiable: ¿merece la pena?",
+    metaDescription: "Arenero autolimpiable para gatos: cómo funciona (rastrillo o tambor), qué arena admite, peso mínimo del sensor, ruido, limpieza y cuándo no conviene.",
+    excerpt: "Un arenero autolimpiable merece la pena para un gato adulto y tranquilo, de más de 6 meses y por encima del peso mínimo que fija el fabricante (entre 1 y 2 kg en los modelos de nuestra tienda), en casas donde nadie puede retirar los grumos a diario. No conviene para gatitos, gatos miedosos o que ya han tenido problemas con el arenero, y con varios gatos no sustituye a la regla de un arenero por gato más uno. Úsalo con la arena que pide el fabricante, al lado del arenero de siempre y empezando en modo manual.",
+    category: "Cuidados",
+    date: "2026-10-19",
+    readTime: 10,
+    relatedProducts: ["neakasa-m1-lite-arenero-autolimpiable-abierto", "petkit-purobot-max-3-arenero-autolimpiable", "meowant-arenero-autolimpiable-doble-rastrillo", "catlink-c08-arenero-autolimpiable-abierto", "petkit-pura-max-2-arenero-autolimpiable", "catit-smartsift-arenero-tamizado-palanca", "biokats-diamond-care-classic-arena-sin-fragancia-10l"],
+    relatedPosts: ["mejor-arenero-para-gatos-guia", "cuidados-gatito-primer-mes", "savic-nestor-arenero-analisis", "gato-interior-bienestar-enriquecimiento"],
+    isHealth: true,
+    categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver areneros autolimpiables y accesorios para gatos →" },
   },
 ];
 
