@@ -187,6 +187,10 @@ const articleSources: Record<string, { label: string; url: string }[]> = {
     { label: "AAFP e ISFM — Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats (Carney et al., Journal of Feline Medicine and Surgery, 2014)", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148882/" },
     { label: "Cornell Feline Health Center (Cornell University) — Feline Behavior Problems: House Soiling", url: "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-house-soiling" },
   ],
+  "arnes-o-collar-perro-guia-elegir-medir": [
+    { label: "RSPCA South Australia — The best-ever walking harness for your dog (and the must-avoid collars and leads)", url: "https://www.rspcasa.org.au/best-walking-harness-dogs/" },
+    { label: "Cavalli y Protopopova (2025) — Review of Collars, Harnesses, and Head Collars for Walking Dogs, Animals 15, 2162", url: "https://doi.org/10.3390/ani15152162" },
+  ],
 };
 
 const articleContent: Record<string, ArticleSection[]> = {
@@ -1000,6 +1004,38 @@ const articleContent: Record<string, ArticleSection[]> = {
     ] },
   ],
 
+  "arnes-o-collar-perro-guia-elegir-medir": [
+    { text: "Para pasear al perro, la RSPCA recomienda un arnés con anilla en el pecho para cualquier raza y tamaño, y reserva el collar plano para llevar la chapa de identificación. Una revisión científica publicada en 2025 es más cauta: no hay un diseño demostradamente mejor, y lo que decide es que se ajuste bien a tu perro y a tu forma de pasear. Esta guía reúne lo que dicen ambas fuentes para que elijas, midas y uses bien el arnés. Si tu problema principal es que tira, empieza por la guía para que el perro deje de tirar de la correa.", inlineLinks: [{ phrase: "guía para que el perro deje de tirar de la correa", href: "/blog/perro-tira-de-la-correa-solucion" }] },
+    { quickPicks: [
+      { slug: "rabbitgoo-arnes-perro-antitirones-l", note: "Arnés en Y para perros medianos y grandes, con anilla frontal para corregir tirones y anilla dorsal para paseos tranquilos. En talla L: cuello de 46 a 66 cm y pecho de 43 a 86 cm." },
+      { slug: "petsafe-easy-walk-arnes-antitirones", note: "Enganche frontal con trabilla martingala que gira al perro hacia ti cuando tira. Pensado para tirones de leves a moderados." },
+    ] },
+    { heading: "Arnés o collar: qué dice la evidencia", text: "La revisión de Cavalli y Protopopova analizó 21 artículos y dos resúmenes de congreso sobre equipos de paseo no aversivos. Concluye que cualquier collar puede causar lesión, sobre todo cuando la presión se concentra en un punto pequeño del centro del cuello, y que el acolchado puede concentrarla sin que lo parezca. También midieron la presión intraocular: fue mayor cuando el perro tiraba con collar que con arnés, y en perros braquicéfalos (de hocico chato) subió con collar pero no con arnés. Por eso desaconsejan el collar plano para estos perros y para los que tengan córneas finas o glaucoma. La parte incómoda para quien vende \"el arnés perfecto\" es que todos los arneses alteraron la marcha del perro y que ninguno resultó óptimo. Sobre los tirones, los resultados son mixtos: algunos estudios hallaron más tirón con arneses de correa en el pecho o en Y que con un collar plano, y otros más con collares martingala que con arneses de enganche frontal. Los autores recomiendan los arneses frontales que no aprietan para perros que tiran, siempre junto a adiestramiento con premios." },
+    { heading: "Enganche frontal o dorsal", text: "La RSPCA recomienda como primera opción el arnés de enganche frontal: se apoya detrás de las patas delanteras, rodea el pecho y lleva la anilla delante, de modo que reparte el peso y gira suavemente al perro hacia ti cuando tira. Dice que sirve para todas las razas y tamaños y que, al no presionar cuello ni espalda, el riesgo de ahogo es bajo. El enganche dorsal da más libertad y facilita manejar la correa, pero suele frenar poco el tirón, así que la RSPCA lo sugiere solo para perros que ya caminan bien con la correa floja.", table: { headers: ["Tipo", "Cómo funciona", "Cuándo encaja", "Límite"], rows: [
+      ["Frontal (anilla en el pecho)", "Gira al perro hacia ti si tira", "Perros que tiran, de cualquier tamaño", "Mal ajustado puede rozar las axilas"],
+      ["Dorsal (anilla en el lomo)", "Tira hacia atrás y da libertad", "Perros que ya caminan con la correa floja", "Frena poco el tirón"],
+      ["Doble anilla", "Admite los dos enganches", "Empezar con el frontal y pasar al dorsal después", "Ajustar bien las dos zonas"],
+      ["Collar plano", "Sujeta el cuello", "Chapa de identificación; Paseo solo si hay una herida o cirugía bajo la zona del arnés", "Presión concentrada en el cuello"],
+    ] }, amazonProducts: ["rabbitgoo-arnes-perro-antitirones-l", "petsafe-easy-walk-arnes-antitirones"] },
+    { heading: "Y, H o correa en el pecho: no hay diseño ganador", text: "Una idea muy repetida es que el arnés en Y es el que menos molesta. La revisión recoge lo contrario en dos estudios: uno halló que el arnés en Y limitó más la extensión del hombro que uno de correa en el pecho, y otro que un arnés en Y con enganche frontal restringió hombro y codo más que los diseños de correa en el pecho y en H. No significa que el Y sea malo, sino que no conviene fiarse del nombre del diseño: comprueba que no tape el hombro, que las correas no crucen la axila y que el perro se mueva con normalidad al trote. Si el arnés que te llega le altera la zancada o lo ves incómodo, cambia de talla o de modelo en lugar de insistir." },
+    { heading: "Cómo medir al perro y comprobar el ajuste", text: "Un arnés mal ajustado incomoda, y la RSPCA insiste en medir al perro antes de comprar. Los fabricantes dan rangos de cuello y de pecho por talla, y esos rangos son amplios, así que mide con una cinta flexible y compara con la tabla de la ficha. En la talla L del rabbitgoo, por ejemplo, el cuello va de 46 a 66 cm y el pecho de 43 a 86 cm: un perro cerca de un extremo del rango quedará mejor con ajuste fino en las cuatro correas." },
+    { list: [
+      "Mide el contorno del cuello y la parte más ancha del pecho, detrás de las patas delanteras, con el perro de pie.",
+      "Pon el arnés y comprueba que caben dos dedos entre la correa y el cuerpo, igual que en un collar.",
+      "Haz que el perro camine y trote: no debe quedar nada tirante delante del hombro ni rozar detrás de la pata.",
+      "Revisa las axilas después del primer paseo: pelo aplastado o enrojecimiento indican roce.",
+      "En cachorros y perros en crecimiento, repite la medida cada pocas semanas.",
+    ] },
+    { heading: "Qué evitar", text: "La RSPCA es tajante con varios equipos: los collares de cadena o estrangulamiento causan dolor y no deben usarse nunca, los de púas o constricción pueden provocar lesiones y, en casos extremos, daño cerebral, y los collares de cabeza (halter) pueden sacudir la cabeza hacia un lado y lesionarla. Tampoco recomienda las correas extensibles ni elásticas, porque dan menos control, pueden dañar el cuello y fomentan el tirón. Para el día a día propone una correa de unos dos metros, de cinta de algodón o similar, y mejor de doble extremo, enganchada a la anilla frontal y a la dorsal: caminas desde la trasera y usas la delantera para girar al perro si tira. El collar plano sigue teniendo sentido con la chapa, y el arnés se pone encima." },
+    { heading: "El arnés no sustituye al adiestramiento", text: "Tanto la RSPCA como la revisión coinciden en el papel del arnés: una herramienta de apoyo. La fórmula que respaldan los autores es arnés frontal que no aprieta más refuerzo con premios, y es lo que desarrollamos en nuestra guía de cómo pasear al perro correctamente. Si el perro tira mucho, tiene miedo en la calle o se niega a andar, descarta primero un problema físico con tu veterinario y consulta a un educador o etólogo.", inlineLinks: [{ phrase: "cómo pasear al perro correctamente", href: "/blog/pasear-perro-correctamente-guia" }] },
+    { faqs: [
+      { q: "¿Es mejor un arnés que un collar para pasear?", a: "La RSPCA recomienda el arnés frontal como primera opción y el collar plano solo para la chapa. La revisión científica de 2025 no halló una diferencia de bienestar concluyente entre ambos, pero sí más riesgo cuando el collar concentra presión en el cuello, en especial en perros braquicéfalos." },
+      { q: "¿El arnés de enganche frontal evita que el perro tire?", a: "No por sí solo. Gira al perro hacia ti y reduce la tracción, pero funciona mejor junto con adiestramiento con premios. El fabricante del PetSafe Easy Walk, por ejemplo, lo indica para tirones de leves a moderados." },
+      { q: "¿Qué talla de arnés necesita mi perro?", a: "La que corresponda a su contorno de cuello y de pecho según la tabla del fabricante, no al peso. Mide con una cinta flexible y deja dos dedos de holgura entre la correa y el cuerpo." },
+      { q: "¿Puede llevar siempre el arnés puesto?", a: "Las fuentes que hemos consultado no fijan un límite de horas. La prudencia es quitárselo en casa si no hace falta, revisar las axilas y el pelo tras cada paseo y consultar con el veterinario si aparece roce o escozor." },
+      { q: "¿Sirven las correas extensibles?", a: "La RSPCA las desaconseja porque dan menos control, pueden dañar el cuello y fomentan el tirón. Si usas una en un espacio abierto, engánchala a un arnés y bloquéala en cuanto haya tráfico o personas cerca." },
+    ] },
+  ],
 };
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {

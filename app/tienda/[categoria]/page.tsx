@@ -7,6 +7,7 @@ import { getPostBySlug } from "@/data/posts";
 
 // Guías del blog enlazadas desde cada categoría (enlazado interno hacia las guías de compra).
 const categoryGuides: Record<string, string[]> = {
+  "accesorios-perros": ["arnes-o-collar-perro-guia-elegir-medir", "perro-tira-de-la-correa-solucion", "pasear-perro-correctamente-guia"],
   "accesorios-gatos": ["mejor-arenero-para-gatos-guia", "arenero-autolimpiable-gatos", "arbol-rascador-gatos-guia-compra", "transportin-para-gato-guia", "savic-nestor-arenero-analisis", "fuente-agua-gatos-catit-analisis"],
   "camas-transportines": ["transportin-para-gato-guia", "transportin-viaje-mascotas", "cama-ortopedica-perros-mayores"],
 };

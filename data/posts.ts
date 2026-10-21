@@ -364,7 +364,7 @@ export const posts: Post[] = [
     date: "2025-07-18",
     readTime: 8,
     relatedProducts: ["ruffwear-approach-pack", "kong-classic-xl-caucho", "trixie-cama-ortopedica-vital-bendson"],
-    relatedPosts: ["kong-classic-guia-uso", "mochila-senderismo-perros-ruffwear", "adoptar-perro-guia-primera-vez"],
+    relatedPosts: ["kong-classic-guia-uso", "mochila-senderismo-perros-ruffwear", "adoptar-perro-guia-primera-vez", "arnes-o-collar-perro-guia-elegir-medir"],
   },
   {
     slug: "cuidados-cachorro-primer-mes",
@@ -455,8 +455,8 @@ export const posts: Post[] = [
     category: "Adiestramiento",
     date: "2025-08-05",
     readTime: 8,
-    relatedProducts: ["ruffwear-front-range-arnes-2024"],
-    relatedPosts: ["ordenes-basicas-perro-guia", "pasear-perro-correctamente-guia", "cuidados-cachorro-primer-mes"],
+    relatedProducts: ["ruffwear-front-range-arnes-2024", "rabbitgoo-arnes-perro-antitirones-l", "petsafe-easy-walk-arnes-antitirones"],
+    relatedPosts: ["ordenes-basicas-perro-guia", "pasear-perro-correctamente-guia", "cuidados-cachorro-primer-mes", "arnes-o-collar-perro-guia-elegir-medir"],
     categoryCta: { href: "/tienda/accesorios-perros", text: "Ver arneses y accesorios de paseo →" },
   },
   {
@@ -638,6 +638,20 @@ export const posts: Post[] = [
     relatedPosts: ["mejor-arenero-para-gatos-guia", "cuidados-gatito-primer-mes", "savic-nestor-arenero-analisis", "gato-interior-bienestar-enriquecimiento"],
     isHealth: true,
     categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver areneros autolimpiables y accesorios para gatos →" },
+  },
+  {
+    slug: "arnes-o-collar-perro-guia-elegir-medir",
+    title: "Arnés o collar para el perro: cuál elegir, cómo medirlo y cuándo usar cada uno (guía 2026)",
+    seoTitle: "Arnés o collar para perros: cuál elegir",
+    metaDescription: "Arnés o collar para pasear al perro: qué dicen RSPCA y la última revisión científica, enganche frontal o dorsal, cómo medirlo bien y qué equipos evitar.",
+    excerpt: "Para pasear, la RSPCA recomienda un arnés con anilla frontal para cualquier perro, y un collar plano solo para la chapa de identificación. Una revisión científica de 2025 matiza que ningún diseño es el mejor para todos: pesan el ajuste y el perro. Mídelo antes de comprar, deja dos dedos de holgura y usa el arnés junto al adiestramiento, no en su lugar. Evita los collares de ahogo y de púas, y las correas extensibles en ciudad.",
+    category: "Accesorios",
+    date: "2026-10-21",
+    readTime: 8,
+    relatedProducts: ["rabbitgoo-arnes-perro-antitirones-l", "petsafe-easy-walk-arnes-antitirones"],
+    relatedPosts: ["perro-tira-de-la-correa-solucion", "pasear-perro-correctamente-guia", "ordenes-basicas-perro-guia", "adiestramiento-clicker-perros-guia-inicio", "cuidados-cachorro-primer-mes"],
+    isHealth: true,
+    categoryCta: { href: "/tienda/accesorios-perros", text: "Ver arneses y accesorios de paseo para perros →" },
   },
 ];
 
