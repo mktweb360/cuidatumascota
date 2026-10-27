@@ -18,6 +18,33 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "cama-perro-como-elegir-tamano",
+    title: "Cama para perro: cómo elegirla según su tamaño, cómo duerme y su edad (guía 2026)",
+    seoTitle: "Cama para perro: cómo elegir tamaño y tipo",
+    metaDescription: "Cómo elegir cama para perro: mídelo tumbado, mira cómo duerme (enroscado o estirado), elige donut, sofá, colchoneta, ortopédica o elevada y comprueba funda y base.",
+    excerpt: "La cama tiene que dejar al perro tumbarse en todas sus posturas, no solo enroscado. Mídelo tumbado y suma margen, fíjate en si duerme hecho una bola o estirado y elige el tipo según eso: donut o con bordes para los que se enroscan, colchoneta o sofá para los que se estiran, ortopédica para los mayores y elevada para el calor. Funda desenfundable y base antideslizante, siempre.",
+    category: "Accesorios",
+    date: "2026-10-27",
+    readTime: 8,
+    relatedProducts: ["feandrea-cama-perro-donut-60cm", "eheyciga-cama-perro-mediano-viscoelastica-76x51", "bedsure-colchoneta-perro-lavable-91x68", "bedsure-sofa-cama-ortopedica-perro-grande", "ksiia-cama-ortopedica-perro-xl", "gardner-pet-cama-elevada-hamaca-perro-m"],
+    relatedPosts: ["cama-ortopedica-perros-mayores", "perro-mayor-cuidados-senior", "transportin-viaje-mascotas", "regalos-navidad-reyes-perros-gatos"],
+    categoryCta: { href: "/tienda/camas-transportines", text: "Ver camas para perros →" },
+  },
+  {
+    slug: "fuente-para-gatos-como-elegir",
+    title: "Fuente para gatos: tipos, dónde ponerla, cómo limpiarla y cuál elegir (guía 2026)",
+    seoTitle: "Fuente para gatos: cuál elegir y cómo usarla",
+    metaDescription: "Fuente para gatos: qué dice la evidencia sobre el agua en movimiento, dónde colocarla, acero, cerámica o plástico, capacidad, ruido, filtros y limpieza.",
+    excerpt: "Algunos gatos beben mejor de agua en movimiento y una fuente es una forma práctica de ofrecérsela, pero no sustituye a lo básico: agua lejos de la comida, en varios puntos de la casa y en recipientes anchos y llenos. Si compras una, prioriza que se limpie fácil (acero o cerámica, bomba accesible), una capacidad acorde al número de gatos y un ruido bajo, y cambia los filtros cuando indique el fabricante.",
+    category: "Accesorios",
+    date: "2026-10-27",
+    readTime: 7,
+    isHealth: true,
+    relatedProducts: ["catit-flower-fountain", "feelneedy-fuente-gatos-acero-inoxidable-2-8l", "catit-pixi-fuente-acero-inoxidable-2-5l", "petkit-eversweet-fuente-acero-inoxidable-1-8l"],
+    relatedPosts: ["fuente-agua-gatos-catit-analisis", "alimentacion-gatos-guia-propietarios", "gato-interior-bienestar-enriquecimiento", "pienso-gato-adulto-comparativa"],
+    categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver fuentes y accesorios para gatos →" },
+  },
+  {
     slug: "regalos-navidad-reyes-perros-gatos",
     title: "Regalos de Navidad y Reyes para perros, gatos y sus dueños: ideas según la mascota (2026)",
     seoTitle: "Regalos de Navidad para perros y gatos",
