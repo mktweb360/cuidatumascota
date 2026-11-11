@@ -1190,10 +1190,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     .slice(0, 6);
 
   const AUTHOR = {
-    "@type": "Organization",
-    name: "Equipo Editorial de CuidaTuMascota.es",
+    "@type": "Person",
+    name: "José Marcos Galindo Sánchez",
+    jobTitle: "Editor responsable",
+    worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
     url: "https://www.cuidatumascota.es/sobre-nosotros",
-    description: "Equipo editorial de CuidaTuMascota.es (Mkt Web 360 SLU). No somos veterinarios: comparamos ingredientes, composición y certificaciones y consultamos fuentes veterinarias, con apoyo de IA bajo revisión editorial. Contenido informativo, no sustituye la consulta veterinaria.",
+    description: "Editor responsable de CuidaTuMascota.es (Mkt Web 360 SLU). No es veterinario: comparamos ingredientes, composición y certificaciones y consulta fuentes veterinarias y documentación de fabricantes, con apoyo de IA bajo revisión editorial. Contenido informativo, no sustituye la consulta veterinaria.",
     knowsAbout: ["nutrición animal", "cuidado de mascotas", "salud veterinaria", "comportamiento canino y felino"],
   };
 
@@ -1282,7 +1284,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <span>·</span>
           <span className="flex items-center gap-1 text-gray-500">
             <span>✍️</span>
-            <Link href="/sobre-nosotros" className="font-medium text-cyan-700 hover:underline">Equipo Editorial de CuidaTuMascota.es</Link>
+            <Link href="/sobre-nosotros" className="font-medium text-cyan-700 hover:underline">José Marcos Galindo Sánchez · Editor responsable</Link>
           </span>
         </div>
 

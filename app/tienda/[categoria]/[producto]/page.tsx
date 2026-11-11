@@ -6,6 +6,7 @@ import { getPostBySlug } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
 import VetDisclaimer from "@/components/VetDisclaimer";
 import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
+import { isFeaturedProduct } from "@/lib/indexable";
 
 export async function generateStaticParams() {
   return products.map((p) => ({ categoria: p.categorySlug, producto: p.slug }));
@@ -16,13 +17,14 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   const product = getProductBySlug(producto);
   if (!product) return {};
   return {
-    title: { absolute: productTitleUnique(product, products, "análisis y opinión") },
+    title: { absolute: productTitleUnique(product, products, "guía de compra") },
+    robots: isFeaturedProduct(product.slug) ? { index: true, follow: true } : { index: false, follow: true },
     description: product.shortDescription,
     alternates: {
       canonical: `https://www.cuidatumascota.es/tienda/${product.categorySlug}/${product.slug}`,
     },
     openGraph: {
-      title: `${product.name} — Análisis completo`,
+      title: `${product.name} — Ficha y opciones de compra`,
       description: product.shortDescription,
       images: [{ url: product.image ? `https://www.cuidatumascota.es${product.image}` : `https://www.cuidatumascota.es/images/products/${product.categorySlug}.jpg` }],
     },

@@ -3,21 +3,18 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Sobre nosotros",
-  description: "Somos el equipo editorial de CuidaTuMascota.es. Conoce cómo investigamos y seleccionamos los productos que recomendamos para perros y gatos, y por qué nunca sustituimos el consejo veterinario.",
+  description: "Quién está detrás de CuidaTuMascota.es. Conoce cómo investigamos y seleccionamos los productos que recomendamos para perros y gatos, y por qué nunca sustituimos el consejo veterinario.",
   alternates: { canonical: "https://www.cuidatumascota.es/sobre-nosotros" },
 };
 
 const personSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Equipo Editorial de CuidaTuMascota.es",
-  description: "Equipo editorial de CuidaTuMascota.es (Mkt Web 360 SLU). Comparamos ingredientes, composición nutricional, certificaciones y fuentes veterinarias antes de recomendar cualquier producto, con apoyo de IA en investigación y redacción bajo revisión editorial. No somos veterinarios: nuestro contenido es informativo y nunca sustituye la consulta veterinaria profesional.",
+  "@type": "Person",
+  name: "José Marcos Galindo Sánchez",
+  jobTitle: "Editor responsable",
+  worksFor: { "@type": "Organization", name: "Mkt Web 360 SLU", url: "https://www.mktweb360.com" },
+  description: "Editor responsable de CuidaTuMascota.es y fundador de Mkt Web 360 SLU, agencia de marketing digital (SEO, analítica y desarrollo web) con sede en El Viso de San Juan (Toledo). No es veterinario: contrasta ingredientes, composición, certificaciones y documentación del fabricante, con apoyo de IA bajo revisión editorial. El contenido es informativo y nunca sustituye la consulta veterinaria.",
   url: "https://www.cuidatumascota.es/sobre-nosotros",
-  parentOrganization: {
-    "@type": "Organization",
-    name: "CuidaTuMascota.es",
-    url: "https://www.cuidatumascota.es",
-  },
   knowsAbout: [
     "nutrición animal",
     "alimentación para perros y gatos",
@@ -56,18 +53,18 @@ export default function SobreNosotrosPage() {
         </nav>
 
         <h1 className="text-3xl font-extrabold text-gray-900 mb-2">Sobre CuidaTuMascota.es</h1>
-        <p className="text-gray-500 text-lg mb-10">Analizamos y comparamos productos para mascotas con criterio veterinario, para que elijas siempre lo mejor para tu perro o gato.</p>
+        <p className="text-gray-500 text-lg mb-10">Comparamos productos para mascotas a partir de información contrastada y fuentes veterinarias, para ayudarte a elegir mejor para tu perro o gato.</p>
 
         {/* Author profile */}
         <div className="flex items-start gap-5 bg-cyan-50 border border-cyan-100 rounded-2xl p-6 mb-10">
           <div className="shrink-0 w-16 h-16 rounded-full bg-cyan-200 flex items-center justify-center text-2xl font-extrabold text-cyan-800">
-            CM
+            JG
           </div>
           <div>
-            <p className="font-extrabold text-gray-900 text-lg leading-tight">Equipo Editorial de CuidaTuMascota.es</p>
-            <p className="text-cyan-700 font-semibold text-sm mb-2">Mkt Web 360 SLU</p>
+            <p className="font-extrabold text-gray-900 text-lg leading-tight">José Marcos Galindo Sánchez</p>
+            <p className="text-cyan-700 font-semibold text-sm mb-2">Editor responsable · Fundador de Mkt Web 360 SLU</p>
             <p className="text-gray-600 text-sm leading-relaxed">
-              No somos veterinarios. Nuestro equipo compara ingredientes, composición nutricional, certificaciones de seguridad y fuentes veterinarias antes de recomendar cualquier producto, con apoyo de herramientas de IA en la investigación y redacción, siempre con revisión editorial. El contenido de este portal es informativo y nunca sustituye la consulta con tu veterinario.
+              No soy veterinario y no pruebo personalmente cada producto. Mi trabajo es editorial: comparo ingredientes, composición nutricional, certificaciones de seguridad y fuentes veterinarias antes de recomendar cualquier producto, con apoyo de herramientas de IA en la investigación y redacción, siempre con revisión editorial por mi parte. El contenido de este portal es informativo y nunca sustituye la consulta con tu veterinario.
             </p>
             <div className="flex flex-wrap gap-2 mt-3">
               {["Nutrición animal", "Comportamiento canino", "Salud preventiva", "Antiparasitarios"].map((tag) => (
@@ -83,7 +80,7 @@ export default function SobreNosotrosPage() {
             <p>
               CuidaTuMascota.es es un portal especializado en bienestar animal desarrollado por <strong>Mkt Web 360 SLU</strong> (CIF B87679304).
               Nuestro objetivo es ayudar a los propietarios de perros y gatos a tomar decisiones informadas sobre alimentación, salud y accesorios,
-              con análisis basados en criterio veterinario y experiencia práctica de campo.
+              con comparativas basadas en información contrastada: documentación del fabricante, composición y fuentes veterinarias.
             </p>
           </div>
 
