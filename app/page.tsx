@@ -84,7 +84,7 @@ export default function HomePage() {
             {[
               { icon: "🔍", title: "Análisis honestos", desc: "Evaluamos cada producto con criterios veterinarios y de bienestar animal. Sin pagos por recomendar productos." },
               { icon: "🩺", title: "Respaldo veterinario", desc: "Los artículos de salud y nutrición incluyen siempre el aviso de consulta veterinaria. Tu mascota primero." },
-              { icon: "🛒", title: "Enlaces directos a Amazon.es", desc: "Te llevamos a la ficha de Amazon.es de cada producto para que veas allí el precio y la disponibilidad actualizados." },
+              { icon: "🛒", title: "Enlaces directos a la ficha", desc: "Te llevamos a la ficha de cada producto en la tienda para que veas allí el precio y la disponibilidad actualizados." },
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-2xl p-6 shadow-sm">
                 <div className="text-3xl mb-3">{item.icon}</div>
