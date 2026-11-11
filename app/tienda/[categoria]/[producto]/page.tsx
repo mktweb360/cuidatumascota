@@ -5,7 +5,8 @@ import { categories, products, getProductBySlug, getProductsByCategory, amazonLi
 import { getPostBySlug } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
 import VetDisclaimer from "@/components/VetDisclaimer";
-import { productTitle, productTitleUnique, relatedInCategory } from "@/lib/seo";
+import { productTitle, productTitleUnique, relatedInCategory, publicDescription } from "@/lib/seo";
+import { CATEGORIA_GUIA } from "@/lib/categoria-guia";
 import { isFeaturedProduct } from "@/lib/indexable";
 
 export async function generateStaticParams() {
@@ -42,6 +43,18 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
   const related = relatedInCategory(getProductsByCategory(categoria), producto, 3);
   const relatedGuides = (product.relatedPosts ?? []).map((s) => getPostBySlug(s)).filter(Boolean);
 
+  const analisis = publicDescription(product.fullDescription);
+  const guia = CATEGORIA_GUIA[categoria];
+  const especificaciones = Object.entries(product.specs).map(([k, v]) => `${k}: ${v}`).join("; ");
+  const clavesComparativa = Object.keys(product.specs).slice(0, 3);
+  // Preguntas propias de la ficha, construidas con los datos reales del producto y de su categoría.
+  const faqs = [
+    { q: `¿Qué características tiene ${product.name}?`, a: especificaciones ? `Según los datos del fabricante: ${especificaciones}.` : "Consulta la ficha del fabricante." },
+    { q: `¿Qué inconvenientes tiene ${product.name}?`, a: product.cons.length ? `${product.cons.join(". ")}.` : "Consulta la ficha del fabricante." },
+    ...(guia ? [guia.faq[0]] : []),
+    { q: "¿Con qué otros productos se puede comparar?", a: related.length ? `En la categoría ${cat.name} tienes también ${related.map((r) => r.name).join(", ")}; más abajo los comparamos.` : "Consulta el resto de la categoría." },
+  ];
+
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -57,23 +70,11 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: `¿Es seguro ${product.name} para mi mascota?`,
-        acceptedAnswer: { "@type": "Answer", text: `${product.name} cumple con la normativa CE. Consulta siempre con tu veterinario antes de cambiar la alimentación o tratamiento de tu mascota.` },
-      },
-      {
-        "@type": "Question",
-        name: `¿Dónde puedo comprar ${product.name}?`,
-        acceptedAnswer: { "@type": "Answer", text: `Puedes comprarlo directamente a través de nuestro enlace. El vendedor ofrece envío rápido y política de devoluciones sencilla en España.` },
-      },
-      {
-        "@type": "Question",
-        name: `¿Cuánto cuesta ${product.name}?`,
-        acceptedAnswer: { "@type": "Answer", text: `El precio puede variar. Consulta el precio actualizado haciendo clic en el botón de compra.` },
-      },
-    ],
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
   };
 
   const topSpecs = Object.entries(product.specs).slice(0, 4);
@@ -196,6 +197,34 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
         {/* ══════════════════════════════════════════
             SECCIÓN: Pros & Cons
         ══════════════════════════════════════════ */}
+        {analisis && (
+          <section className="mb-8">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-3">Qué ofrece este producto</h2>
+            <p className="text-gray-700 text-sm leading-relaxed">{analisis}</p>
+            <p className="text-xs text-gray-400 mt-2">Resumen basado en la información del fabricante. No hemos probado personalmente el producto.</p>
+          </section>
+        )}
+
+        {guia && (
+          <section className="mb-8 rounded-2xl border border-cyan-100 bg-cyan-50 p-6">
+            <h2 className="text-base font-extrabold text-cyan-900 mb-3">Cómo elegir en {cat.name}</h2>
+            <div className="space-y-3 mb-4">
+              {guia.criterios.map((c) => (
+                <div key={c.titulo}>
+                  <h3 className="text-sm font-bold text-cyan-900">{c.titulo}</h3>
+                  <p className="text-sm text-cyan-900 leading-relaxed">{c.texto}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-xs font-bold text-cyan-900 uppercase tracking-wide mb-2">Antes de comprar, comprueba</p>
+            <ul className="space-y-1.5">
+              {guia.antesDeComprar.map((t, i) => (
+                <li key={i} className="text-sm text-cyan-900 flex gap-2"><span className="shrink-0 font-bold">→</span>{t}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <div className="grid md:grid-cols-2 gap-4 mb-8">
           <div className="bg-green-50 border border-green-100 rounded-2xl p-6">
             <h2 className="font-extrabold text-green-800 mb-4 flex items-center gap-2">
@@ -252,24 +281,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
         <div className="bg-white rounded-2xl border border-gray-100 p-6 mb-8">
           <h2 className="font-extrabold text-gray-900 mb-5">Preguntas frecuentes</h2>
           <div className="space-y-0 divide-y divide-gray-100">
-            {[
-              {
-                q: `¿Es seguro ${product.name} para mi mascota?`,
-                a: `${product.name} cumple con la normativa CE para productos de uso animal. Aun así, consulta siempre con tu veterinario antes de cambiar la alimentación o iniciar cualquier tratamiento.`,
-              },
-              {
-                q: `¿Cuánto cuesta ${product.name}?`,
-                a: `El precio varía según disponibilidad y promociones activas. Haz clic en el botón de compra para ver el precio actualizado en tiempo real.`,
-              },
-              {
-                q: `¿Tiene envío rápido ${product.name}?`,
-                a: `Sí, si tienes una suscripción de envío premium activa, el envío es gratuito y llega en 1-2 días en la mayoría de localidades de España.`,
-              },
-              {
-                q: `¿Puedo devolver ${product.name} si no me convence?`,
-                a: `El vendedor ofrece política de devoluciones de 30 días sin coste para la mayoría de productos. Consulta las condiciones específicas en la ficha del producto.`,
-              },
-            ].map(({ q, a }) => (
+            {faqs.map(({ q, a }) => (
               <details key={q} className="group py-4 cursor-pointer">
                 <summary className="flex items-start justify-between gap-3 font-bold text-gray-800 text-sm list-none">
                   <span>{q}</span>
@@ -284,6 +296,33 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
         {/* ══════════════════════════════════════════
             SECCIÓN: Guías relacionadas
         ══════════════════════════════════════════ */}
+        {related.length > 0 && clavesComparativa.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-xl font-extrabold text-gray-900 mb-3">Comparado con otras opciones de la categoría</h2>
+            <div className="overflow-x-auto rounded-2xl border border-gray-100">
+              <table className="w-full text-sm">
+                <thead className="bg-gray-50 text-left text-gray-600">
+                  <tr>
+                    <th className="px-4 py-3">Producto</th>
+                    {clavesComparativa.map((k) => (<th key={k} className="px-4 py-3 capitalize">{k}</th>))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {[product, ...related].map((p) => (
+                    <tr key={p.slug} className={p.slug === product.slug ? "bg-cyan-50 font-semibold" : "border-t border-gray-100"}>
+                      <td className="px-4 py-3">
+                        {p.slug === product.slug ? p.name : <Link href={`/tienda/${p.categorySlug}/${p.slug}`} className="text-cyan-700 hover:underline">{p.name}</Link>}
+                      </td>
+                      {clavesComparativa.map((k) => (<td key={k} className="px-4 py-3 text-gray-600">{p.specs[k] ?? "—"}</td>))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-gray-400 mt-2">Datos del fabricante. «—» indica que ese dato no figura en la ficha del otro producto.</p>
+          </section>
+        )}
+
         {relatedGuides.length > 0 && (
           <div className="mb-8">
             <h2 className="text-xl font-extrabold text-gray-900 mb-4">Guías relacionadas</h2>
