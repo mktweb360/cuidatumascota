@@ -27,7 +27,7 @@ export const posts: Post[] = [
     image: "/images/blog/banar-perro-en-casa-guia-frecuencia-paso-a-paso.jpg",
     date: "2026-11-11",
     readTime: 9,
-    relatedProducts: ["furminator-deshedding-perro", "virbac-sebocalm-champu-perro"],
+    relatedProducts: ["furminator-deshedding-perro", "virbac-sebocalm-champu-perro", "artero-samba-toalla-perros-talla-m"],
     relatedPosts: ["cepillado-pelo-perro-guia", "higiene-dental-perros-gatos", "como-proteger-del-frio-perros-gatos", "antiparasitarios-perros-guia"],
     isHealth: true,
     categoryCta: { href: "/tienda/salud-higiene", text: "Ver cepillos y productos de higiene →" },
