@@ -24,6 +24,7 @@ export const posts: Post[] = [
     excerpt: "Cada cuánto bañar a tu perro según VCA y la ASPCA, qué material necesitas y un paso a paso para hacerlo en casa, y cuándo consultar al veterinario.",
     metaDescription: "Cada cuánto bañar a tu perro según VCA y la ASPCA, qué champú usar, paso a paso para bañarlo en casa y cuándo consultar al veterinario por la piel.",
     category: "Cuidados",
+    image: "/images/blog/banar-perro-en-casa-guia-frecuencia-paso-a-paso.jpg",
     date: "2026-11-11",
     readTime: 9,
     relatedProducts: ["furminator-deshedding-perro", "virbac-sebocalm-champu-perro"],
