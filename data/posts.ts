@@ -18,6 +18,19 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "miedo-petardos-fuegos-artificiales-perros-gatos",
+    title: "Miedo a los petardos y fuegos artificiales en perros y gatos: cómo prepararlos para Nochevieja",
+    seoTitle: "Miedo a los petardos en perros y gatos",
+    metaDescription: "Cómo preparar a perros y gatos para los petardos de Nochevieja: zona segura, desensibilización, qué no hacer y cuándo acudir al veterinario.",
+    excerpt: "Si tu perro o tu gato se esconde, tiembla o intenta huir con los petardos, no es capricho: es miedo. RSPCA y PDSA coinciden en lo que ayuda (un refugio preparado, ventanas cerradas, música, calma y, con tiempo, desensibilización) y en lo que empeora las cosas (castigar, atar fuera, forzar a salir del escondite). Esta guía ordena qué hacer semanas antes, la noche de los petardos y cuándo pedir ayuda al veterinario.",
+    category: "Comportamiento",
+    date: "2026-11-11",
+    readTime: 7,
+    isHealth: true,
+    relatedProducts: ["feliway-classic-difusor-48ml", "bedsure-cama-cueva-gato-40cm"],
+    relatedPosts: ["ansiedad-separacion-perros", "gato-interior-bienestar-enriquecimiento", "perro-mayor-cuidados-senior", "como-proteger-del-frio-perros-gatos"],
+  },
+  {
     slug: "plantas-alimentos-toxicos-navidad-perros-gatos",
     title: "Plantas y alimentos tóxicos para perros y gatos en Navidad e invierno: qué evitar y qué hacer si pasa",
     seoTitle: "Tóxicos de Navidad para perros y gatos",
