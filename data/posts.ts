@@ -18,6 +18,20 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "banar-perro-en-casa-guia-frecuencia-paso-a-paso",
+    title: "Cómo bañar a un perro en casa: cada cuánto y paso a paso",
+    seoTitle: "Cómo bañar a un perro en casa: frecuencia y pasos",
+    excerpt: "Cada cuánto bañar a tu perro según VCA y la ASPCA, qué material necesitas y un paso a paso para hacerlo en casa, y cuándo consultar al veterinario.",
+    metaDescription: "Cada cuánto bañar a tu perro según VCA y la ASPCA, qué champú usar, paso a paso para bañarlo en casa y cuándo consultar al veterinario por la piel.",
+    category: "Cuidados",
+    date: "2026-11-11",
+    readTime: 9,
+    relatedProducts: ["furminator-deshedding-perro", "virbac-sebocalm-champu-perro"],
+    relatedPosts: ["cepillado-pelo-perro-guia", "higiene-dental-perros-gatos", "como-proteger-del-frio-perros-gatos", "antiparasitarios-perros-guia"],
+    isHealth: true,
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver cepillos y productos de higiene →" },
+  },
+  {
     slug: "miedo-petardos-fuegos-artificiales-perros-gatos",
     title: "Miedo a los petardos y fuegos artificiales en perros y gatos: cómo prepararlos para Nochevieja",
     seoTitle: "Miedo a los petardos en perros y gatos",
