@@ -2748,6 +2748,24 @@ export const products: Product[] = [
     specs: {"Capacidad":"1,8 L","Material":"Acero inoxidable 304","Ruido":"< 25 dB (fabricante)","Alimentación":"USB (enchufe no incluido)","Modos":"Inteligente, normal y noche"},
     relatedPosts: ["fuente-para-gatos-como-elegir","fuente-agua-gatos-catit-analisis"],
   },
+  {
+    slug: "artero-samba-toalla-perros-talla-m",
+    name: "Artero Samba Toalla para Perros Talla M",
+    asin: "B07DFPXYSR",
+    image: "/images/products/artero-samba-toalla-perros-talla-m.jpg",
+    category: "Salud e higiene",
+    categorySlug: "salud-higiene",
+    categoryName: "Salud e higiene",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Toalla de secado Artero Samba para perros, talla M, para después del baño.",
+    fullDescription: "Verificado en vivo en Amazon.es el 11/11/2026 (ASIN B07DFPXYSR; dato interno, no se muestra). Toalla de secado para perros de la marca Artero, modelo Samba, en talla M. Se usa para quitar el exceso de agua tras el baño antes de secar con cuidado. No se ha probado el producto: revisa medidas, material e instrucciones de lavado en la ficha de Amazon.",
+    pros: ["Pensada específicamente para secar perros","Talla M","Marca especializada en peluquería canina"],
+    cons: ["Vendida por un tercero","Una sola talla por ficha: elige según el tamaño de tu perro"],
+    specs: {"Talla":"M","Marca":"Artero","Uso":"Secado tras el baño"},
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
