@@ -82,7 +82,7 @@ export const posts: Post[] = [
     readTime: 9,
     isHealth: true,
     relatedProducts: [],
-    relatedPosts: ["alimentacion-perros-guia-completa", "alimentacion-gatos-guia-propietarios", "mejor-pienso-perro-adulto-2025", "pienso-gato-adulto-comparativa"],
+    relatedPosts: ["alimentacion-perros-guia-completa", "alimentacion-gatos-guia-propietarios", "mejor-pienso-perro-adulto-2025", "pienso-gato-adulto-comparativa", "pienso-perros-medianos-grandes-como-elegir"],
   },
   {
     slug: "cuanto-ejercicio-necesita-un-perro-paseos-edad-raza",
@@ -266,7 +266,7 @@ export const posts: Post[] = [
     date: "2025-07-01",
     readTime: 9,
     relatedProducts: ["royal-canin-adult-maxi", "hills-science-plan-adult", "orijen-original-dog-11kg"],
-    relatedPosts: ["royal-canin-adult-maxi-analisis", "alimentacion-perros-guia-completa", "mejor-pienso-perro-2025"],
+    relatedPosts: ["royal-canin-adult-maxi-analisis", "alimentacion-perros-guia-completa", "mejor-pienso-perro-2025", "pienso-perros-medianos-grandes-como-elegir"],
     isHealth: true,
   },
   {
@@ -777,6 +777,21 @@ export const posts: Post[] = [
     relatedPosts: ["perro-tira-de-la-correa-solucion", "pasear-perro-correctamente-guia", "ordenes-basicas-perro-guia", "adiestramiento-clicker-perros-guia-inicio", "cuidados-cachorro-primer-mes"],
     isHealth: true,
     categoryCta: { href: "/tienda/accesorios-perros", text: "Ver arneses y accesorios de paseo para perros →" },
+  },
+  {
+    slug: "pienso-perros-medianos-grandes-como-elegir",
+    title: "Pienso para perros medianos y grandes: cómo elegirlo según el peso, la etiqueta y la edad (guía 2026)",
+    seoTitle: "Pienso para perros medianos y grandes: cómo elegir",
+    metaDescription: "Cómo elegir pienso para un perro mediano o grande: rangos de peso de los fabricantes, qué mirar en la etiqueta según FEDIAF y WSAVA, pienso de pollo y cachorros.",
+    excerpt: "El peso adulto decide el pienso más que la marca: los fabricantes separan a los perros medianos y grandes por kilos y sus rangos se solapan. Qué comprobar en la etiqueta, cómo encaja el pienso de pollo y qué cambia en un cachorro de raza grande.",
+    category: "Alimentación",
+    date: "2026-11-13",
+    readTime: 8,
+    image: "/images/blog/pienso-perros-medianos-grandes-como-elegir.jpg",
+    relatedProducts: ["royal-canin-adult-maxi", "royal-canin-medium-adult-15kg", "advance-medium-adult-pollo-3kg", "purina-pro-plan-adult-medium-14kg", "purina-dog-chow-control-peso-14kg"],
+    relatedPosts: ["mejor-pienso-perro-adulto-2025", "mejor-pienso-cachorro-guia", "como-leer-etiqueta-pienso-perros-gatos", "alimentacion-perros-guia-completa"],
+    isHealth: true,
+    categoryCta: { href: "/tienda/alimentacion-perros", text: "Ver piensos para perros →" },
   },
 ];
 
