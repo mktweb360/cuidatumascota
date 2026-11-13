@@ -10,6 +10,16 @@ export interface ProductRedirect {
 
 export const productRedirects: ProductRedirect[] = [
   {
+    source: "/tienda/accesorios-gatos/trixie-wild-cat-rascador-carton-hierba-gatera",
+    destination: "/tienda/accesorios-gatos/trixie-rascador-carton-wild-cat",
+    motivo: "Ficha duplicada (mismo ASIN B0160VM4LU) creada y retirada el 13/11/2026; se conserva la ficha original.",
+  },
+  {
+    source: "/tienda/accesorios-perros/rabbitgoo-arnes-perro-antitirones-reflectante",
+    destination: "/tienda/accesorios-perros/rabbitgoo-arnes-perro-antitirones-l",
+    motivo: "Ficha duplicada (mismo ASIN B01M8JT6FT) creada y retirada el 13/11/2026; se conserva la ficha original.",
+  },
+  {
     source: "/blog/pienso-gatos-adultos-mejor-2025",
     destination: "/blog/pienso-gato-adulto-comparativa",
     motivo: "Fusión de contenido duplicado (10/10/2026, autorizada por José): dos artículos con la misma intención (mejor pienso para gatos adultos). Se conserva la URL sin año.",
