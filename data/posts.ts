@@ -495,7 +495,7 @@ export const posts: Post[] = [
     image: "/images/blog/mejor-pienso-cachorro-guia.jpg",
     title: "Mejor pienso para cachorro: guía de compra y comparativa",
     seoTitle: "Mejor pienso para cachorro: comparativa",
-    excerpt: "Qué buscar en un pienso para cachorro, cuáles son los mejores del mercado y cómo elegir según la raza y el tamaño de tu perro.",
+    excerpt: "Qué buscar en un pienso para cachorro y cómo elegir según la raza y el tamaño de tu perro, con las guías FEDIAF y WSAVA como referencia.",
     category: "Alimentación",
     date: "2025-08-01",
     readTime: 9,
