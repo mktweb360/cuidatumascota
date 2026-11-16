@@ -973,6 +973,7 @@ export const products: Product[] = [
     slug: "petsafe-clikr-clicker-adiestramiento-perro",
     name: "PetSafe Clik-R Clicker de Adiestramiento para Perros",
     asin: "B0057H1HZI",
+    unavailable: "2026-11-16",
     category: "Accesorios para perros",
     categorySlug: "accesorios-perros",
     categoryName: "Accesorios para perros",
