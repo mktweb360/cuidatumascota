@@ -18,6 +18,20 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "perro-come-muy-rapido-comedero-lento",
+    title: "Perro que come muy rápido: por qué ocurre y cómo hacerle comer más despacio",
+    seoTitle: "Perro que come muy rápido: cómo frenarlo",
+    metaDescription: "Por qué tu perro come muy rápido, qué riesgos tiene según el Manual MSD, y cómo frenarlo con comederos lentos, juegos olfativos y reparto de raciones.",
+    excerpt: "Comer rápido no es solo mala educación: el Manual MSD lo cita entre los factores de riesgo de la torsión gástrica. Qué hacer, qué comederos ayudan y cuándo ir al veterinario.",
+    category: "Alimentación",
+    date: "2026-11-17",
+    readTime: 7,
+    relatedProducts: ["trixie-comedero-slow-bowl-espiral", "edipets-comedero-antivoracidad-perros-gatos", "pelota-dispensadora-slow-feeder-perros", "snuffle-mat-brain-ball-juguete-mental", "kong-classic-grande-juguete-rellenable"],
+    relatedPosts: ["alimentacion-perros-guia-completa", "juguetes-estimulacion-mental-perros", "kong-classic-guia-uso", "cuanto-ejercicio-necesita-un-perro-paseos-edad-raza"],
+    isHealth: true,
+    categoryCta: { href: "/tienda/accesorios-perros", text: "Ver accesorios para perros →" },
+  },
+  {
     slug: "banar-perro-en-casa-guia-frecuencia-paso-a-paso",
     title: "Cómo bañar a un perro en casa: cada cuánto y paso a paso",
     seoTitle: "Cómo bañar a un perro en casa: frecuencia y pasos",
