@@ -9,7 +9,17 @@ import { getPostBySlug } from "@/data/posts";
 const categoryGuides: Record<string, string[]> = {
   "accesorios-perros": ["arnes-o-collar-perro-guia-elegir-medir", "perro-tira-de-la-correa-solucion", "pasear-perro-correctamente-guia"],
   "accesorios-gatos": ["mejor-arenero-para-gatos-guia", "arenero-autolimpiable-gatos", "arbol-rascador-gatos-guia-compra", "transportin-para-gato-guia", "savic-nestor-arenero-analisis", "fuente-agua-gatos-catit-analisis"],
+  "alimentacion-perros": ["pienso-perros-medianos-grandes-como-elegir", "mejor-pienso-perro-adulto-2025", "mejor-pienso-cachorro-guia", "como-leer-etiqueta-pienso-perros-gatos", "alimentacion-perros-guia-completa"],
   "camas-transportines": ["transportin-para-gato-guia", "transportin-viaje-mascotas", "cama-ortopedica-perros-mayores"],
+};
+
+// Título y descripción propios para hubs que ya reciben impresiones con consultas concretas (Search Console).
+const categoryMeta: Record<string, { title: string; description: string; intro?: string }> = {
+  "alimentacion-perros": {
+    title: "Pienso y comida para perros: cómo elegir",
+    description: "Pienso y comida para perros: cómo elegir según el tamaño de la raza, la edad y los ingredientes, con guías y los productos que hemos analizado.",
+    intro: "Aquí reunimos el pienso y la comida para perros que hemos analizado. Para elegir, empieza por la etapa de vida (cachorro, adulto o senior), el tamaño de la raza y la lista de ingredientes de la etiqueta. Las guías de abajo explican cada paso, y ante cualquier duda sobre dieta, enfermedad o alergias lo adecuado es consultarlo con tu veterinario.",
+  },
 };
 
 export function generateStaticParams() {
@@ -20,9 +30,10 @@ export async function generateMetadata({ params }: { params: Promise<{ categoria
   const { categoria } = await params;
   const cat = categories.find((c) => c.slug === categoria);
   if (!cat) return {};
+  const meta = categoryMeta[categoria];
   return {
-    title: `${cat.name}: guía de compra`,
-    description: `Los mejores productos de ${cat.name} para tu mascota. Análisis honestos con pros y contras.`,
+    title: meta?.title ?? `${cat.name}: guía de compra`,
+    description: meta?.description ?? `Los mejores productos de ${cat.name} para tu mascota. Análisis honestos con pros y contras.`,
     alternates: { canonical: `https://www.cuidatumascota.es/tienda/${categoria}` },
     openGraph: {
       title: `${cat.name} — Análisis y comparativas`,
@@ -117,7 +128,7 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
               </nav>
               <div className="px-4 py-3 border-t border-gray-100">
                 <p className="text-xs text-gray-400 leading-relaxed">
-                  Análisis independientes · Precios actualizados
+                  Análisis independientes · Enlaces de afiliado
                 </p>
               </div>
             </div>
@@ -150,6 +161,10 @@ export default async function CategoriaPage({ params }: { params: Promise<{ cate
                 </Link>
               ))}
             </div>
+
+            {categoryMeta[cat.slug]?.intro && (
+              <p className="text-sm text-gray-600 leading-relaxed mb-5">{categoryMeta[cat.slug].intro}</p>
+            )}
 
             {(categoryGuides[cat.slug] ?? []).length > 0 && (
               <div className="mb-6 rounded-2xl border border-cyan-100 bg-cyan-50/50 p-4">
