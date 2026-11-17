@@ -10,6 +10,61 @@ export interface ProductRedirect {
 
 export const productRedirects: ProductRedirect[] = [
   {
+    source: "/tienda/alimentacion-gatos/hills-science-plan-adult-no-grain-pollo-gato",
+    destination: "/tienda/alimentacion-gatos/hills-science-plan-sterilised",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
+    source: "/tienda/salud-higiene/frontline-plus-perros-pequenos-3-pipetas",
+    destination: "/tienda/salud-higiene",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
+    source: "/tienda/salud-higiene/tropiclean-kit-dental-perro",
+    destination: "/tienda/salud-higiene",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
+    source: "/tienda/camas-transportines/trixie-cama-ortopedica-vital-bendson",
+    destination: "/tienda/camas-transportines/bedsure-cama-antistress-invierno-50cm",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
+    source: "/tienda/juguetes-mascotas/alfombra-olfativa-perros-snuffle-mat",
+    destination: "/tienda/juguetes-mascotas/snuffle-mat-brain-ball-juguete-mental",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
+    source: "/tienda/juguetes-mascotas/snuffle-mat-olfativo-perros-premium",
+    destination: "/tienda/juguetes-mascotas/snuffle-mat-brain-ball-juguete-mental",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
+    source: "/tienda/juguetes-mascotas/websun-juguetes-gatos-20-piezas-plumas",
+    destination: "/tienda/juguetes-mascotas",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
+    source: "/tienda/accesorios-perros/petsafe-clikr-clicker-adiestramiento-perro",
+    destination: "/tienda/accesorios-perros",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
+    source: "/tienda/accesorios-perros/rinonera-porta-premios-adiestramiento-perro",
+    destination: "/tienda/accesorios-perros",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
+    source: "/tienda/accesorios-gatos/rascador-pared-vertical-gato-sisal",
+    destination: "/tienda/accesorios-gatos",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
+    source: "/tienda/accesorios-gatos/comedero-lento-antivoracidad-gato",
+    destination: "/tienda/accesorios-gatos",
+    motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
+  },
+  {
     source: "/tienda/accesorios-gatos/trixie-wild-cat-rascador-carton-hierba-gatera",
     destination: "/tienda/accesorios-gatos/trixie-rascador-carton-wild-cat",
     motivo: "Ficha duplicada (mismo ASIN B0160VM4LU) creada y retirada el 13/11/2026; se conserva la ficha original.",
@@ -46,7 +101,7 @@ export const productRedirects: ProductRedirect[] = [
   },
   {
     source: "/tienda/salud-higiene/frontline-combo-perros-20-40kg-3p",
-    destination: "/tienda/salud-higiene/frontline-plus-perros-grandes-6-pipetas",
+    destination: "/tienda/salud-higiene",
     motivo: "Descatalogado (06/09/2026). ASIN original B078BP3LNR confirmado inactivo en amazon.es (404). Redirige al producto equivalente ya activo en catálogo (mismo uso: antiparasitario Frontline para perros grandes).",
   },
   {
@@ -61,7 +116,7 @@ export const productRedirects: ProductRedirect[] = [
   },
   {
     source: "/tienda/alimentacion-perros/applaws-taquitos-pollo-perro-natural-90g",
-    destination: "/tienda/alimentacion-perros/snackomio-tiras-pechuga-pollo-perro-500g",
+    destination: "/tienda/alimentacion-perros",
     motivo: "Verificación en vivo (22/09/2026): 'Applaws Taquitos de Pollo Snacks para Perros 90g' no existe — Applaws no vende snacks secos para perro en Amazon.es, solo comida húmeda. Sustituido por SnackOMio Tiras de Pechuga de Pollo 500g, ASIN B08Y8TDVTB (marca distinta, mismo tipo de producto: snack de pollo natural sin cereales).",
   },
 ];
