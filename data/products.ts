@@ -219,7 +219,7 @@ export const products: Product[] = [
     shortDescription: "Juguete de caucho natural rellenable con snacks para estimulación mental. Talla XL.",
     fullDescription: "El KONG Classic es el juguete rellenable clásico de KONG. Fabricado en caucho natural duradero con interior hueco rellenable con snacks, mantequilla de cacahuete o croquetas. Su rebote impredecible estimula el instinto de caza. Se usa para combatir el aburrimiento y la ansiedad de separación.",
     pros: ["Caucho natural duradero y no tóxico", "Rellenable para entretenimiento prolongado", "Rebote impredecible estimulante", "Talla XL para perros grandes"],
-    cons: ["No sirve para masticadores extremos (usar Kong Extreme)", "Apto para lavavajillas pero puede perder forma"],
+    cons: ["No sirve para masticadores extremos (usar Kong Extreme)", "Apto para lavavajillas pero puede perder forma", "Vendido por un tercero"],
     specs: { "Talla": "XL (perros grandes)", "Material": "Caucho natural", "Rellenable": "Sí", "Lavable": "Apto lavavajillas" },
     badge: "Juguete rellenable",
     relatedPosts: ["kong-classic-guia-uso", "juguetes-estimulacion-mental-perros"],
