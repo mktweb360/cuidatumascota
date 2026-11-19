@@ -207,7 +207,7 @@ export const products: Product[] = [
   {
     slug: "halti-arnes-control-frontal-antitirones",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
-    name: "Arnés de control frontal HALTI para perros que tiran de la correa",
+    name: "Arnés de Control Frontal HALTI para Perros",
     asin: "B004W78GGC",
     category: "Accesorios para perros",
     categorySlug: "accesorios-perros",
@@ -227,7 +227,7 @@ export const products: Product[] = [
   {
     slug: "rabbitgoo-arnes-perro-mediano-3-hebillas",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
-    name: "rabbitgoo Arnés para perro mediano con 3 hebillas y clip frontal",
+    name: "rabbitgoo Arnés Perro Mediano 3 Hebillas",
     asin: "B0CQX4HFL8",
     category: "Accesorios para perros",
     categorySlug: "accesorios-perros",
@@ -247,7 +247,7 @@ export const products: Product[] = [
   {
     slug: "edipets-comedero-antivoracidad-laberinto",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
-    name: "Edipets Comedero antivoracidad con laberinto para perros medianos y grandes",
+    name: "Edipets Comedero Antivoracidad con Laberinto",
     asin: "B0979GWC5D",
     category: "Accesorios para perros",
     categorySlug: "accesorios-perros",
@@ -267,7 +267,7 @@ export const products: Product[] = [
   {
     slug: "mateeylife-comedero-lento-perros",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
-    name: "Mateeylife Comedero antivoracidad para perros medianos y grandes",
+    name: "Mateeylife Comedero Antivoracidad Perros",
     asin: "B0CB5CXGWY",
     category: "Accesorios para perros",
     categorySlug: "accesorios-perros",
