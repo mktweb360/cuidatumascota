@@ -48,6 +48,7 @@ export const posts: Post[] = [
   },
   {
     slug: "miedo-petardos-fuegos-artificiales-perros-gatos",
+    categoryCta: { href: "/tienda/camas-transportines", text: "Ver camas y refugios para mascotas →" },
     title: "Miedo a los petardos y fuegos artificiales en perros y gatos: cómo prepararlos para Nochevieja",
     seoTitle: "Miedo a los petardos en perros y gatos",
     metaDescription: "Cómo preparar a perros y gatos para los petardos de Nochevieja: zona segura, desensibilización, qué no hacer y cuándo acudir al veterinario.",
@@ -61,6 +62,7 @@ export const posts: Post[] = [
   },
   {
     slug: "plantas-alimentos-toxicos-navidad-perros-gatos",
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver productos de salud e higiene →" },
     title: "Plantas y alimentos tóxicos para perros y gatos en Navidad e invierno: qué evitar y qué hacer si pasa",
     seoTitle: "Tóxicos de Navidad para perros y gatos",
     metaDescription: "Qué alimentos, plantas y adornos de Navidad e invierno son peligrosos para perros y gatos, qué hacer si los ingieren y cuándo ir al veterinario.",
@@ -74,6 +76,7 @@ export const posts: Post[] = [
   },
   {
     slug: "como-proteger-del-frio-perros-gatos",
+    categoryCta: { href: "/tienda/camas-transportines", text: "Ver camas y mantas para el invierno →" },
     title: "Cómo proteger del frío a perros y gatos: abrigo, cama, paseos y a quién afecta más",
     seoTitle: "Perros y gatos con frío: cómo protegerlos",
     metaDescription: "Cómo proteger a perros y gatos del frío: cuándo es demasiado, paseos en invierno, abrigo, cama sin corrientes, gatos que salen y señales de hipotermia.",
@@ -87,6 +90,7 @@ export const posts: Post[] = [
   },
   {
     slug: "como-leer-etiqueta-pienso-perros-gatos",
+    categoryCta: { href: "/tienda/alimentacion-perros", text: "Ver piensos para perros →" },
     title: "Cómo leer la etiqueta de un pienso para perros y gatos: composición, análisis y lo que importa de verdad",
     seoTitle: "Cómo leer la etiqueta del pienso",
     metaDescription: "Cómo leer la etiqueta de un pienso para perros y gatos: alimento completo, lista de composición, análisis en materia seca, reclamos de portada y FEDIAF.",
@@ -100,6 +104,7 @@ export const posts: Post[] = [
   },
   {
     slug: "cuanto-ejercicio-necesita-un-perro-paseos-edad-raza",
+    categoryCta: { href: "/tienda/accesorios-perros", text: "Ver accesorios para pasear a tu perro →" },
     title: "Cuánto ejercicio necesita un perro: paseos según su edad, su tamaño y su raza",
     seoTitle: "Cuánto ejercicio necesita un perro al día",
     metaDescription: "Cuánto ejercicio necesita un perro: paseos al día, cachorros y mayores, razas de nariz plana, calor y estimulación mental, con fuentes veterinarias.",
@@ -169,6 +174,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejor-pienso-perro-2025",
+    categoryCta: { href: "/tienda/alimentacion-perros", text: "Ver todos los piensos para perros →" },
     image: "/images/blog/mejor-pienso-perro-2025.jpg",
     title: "El mejor pienso para perros — Guía por razas y edad",
     seoTitle: "Mejor pienso para perros por raza y edad",
@@ -182,6 +188,7 @@ export const posts: Post[] = [
   },
   {
     slug: "pienso-gato-adulto-comparativa",
+    categoryCta: { href: "/tienda/alimentacion-gatos", text: "Ver alimentación para gatos →" },
     image: "/images/blog/pienso-gato-adulto-comparativa.jpg",
     title: "Mejor pienso para gatos adultos: comparativa y guía de compra",
     seoTitle: "Mejor pienso para gatos adultos: comparativa",
@@ -195,6 +202,7 @@ export const posts: Post[] = [
   },
   {
     slug: "antiparasitarios-perros-guia",
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver antiparasitarios y productos de salud →" },
     image: "/images/blog/antiparasitarios-perros-guia.jpg",
     title: "Antiparasitarios para perros: guía completa",
     seoTitle: "Antiparasitarios para perros: cuál elegir",
@@ -208,6 +216,7 @@ export const posts: Post[] = [
   },
   {
     slug: "juguetes-estimulacion-mental-perros",
+    categoryCta: { href: "/tienda/juguetes-mascotas", text: "Ver juguetes para perros y gatos →" },
     image: "/images/blog/juguetes-estimulacion-mental-perros.jpg",
     title: "Los mejores juguetes para estimulación mental en perros",
     seoTitle: "Juguetes de estimulación mental para perros",
@@ -220,6 +229,7 @@ export const posts: Post[] = [
   },
   {
     slug: "higiene-dental-perros-gatos",
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver productos de higiene dental →" },
     image: "/images/blog/higiene-dental-perros-gatos.jpg",
     title: "Higiene dental en perros y gatos: por qué importa y cómo hacerlo",
     seoTitle: "Higiene dental en perros y gatos: cómo hacerla",
@@ -246,6 +256,7 @@ export const posts: Post[] = [
   },
   {
     slug: "cama-ortopedica-perros-mayores",
+    categoryCta: { href: "/tienda/camas-transportines", text: "Ver camas para perros →" },
     image: "/images/blog/cama-ortopedica-perros-mayores.jpg",
     title: "Camas ortopédicas para perros mayores: cuándo y cuál elegir",
     seoTitle: "Cama ortopédica para perros mayores: cuál elegir",
@@ -259,6 +270,7 @@ export const posts: Post[] = [
   },
   {
     slug: "alimentacion-natural-perros-barf",
+    categoryCta: { href: "/tienda/alimentacion-perros", text: "Ver alimentación para perros →" },
     image: "/images/blog/alimentacion-natural-perros-barf.jpg",
     title: "Alimentación natural para perros: guía BARF para principiantes",
     seoTitle: "Dieta BARF para perros: guía para empezar",
@@ -272,6 +284,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mejor-pienso-perro-adulto-2025",
+    categoryCta: { href: "/tienda/alimentacion-perros", text: "Ver piensos para perros adultos →" },
     image: "/images/blog/mejor-pienso-perro-adulto-2025.jpg",
     title: "Mejor pienso para perro adulto — Comparativa completa",
     seoTitle: "Mejor pienso para perro adulto: comparativa",
@@ -285,6 +298,7 @@ export const posts: Post[] = [
   },
   {
     slug: "royal-canin-adult-maxi-analisis",
+    categoryCta: { href: "/tienda/alimentacion-perros", text: "Ver piensos para perros →" },
     image: "/images/blog/royal-canin-adult-maxi-analisis.jpg",
     title: "Royal Canin Adult Maxi: análisis completo y opiniones",
     seoTitle: "Royal Canin Adult Maxi: análisis y opinión",
@@ -326,6 +340,7 @@ export const posts: Post[] = [
   },
   {
     slug: "desparasitacion-perros-guia-completa",
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver antiparasitarios para perros →" },
     image: "/images/blog/desparasitacion-perros-guia-completa.jpg",
     title: "Desparasitación de perros: guía completa",
     seoTitle: "Desparasitación de perros: guía práctica",
@@ -339,6 +354,7 @@ export const posts: Post[] = [
   },
   {
     slug: "desparasitacion-gatos-guia",
+    categoryCta: { href: "/tienda/salud-higiene", text: "Ver antiparasitarios y salud para gatos →" },
     image: "/images/blog/desparasitacion-gatos-guia.jpg",
     title: "Desparasitación de gatos: guía completa",
     seoTitle: "Desparasitación de gatos: guía práctica",
@@ -352,6 +368,7 @@ export const posts: Post[] = [
   },
   {
     slug: "kong-classic-guia-uso",
+    categoryCta: { href: "/tienda/juguetes-mascotas", text: "Ver juguetes para perros y gatos →" },
     image: "/images/blog/kong-classic-guia-uso.jpg",
     title: "Kong Classic para perros: guía de uso y recetas",
     seoTitle: "Kong Classic: guía de uso y recetas",
@@ -364,6 +381,7 @@ export const posts: Post[] = [
   },
   {
     slug: "fuente-agua-gatos-catit-analisis",
+    categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver accesorios para gatos →" },
     image: "/images/blog/fuente-agua-gatos-catit-analisis.jpg",
     title: "Fuente de agua para gatos Catit Flower: análisis completo",
     seoTitle: "Catit Flower: análisis de la fuente para gatos",
@@ -391,6 +409,7 @@ export const posts: Post[] = [
   },
   {
     slug: "comedero-microchip-surefeed-analisis",
+    categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver accesorios para gatos →" },
     image: "/images/blog/comedero-microchip-surefeed-analisis.jpg",
     title: "Comedero con microchip SureFeed: análisis completo y para quién es",
     seoTitle: "Comedero con microchip SureFeed: análisis",
@@ -404,6 +423,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mochila-senderismo-perros-ruffwear",
+    categoryCta: { href: "/tienda/accesorios-perros", text: "Ver accesorios para perros →" },
     image: "/images/blog/mochila-senderismo-perros-ruffwear.jpg",
     title: "Ruffwear Approach Pack: análisis completo para senderismo con perros",
     seoTitle: "Ruffwear Approach Pack: mochila para perros",
@@ -456,6 +476,7 @@ export const posts: Post[] = [
   },
   {
     slug: "perro-mayor-cuidados-senior",
+    categoryCta: { href: "/tienda/camas-transportines", text: "Ver camas para perros mayores →" },
     image: "/images/blog/perro-mayor-cuidados-senior.jpg",
     title: "Cuidados del perro mayor: guía para propietarios de perros senior",
     seoTitle: "Cuidados del perro mayor: guía del perro senior",
@@ -469,6 +490,7 @@ export const posts: Post[] = [
   },
   {
     slug: "gato-primer-dia-casa-guia",
+    categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver accesorios para gatos →" },
     image: "/images/blog/gato-primer-dia-casa-guia.jpg",
     title: "Primer día con tu gato en casa: guía completa para nuevos propietarios",
     seoTitle: "Primer día del gato en casa: cómo prepararlo",
@@ -481,6 +503,7 @@ export const posts: Post[] = [
   },
   {
     slug: "pasear-perro-correctamente-guia",
+    categoryCta: { href: "/tienda/accesorios-perros", text: "Ver arneses, correas y accesorios →" },
     image: "/images/blog/pasear-perro-correctamente-guia.jpg",
     title: "Cómo pasear al perro correctamente: guía de adiestramiento básico",
     seoTitle: "Cómo pasear al perro correctamente",
