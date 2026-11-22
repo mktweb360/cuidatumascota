@@ -119,4 +119,14 @@ export const productRedirects: ProductRedirect[] = [
     destination: "/tienda/alimentacion-perros",
     motivo: "Verificación en vivo (22/09/2026): 'Applaws Taquitos de Pollo Snacks para Perros 90g' no existe — Applaws no vende snacks secos para perro en Amazon.es, solo comida húmeda. Sustituido por SnackOMio Tiras de Pechuga de Pollo 500g, ASIN B08Y8TDVTB (marca distinta, mismo tipo de producto: snack de pollo natural sin cereales).",
   },
+  {
+    source: "/tienda/salud-higiene/frontline-plus-perros-grandes-6-pipetas",
+    destination: "/tienda/salud-higiene/beaphar-fiprex-perro",
+    motivo: "Ficha sin stock en Amazon.es (marcada unavailable el 12/10/2026); se redirige a otras pipetas antiparasitarias para perros, mismo tipo de producto.",
+  },
+  {
+    source: "/tienda/alimentacion-perros/snackomio-tiras-pechuga-pollo-perro-500g",
+    destination: "/tienda/alimentacion-perros/dokas-pechuga-pollo-tiras-perro-2x500g",
+    motivo: "Ficha sin stock en Amazon.es (marcada unavailable el 27/10/2026); se redirige a otras tiras de pechuga de pollo para perros, mismo tipo de producto.",
+  },
 ];
