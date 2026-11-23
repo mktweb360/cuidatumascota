@@ -825,7 +825,7 @@ export const posts: Post[] = [
     date: "2026-11-13",
     readTime: 8,
     image: "/images/blog/pienso-perros-medianos-grandes-como-elegir.jpg",
-    relatedProducts: ["royal-canin-adult-maxi", "royal-canin-medium-adult-15kg", "advance-medium-adult-pollo-3kg", "purina-pro-plan-adult-medium-14kg", "purina-dog-chow-control-peso-14kg"],
+    relatedProducts: ["royal-canin-adult-maxi", "royal-canin-medium-adult-15kg", "advance-medium-adult-pollo-3kg", "purina-pro-plan-adult-medium-14kg", "purina-dog-chow-control-peso-14kg", "purina-one-medium-maxi-activo-pollo-7kg", "natures-variety-original-no-grain-pavo-medianos-grandes-12kg", "purina-pro-plan-medium-adult-digestion-cordero-16kg", "edgard-cooper-cordero-fresco-perro-mediano-2-5kg"],
     relatedPosts: ["mejor-pienso-perro-adulto-2025", "mejor-pienso-cachorro-guia", "como-leer-etiqueta-pienso-perros-gatos", "alimentacion-perros-guia-completa", "mejor-pienso-perro-2025"],
     isHealth: true,
     categoryCta: { href: "/tienda/alimentacion-perros", text: "Ver piensos para perros →" },
