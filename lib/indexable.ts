@@ -148,7 +148,6 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "furminator-peine-rastrillo-pelo-largo",
   "chuckit-ultra-ball-2-pelotas",
   "kong-ring-anillo-masticable-m-l",
-  "trixie-cuerda-juego-doble-60cm",
   "flexi-classic-s-correa-extensible-5m",
   "sanicat-arena-aglomerante-sin-perfume",
   "menforsan-champu-perros-aloe-vera",

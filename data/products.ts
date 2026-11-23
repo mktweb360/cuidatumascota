@@ -2281,6 +2281,7 @@ export const products: Product[] = [
   },
   {
     slug: "chuckit-lanzador-pelotas-46cm",
+    image: "/images/products/chuckit-lanzador-pelotas-46cm.jpg",
     name: "Chuckit! Lanzador de Pelotas para Perros 46 cm con Pelota Mediana",
     asin: "B00280MUGC",
     category: "Juguetes para mascotas",
@@ -2452,6 +2453,7 @@ export const products: Product[] = [
   },
   {
     slug: "trixie-cuerda-juego-doble-60cm",
+    unavailable: "2026-11-23",
     name: "TRIXIE Cuerda de Juego Doble de Algodón 60 cm, 500 g",
     asin: "B000A216F6",
     category: "Juguetes para mascotas",

@@ -10,6 +10,11 @@ export interface ProductRedirect {
 
 export const productRedirects: ProductRedirect[] = [
   {
+    source: "/tienda/juguetes-mascotas/trixie-cuerda-juego-doble-60cm",
+    destination: "/tienda/juguetes-mascotas/trixie-cuerda-juego-algodon-multicolor",
+    motivo: "Ficha sin botón de compra en Amazon.es (comprobada el 23/11/2026); se redirige a otra cuerda de juego viva de la misma categoría.",
+  },
+  {
     source: "/tienda/alimentacion-gatos/hills-science-plan-adult-no-grain-pollo-gato",
     destination: "/tienda/alimentacion-gatos/hills-science-plan-sterilised",
     motivo: "Ficha sin stock en Amazon.es (comprobada hasta el 16/11/2026); se redirige a un producto vivo de la misma categoría.",
