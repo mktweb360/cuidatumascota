@@ -1,8 +1,8 @@
-// Fichas de producto indexables (revisado 22/11/2026).
-// Criterio: ficha viva (sin `unavailable`), citada al menos por un artículo del blog y con contenido propio
-// (descripción de 300 caracteres o más, 3 ventajas o más y 2 contras o más). Las 15 primeras son las ya
-// indexables antes de esta revisión. El resto de fichas siguen accesibles con noindex,follow y fuera del
-// sitemap. Si Google AdSense vuelve a señalar contenido de poco valor, se reduce esta lista.
+// Fichas de producto indexables (revisado 23/11/2026, decisión de José: sin indexación no hay tráfico).
+// Criterio: ficha viva (sin `unavailable`) y con contenido propio (descripción de 300 caracteres o más,
+// 3 ventajas o más y 2 contras o más). Ya no hace falta que un artículo la cite. Las fichas retiradas
+// redirigen con 301 a una página permanente. Si Google AdSense vuelve a señalar contenido de poco valor,
+// se reduce esta lista. Lista generada: al añadir una ficha nueva que cumpla el criterio, hay que sumarla aquí.
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "kong-classic-xl-caucho",
   "catit-flower-fountain",
@@ -112,6 +112,50 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "royal-canin-sterilised-37-gatos-2kg",
   "purina-pro-plan-sterilised-savoury-duo-pato-10kg",
   "purina-pro-plan-sterilised-salmon-10kg",
+  "josicat-sterilised-classic-pienso-gatos-castrados-10kg",
+  "halti-arnes-control-frontal-antitirones",
+  "rabbitgoo-arnes-perro-mediano-3-hebillas",
+  "edipets-comedero-antivoracidad-laberinto",
+  "flexi-classic-l-correa-extensible-5m-cinta",
+  "flexi-classic-s-correa-extensible-8m-cordon",
+  "advance-medium-puppy-pienso-cachorros-medianos",
+  "furminator-deshedding-perros-grandes-pelo-largo-l",
+  "feandrea-arbol-gatos-137-cm-multinivel",
+  "yaheetech-arbol-rascador-gatos-139-cm",
+  "morpilot-transportin-gato-perro-pequeno-44x31x34",
+  "hills-science-diet-adult-perro-12kg",
+  "purina-one-adult-pollo-gato-7-5kg",
+  "hills-science-diet-sterilised-gato-10kg",
+  "virbac-clorexyderm-champu-500ml",
+  "chuckit-ultra-ball-talla-m",
+  "trixie-pelota-snack-jumble-ball",
+  "catit-circuito-bolas-senses",
+  "acana-senior-dog-pollo-11-4kg",
+  "lifelong-comida-humeda-perros-pate-carne-caza-10x300g",
+  "royal-canin-urinary-care-2kg",
+  "sheba-comida-humeda-gatos-varios-sabores-72-tarrinas",
+  "pedigree-dentastix-palitos-dentales-perros-grandes",
+  "virbac-epi-otic-limpiador-auricular-125ml",
+  "condroprotector-glucosamina-condroitina-perros-gatos-180caps",
+  "beaphar-vermipure-desparasitante-natural-gatos",
+  "ensobo-transportin-blando-gato-perro",
+  "amzpet-funda-coche-perros-universal",
+  "nobleza-alfombrilla-refrescante-perros-xxl",
+  "makife-guante-cepillado-mascotas",
+  "trixie-tunel-juego-gatos",
+  "trixie-cuerda-juego-algodon-multicolor",
+  "dokas-pechuga-pollo-tiras-perro-2x500g",
+  "furminator-peine-rastrillo-pelo-largo",
+  "chuckit-ultra-ball-2-pelotas",
+  "kong-ring-anillo-masticable-m-l",
+  "trixie-cuerda-juego-doble-60cm",
+  "flexi-classic-s-correa-extensible-5m",
+  "sanicat-arena-aglomerante-sin-perfume",
+  "menforsan-champu-perros-aloe-vera",
+  "natures-variety-no-grain-gato-esterilizado-pollo-3kg",
+  "iams-gatos-esterilizados-pollo-3kg",
+  "catit-go-natural-arena-guisantes-vainilla-5-6kg",
+  "fukumaru-arena-tofu-gatos-10-8kg",
 ]);
 
 export const isFeaturedProduct = (slug: string) => FEATURED_PRODUCT_SLUGS.has(slug);
