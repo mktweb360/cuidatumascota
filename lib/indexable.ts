@@ -6,6 +6,9 @@
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "kong-classic-xl-caucho",
   "catit-flower-fountain",
+  "feandrea-arbol-gatos-154-cm-nidos-hamaca",
+  "kamaboko-arbol-gatos-madera-maciza-moderno",
+  "petace-comedero-elevado-perro-5-alturas-antivoracidad",
   "orijen-original-dog-11kg",
   "royal-canin-indoor-adult",
   "beaphar-fiprex-perro",
