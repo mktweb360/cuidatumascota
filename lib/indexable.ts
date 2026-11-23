@@ -6,6 +6,10 @@
 export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "kong-classic-xl-caucho",
   "catit-flower-fountain",
+  "purina-one-medium-maxi-activo-pollo-7kg",
+  "edgard-cooper-cordero-fresco-perro-mediano-2-5kg",
+  "purina-pro-plan-medium-adult-digestion-cordero-16kg",
+  "natures-variety-original-no-grain-pavo-medianos-grandes-12kg",
   "feandrea-arbol-gatos-154-cm-nidos-hamaca",
   "kamaboko-arbol-gatos-madera-maciza-moderno",
   "petace-comedero-elevado-perro-5-alturas-antivoracidad",
