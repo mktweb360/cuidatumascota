@@ -147,6 +147,7 @@ export const products: Product[] = [
   // ALIMENTACIÓN GATOS
   {
     slug: "josicat-sterilised-classic-pienso-gatos-castrados-10kg",
+    image: "/images/products/josicat-sterilised-classic-pienso-gatos-castrados-10kg.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "JosiCat Sterilised Classic Pienso Gatos Castrados 10 kg",
     asin: "B07Z6JRQ6R",
@@ -226,6 +227,7 @@ export const products: Product[] = [
   // ACCESORIOS PERROS
   {
     slug: "halti-arnes-control-frontal-antitirones",
+    image: "/images/products/halti-arnes-control-frontal-antitirones.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "Arnés de Control Frontal HALTI para Perros",
     asin: "B004W78GGC",
@@ -246,6 +248,7 @@ export const products: Product[] = [
   },
   {
     slug: "rabbitgoo-arnes-perro-mediano-3-hebillas",
+    image: "/images/products/rabbitgoo-arnes-perro-mediano-3-hebillas.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "rabbitgoo Arnés Perro Mediano 3 Hebillas",
     asin: "B0CQX4HFL8",
@@ -266,6 +269,7 @@ export const products: Product[] = [
   },
   {
     slug: "edipets-comedero-antivoracidad-laberinto",
+    image: "/images/products/edipets-comedero-antivoracidad-laberinto.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "Edipets Comedero Antivoracidad con Laberinto",
     asin: "B0979GWC5D",
@@ -286,6 +290,7 @@ export const products: Product[] = [
   },
   {
     slug: "mateeylife-comedero-lento-perros",
+    image: "/images/products/mateeylife-comedero-lento-perros.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo. Datos solo de la ficha de Amazon.
     name: "Mateeylife Comedero Antivoracidad Perros",
     asin: "B0CB5CXGWY",
@@ -306,6 +311,7 @@ export const products: Product[] = [
   },
   {
     slug: "flexi-classic-l-correa-extensible-5m-cinta",
+    image: "/images/products/flexi-classic-l-correa-extensible-5m-cinta.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "flexi Classic L Correa Extensible 5 m con Cinta",
     asin: "B072PWWV31",
@@ -326,6 +332,7 @@ export const products: Product[] = [
   },
   {
     slug: "flexi-classic-s-correa-extensible-8m-cordon",
+    image: "/images/products/flexi-classic-s-correa-extensible-8m-cordon.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "flexi Classic S Correa Extensible 8 m con Cordón",
     asin: "B00O3B1VDM",
@@ -346,6 +353,7 @@ export const products: Product[] = [
   },
   {
     slug: "advance-medium-puppy-pienso-cachorros-medianos",
+    image: "/images/products/advance-medium-puppy-pienso-cachorros-medianos.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Advance Medium Puppy Pienso Cachorros Medianos",
     asin: "B00388MYF0",
@@ -366,6 +374,7 @@ export const products: Product[] = [
   },
   {
     slug: "furminator-deshedding-perros-grandes-pelo-largo-l",
+    image: "/images/products/furminator-deshedding-perros-grandes-pelo-largo-l.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "FURminator deShedding Cepillo Perros Grandes L",
     asin: "B07NSL5V36",
@@ -386,6 +395,7 @@ export const products: Product[] = [
   },
   {
     slug: "pedigree-dentastix-perros-medianos-56",
+    image: "/images/products/pedigree-dentastix-perros-medianos-56.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Pedigree Dentastix Snack Dental Perros Medianos",
     asin: "B007ZY4D0W",
@@ -406,6 +416,7 @@ export const products: Product[] = [
   },
   {
     slug: "feandrea-arbol-gatos-137-cm-multinivel",
+    image: "/images/products/feandrea-arbol-gatos-137-cm-multinivel.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Feandrea Árbol para Gatos 137,7 cm Multinivel",
     asin: "B08XTS5LH9",
@@ -426,6 +437,7 @@ export const products: Product[] = [
   },
   {
     slug: "yaheetech-arbol-rascador-gatos-139-cm",
+    image: "/images/products/yaheetech-arbol-rascador-gatos-139-cm.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Yaheetech Árbol Rascador para Gatos 139 cm",
     asin: "B07YRKTF9Y",
@@ -446,6 +458,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-arbol-gatos-interior-multinivel",
+    image: "/images/products/amazon-basics-arbol-gatos-interior-multinivel.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Árbol para Gatos de Interior",
     asin: "B0DRY5G74Y",
@@ -466,6 +479,7 @@ export const products: Product[] = [
   },
   {
     slug: "feandrea-arenero-gatos-bandeja-extraible",
+    image: "/images/products/feandrea-arenero-gatos-bandeja-extraible.jpg",
     // Comprobada en amazon.es el 19/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Feandrea Arenero para Gatos con Bandeja Extraíble",
     asin: "B09PGZ11LT",
@@ -609,6 +623,7 @@ export const products: Product[] = [
   // CAMAS Y TRANSPORTINES
   {
     slug: "morpilot-transportin-gato-perro-pequeno-44x31x34",
+    image: "/images/products/morpilot-transportin-gato-perro-pequeno-44x31x34.jpg",
     // Comprobada en amazon.es el 21/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Morpilot Transportín Gato y Perro Pequeño 44 cm",
     asin: "B07MGH27ZS",
@@ -726,6 +741,7 @@ export const products: Product[] = [
   // ALIMENTACIÓN PERROS (ampliación blog)
   {
     slug: "royal-canin-adult-maxi",
+    image: "/images/products/royal-canin-adult-maxi.jpg",
     name: "Royal Canin Maxi Adult Pienso Perro Raza Grande 15kg",
     asin: "B0014TE6FG",
     category: "Alimentación para perros",
@@ -745,6 +761,7 @@ export const products: Product[] = [
   },
   {
     slug: "hills-science-plan-adult",
+    image: "/images/products/hills-science-plan-adult.jpg",
     name: "Hill's Science Plan Canine Adult Large Breed Pollo 14kg",
     asin: "B083SSRJ8D",
     category: "Alimentación para perros",
@@ -765,6 +782,7 @@ export const products: Product[] = [
   // ALIMENTACIÓN GATOS (ampliación blog)
   {
     slug: "royal-canin-indoor-adult",
+    image: "/images/products/royal-canin-indoor-adult.jpg",
     name: "Royal Canin Indoor Pienso Gato de Interior 4kg",
     asin: "B0015U0NB0",
     category: "Alimentación para gatos",
@@ -784,6 +802,7 @@ export const products: Product[] = [
   },
   {
     slug: "hills-science-plan-sterilised",
+    image: "/images/products/hills-science-plan-sterilised.jpg",
     name: "Hill's Science Plan Sterilised Cat Pienso Gato Esterilizado Pollo 1,5kg",
     asin: "B003ZEJI2E",
     category: "Alimentación para gatos",
@@ -802,6 +821,7 @@ export const products: Product[] = [
   },
   {
     slug: "acana-pacifica-cat",
+    image: "/images/products/acana-pacifica-cat.jpg",
     name: "Acana Pacifica Cat Pienso Gato Sin Cereales Pescado 4,5kg",
     asin: "B08LNYV9ZV",
     category: "Alimentación para gatos",
@@ -822,6 +842,7 @@ export const products: Product[] = [
   // SALUD E HIGIENE (ampliación blog)
   {
     slug: "frontline-combo-gato",
+    image: "/images/products/frontline-combo-gato.jpg",
     name: "Biocanina Fiprocat 50mg Antiparasitario Spot-On para Gatos, 3 Pipetas",
     asin: "B072LRHTBH",
     category: "Salud e higiene",
@@ -842,6 +863,7 @@ export const products: Product[] = [
   },
   {
     slug: "beaphar-fiprex-perro",
+    image: "/images/products/beaphar-fiprex-perro.jpg",
     name: "Beaphar VETOpure Pipetas Antiparasitarias para Perros",
     asin: "B009SJAUYK",
     category: "Salud e higiene",
@@ -861,6 +883,7 @@ export const products: Product[] = [
   },
   {
     slug: "furminator-deshedding-perro",
+    image: "/images/products/furminator-deshedding-perro.jpg",
     name: "FURminator deShedding Tool Cepillo para Perros Grandes de Pelo Corto Talla L",
     asin: "B07NSL5MD8",
     category: "Salud e higiene",
@@ -882,6 +905,7 @@ export const products: Product[] = [
   // ACCESORIOS PERROS (ampliación blog)
   {
     slug: "ruffwear-approach-pack",
+    image: "/images/products/ruffwear-approach-pack.jpg",
     name: "Ruffwear Approach Pack Mochila Senderismo Perro con Alforjas",
     asin: "B01MZ9COT8",
     category: "Accesorios para perros",
@@ -902,6 +926,7 @@ export const products: Product[] = [
   // ACCESORIOS GATOS (ampliación blog)
   {
     slug: "catit-flower-fountain",
+    image: "/images/products/catit-flower-fountain.jpg",
     name: "Catit Flower Fountain Fuente de Agua para Gatos 3L",
     asin: "B0146QXOB0",
     category: "Accesorios para gatos",
@@ -921,6 +946,7 @@ export const products: Product[] = [
   },
   {
     slug: "petfusion-arbol-rascador",
+    image: "/images/products/petfusion-arbol-rascador.jpg",
     name: "Heybly Árbol Rascador para Gatos con Cepillo de Autolimpieza, Silla de Descanso y Nido",
     asin: "B0DZCQHX85",
     category: "Accesorios para gatos",
@@ -940,6 +966,7 @@ export const products: Product[] = [
   },
   {
     slug: "surefeed-microchip-feeder",
+    image: "/images/products/surefeed-microchip-feeder.jpg",
     name: "SureFeed Microchip Pet Feeder Comedero con Microchip",
     asin: "B00O0UIPTY",
     category: "Accesorios para gatos",
@@ -980,6 +1007,7 @@ export const products: Product[] = [
   },
   {
     slug: "hills-science-diet-adult-perro-12kg",
+    image: "/images/products/hills-science-diet-adult-perro-12kg.jpg",
     name: "Hill's Science Plan Canine Adult Small & Mini Pollo 10kg",
     asin: "B0BD5CXR6H",
     category: "Alimentación para perros",
@@ -999,6 +1027,7 @@ export const products: Product[] = [
   // ALIMENTACIÓN GATOS
   {
     slug: "purina-one-adult-pollo-gato-7-5kg",
+    image: "/images/products/purina-one-adult-pollo-gato-7-5kg.jpg",
     name: "Applaws Pienso Seco para Gatos Adultos Pollo con Salmón 7,5kg",
     asin: "B00N4UFEZO",
     category: "Alimentación para gatos",
@@ -1017,6 +1046,7 @@ export const products: Product[] = [
   },
   {
     slug: "hills-science-diet-sterilised-gato-10kg",
+    image: "/images/products/hills-science-diet-sterilised-gato-10kg.jpg",
     name: "Purina Pro Plan Sterilised Adult Pienso para Gato con Pavo 10kg",
     asin: "B009FYKI54",
     category: "Alimentación para gatos",
@@ -1037,6 +1067,7 @@ export const products: Product[] = [
   // SALUD E HIGIENE
   {
     slug: "virbac-clorexyderm-champu-500ml",
+    image: "/images/products/virbac-clorexyderm-champu-500ml.jpg",
     name: "Virbac Pyoderm Champú Dermatológico Clorhexidina 3%, 200ml",
     asin: "B073ZGBSR4",
     category: "Salud e higiene",
@@ -1291,6 +1322,7 @@ export const products: Product[] = [
   },
   {
     slug: "correa-larga-adiestramiento-10m-perro",
+    image: "/images/products/correa-larga-adiestramiento-10m-perro.jpg",
     name: "Correa Larga de Adiestramiento 10 Metros para Perros",
     asin: "B06XSZ194G",
     category: "Accesorios para perros",
@@ -1371,6 +1403,7 @@ export const products: Product[] = [
   // ALIMENTACIÓN PERROS (nuevos)
   {
     slug: "purina-pro-plan-puppy-start-cachorro-3kg",
+    image: "/images/products/purina-pro-plan-puppy-start-cachorro-3kg.jpg",
     name: "Purina Pro Plan Medium Puppy Start Pienso para Cachorro con Calostro 3kg",
     asin: "B00Y9SSHU4",
     category: "Alimentación para perros",
@@ -1389,6 +1422,7 @@ export const products: Product[] = [
   },
   {
     slug: "acana-senior-dog-pollo-11-4kg",
+    image: "/images/products/acana-senior-dog-pollo-11-4kg.jpg",
     name: "Acana Senior Dog Pienso para Perro Senior con Pollo 11,4kg",
     asin: "B01C6UHTAU",
     category: "Alimentación para perros",
@@ -1407,6 +1441,7 @@ export const products: Product[] = [
   },
   {
     slug: "purina-dog-chow-control-peso-14kg",
+    image: "/images/products/purina-dog-chow-control-peso-14kg.jpg",
     name: "Purina Dog Chow Control de Peso Pienso para Perro Adulto Sabor Pavo 14kg",
     asin: "B00O4BBB7C",
     category: "Alimentación para perros",
@@ -1425,6 +1460,7 @@ export const products: Product[] = [
   },
   {
     slug: "lifelong-comida-humeda-perros-pate-carne-caza-10x300g",
+    image: "/images/products/lifelong-comida-humeda-perros-pate-carne-caza-10x300g.jpg",
     name: "Lifelong by Amazon Comida Húmeda para Perros Paté con Carne de Caza 300g (Paquete de 10)",
     asin: "B08GD8L28L",
     category: "Alimentación para perros",
@@ -1445,6 +1481,7 @@ export const products: Product[] = [
   // ALIMENTACIÓN GATOS (nuevos)
   {
     slug: "royal-canin-kitten-4kg",
+    image: "/images/products/royal-canin-kitten-4kg.jpg",
     name: "Royal Canin Kitten Pienso para Gatitos 4kg",
     asin: "B07D4DWRFF",
     category: "Alimentación para gatos",
@@ -1463,6 +1500,7 @@ export const products: Product[] = [
   },
   {
     slug: "royal-canin-urinary-care-2kg",
+    image: "/images/products/royal-canin-urinary-care-2kg.jpg",
     name: "Royal Canin Urinary Care Pienso para Gatos 2kg",
     asin: "B00PTTO41S",
     category: "Alimentación para gatos",
@@ -1481,6 +1519,7 @@ export const products: Product[] = [
   },
   {
     slug: "sheba-comida-humeda-gatos-varios-sabores-72-tarrinas",
+    image: "/images/products/sheba-comida-humeda-gatos-varios-sabores-72-tarrinas.jpg",
     name: "Sheba Comida Húmeda para Gatos, Varios Sabores, 72 Tarrinas (6 x 12 x 85g)",
     asin: "B074KFBTXY",
     category: "Alimentación para gatos",
@@ -1499,6 +1538,7 @@ export const products: Product[] = [
   },
   {
     slug: "purina-one-bifensis-sterilcat-hairball-8x800g",
+    image: "/images/products/purina-one-bifensis-sterilcat-hairball-8x800g.jpg",
     name: "Purina ONE Bifensis Sterilcat Hairball Pienso para Gatos Esterilizados, 8 x 800g",
     asin: "B0BHSD5X5W",
     category: "Alimentación para gatos",
@@ -1519,6 +1559,7 @@ export const products: Product[] = [
   // ACCESORIOS PERROS (nuevos)
   {
     slug: "trixie-walker-active-botas-neopreno",
+    image: "/images/products/trixie-walker-active-botas-neopreno.jpg",
     name: "Trixie Walker Active Botas de Neopreno para Perro (pack de 2)",
     asin: "B000OLYIE4",
     category: "Accesorios para perros",
@@ -1537,6 +1578,7 @@ export const products: Product[] = [
   },
   {
     slug: "ezydog-cinturon-seguridad-coche-perro",
+    image: "/images/products/ezydog-cinturon-seguridad-coche-perro.jpg",
     name: "EzyDog Cinturón de Seguridad para Coche Multifunción Ajustable",
     asin: "B01MDOZ6JF",
     category: "Accesorios para perros",
@@ -1555,6 +1597,7 @@ export const products: Product[] = [
   },
   {
     slug: "baskerville-classic-bozal-cesta",
+    image: "/images/products/baskerville-classic-bozal-cesta.jpg",
     name: "Baskerville Classic Bozal de Cesta para Perro",
     asin: "B0CZBP6WFW",
     category: "Accesorios para perros",
@@ -1573,6 +1616,7 @@ export const products: Product[] = [
   },
   {
     slug: "pedigree-dentastix-palitos-dentales-perros-grandes",
+    image: "/images/products/pedigree-dentastix-palitos-dentales-perros-grandes.jpg",
     name: "Pedigree Dentastix Palitos Dentales para Perros Grandes +25kg (56 uds)",
     asin: "B0173NA0AG",
     category: "Accesorios para perros",
@@ -1591,6 +1635,7 @@ export const products: Product[] = [
   },
   {
     slug: "idepet-impermeable-capucha-perro",
+    image: "/images/products/idepet-impermeable-capucha-perro.jpg",
     name: "Idepet Impermeable para Perro con Capucha y Cuello",
     asin: "B0859BLHFB",
     category: "Accesorios para perros",
@@ -1611,6 +1656,7 @@ export const products: Product[] = [
   // SALUD E HIGIENE (nuevos)
   {
     slug: "trixie-tijeras-cortaunas-perros",
+    image: "/images/products/trixie-tijeras-cortaunas-perros.jpg",
     name: "TRIXIE Tijeras para Uñas para Perros",
     asin: "B0009585RQ",
     category: "Salud e higiene",
@@ -1630,6 +1676,7 @@ export const products: Product[] = [
   },
   {
     slug: "virbac-epi-otic-limpiador-auricular-125ml",
+    image: "/images/products/virbac-epi-otic-limpiador-auricular-125ml.jpg",
     name: "Virbac Epi-Otic Solución Limpiadora Auricular para Perros y Gatos 125ml",
     asin: "B0761X8LDN",
     category: "Salud e higiene",
@@ -1649,6 +1696,7 @@ export const products: Product[] = [
   },
   {
     slug: "condroprotector-glucosamina-condroitina-perros-gatos-180caps",
+    image: "/images/products/condroprotector-glucosamina-condroitina-perros-gatos-180caps.jpg",
     name: "Complejo de Glucosamina y Condroitina 500mg para Perros y Gatos, 180 Cápsulas",
     asin: "B07H2YR3WV",
     category: "Salud e higiene",
@@ -1668,6 +1716,7 @@ export const products: Product[] = [
   },
   {
     slug: "trixie-peine-antipulgas-polvo",
+    image: "/images/products/trixie-peine-antipulgas-polvo.jpg",
     name: "TRIXIE Peine Antipulgas con Polvo, 7cm",
     asin: "B007N2MGJQ",
     category: "Salud e higiene",
@@ -1687,6 +1736,7 @@ export const products: Product[] = [
   },
   {
     slug: "beaphar-vermipure-desparasitante-natural-gatos",
+    image: "/images/products/beaphar-vermipure-desparasitante-natural-gatos.jpg",
     name: "Beaphar VERMIpure Comprimidos Naturales Desparasitante Interno para Gatos y Gatitos, 50 Comprimidos",
     asin: "B0CMXXSJ1Z",
     category: "Salud e higiene",
@@ -1708,6 +1758,7 @@ export const products: Product[] = [
   // CAMAS Y TRANSPORTINES (nuevos)
   {
     slug: "ensobo-transportin-blando-gato-perro",
+    image: "/images/products/ensobo-transportin-blando-gato-perro.jpg",
     name: "ENSOBO Transportín Blando para Gatos y Perros Pequeños, Aerolínea Aprobado",
     asin: "B092HP8B9X",
     category: "Camas y transportines",
@@ -1726,6 +1777,7 @@ export const products: Product[] = [
   },
   {
     slug: "amzpet-funda-coche-perros-universal",
+    image: "/images/products/amzpet-funda-coche-perros-universal.jpg",
     name: "AMZPET ISOFIX Funda Coche para Perros Universal 133x56cm",
     asin: "B08HPRK34R",
     category: "Camas y transportines",
@@ -1744,6 +1796,7 @@ export const products: Product[] = [
   },
   {
     slug: "nobleza-alfombrilla-refrescante-perros-xxl",
+    image: "/images/products/nobleza-alfombrilla-refrescante-perros-xxl.jpg",
     name: "Nobleza Alfombrilla Refrescante de Gel para Perros Grandes 140x90cm",
     asin: "B0DJNJG1MM",
     category: "Camas y transportines",
@@ -1762,6 +1815,7 @@ export const products: Product[] = [
   },
   {
     slug: "gardner-pet-cama-elevada-hamaca-perro-m",
+    image: "/images/products/gardner-pet-cama-elevada-hamaca-perro-m.jpg",
     name: "Gardner Pet Cama Elevada tipo Hamaca para Perros Medianos y Grandes, Talla M",
     asin: "B0F2FLJM7S",
     category: "Camas y transportines",
@@ -1801,6 +1855,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-alfombra-arenero-gatos",
+    image: "/images/products/amazon-basics-alfombra-arenero-gatos.jpg",
     name: "Amazon Basics Alfombra para Arenero de Gatos 61x88,9cm",
     asin: "B07117QSBK",
     category: "Accesorios para gatos",
@@ -1819,6 +1874,7 @@ export const products: Product[] = [
   },
   {
     slug: "pecute-mochila-transportin-gatos",
+    image: "/images/products/pecute-mochila-transportin-gatos.jpg",
     name: "Pecute Mochila Transportín para Mascotas con Ventana de Malla",
     asin: "B096KTYMTN",
     category: "Accesorios para gatos",
@@ -1837,6 +1893,7 @@ export const products: Product[] = [
   },
   {
     slug: "makife-guante-cepillado-mascotas",
+    image: "/images/products/makife-guante-cepillado-mascotas.jpg",
     name: "Makife Guante de Aseo y Masaje para Perros y Gatos (2 unidades)",
     asin: "B07PMPQZWD",
     category: "Accesorios para gatos",
@@ -1855,6 +1912,7 @@ export const products: Product[] = [
   },
   {
     slug: "trixie-tunel-juego-gatos",
+    image: "/images/products/trixie-tunel-juego-gatos.jpg",
     name: "Trixie Túnel de Juego para Gatos Ø30x115cm",
     asin: "B000A216GK",
     category: "Accesorios para gatos",
@@ -1875,6 +1933,7 @@ export const products: Product[] = [
   // JUGUETES PARA MASCOTAS (nuevos)
   {
     slug: "petstages-nina-ottosson-melon-madness",
+    image: "/images/products/petstages-nina-ottosson-melon-madness.jpg",
     name: "Nina Ottosson by Petstages Melon Madness - Puzzle Interactivo para Gatos con Dispensador de Premios",
     asin: "B0872JDX24",
     category: "Juguetes para mascotas",
@@ -1893,6 +1952,7 @@ export const products: Product[] = [
   },
   {
     slug: "trixie-cuerda-juego-algodon-multicolor",
+    image: "/images/products/trixie-cuerda-juego-algodon-multicolor.jpg",
     name: "Trixie Cuerda de Juego de Algodón 26cm, Colores Surtidos",
     asin: "B000958616",
     category: "Juguetes para mascotas",
@@ -1911,6 +1971,7 @@ export const products: Product[] = [
   },
   {
     slug: "kong-puppy-goodie-bone",
+    image: "/images/products/kong-puppy-goodie-bone.jpg",
     name: "KONG Puppy Goodie Bone - Hueso Dispensador de Golosinas para Dentición",
     asin: "B0009VKK9G",
     category: "Juguetes para mascotas",
@@ -1930,6 +1991,7 @@ export const products: Product[] = [
   // SALUD E HIGIENE — ampliación 09/09/2026 (control de plagas en el hogar + higiene felina)
   {
     slug: "petsly-spray-antipulgas-hogar-500ml",
+    image: "/images/products/petsly-spray-antipulgas-hogar-500ml.jpg",
     name: "Petsly Spray Antipulgas Perros y Gatos 500ml - Antipulgas Hogar, Muebles",
     asin: "B08ZLCBGG9",
     category: "Salud e higiene",
@@ -1950,6 +2012,7 @@ export const products: Product[] = [
   },
   {
     slug: "furminator-deshedding-gato-pelo-corto",
+    image: "/images/products/furminator-deshedding-gato-pelo-corto.jpg",
     name: "FURminator deShedding Tool para Gatos de Pelo Corto",
     asin: "B0DM9JKNXZ",
     category: "Salud e higiene",
@@ -1969,6 +2032,7 @@ export const products: Product[] = [
   },
   {
     slug: "applaws-freeze-dried-pollo-snacks-gato-12x10g",
+    image: "/images/products/applaws-freeze-dried-pollo-snacks-gato-12x10g.jpg",
     name: "Applaws Natural Cat Treats Freeze Dried Pechuga de Pollo Liofilizada - Pack 12x10g",
     asin: "B0D1CT7WYZ",
     category: "Alimentación para gatos",
@@ -2007,6 +2071,7 @@ export const products: Product[] = [
   },
   {
     slug: "dokas-pechuga-pollo-tiras-perro-2x500g",
+    image: "/images/products/dokas-pechuga-pollo-tiras-perro-2x500g.jpg",
     // Alta 27/10/2026 (sustituye a SnackOMio 500 g, sin ficha). Verificado en amazon.es el 27/10: vendido por FeedMyAnimal y enviado por Amazon.
     name: "DOKAS Pechuga de Pollo en Tiras para Perros, Paquete Doble 2 x 500 g",
     asin: "B0B8DF1P3F",
@@ -2027,6 +2092,7 @@ export const products: Product[] = [
   // AMPLIACIÓN 25/09/2026 — bolas de pelo en gatos (cierre de hueco contenido↔tienda del artículo bolas-de-pelo-gatos-prevencion)
   {
     slug: "gimcat-malt-soft-extra-pasta-malta-gato-100g",
+    image: "/images/products/gimcat-malt-soft-extra-pasta-malta-gato-100g.jpg",
     name: "GimCat Malt-Soft Extra - Pasta de Malta Anti-Hairball para Gatos, Tubo 100g",
     asin: "B001MZYPTE",
     category: "Salud e higiene",
@@ -2047,6 +2113,7 @@ export const products: Product[] = [
   },
   {
     slug: "royal-canin-hairball-care-gato-2kg",
+    image: "/images/products/royal-canin-hairball-care-gato-2kg.jpg",
     name: "Royal Canin Hairball Care - Pienso Seco para Gatos Adultos Propensos a Bolas de Pelo, 2kg",
     asin: "B00GSAD292",
     category: "Alimentación para gatos",
@@ -2067,6 +2134,7 @@ export const products: Product[] = [
   },
   {
     slug: "furminator-deshedding-gato-pelo-largo",
+    image: "/images/products/furminator-deshedding-gato-pelo-largo.jpg",
     name: "FURminator deShedding Tool para Gatos Medianos/Grandes de Pelo Largo, Talla M/L",
     asin: "B0DM9JDSB2",
     category: "Salud e higiene",
@@ -2087,6 +2155,7 @@ export const products: Product[] = [
   },
   {
     slug: "furminator-peine-rastrillo-pelo-largo",
+    image: "/images/products/furminator-peine-rastrillo-pelo-largo.jpg",
     name: "FURminator Peine de Rastrillo para Perros y Gatos de Pelo Largo - Antinudos",
     asin: "B07PRYW63P",
     category: "Salud e higiene",
@@ -2107,6 +2176,7 @@ export const products: Product[] = [
   },
   {
     slug: "candure-cortaunas-perro-gato-pequenos-animales",
+    image: "/images/products/candure-cortaunas-perro-gato-pequenos-animales.jpg",
     name: "Candure Cortauñas para Perro y Gato con Protector de Seguridad - Acero Inoxidable (Verde S, Pequeños Animales)",
     asin: "B00E3302YE",
     category: "Salud e higiene",
@@ -2127,6 +2197,7 @@ export const products: Product[] = [
   },
   {
     slug: "cortaunas-gato-profesional-acero-inoxidable-tijera",
+    image: "/images/products/cortaunas-gato-profesional-acero-inoxidable-tijera.jpg",
     name: "Cortauñas Gato Profesional de Acero Inoxidable - Tijera para Gatos, Gatitos y Mascotas Pequeñas",
     asin: "B0B4W9581V",
     category: "Salud e higiene",
@@ -2147,6 +2218,7 @@ export const products: Product[] = [
   },
   {
     slug: "artero-x-top-polvo-hemostatico-unas-15g",
+    image: "/images/products/artero-x-top-polvo-hemostatico-unas-15g.jpg",
     name: "ARTERO X-Top Polvo Hemostático para Perros y Gatos, Corte de Uñas, 15 g",
     asin: "B094YG6TRC",
     category: "Salud e higiene",
@@ -2167,6 +2239,7 @@ export const products: Product[] = [
   },
   {
     slug: "epica-cortaunas-perros-grandes-cuchilla-semicircular",
+    image: "/images/products/epica-cortaunas-perros-grandes-cuchilla-semicircular.jpg",
     name: "Epica Cortaúñas Profesionales para Perros, Recortador de Uñas para Perros Grandes con Protector de Seguridad (talla grande)",
     asin: "B00FU6PDLU",
     category: "Salud e higiene",
@@ -2187,6 +2260,7 @@ export const products: Product[] = [
   },
   {
     slug: "trixie-dog-activity-turn-around",
+    image: "/images/products/trixie-dog-activity-turn-around.jpg",
     name: "TRIXIE Dog Activity Turn Around Juego de Inteligencia para Perros 22 × 33 cm",
     asin: "B003TOKTEG",
     category: "Juguetes para mascotas",
@@ -2227,6 +2301,7 @@ export const products: Product[] = [
   },
   {
     slug: "chuckit-ultra-ball-2-pelotas",
+    image: "/images/products/chuckit-ultra-ball-2-pelotas.jpg",
     name: "Chuckit! Ultra Ball Pack de 2 Pelotas para Perros, Talla S",
     asin: "B00280MUVC",
     category: "Juguetes para mascotas",
@@ -2247,6 +2322,7 @@ export const products: Product[] = [
   },
   {
     slug: "kong-extreme-talla-mediana",
+    image: "/images/products/kong-extreme-talla-mediana.jpg",
     name: "KONG Extreme Juguete Rellenable para Perros Mordedores, Talla Mediana",
     asin: "B000GUDZO2",
     category: "Juguetes para mascotas",
@@ -2268,6 +2344,7 @@ export const products: Product[] = [
   },
   {
     slug: "feandrea-arbol-gatos-143cm",
+    image: "/images/products/feandrea-arbol-gatos-143cm.jpg",
     name: "Feandrea Árbol para Gatos 143 cm Multinivel con 4 Postes Rascadores, Cueva y Hamaca",
     asin: "B08XTMNMMZ",
     category: "Accesorios para gatos",
@@ -2289,6 +2366,7 @@ export const products: Product[] = [
   },
   {
     slug: "bedsure-sofa-cama-ortopedica-perro-grande",
+    image: "/images/products/bedsure-sofa-cama-ortopedica-perro-grande.jpg",
     name: "Bedsure Sofá Cama Ortopédica Lavable para Perros Grandes 89x63 cm",
     asin: "B08NC88YD7",
     category: "Camas y transportines",
@@ -2310,6 +2388,7 @@ export const products: Product[] = [
   },
   {
     slug: "ksiia-cama-ortopedica-perro-xl",
+    image: "/images/products/ksiia-cama-ortopedica-perro-xl.jpg",
     name: "KSIIA Cama Ortopédica para Perros Grandes XL 105x70x18 cm",
     asin: "B0CMZ7L79D",
     category: "Camas y transportines",
@@ -2331,6 +2410,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-transportin-2-puertas-48cm",
+    image: "/images/products/amazon-basics-transportin-2-puertas-48cm.jpg",
     name: "Amazon Basics Transportín Rígido de 2 Puertas con Carga Superior, 48 cm",
     asin: "B00OP6SMCI",
     category: "Camas y transportines",
@@ -2351,6 +2431,7 @@ export const products: Product[] = [
   },
   {
     slug: "kong-ring-anillo-masticable-m-l",
+    image: "/images/products/kong-ring-anillo-masticable-m-l.jpg",
     name: "KONG Ring Anillo Masticable de Caucho Natural, Talla Mediana/Grande",
     asin: "B073SZ6NT8",
     category: "Juguetes para mascotas",
@@ -2391,6 +2472,7 @@ export const products: Product[] = [
   },
   {
     slug: "ace2ace-rodillo-quitapelos-reutilizable",
+    image: "/images/products/ace2ace-rodillo-quitapelos-reutilizable.jpg",
     name: "ACE2ACE Rodillo Quitapelos de Mascotas Reutilizable y Autolimpiable",
     asin: "B0819XVK92",
     category: "Accesorios para gatos",
@@ -2412,6 +2494,7 @@ export const products: Product[] = [
   },
   {
     slug: "feelneedy-fuente-gatos-acero-inoxidable-2-8l",
+    image: "/images/products/feelneedy-fuente-gatos-acero-inoxidable-2-8l.jpg",
     name: "FEELNEEDY Fuente para Gatos de Acero Inoxidable 2,8 L con 3 Filtros",
     asin: "B0FF48X5N8",
     category: "Accesorios para gatos",
@@ -2475,6 +2558,7 @@ export const products: Product[] = [
   },
   {
     slug: "flexi-classic-s-correa-extensible-5m",
+    image: "/images/products/flexi-classic-s-correa-extensible-5m.jpg",
     name: "flexi Classic S Correa Extensible de Cinta 5 m para Perros de hasta 15 kg",
     asin: "B00O3B2RG2",
     category: "Accesorios para perros",
@@ -2495,6 +2579,7 @@ export const products: Product[] = [
   },
   {
     slug: "sanicat-arena-aglomerante-sin-perfume",
+    image: "/images/products/sanicat-arena-aglomerante-sin-perfume.jpg",
     name: "Sanicat Arena Aglomerante para Gatos Sin Perfume con Oxígeno Activo",
     asin: "B08BH4C7C4",
     category: "Accesorios para gatos",
@@ -2537,6 +2622,7 @@ export const products: Product[] = [
   },
   {
     slug: "menforsan-champu-perros-aloe-vera",
+    image: "/images/products/menforsan-champu-perros-aloe-vera.jpg",
     name: "MENFORSAN Champú para Perros con Aloe Vera Hidratante y Calmante",
     asin: "B01980UMF0",
     category: "Salud e higiene",
@@ -2557,6 +2643,7 @@ export const products: Product[] = [
   },
   {
     slug: "advance-medium-adult-pollo-3kg",
+    image: "/images/products/advance-medium-adult-pollo-3kg.jpg",
     name: "Advance Medium Adult Pienso para Perros de Razas Medianas con Pollo 3 kg",
     asin: "B00388RFJ0",
     category: "Alimentación para perros",
@@ -2578,6 +2665,7 @@ export const products: Product[] = [
   },
   {
     slug: "natures-variety-no-grain-gato-esterilizado-pollo-3kg",
+    image: "/images/products/natures-variety-no-grain-gato-esterilizado-pollo-3kg.jpg",
     name: "Nature's Variety No Grain Pienso para Gatos Esterilizados con Pollo 3 kg",
     asin: "B08Y73NM8N",
     category: "Alimentación para gatos",
@@ -2599,6 +2687,7 @@ export const products: Product[] = [
   },
   {
     slug: "iams-gatos-esterilizados-pollo-3kg",
+    image: "/images/products/iams-gatos-esterilizados-pollo-3kg.jpg",
     name: "IAMS for Vitality Pienso para Gatos Esterilizados con Pollo Fresco 3 kg",
     asin: "B07NRX7QQ7",
     category: "Alimentación para gatos",
@@ -2620,6 +2709,7 @@ export const products: Product[] = [
   },
   {
     slug: "feandrea-arenero-gato-bordes-altos-abierto-xl",
+    image: "/images/products/feandrea-arenero-gato-bordes-altos-abierto-xl.jpg",
     name: "Feandrea Arenero para Gatos Abierto XL con Bordes Altos y Pala",
     asin: "B0FB7WZVM4",
     category: "Accesorios para gatos",
@@ -2641,6 +2731,7 @@ export const products: Product[] = [
   },
   {
     slug: "rotho-biala-arenero-cerrado-filtro-carbon",
+    image: "/images/products/rotho-biala-arenero-cerrado-filtro-carbon.jpg",
     name: "Rotho MyPet Biala Arenero Cerrado con Filtro de Carbón y Pala",
     asin: "B09XR91B7N",
     category: "Accesorios para gatos",
@@ -2662,6 +2753,7 @@ export const products: Product[] = [
   },
   {
     slug: "iris-ohyama-arenero-entrada-superior-tecl-20",
+    image: "/images/products/iris-ohyama-arenero-entrada-superior-tecl-20.jpg",
     name: "Iris Ohyama TECL-20 Arenero de Entrada Superior con Pala",
     asin: "B07J32Y5SF",
     category: "Accesorios para gatos",
@@ -2682,6 +2774,7 @@ export const products: Product[] = [
   },
   {
     slug: "petkit-pura-max-2-arenero-autolimpiable",
+    image: "/images/products/petkit-pura-max-2-arenero-autolimpiable.jpg",
     name: "PETKIT Pura MAX 2 Arenero Autolimpiable con App, 76 L",
     asin: "B0D9QGW2M6",
     category: "Accesorios para gatos",
@@ -2703,6 +2796,7 @@ export const products: Product[] = [
   },
   {
     slug: "biokats-diamond-care-classic-arena-sin-fragancia-10l",
+    image: "/images/products/biokats-diamond-care-classic-arena-sin-fragancia-10l.jpg",
     name: "Biokat's Diamond Care Classic Arena Fina sin Fragancia 10 L",
     asin: "B07CPDVRD9",
     category: "Accesorios para gatos",
@@ -2723,6 +2817,7 @@ export const products: Product[] = [
   },
   {
     slug: "cats-best-original-arena-vegetal-aglomerante-10l",
+    image: "/images/products/cats-best-original-arena-vegetal-aglomerante-10l.jpg",
     name: "Cat's Best Original Arena Vegetal Aglomerante 10 L",
     asin: "B0BZ55GD8R",
     category: "Accesorios para gatos",
@@ -2743,6 +2838,7 @@ export const products: Product[] = [
   },
   {
     slug: "ferplast-atlas-20-open-transportin-gato-8kg",
+    image: "/images/products/ferplast-atlas-20-open-transportin-gato-8kg.jpg",
     name: "Ferplast Atlas 20 Open Transportín Rígido con Techo Abrible, hasta 8 kg",
     asin: "B00F5ZTPMO",
     category: "Camas y transportines",
@@ -2764,6 +2860,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-transportin-blando-gato-entrada-superior",
+    image: "/images/products/amazon-basics-transportin-blando-gato-entrada-superior.jpg",
     name: "Amazon Basics Transportín Blando para Gatos con Entrada Superior y Lateral, 43 cm",
     asin: "B0DQ78YBN9",
     category: "Camas y transportines",
@@ -2785,6 +2882,7 @@ export const products: Product[] = [
   },
   {
     slug: "pepper-transportin-blando-gato-7kg",
+    image: "/images/products/pepper-transportin-blando-gato-7kg.jpg",
     name: "PEPPER Transportín Blando Plegable para Gatos hasta 7 kg con Base Rígida",
     asin: "B0FDB7V6TC",
     category: "Camas y transportines",
@@ -2805,6 +2903,7 @@ export const products: Product[] = [
   },
   {
     slug: "kerbl-rascador-pared-sisal-maxi-70cm",
+    image: "/images/products/kerbl-rascador-pared-sisal-maxi-70cm.jpg",
     name: "Kerbl Rascador de Pared Maxi de Sisal 70 × 17 cm",
     asin: "B000ZGSV2I",
     category: "Accesorios para gatos",
@@ -2826,6 +2925,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-poste-rascador-gato-90cm",
+    image: "/images/products/amazon-basics-poste-rascador-gato-90cm.jpg",
     name: "Amazon Basics Poste Rascador para Gatos de 90 cm con Base de Madera",
     asin: "B07G3T7DVM",
     category: "Accesorios para gatos",
@@ -2847,6 +2947,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-rascador-carton-gato-pack-2",
+    image: "/images/products/amazon-basics-rascador-carton-gato-pack-2.jpg",
     name: "Amazon Basics Rascador de Cartón Curvo para Gatos con Hierba Gatera (2 unidades)",
     asin: "B0DS2RVB1K",
     category: "Accesorios para gatos",
@@ -2867,6 +2968,7 @@ export const products: Product[] = [
   },
   {
     slug: "neakasa-m1-lite-arenero-autolimpiable-abierto",
+    image: "/images/products/neakasa-m1-lite-arenero-autolimpiable-abierto.jpg",
     name: "Neakasa M1 Lite Arenero Autolimpiable Abierto con App",
     asin: "B0DG59SQ5P",
     category: "Accesorios para gatos",
@@ -2888,6 +2990,7 @@ export const products: Product[] = [
   },
   {
     slug: "petkit-purobot-max-3-arenero-autolimpiable",
+    image: "/images/products/petkit-purobot-max-3-arenero-autolimpiable.jpg",
     name: "PETKIT PUROBOT MAX 3 Arenero Autolimpiable de Tambor con App, 76 L",
     asin: "B0H35LPVDG",
     category: "Accesorios para gatos",
@@ -2909,6 +3012,7 @@ export const products: Product[] = [
   },
   {
     slug: "catlink-c08-arenero-autolimpiable-abierto",
+    image: "/images/products/catlink-c08-arenero-autolimpiable-abierto.jpg",
     name: "CATLINK C08 Arenero Autolimpiable Abierto con App y Depósito de 12 L",
     asin: "B0GTYCSCWT",
     category: "Accesorios para gatos",
@@ -2929,6 +3033,7 @@ export const products: Product[] = [
   },
   {
     slug: "meowant-arenero-autolimpiable-doble-rastrillo",
+    image: "/images/products/meowant-arenero-autolimpiable-doble-rastrillo.jpg",
     name: "Meowant Arenero Autolimpiable Abierto de Doble Rastrillo",
     asin: "B0H5K7SBV2",
     category: "Accesorios para gatos",
@@ -2949,6 +3054,7 @@ export const products: Product[] = [
   },
   {
     slug: "catit-smartsift-arenero-tamizado-palanca",
+    image: "/images/products/catit-smartsift-arenero-tamizado-palanca.jpg",
     name: "Catit SmartSift Arenero con Tamizado por Palanca y Filtro de Carbón",
     asin: "B009B83V76",
     category: "Accesorios para gatos",
@@ -2970,6 +3076,7 @@ export const products: Product[] = [
   // ALTAS 27/10/2026 — guías de cama para perro y fuente para gatos
   {
     slug: "feandrea-cama-perro-donut-60cm",
+    image: "/images/products/feandrea-cama-perro-donut-60cm.jpg",
     name: "Feandrea Cama para Perros Tipo Donut de 60 cm con Cojín Extraíble",
     asin: "B087PXTRLW",
     category: "Camas y transportines",
@@ -2987,6 +3094,7 @@ export const products: Product[] = [
   },
   {
     slug: "eheyciga-cama-perro-mediano-viscoelastica-76x51",
+    image: "/images/products/eheyciga-cama-perro-mediano-viscoelastica-76x51.jpg",
     name: "EHEYCIGA Cama Tipo Sofá para Perros Medianos 76 × 51 × 16 cm con Espuma Viscoelástica",
     asin: "B0BNLW1SGV",
     category: "Camas y transportines",
@@ -3004,6 +3112,7 @@ export const products: Product[] = [
   },
   {
     slug: "bedsure-colchoneta-perro-lavable-91x68",
+    image: "/images/products/bedsure-colchoneta-perro-lavable-91x68.jpg",
     name: "Bedsure Colchoneta para Perros Lavable 91 × 68 × 9 cm",
     asin: "B0D6G3GF3P",
     category: "Camas y transportines",
@@ -3021,6 +3130,7 @@ export const products: Product[] = [
   },
   {
     slug: "catit-pixi-fuente-acero-inoxidable-2-5l",
+    image: "/images/products/catit-pixi-fuente-acero-inoxidable-2-5l.jpg",
     name: "Catit Pixi Fuente para Gatos de Acero Inoxidable 2,5 L",
     asin: "B096WB6PBD",
     category: "Accesorios para gatos",
@@ -3038,6 +3148,7 @@ export const products: Product[] = [
   },
   {
     slug: "petkit-eversweet-fuente-acero-inoxidable-1-8l",
+    image: "/images/products/petkit-eversweet-fuente-acero-inoxidable-1-8l.jpg",
     name: "PETKIT EVERSWEET Fuente para Gatos de Acero Inoxidable 1,8 L con Bomba Inalámbrica",
     asin: "B09SHH7TDS",
     category: "Accesorios para gatos",
@@ -3453,6 +3564,7 @@ export const products: Product[] = [
   },
   {
     slug: "catit-go-natural-arena-guisantes-vainilla-5-6kg",
+    image: "/images/products/catit-go-natural-arena-guisantes-vainilla-5-6kg.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendida por Amazon; aparece entre los más vendidos de gatos. Datos solo de la ficha de Amazon.
     name: "Catit Go Natural Arena de Guisantes Aroma Vainilla 5,6 kg",
     asin: "B08GVXR7V9",
@@ -3472,6 +3584,7 @@ export const products: Product[] = [
   },
   {
     slug: "fukumaru-arena-tofu-gatos-10-8kg",
+    image: "/images/products/fukumaru-arena-tofu-gatos-10-8kg.jpg",
     // Comprobada en amazon.es el 23/11/2026: botón de compra activo, vendida por Taire Home (tercero); aparece entre los más vendidos de gatos. Datos solo de la ficha de Amazon.
     name: "FUKUMARU Arena de Tofu para Gatos 10,8 kg",
     asin: "B0CKPFFMHL",
