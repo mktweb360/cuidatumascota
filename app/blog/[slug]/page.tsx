@@ -61,6 +61,11 @@ function AmazonButton({ slug }: { slug: string }) {
   if (!p || p.unavailable) return null;
   return (
     <div className="mt-4 flex flex-wrap items-center gap-3 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3">
+      {p.image && (
+        <Link href={`/tienda/${p.categorySlug}/${p.slug}`} className="shrink-0" tabIndex={-1} aria-hidden="true">
+          <img src={p.image} alt="" width={64} height={64} loading="lazy" className="h-16 w-16 rounded-lg bg-white object-contain" />
+        </Link>
+      )}
       <Link href={`/tienda/${p.categorySlug}/${p.slug}`} className="flex-1 min-w-[12rem] text-sm font-semibold text-gray-800 hover:text-cyan-700">
         {p.name}
       </Link>
@@ -87,6 +92,11 @@ function QuickPicks({ picks }: { picks: { slug: string; note: string }[] }) {
       <div className="grid gap-4 sm:grid-cols-3">
         {items.map(({ slug, note, p }) => (
           <div key={slug} className="flex flex-col rounded-xl bg-white border border-gray-100 p-4">
+            {p!.image && (
+              <Link href={`/tienda/${p!.categorySlug}/${p!.slug}`} className="mb-3 block" tabIndex={-1} aria-hidden="true">
+                <img src={p!.image} alt="" width={160} height={160} loading="lazy" className="mx-auto h-40 w-full rounded-lg bg-white object-contain" />
+              </Link>
+            )}
             <Link href={`/tienda/${p!.categorySlug}/${p!.slug}`} className="font-bold text-gray-900 text-sm leading-tight hover:text-cyan-700">
               {p!.name}
             </Link>
