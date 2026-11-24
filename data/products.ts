@@ -3670,6 +3670,26 @@ export const products: Product[] = [
     badge: "Talla M-L",
     relatedPosts: ["cama-perro-como-elegir-tamano", "cama-ortopedica-perros-mayores"],
   },
+  {
+    slug: "feandrea-poste-rascador-gatos-85-cm-sisal",
+    // Comprobada en amazon.es el 24/11/2026: botón de compra activo, vendido por SONGMICS HOME ES (tercero). Datos solo de la ficha de Amazon.
+    name: "Feandrea Poste Rascador para Gatos Medianos y Grandes, 85 cm",
+    asin: "B0CT2RB4X7",
+    category: "Accesorios para gatos",
+    categorySlug: "accesorios-gatos",
+    categoryName: "Accesorios para gatos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Poste rascador de 85 cm envuelto en sisal, grueso y con base reforzada de 50 x 40 cm, en gris paloma.",
+    fullDescription: "Poste rascador de Feandrea de 85 cm de altura para gatos medianos y grandes. Según la ficha de Amazon, es más grueso que los postes ordinarios para ofrecer mayor superficie de rascado, está envuelto en sisal para proteger los muebles y su altura deja que el gato se estire por completo. La base de 50 x 40 cm está reforzada con listones para dar más estabilidad. El color es gris paloma, de estilo moderno. No se ha probado el producto.",
+    pros: ["85 cm de altura para que el gato se estire", "Poste más grueso que los ordinarios, con más superficie de rascado", "Envuelto en sisal, pensado para proteger los muebles", "Base reforzada de 50 x 40 cm para más estabilidad"],
+    cons: ["Vendido por un tercero, no por Amazon", "Es solo un poste: no incluye plataformas, nidos ni juguetes", "No hemos probado el producto: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Feandrea", "Altura": "85 cm", "Base": "50 x 40 cm", "Revestimiento": "Sisal", "Color": "Gris paloma" },
+    badge: "85 cm",
+    relatedPosts: ["arbol-rascador-gatos-guia-compra"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
