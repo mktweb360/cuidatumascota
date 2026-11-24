@@ -32,6 +32,8 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "lifelong-adult-salmon-rice-gato-10kg",
   "virbac-sebocalm-champu-perro",
   "ferplast-atlas-10-el-negro",
+  "cozy-kiss-cama-ortopedica-perros-grandes-112x81",
+  "knuffelwuff-midland-cama-ortopedica-perros-80x60-gris",
   "ferplast-atlas-10-open-techo-abrible",
   "hills-science-plan-sterilised",
   "acana-pacifica-cat",
