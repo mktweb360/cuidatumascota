@@ -12,6 +12,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "natures-variety-original-no-grain-pavo-medianos-grandes-12kg",
   "feandrea-arbol-gatos-154-cm-nidos-hamaca",
   "kamaboko-arbol-gatos-madera-maciza-moderno",
+  "feandrea-poste-rascador-gatos-85-cm-sisal",
   "petace-comedero-elevado-perro-5-alturas-antivoracidad",
   "orijen-original-dog-11kg",
   "royal-canin-indoor-adult",
