@@ -27,6 +27,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "bedsure-sofa-cama-ortopedica-perro-grande",
   "petsafe-easy-walk-arnes-antitirones",
   "rabbitgoo-arnes-perro-antitirones-l",
+  "amazon-basics-arnes-perro-antitirones-grande",
   "royal-canin-medium-adult-15kg",
   "pedigree-vital-protection-adult-15kg",
   "royal-canin-sterilised-gato-4kg",
