@@ -3712,6 +3712,25 @@ export const products: Product[] = [
       "cama-ortopedica-perros-mayores",
     ],
   },
+  {
+    slug: "amazon-basics-arnes-perro-antitirones-grande",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Arnés para perro sin tirones, ajustable, acolchado, talla grande, negro",
+    asin: "B0BL3NJPT9",
+    category: "Accesorios para perros",
+    categorySlug: "accesorios-perros",
+    categoryName: "Accesorios para perros",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Arnés chaleco ajustable con diseño sin tirones, material suave y acolchado de poliéster y tiras reflectantes, en talla grande y color negro.",
+    fullDescription: "Arnés tipo chaleco de Amazon Basics, en talla grande y color negro, con diseño antitirones para enseñar al perro a caminar sin hacerle daño. Según la ficha de Amazon, tiene diseño antiestrangulamiento, es ajustable, está fabricado con material suave y acolchado de poliéster, lleva tiras reflectantes para ganar visibilidad de noche y su diseño cerrado evita que el perro se salga del arnés. La ficha no indica en el resumen el rango de peso o de perímetro de pecho de la talla grande, así que conviene medir al perro y comprobar la tabla de tallas en Amazon antes de comprarlo. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Ajustable y acolchado, según la ficha", "Tiras reflectantes para pasear de noche", "Diseño cerrado para evitar que el perro se salga"],
+    cons: ["La ficha no da en el resumen el rango de peso ni el perímetro de pecho de la talla grande", "Un arnés antitirones no sustituye al entrenamiento de paseo", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Talla": "Grande", "Color": "Negro", "Tipo": "Arnés chaleco sin tirones", "Material": "Poliéster acolchado", "Vendido por": "Amazon" },
+    relatedPosts: ["arnes-o-collar-perro-guia-elegir-medir", "perro-tira-de-la-correa-solucion"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
