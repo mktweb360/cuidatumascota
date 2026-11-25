@@ -457,7 +457,7 @@ export const posts: Post[] = [
     category: "Cuidados",
     date: "2025-07-14",
     readTime: 9,
-    relatedProducts: ["kong-classic-xl-caucho", "bedsure-cama-antistress-invierno-50cm", "royal-canin-adult-maxi", "amazon-basics-comederos-acero-inoxidable-2"],
+    relatedProducts: ["kong-classic-xl-caucho", "bedsure-cama-antistress-invierno-50cm", "royal-canin-adult-maxi", "amazon-basics-comederos-acero-inoxidable-2", "amazon-basics-bolsas-excrementos-perro-600-dispensador"],
     relatedPosts: ["desparasitacion-perros-guia-completa", "kong-classic-guia-uso", "cuidado-preventivo-mascotas-guia", "cama-perro-como-elegir-tamano", "mejor-pienso-cachorro-guia", "calendario-vacunas-cachorro"],
     categoryCta: { href: "/tienda/accesorios-perros", text: "Ver todos los accesorios para perros →" },
   },
@@ -511,7 +511,7 @@ export const posts: Post[] = [
     category: "Cuidados",
     date: "2025-07-18",
     readTime: 8,
-    relatedProducts: ["ruffwear-approach-pack", "kong-classic-xl-caucho", "bedsure-cama-antistress-invierno-50cm", "petsafe-easy-walk-arnes-antitirones", "halti-arnes-antitirones-no-pull", "joytale-collar-led-perros-luminoso"],
+    relatedProducts: ["ruffwear-approach-pack", "kong-classic-xl-caucho", "bedsure-cama-antistress-invierno-50cm", "petsafe-easy-walk-arnes-antitirones", "halti-arnes-antitirones-no-pull", "joytale-collar-led-perros-luminoso", "amazon-basics-bolsas-excrementos-perro-600-dispensador"],
     relatedPosts: ["kong-classic-guia-uso", "mochila-senderismo-perros-ruffwear", "adoptar-perro-guia-primera-vez", "arnes-o-collar-perro-guia-elegir-medir", "cuanto-ejercicio-necesita-un-perro-paseos-edad-raza", "baskerville-bozal-cesta-analisis"],
   },
   {
