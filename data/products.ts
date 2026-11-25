@@ -3690,6 +3690,28 @@ export const products: Product[] = [
     badge: "85 cm",
     relatedPosts: ["arbol-rascador-gatos-guia-compra"],
   },
+  {
+    slug: "amazon-basics-cama-elevada-perros-110x65",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Cama Elevada Refrescante para Perros, tela, talla M, 110 x 65 x 19 cm",
+    asin: "B076VSF333",
+    category: "Camas y transportines",
+    categorySlug: "camas-transportines",
+    categoryName: "Camas y transportines",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cama elevada de tela que separa al perro del suelo (19 cm) para que circule el aire; dimensiones de 110 x 65 x 19 cm, indicada para razas pequeñas y medianas.",
+    fullDescription: "Cama elevada de Amazon Basics en talla M, con estructura de 110 x 65 x 19 cm y malla de 92 x 67 cm. Según la ficha de Amazon, mantiene a la mascota a más de 19 cm del suelo, favorece la circulación del aire para que no pase calor y reduce la presión sobre las articulaciones. Se monta sin dificultad y se limpia con agua del grifo. La ficha la recomienda para razas pequeñas y medianas, como beagle, corgi, husky o caniche. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Elevada 19 cm: el aire circula por debajo", "Se limpia con agua del grifo", "Montaje sencillo, según la ficha"],
+    cons: ["Es una superficie de tela tensada: sin relleno, no abriga en invierno", "La ficha la recomienda solo para razas pequeñas y medianas", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Talla": "M", "Medidas": "110 x 65 x 19 cm", "Malla": "92 x 67 cm", "Color": "Gris", "Vendido por": "Amazon" },
+    relatedPosts: [
+      "cama-perro-como-elegir-tamano",
+      "cama-ortopedica-perros-mayores",
+    ],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
