@@ -3770,6 +3770,25 @@ export const products: Product[] = [
     relatedPosts: ["adoptar-perro-guia-primera-vez", "gato-primer-dia-casa-guia"],
   },
   {
+    slug: "amazon-basics-bolsas-excrementos-perro-600-dispensador",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendidas y enviadas por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Bolsas para excrementos de perro con dispensador y clip para correa, sin perfume, 600 bolsas",
+    asin: "B00NABTG60",
+    category: "Accesorios para perros",
+    categorySlug: "accesorios-perros",
+    categoryName: "Accesorios para perros",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "600 bolsas negras antifugas en 40 rollos de 15, sin perfume, con dispensador y clip para la correa.",
+    fullDescription: "Pack de Amazon Basics con 600 bolsas negras para excrementos de perro, repartidas en 40 rollos de 15 bolsas, más un dispensador con clip para colgarlo de la correa. Según la ficha de Amazon, cada bolsa mide 22,9 cm de ancho por 33 cm de largo, son antifugas y llevan flechas que indican la apertura. Las describe como más gruesas que los rollos estándar de 20 bolsas, sin perfume, y compatibles con dispensadores de tamaño estándar. No las hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendidas y enviadas por Amazon", "600 bolsas en 40 rollos de 15: reserva para muchos meses", "Antifugas y más gruesas que los rollos estándar, según la ficha", "Dispensador con clip para la correa incluido"],
+    cons: ["Son bolsas de plástico negro; la ficha no indica que sean biodegradables ni compostables", "Rollos de solo 15 bolsas, más cortos que los estándar de 20", "No las hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Cantidad": "600 bolsas (40 rollos de 15)", "Medidas de la bolsa": "22,9 × 33 cm", "Aroma": "Sin perfume", "Incluye": "Dispensador con clip para correa", "Vendido por": "Amazon" },
+    relatedPosts: ["pasear-perro-correctamente-guia", "adoptar-perro-guia-primera-vez"],
+  },
+  {
     slug: "amazon-basics-fuente-agua-gatos-acero-3l",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Fuente de agua para gatos, tapa de acero inoxidable, 3 L, con 3 filtros, blanca",
