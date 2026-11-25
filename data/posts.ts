@@ -457,7 +457,7 @@ export const posts: Post[] = [
     category: "Cuidados",
     date: "2025-07-14",
     readTime: 9,
-    relatedProducts: ["kong-classic-xl-caucho", "bedsure-cama-antistress-invierno-50cm", "royal-canin-adult-maxi"],
+    relatedProducts: ["kong-classic-xl-caucho", "bedsure-cama-antistress-invierno-50cm", "royal-canin-adult-maxi", "amazon-basics-comederos-acero-inoxidable-2"],
     relatedPosts: ["desparasitacion-perros-guia-completa", "kong-classic-guia-uso", "cuidado-preventivo-mascotas-guia", "cama-perro-como-elegir-tamano", "mejor-pienso-cachorro-guia", "calendario-vacunas-cachorro"],
     categoryCta: { href: "/tienda/accesorios-perros", text: "Ver todos los accesorios para perros →" },
   },
@@ -498,7 +498,7 @@ export const posts: Post[] = [
     category: "Cuidados",
     date: "2025-07-17",
     readTime: 7,
-    relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador", "royal-canin-indoor-adult", "bedsure-cama-cueva-gato-40cm"],
+    relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador", "royal-canin-indoor-adult", "bedsure-cama-cueva-gato-40cm", "amazon-basics-comederos-acero-inoxidable-2"],
     relatedPosts: ["mejor-arenero-para-gatos-guia", "transportin-para-gato-guia", "gato-interior-bienestar-enriquecimiento", "arbol-rascador-gatos-guia-compra", "desparasitacion-gatos-guia", "esterilizacion-gatos-guia-completa"],
   },
   {
