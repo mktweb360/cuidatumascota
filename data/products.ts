@@ -3732,6 +3732,25 @@ export const products: Product[] = [
     relatedPosts: ["arnes-o-collar-perro-guia-elegir-medir", "perro-tira-de-la-correa-solucion"],
   },
   {
+    slug: "amazon-basics-torre-multinivel-gatos-117cm",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Torre multinivel para gatos con postes rascadores, beige, L (45 x 45 x 117 cm)",
+    asin: "B06X6J3L65",
+    category: "Accesorios para gatos",
+    categorySlug: "accesorios-gatos",
+    categoryName: "Accesorios para gatos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Torre de interior de 45 x 45 x 117 cm con tres plataformas y siete postes rascadores revestidos de yute.",
+    fullDescription: "Torre para gatos de Amazon Basics de 45 x 45 x 117 cm, en color beige. Según la ficha de Amazon, tiene tres plataformas y siete postes rascadores revestidos en yute; la plataforma redonda lleva laterales y un borde superior y sirve como cama. La base es cuadrada, pensada para colocarla en una esquina, y la estructura es de MDF, moqueta, tubos de papel y yute. Se monta atornillando e incluye instrucciones y herramientas. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Tres plataformas y siete postes rascadores de yute", "Plataforma redonda con borde que sirve como cama", "Base cuadrada para colocarla en una esquina"],
+    cons: ["Requiere montaje con tornillos", "Con 117 cm de altura es más baja que otras torres del catálogo", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Medidas": "45 x 45 x 117 cm", "Plataformas": "3", "Postes rascadores": "7, revestidos en yute", "Materiales": "MDF, moqueta, tubos de papel y yute", "Vendido por": "Amazon" },
+    relatedPosts: ["arbol-rascador-gatos-guia-compra"],
+  },
+  {
     slug: "amazon-basics-fuente-agua-gatos-acero-3l",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Fuente de agua para gatos, tapa de acero inoxidable, 3 L, con 3 filtros, blanca",
