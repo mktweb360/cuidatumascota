@@ -3751,6 +3751,25 @@ export const products: Product[] = [
     relatedPosts: ["arbol-rascador-gatos-guia-compra"],
   },
   {
+    slug: "amazon-basics-comederos-acero-inoxidable-2",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Comedero para perro, acero inoxidable, juego de 2, plateado",
+    asin: "B01DOP5S9K",
+    category: "Accesorios para perros",
+    categorySlug: "accesorios-perros",
+    categoryName: "Accesorios para perros",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de dos cuencos de acero inoxidable de unos 1000 ml cada uno, con base de goma antideslizante.",
+    fullDescription: "Juego de dos comederos de acero inoxidable de Amazon Basics para cachorros, perros o gatos. Según la ficha de Amazon, cada uno admite hasta unos 1000 ml, sirve para pienso, comida húmeda, premios o agua, resiste la oxidación y no retiene olores. Lleva una base de goma que protege el suelo y evita que el cuenco se deslice, y se puede lavar en el lavavajillas. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Dos cuencos: uno para comida y otro para agua", "Acero inoxidable que no retiene olores", "Base de goma antideslizante y apto para lavavajillas"],
+    cons: ["Es un cuenco liso: no reduce la velocidad de ingesta si tu perro come muy rápido", "Unos 1000 ml cada uno pueden sobrar para un gato o un perro pequeño", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Material": "Acero inoxidable", "Piezas": "2 comederos", "Capacidad": "Hasta aprox. 1000 ml cada uno", "Base": "Goma antideslizante", "Vendido por": "Amazon" },
+    relatedPosts: ["adoptar-perro-guia-primera-vez", "gato-primer-dia-casa-guia"],
+  },
+  {
     slug: "amazon-basics-fuente-agua-gatos-acero-3l",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Fuente de agua para gatos, tapa de acero inoxidable, 3 L, con 3 filtros, blanca",
