@@ -28,6 +28,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "petsafe-easy-walk-arnes-antitirones",
   "rabbitgoo-arnes-perro-antitirones-l",
   "amazon-basics-arnes-perro-antitirones-grande",
+  "amazon-basics-fuente-agua-gatos-acero-3l",
   "royal-canin-medium-adult-15kg",
   "pedigree-vital-protection-adult-15kg",
   "royal-canin-sterilised-gato-4kg",
