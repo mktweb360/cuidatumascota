@@ -3731,6 +3731,25 @@ export const products: Product[] = [
     specs: { "Marca": "Amazon Basics", "Talla": "Grande", "Color": "Negro", "Tipo": "Arnés chaleco sin tirones", "Material": "Poliéster acolchado", "Vendido por": "Amazon" },
     relatedPosts: ["arnes-o-collar-perro-guia-elegir-medir", "perro-tira-de-la-correa-solucion"],
   },
+  {
+    slug: "amazon-basics-fuente-agua-gatos-acero-3l",
+    // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Fuente de agua para gatos, tapa de acero inoxidable, 3 L, con 3 filtros, blanca",
+    asin: "B0CDWDYLGZ",
+    category: "Accesorios para gatos",
+    categorySlug: "accesorios-gatos",
+    categoryName: "Accesorios para gatos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Fuente de 3 litros con depósito de ABS sin BPA, tapa de acero inoxidable, bomba silenciosa, dos diseños de flujo de agua y tres filtros incluidos.",
+    fullDescription: "Fuente de agua para gatos de Amazon Basics con 3 litros de capacidad, pensada para mascotas pequeñas y medianas. Según la ficha de Amazon, el depósito es de ABS sin BPA y la tapa es de acero inoxidable, fácil de limpiar. Incluye tres filtros (dos de repuesto) y la ficha recomienda cambiarlos cada 2 a 4 semanas. Ofrece dos diseños de flujo de agua, flor y árbol, y una bomba que describe como ultrasilenciosa. Una fuente no sustituye a vigilar cuánto bebe el gato: si bebe mucho más o mucho menos de lo habitual, conviene consultarlo con el veterinario. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "3 litros de capacidad para no rellenarla a diario", "Incluye tres filtros, dos de ellos de repuesto", "Dos diseños de flujo de agua: flor y árbol"],
+    cons: ["Los filtros se cambian cada 2 a 4 semanas, según la ficha, lo que supone un gasto recurrente", "Hay que desmontarla y limpiarla con regularidad, como cualquier fuente con bomba", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Capacidad": "3 L", "Depósito": "ABS sin BPA", "Tapa": "Acero inoxidable", "Filtros incluidos": "3", "Vendido por": "Amazon" },
+    relatedPosts: ["fuente-para-gatos-como-elegir", "fuente-agua-gatos-catit-analisis"],
+  },
 ];
 
 export function getProductsByCategory(categorySlug: string): Product[] {
