@@ -87,6 +87,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "cats-best-original-arena-vegetal-aglomerante-10l",
   "ferplast-atlas-20-open-transportin-gato-8kg",
   "amazon-basics-transportin-blando-gato-entrada-superior",
+  "amazon-basics-cama-elevada-perros-110x65",
   "pepper-transportin-blando-gato-7kg",
   "kerbl-rascador-pared-sisal-maxi-70cm",
   "amazon-basics-poste-rascador-gato-90cm",
