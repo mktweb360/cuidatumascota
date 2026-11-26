@@ -3871,6 +3871,25 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "amazon-basics-cama-felpa-lavable-espiral-59x46",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Cama lavable a máquina para mascotas, felpa en espiral, 59 x 46 x 6 cm, gris",
+    asin: "B07DZJR1P7",
+    category: "Camas y transportines",
+    categorySlug: "camas-transportines",
+    categoryName: "Camas y transportines",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cama de felpa ultrasuave con diseño en espiral, de 59 x 46 x 6 cm, con base antideslizante y apta para lavadora y secadora, para perros y gatos extra pequeños.",
+    fullDescription: "Cama de felpa de Amazon Basics con diseño en espiral, pensada según la ficha de Amazon para perros y gatos extra pequeños. Tiene una base antideslizante que se mantiene sobre madera dura y otras superficies lisas, y se puede lavar y secar a máquina. Mide 58,4 x 45,7 x 6,4 cm y pesa unos 553 g. El gris neutro encaja con la mayoría de decoraciones. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Se lava y se seca a máquina", "Base antideslizante sobre suelos lisos", "Felpa suave y tono neutro"],
+    cons: ["Es pequeña: la ficha la plantea para perros y gatos extra pequeños, así que mide a tu animal antes de comprar", "Con 6 cm de grosor es una cama blanda sin soporte ortopédico", "La ficha no indica un peso máximo del animal", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Medidas": "58,4 x 45,7 x 6,4 cm", "Peso": "553 g", "Material": "Poliéster, felpa", "Lavado": "A máquina, con secadora", "Base": "Antideslizante", "Modelo": "DF2018201-23", "Vendido por": "Amazon" },
+    relatedPosts: ["cama-perro-como-elegir-tamano"],
+  },
+  {
     slug: "amazon-basics-cama-elevada-perros-130x80",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Cama Elevada Refrescante para Perros, talla L, 130 x 80 x 19 cm, gris",
