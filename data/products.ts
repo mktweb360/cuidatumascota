@@ -3792,6 +3792,25 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "amazon-basics-cepillo-bano-perro-2-unidades-toalla",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Cepillo de baño para perros con toalla de secado rápido, 2 cepillos",
+    asin: "B0DP437Q3H",
+    category: "Salud e higiene",
+    categorySlug: "salud-higiene",
+    categoryName: "Salud e higiene",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Dos cepillos de baño para perros con dispensador de champú y una toalla de microfibra de secado rápido.",
+    fullDescription: "Set de aseo de Amazon Basics para el baño del perro. Según la ficha de Amazon, incluye dos cepillos con distintos patrones de cerdas y una toalla de microfibra de secado rápido. Los cepillos se pueden llenar con champú y, al apretarlos, reparten el jabón en espuma de forma uniforme; sirven además para dar un masaje exfoliante y retirar el pelo suelto. El cabezal es ligero y compacto, para cepillar sin cansar la mano y guardarlo con facilidad. Pesa unos 278 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Dos cepillos con distintos patrones de cerdas", "Dispensador de champú integrado", "Incluye toalla de microfibra de secado rápido"],
+    cons: ["La ficha no indica el tamaño de perro ni el tipo de pelo para el que está pensado", "Hay que elegir el champú adecuado: para pieles con problemas conviene consultarlo con el veterinario", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Incluye": "2 cepillos de baño y 1 toalla de microfibra", "Dispensador": "Depósito de champú en el cepillo", "Peso": "Unos 278 g", "Vendido por": "Amazon" },
+    relatedPosts: ["banar-perro-en-casa-guia-frecuencia-paso-a-paso", "cepillado-pelo-perro-guia"],
+  },
+  {
     slug: "amazon-basics-transportin-plegable-4-puertas-m-76x54",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Transportín plegable de 4 puertas para perros y gatos, talla M, 76 x 54 x 54 cm, gris",
