@@ -4053,6 +4053,25 @@ export const products: Product[] = [
     relatedPosts: ["perro-mayor-cuidados-senior", "cama-ortopedica-perros-mayores"],
   },
   {
+    slug: "amazon-basics-pack-20-juguetes-gato-variado",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Paquete variado de 20 juguetes para gatos: teaser, bola, pluma y muelle",
+    asin: "B0F51QZ74C",
+    category: "Juguetes para mascotas",
+    categorySlug: "juguetes-mascotas",
+    categoryName: "Juguetes para mascotas",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Pack variado de 20 piezas con pelotas, juguetes con plumas, ratones de peluche, juguetes con muelle y juguetes con hierba gatera.",
+    fullDescription: "Paquete variado de 20 juguetes para gatos de Amazon Basics. Según la ficha de Amazon, reúne pelotas, juguetes con plumas, ratones de peluche, juguetes con muelle y juguetes con hierba gatera, pensados para que gatitos y gatos de cualquier edad y nivel de energía hagan ejercicio y tengan estimulación mental, y para despertar el instinto de caza al perseguir y saltar. Mide 20,29 x 19 x 5,99 cm el paquete y pesa 89,5 g. La propia ficha indica que están diseñados para gatos y que no se recomiendan para niños. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "20 piezas de varios tipos: pelotas, plumas, ratones, muelles y hierba gatera", "Sirve para probar qué le gusta a tu gato antes de comprar juguetes sueltos", "Para gatos de todas las edades según la ficha"],
+    cons: ["Son juguetes pequeños y ligeros: conviene retirar los que se deshilachen o pierdan piezas", "No sustituyen el juego contigo: la caza simulada funciona mejor con tu participación", "No indica la cantidad exacta de cada tipo de juguete", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Piezas": "20", "Tipos": "Pelotas, plumas, ratones de peluche, muelles y hierba gatera", "Medidas del paquete": "20,29 x 19 x 5,99 cm", "Peso": "89,5 g", "Vendido por": "Amazon" },
+    relatedPosts: ["gato-interior-bienestar-enriquecimiento"],
+  },
+  {
     slug: "amazon-basics-fuente-agua-gatos-acero-3l",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Fuente de agua para gatos, tapa de acero inoxidable, 3 L, con 3 filtros, blanca",

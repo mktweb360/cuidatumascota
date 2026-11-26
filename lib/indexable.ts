@@ -29,6 +29,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "rabbitgoo-arnes-perro-antitirones-l",
   "amazon-basics-arnes-perro-antitirones-grande",
   "amazon-basics-fuente-agua-gatos-acero-3l",
+  "amazon-basics-pack-20-juguetes-gato-variado",
   "amazon-basics-bolsas-excrementos-perro-600-dispensador",
   "amazon-basics-escalones-plegables-perros-gatos-gris",
   "amazon-basics-comederos-acero-inoxidable-2",

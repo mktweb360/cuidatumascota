@@ -470,7 +470,7 @@ export const posts: Post[] = [
     category: "Cuidados",
     date: "2025-07-15",
     readTime: 8,
-    relatedProducts: ["petfusion-arbol-rascador", "catit-flower-fountain", "surefeed-microchip-feeder", "bedsure-cama-antistress-invierno-50cm", "bedsure-cama-cueva-gato-40cm", "feandrea-arenero-gatos-bandeja-extraible", "savic-nestor-arenero-cerrado-gatos", "petkit-freshelement-solo-comedero-automatico", "trixie-tunel-juego-gatos", "pawaboo-varita-plumas-gatos-pack-4"],
+    relatedProducts: ["petfusion-arbol-rascador", "catit-flower-fountain", "surefeed-microchip-feeder", "bedsure-cama-antistress-invierno-50cm", "bedsure-cama-cueva-gato-40cm", "feandrea-arenero-gatos-bandeja-extraible", "savic-nestor-arenero-cerrado-gatos", "petkit-freshelement-solo-comedero-automatico", "trixie-tunel-juego-gatos", "pawaboo-varita-plumas-gatos-pack-4", "amazon-basics-pack-20-juguetes-gato-variado"],
     relatedPosts: ["arbol-rascador-gatos-guia-compra", "fuente-agua-gatos-catit-analisis", "gato-primer-dia-casa-guia", "mejor-arenero-para-gatos-guia", "miedo-petardos-fuegos-artificiales-perros-gatos", "fuente-para-gatos-como-elegir"],
     categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver todos los accesorios para gatos →" },
   },
