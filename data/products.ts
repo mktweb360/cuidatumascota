@@ -1770,6 +1770,7 @@ export const products: Product[] = [
   },
   {
     slug: "gardner-pet-cama-elevada-hamaca-perro-m",
+    image: "https://m.media-amazon.com/images/I/91946DOCHtL._SL500_.jpg",
     name: "Gardner Pet Cama Elevada tipo Hamaca para Perros Medianos y Grandes, Talla M",
     asin: "B0F2FLJM7S",
     category: "Camas y transportines",
@@ -2054,6 +2055,7 @@ export const products: Product[] = [
   },
   {
     slug: "royal-canin-hairball-care-gato-2kg",
+    image: "https://m.media-amazon.com/images/I/71qLgWND5rL._SL500_.jpg",
     name: "Royal Canin Hairball Care - Pienso Seco para Gatos Adultos Propensos a Bolas de Pelo, 2kg",
     asin: "B00GSAD292",
     category: "Alimentación para gatos",
@@ -2194,6 +2196,7 @@ export const products: Product[] = [
   },
   {
     slug: "trixie-dog-activity-turn-around",
+    image: "https://m.media-amazon.com/images/I/61PrnCnnYaL._SL500_.jpg",
     name: "TRIXIE Dog Activity Turn Around Juego de Inteligencia para Perros 22 × 33 cm",
     asin: "B003TOKTEG",
     category: "Juguetes para mascotas",
@@ -2234,6 +2237,7 @@ export const products: Product[] = [
   },
   {
     slug: "chuckit-ultra-ball-2-pelotas",
+    image: "https://m.media-amazon.com/images/I/61i7JBTvtNL._SL500_.jpg",
     name: "Chuckit! Ultra Ball Pack de 2 Pelotas para Perros, Talla S",
     asin: "B00280MUVC",
     category: "Juguetes para mascotas",
@@ -2254,6 +2258,7 @@ export const products: Product[] = [
   },
   {
     slug: "kong-extreme-talla-mediana",
+    image: "https://m.media-amazon.com/images/I/51Pr6k6QKPL._SL500_.jpg",
     name: "KONG Extreme Juguete Rellenable para Perros Mordedores, Talla Mediana",
     asin: "B000GUDZO2",
     category: "Juguetes para mascotas",
@@ -2875,6 +2880,7 @@ export const products: Product[] = [
   },
   {
     slug: "neakasa-m1-lite-arenero-autolimpiable-abierto",
+    image: "https://m.media-amazon.com/images/I/71EGbFvHLaL._SL500_.jpg",
     name: "Neakasa M1 Lite Arenero Autolimpiable Abierto con App",
     asin: "B0DG59SQ5P",
     category: "Accesorios para gatos",
@@ -2917,6 +2923,7 @@ export const products: Product[] = [
   },
   {
     slug: "catlink-c08-arenero-autolimpiable-abierto",
+    image: "https://m.media-amazon.com/images/I/71AzNKoI58L._SL500_.jpg",
     name: "CATLINK C08 Arenero Autolimpiable Abierto con App y Depósito de 12 L",
     asin: "B0GTYCSCWT",
     category: "Accesorios para gatos",
@@ -2980,6 +2987,7 @@ export const products: Product[] = [
   // ALTAS 27/10/2026 — guías de cama para perro y fuente para gatos
   {
     slug: "feandrea-cama-perro-donut-60cm",
+    image: "https://m.media-amazon.com/images/I/81zDEMLk83L._SL500_.jpg",
     name: "Feandrea Cama para Perros Tipo Donut de 60 cm con Cojín Extraíble",
     asin: "B087PXTRLW",
     category: "Camas y transportines",
@@ -3700,6 +3708,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-jaula-perro-alambre-plegable-107x71x76",
+    image: "https://m.media-amazon.com/images/I/81mdnappYBL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Jaula para perro de alambre metálico, plegable con bandeja y doble puerta, 107 x 71 x 76 cm",
     asin: "B09G4MP29H",
