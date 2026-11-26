@@ -94,6 +94,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "ferplast-atlas-20-open-transportin-gato-8kg",
   "amazon-basics-transportin-blando-gato-entrada-superior",
   "amazon-basics-cama-elevada-perros-110x65",
+  "amazon-basics-cama-elevada-perros-130x80",
   "amazon-basics-almohadillas-adiestramiento-perros-xl-40",
   "amazon-basics-jaula-perro-alambre-plegable-107x71x76",
   "pepper-transportin-blando-gato-7kg",
