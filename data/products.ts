@@ -187,6 +187,7 @@ export const products: Product[] = [
   },
   {
     slug: "royal-canin-sterilised-gato-4kg",
+    unavailable: "2026-11-26",
     name: "Royal Canin Sterilised Gato Esterilizado 4kg",
     asin: "B0015U850Q",
     image: "/images/products/royal-canin-sterilised-gato-4kg.jpg",
@@ -487,6 +488,7 @@ export const products: Product[] = [
   },
   {
     slug: "kong-classic-xl-caucho",
+    unavailable: "2026-11-26",
     name: "KONG Classic XL Juguete Perro Rellenable Caucho Natural",
     asin: "B0002AR0HO",
     image: "/images/products/kong-classic-xl-caucho.jpg",
@@ -569,6 +571,7 @@ export const products: Product[] = [
   },
   {
     slug: "virbac-sebocalm-champu-perro",
+    unavailable: "2026-11-26",
     name: "Virbac Sebocalm Champú Dermatológico Perro y Gato 250ml",
     asin: "B00I2SR6OU",
     image: "/images/products/virbac-sebocalm-champu-perro.jpg",
@@ -903,6 +906,7 @@ export const products: Product[] = [
   // ACCESORIOS GATOS (ampliación blog)
   {
     slug: "catit-flower-fountain",
+    unavailable: "2026-11-26",
     name: "Catit Flower Fountain Fuente de Agua para Gatos 3L",
     asin: "B0146QXOB0",
     category: "Accesorios para gatos",
@@ -1137,6 +1141,7 @@ export const products: Product[] = [
   },
   {
     slug: "catit-circuito-bolas-senses",
+    unavailable: "2026-11-26",
     name: "Catit Design Senses Circuito de Bolas para Gatos",
     asin: "B001LWRFW2",
     image: "/images/products/catit-circuito-bolas-senses.jpg",
@@ -1992,7 +1997,6 @@ export const products: Product[] = [
     slug: "snackomio-tiras-pechuga-pollo-perro-500g",
     name: "SnackOMio Tiras de Filete de Pechuga de Pollo para Perros 500g, Sin Cereales",
     asin: "B08Y8TDVTB",
-    unavailable: "2026-10-27",
     category: "Alimentación para perros",
     categorySlug: "alimentacion-perros",
     categoryName: "Alimentación para perros",
@@ -2933,6 +2937,7 @@ export const products: Product[] = [
   },
   {
     slug: "meowant-arenero-autolimpiable-doble-rastrillo",
+    unavailable: "2026-11-26",
     name: "Meowant Arenero Autolimpiable Abierto de Doble Rastrillo",
     asin: "B0H5K7SBV2",
     category: "Accesorios para gatos",
@@ -2953,6 +2958,7 @@ export const products: Product[] = [
   },
   {
     slug: "catit-smartsift-arenero-tamizado-palanca",
+    unavailable: "2026-11-26",
     name: "Catit SmartSift Arenero con Tamizado por Palanca y Filtro de Carbón",
     asin: "B009B83V76",
     category: "Accesorios para gatos",
@@ -3042,6 +3048,7 @@ export const products: Product[] = [
   },
   {
     slug: "petkit-eversweet-fuente-acero-inoxidable-1-8l",
+    unavailable: "2026-11-26",
     name: "PETKIT EVERSWEET Fuente para Gatos de Acero Inoxidable 1,8 L con Bomba Inalámbrica",
     asin: "B09SHH7TDS",
     category: "Accesorios para gatos",
@@ -3419,6 +3426,7 @@ export const products: Product[] = [
   },
   {
     slug: "purina-pro-plan-sterilised-savoury-duo-pato-10kg",
+    unavailable: "2026-11-26",
     name: "Purina Pro Plan Sterilised Adult Savoury Duo Pienso para Gato con Pato e Hígado 10 kg",
     asin: "B092DGDXCX",
     image: "/images/products/purina-pro-plan-sterilised-savoury-duo-pato-10kg.jpg",

@@ -10,6 +10,51 @@ export interface ProductRedirect {
 
 export const productRedirects: ProductRedirect[] = [
   {
+    source: "/tienda/alimentacion-gatos/royal-canin-sterilised-gato-4kg",
+    destination: "/tienda/alimentacion-gatos/royal-canin-sterilised-37-gatos-2kg",
+    motivo: "Ficha sin botón de compra o agotada en Amazon.es (comprobada el 26/11/2026); se redirige a un producto vivo del mismo tipo.",
+  },
+  {
+    source: "/tienda/accesorios-perros/kong-classic-xl-caucho",
+    destination: "/tienda/juguetes-mascotas/kong-ring-anillo-masticable-m-l",
+    motivo: "Ficha sin botón de compra o agotada en Amazon.es (comprobada el 26/11/2026); se redirige a un producto vivo del mismo tipo.",
+  },
+  {
+    source: "/tienda/salud-higiene/virbac-sebocalm-champu-perro",
+    destination: "/tienda/salud-higiene/virbac-clorexyderm-champu-500ml",
+    motivo: "Ficha sin botón de compra o agotada en Amazon.es (comprobada el 26/11/2026); se redirige a un producto vivo del mismo tipo.",
+  },
+  {
+    source: "/tienda/accesorios-gatos/catit-flower-fountain",
+    destination: "/tienda/accesorios-gatos/petkit-eversweet-fuente-gatos-1-85l",
+    motivo: "Ficha sin botón de compra o agotada en Amazon.es (comprobada el 26/11/2026); se redirige a un producto vivo del mismo tipo.",
+  },
+  {
+    source: "/tienda/accesorios-gatos/catit-circuito-bolas-senses",
+    destination: "/tienda/accesorios-gatos/trixie-tunel-juego-gatos",
+    motivo: "Ficha sin botón de compra o agotada en Amazon.es (comprobada el 26/11/2026); se redirige a un producto vivo del mismo tipo.",
+  },
+  {
+    source: "/tienda/accesorios-gatos/meowant-arenero-autolimpiable-doble-rastrillo",
+    destination: "/tienda/accesorios-gatos/petkit-pura-max-2-arenero-autolimpiable",
+    motivo: "Ficha sin botón de compra o agotada en Amazon.es (comprobada el 26/11/2026); se redirige a un producto vivo del mismo tipo.",
+  },
+  {
+    source: "/tienda/accesorios-gatos/catit-smartsift-arenero-tamizado-palanca",
+    destination: "/tienda/accesorios-gatos/rotho-biala-arenero-cerrado-filtro-carbon",
+    motivo: "Ficha sin botón de compra o agotada en Amazon.es (comprobada el 26/11/2026); se redirige a un producto vivo del mismo tipo.",
+  },
+  {
+    source: "/tienda/accesorios-gatos/petkit-eversweet-fuente-acero-inoxidable-1-8l",
+    destination: "/tienda/accesorios-gatos/feelneedy-fuente-gatos-acero-inoxidable-2-8l",
+    motivo: "Ficha sin botón de compra o agotada en Amazon.es (comprobada el 26/11/2026); se redirige a un producto vivo del mismo tipo.",
+  },
+  {
+    source: "/tienda/alimentacion-gatos/purina-pro-plan-sterilised-savoury-duo-pato-10kg",
+    destination: "/tienda/alimentacion-gatos/purina-pro-plan-sterilised-salmon-10kg",
+    motivo: "Ficha sin botón de compra o agotada en Amazon.es (comprobada el 26/11/2026); se redirige a un producto vivo del mismo tipo.",
+  },
+  {
     source: "/tienda/juguetes-mascotas/trixie-cuerda-juego-doble-60cm",
     destination: "/tienda/juguetes-mascotas/trixie-cuerda-juego-algodon-multicolor",
     motivo: "Ficha sin botón de compra en Amazon.es (comprobada el 23/11/2026); se redirige a otra cuerda de juego viva de la misma categoría.",
@@ -128,10 +173,5 @@ export const productRedirects: ProductRedirect[] = [
     source: "/tienda/salud-higiene/frontline-plus-perros-grandes-6-pipetas",
     destination: "/tienda/salud-higiene/beaphar-fiprex-perro",
     motivo: "Ficha sin stock en Amazon.es (marcada unavailable el 12/10/2026); se redirige a otras pipetas antiparasitarias para perros, mismo tipo de producto.",
-  },
-  {
-    source: "/tienda/alimentacion-perros/snackomio-tiras-pechuga-pollo-perro-500g",
-    destination: "/tienda/alimentacion-perros/dokas-pechuga-pollo-tiras-perro-2x500g",
-    motivo: "Ficha sin stock en Amazon.es (marcada unavailable el 27/10/2026); se redirige a otras tiras de pechuga de pollo para perros, mismo tipo de producto.",
   },
 ];
