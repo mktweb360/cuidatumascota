@@ -3748,6 +3748,28 @@ export const products: Product[] = [
     relatedPosts: ["perro-mayor-cuidados-senior"],
   },
   {
+    slug: "amazon-basics-transportin-plegable-4-puertas-m-76x54",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Transportín plegable de 4 puertas para perros y gatos, talla M, 76 x 54 x 54 cm, gris",
+    asin: "B0D1CB5CSL",
+    category: "Camas y transportines",
+    categorySlug: "camas-transportines",
+    categoryName: "Camas y transportines",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Transportín de tela plegable de 4 puertas, de 76 x 54 x 54 cm, con base resistente al agua, almohadilla de forro polar y correa para el hombro.",
+    fullDescription: "Transportín de viaje plegable de Amazon Basics en talla M, de paredes blandas y 4 puertas, pensado para perros pequeños y medianos, gatos, conejos y otros animales pequeños. Según la ficha de Amazon, tiene puerta superior, delantera y laterales con cierres de cremallera, correas para enrollar y asegurar las puertas de tela, y una base resistente al agua con almohadilla extraíble de forro polar. Se monta y se pliega en segundos sin herramientas, y plegado se lleva con el asa o con la correa acolchada para el hombro. Mide 76 x 54 x 54 cm y pesa 4,1 kg. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "4 puertas con cremallera, entre ellas una superior", "Se monta y se pliega sin herramientas", "Base resistente al agua y almohadilla extraíble de forro polar"],
+    cons: ["Es de tela: no protege como un transportín rígido en un golpe o si el animal muerde o araña", "La ficha no indica un peso máximo del animal: comprueba que tu mascota cabe cómoda", "Para el avión o el coche conviene comprobar las normas de la compañía o la sujeción con cinturón", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Talla": "M", "Medidas": "76 x 54 x 54 cm", "Peso": "4,1 kg", "Puertas": "4, con cremallera", "Base": "Resistente al agua, con almohadilla de forro polar", "Color": "Gris", "Vendido por": "Amazon" },
+    relatedPosts: [
+      "transportin-viaje-mascotas",
+      "transportin-para-gato-guia",
+    ],
+  },
+  {
     slug: "amazon-basics-cama-elevada-perros-130x80",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Cama Elevada Refrescante para Perros, talla L, 130 x 80 x 19 cm, gris",

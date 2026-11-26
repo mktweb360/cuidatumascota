@@ -250,7 +250,7 @@ export const posts: Post[] = [
     category: "Accesorios",
     date: "2025-03-15",
     readTime: 7,
-    relatedProducts: ["ferplast-atlas-10-el-negro", "ferplast-atlas-10-open-techo-abrible", "kerbl-expedion-transportin-45x30x30"],
+    relatedProducts: ["ferplast-atlas-10-el-negro", "ferplast-atlas-10-open-techo-abrible", "kerbl-expedion-transportin-45x30x30", "amazon-basics-transportin-plegable-4-puertas-m-76x54"],
     relatedPosts: ["transportin-para-gato-guia", "adoptar-perro-guia-primera-vez", "cuidado-preventivo-mascotas-guia", "kong-classic-guia-uso"],
     categoryCta: { href: "/tienda/camas-transportines", text: "Ver todos los transportines y camas →" },
   },
