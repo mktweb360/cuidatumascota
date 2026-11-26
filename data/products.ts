@@ -3748,6 +3748,28 @@ export const products: Product[] = [
     relatedPosts: ["perro-mayor-cuidados-senior"],
   },
   {
+    slug: "amazon-basics-cinturon-seguridad-perro-67cm-cuenco",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Cinturón de seguridad para perros, ajustable hasta 67 cm, con cuenco de viaje plegable",
+    asin: "B0DSG5GB9Y",
+    category: "Accesorios para perros",
+    categorySlug: "accesorios-perros",
+    categoryName: "Accesorios para perros",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cinturón de seguridad elástico y reflectante para el coche, ajustable hasta 67 cm, para perros de hasta 20 kg, con cuenco de viaje plegable incluido.",
+    fullDescription: "Cinturón de seguridad para perros de Amazon Basics pensado para paseos en coche y viajes. Según la ficha de Amazon, es elástico para amortiguar los movimientos del perro, lleva hilos reflectantes y un cierre metálico de 360 grados que se engancha al arnés (no al collar del cuello), se ajusta hasta 67 cm y está indicado para perros de hasta 20 kg. Incluye un cuenco plegable de 13 x 5,5 cm para agua o comida en carretera. Pesa 179 g. La ficha no menciona pruebas de choque ni certificaciones de seguridad, así que conviene usarlo siempre con un arnés bien ajustado y recordar que su función es limitar el movimiento del perro en el coche. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Elástico, con hilos reflectantes", "Incluye cuenco de viaje plegable", "Ligero: 179 g"],
+    cons: ["Indicado solo para perros de hasta 20 kg", "La ficha no menciona pruebas de choque ni certificaciones de seguridad", "Hay que usarlo con un arnés, no con collar", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Largo ajustable": "Hasta 67 cm", "Peso máximo del perro": "20 kg", "Cierre": "Metálico de 360 grados", "Incluye": "Cuenco de viaje plegable de 13 x 5,5 cm", "Reflectante": "Sí", "Peso": "179 g", "Vendido por": "Amazon" },
+    relatedPosts: [
+      "transportin-viaje-mascotas",
+      "baskerville-bozal-cesta-analisis",
+    ],
+  },
+  {
     slug: "amazon-basics-correa-perro-dos-asas-182cm",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Correa para perros con dos asas acolchadas y anillo en D, 182,9 cm",
