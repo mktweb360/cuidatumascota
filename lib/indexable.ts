@@ -96,6 +96,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "amazon-basics-cama-elevada-perros-110x65",
   "amazon-basics-cama-elevada-perros-130x80",
   "amazon-basics-transportin-plegable-4-puertas-m-76x54",
+  "amazon-basics-transportin-rigido-2-puertas-58cm",
   "amazon-basics-transportin-plegable-2-puertas-l-91x61",
   "amazon-basics-cepillo-bano-perro-2-unidades-toalla",
   "amazon-basics-correa-perro-dos-asas-182cm",
