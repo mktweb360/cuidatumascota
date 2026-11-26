@@ -14,3 +14,8 @@ const items = (sync as { items: Record<string, SyncEntry> }).items;
 export function syncedImage(asin: string): string | undefined {
   return items[asin]?.image;
 }
+
+/** Imagen de una ficha: propia, oficial de Amazon sincronizada o, como último recurso, la de su categoría. */
+export function productImageSrc(p: { image?: string; asin: string; categorySlug: string }): string {
+  return p.image ?? syncedImage(p.asin) ?? `/images/products/${p.categorySlug}.jpg`;
+}

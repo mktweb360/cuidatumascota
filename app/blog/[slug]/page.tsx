@@ -1,3 +1,4 @@
+import { productImageSrc } from "@/lib/amazon-sync";
 import React from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -61,9 +62,9 @@ function AmazonButton({ slug }: { slug: string }) {
   if (!p || p.unavailable) return null;
   return (
     <div className="mt-4 flex flex-wrap items-center gap-3 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3">
-      {p.image && (
+      {(
         <Link href={`/tienda/${p.categorySlug}/${p.slug}`} className="shrink-0" tabIndex={-1} aria-hidden="true">
-          <img src={p.image} alt="" width={64} height={64} loading="lazy" className="h-16 w-16 rounded-lg bg-white object-contain" />
+          <img src={productImageSrc(p)} alt="" width={64} height={64} loading="lazy" className="h-16 w-16 rounded-lg bg-white object-contain" />
         </Link>
       )}
       <Link href={`/tienda/${p.categorySlug}/${p.slug}`} className="flex-1 min-w-[12rem] text-sm font-semibold text-gray-800 hover:text-cyan-700">
@@ -92,9 +93,9 @@ function QuickPicks({ picks }: { picks: { slug: string; note: string }[] }) {
       <div className="grid gap-4 sm:grid-cols-3">
         {items.map(({ slug, note, p }) => (
           <div key={slug} className="flex flex-col rounded-xl bg-white border border-gray-100 p-4">
-            {p!.image && (
+            {(
               <Link href={`/tienda/${p!.categorySlug}/${p!.slug}`} className="mb-3 block" tabIndex={-1} aria-hidden="true">
-                <img src={p!.image} alt="" width={160} height={160} loading="lazy" className="mx-auto h-40 w-full rounded-lg bg-white object-contain" />
+                <img src={productImageSrc(p!)} alt="" width={160} height={160} loading="lazy" className="mx-auto h-40 w-full rounded-lg bg-white object-contain" />
               </Link>
             )}
             <Link href={`/tienda/${p!.categorySlug}/${p!.slug}`} className="font-bold text-gray-900 text-sm leading-tight hover:text-cyan-700">
@@ -1293,7 +1294,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   ];
   const promo = pickPromo(slug);
   const promoHref = promoUrl(promo, "cuidatumascota.es", slug);
-  const sidebarProducts = relatedProducts.map((p) => p && ({ slug: p.slug, name: p.name, href: `/tienda/${p.categorySlug}/${p.slug}`, image: p.image })).filter(Boolean) as { slug: string; name: string; href: string; image?: string }[];
+  const sidebarProducts = relatedProducts.map((p) => p && ({ slug: p.slug, name: p.name, href: `/tienda/${p.categorySlug}/${p.slug}`, image: productImageSrc(p) })).filter(Boolean) as { slug: string; name: string; href: string; image?: string }[];
   const relatedSlugs = new Set([post.slug, ...relatedPosts.map((p) => p!.slug)]);
   // Ventana circular desde la posición del artículo: así todos los artículos de la categoría reciben enlaces entrantes (antes todos enlazaban a los mismos 6).
   const postIdx = posts.findIndex((p) => p.slug === post.slug);
