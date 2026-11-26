@@ -3789,6 +3789,25 @@ export const products: Product[] = [
     relatedPosts: ["pasear-perro-correctamente-guia", "adoptar-perro-guia-primera-vez"],
   },
   {
+    slug: "amazon-basics-escalones-plegables-perros-gatos-gris",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendidos y enviados por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Escalones plegables para perros y gatos, gris, 60,7 x 40,9 x 50,2 cm",
+    asin: "B09T45VHNG",
+    category: "Accesorios para perros",
+    categorySlug: "accesorios-perros",
+    categoryName: "Accesorios para perros",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Escalera plegable de escalones con almohadillas antideslizantes para que perros y gatos pequeños, mayores o lesionados suban a muebles o al coche.",
+    fullDescription: "Escalera plegable de Amazon Basics para que perros y gatos suban o bajen de muebles, vehículos y otras superficies elevadas. Según la ficha de Amazon, está pensada para mascotas pequeñas, con movilidad reducida, lesionadas o de edad avanzada, lleva almohadillas antideslizantes en cada escalón y pies antideslizantes opcionales que la sujetan y protegen el suelo. Mide 60,7 x 40,9 x 50,2 cm, es de color gris y llega lista para usar, sin montaje. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Almohadillas antideslizantes en cada escalón", "Plegable y lista para usar, sin montaje", "Pensada para mascotas pequeñas, mayores o con movilidad reducida"],
+    cons: ["La ficha no indica el peso máximo que soporta: conviene comprobarlo antes de comprarla para un perro grande", "Los pies antideslizantes son opcionales, según la ficha", "No sustituye la consulta veterinaria si tu mascota tiene dolor o dificultad para moverse", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Medidas": "60,7 x 40,9 x 50,2 cm", "Color": "Gris", "Formato": "Plegable, sin montaje", "Antideslizante": "Almohadillas en los escalones", "Vendido por": "Amazon" },
+    relatedPosts: ["perro-mayor-cuidados-senior", "cama-ortopedica-perros-mayores"],
+  },
+  {
     slug: "amazon-basics-fuente-agua-gatos-acero-3l",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Fuente de agua para gatos, tapa de acero inoxidable, 3 L, con 3 filtros, blanca",
