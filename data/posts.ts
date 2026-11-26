@@ -484,7 +484,7 @@ export const posts: Post[] = [
     category: "Cuidados",
     date: "2025-07-16",
     readTime: 8,
-    relatedProducts: ["hills-science-plan-adult", "bedsure-cama-antistress-invierno-50cm", "kong-classic-xl-caucho", "amazon-basics-escalones-plegables-perros-gatos-gris", "amazon-basics-almohadillas-adiestramiento-perros-xl-40"],
+    relatedProducts: ["hills-science-plan-adult", "bedsure-cama-antistress-invierno-50cm", "kong-classic-xl-caucho", "amazon-basics-escalones-plegables-perros-gatos-gris", "amazon-basics-almohadillas-adiestramiento-perros-xl-40", "amazon-basics-panales-desechables-perro-macho-m-50"],
     relatedPosts: ["cuidado-preventivo-mascotas-guia", "higiene-dental-perros-gatos", "royal-canin-adult-maxi-analisis", "miedo-petardos-fuegos-artificiales-perros-gatos", "cuanto-ejercicio-necesita-un-perro-paseos-edad-raza"],
     isHealth: true,
   },
