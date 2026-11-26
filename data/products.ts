@@ -3811,6 +3811,25 @@ export const products: Product[] = [
     relatedPosts: ["banar-perro-en-casa-guia-frecuencia-paso-a-paso", "cepillado-pelo-perro-guia"],
   },
   {
+    slug: "amazon-basics-transportin-plegable-2-puertas-l-91x61",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Transportín portátil plegable de 2 puertas para perros y gatos, talla L, 91 x 61 x 61 cm, beige",
+    asin: "B0722KW6YJ",
+    category: "Camas y transportines",
+    categorySlug: "camas-transportines",
+    categoryName: "Camas y transportines",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Transportín de tela plegable de 2 puertas, de 91 x 61 x 61 cm, para perros grandes de hasta 31,7 kg según la ficha.",
+    fullDescription: "Transportín de viaje plegable de Amazon Basics en talla L, de paredes blandas y 2 puertas, delantera y trasera. Según la ficha de Amazon, está pensado para perros grandes de hasta 31,7 kg, las ventanas y la puerta delantera son de malla para ventilar los cuatro laterales, los cierres son de cremallera y unas correas permiten sujetar las puertas enrolladas y abiertas. La estructura es de PVC y poliéster, se monta en segundos sin herramientas y se pliega plano para transportarlo. Mide 91 x 61 x 61 cm y pesa 3,58 kg. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Para perros grandes de hasta 31,7 kg según la ficha", "Ventilación de malla en los cuatro laterales", "Se monta sin herramientas y se pliega plano"],
+    cons: ["Es de tela: no protege como un transportín rígido en un golpe o si el animal muerde o araña", "Con 91 cm de largo ocupa mucho en un coche pequeño: mide el maletero antes", "Para el avión o el coche conviene comprobar las normas de la compañía o la sujeción con cinturón", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Talla": "L", "Medidas": "91 x 61 x 61 cm", "Peso": "3,58 kg", "Puertas": "2, delantera y trasera", "Material": "PVC y poliéster", "Peso máximo del animal": "31,7 kg", "Vendido por": "Amazon" },
+    relatedPosts: ["transportin-viaje-mascotas"],
+  },
+  {
     slug: "amazon-basics-transportin-plegable-4-puertas-m-76x54",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Transportín plegable de 4 puertas para perros y gatos, talla M, 76 x 54 x 54 cm, gris",
