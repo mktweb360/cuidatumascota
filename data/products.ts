@@ -3691,6 +3691,25 @@ export const products: Product[] = [
     relatedPosts: ["arbol-rascador-gatos-guia-compra"],
   },
   {
+    slug: "amazon-basics-jaula-perro-alambre-plegable-107x71x76",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Jaula para perro de alambre metálico, plegable con bandeja y doble puerta, 107 x 71 x 76 cm",
+    asin: "B09G4MP29H",
+    category: "Camas y transportines",
+    categorySlug: "camas-transportines",
+    categoryName: "Camas y transportines",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Jaula de interior de alambre metálico con doble puerta, divisor, bandeja de plástico y asa, plegable, de 107 x 71 x 76 cm.",
+    fullDescription: "Jaula de interior de Amazon Basics para perros, de alambre metálico y de unos 107 x 71 x 76 cm. Según la ficha de Amazon, tiene dos puertas (delantera y lateral), cierres manuales, divisor interior, bandeja de plástico en la base para limpiarla con facilidad y asa superior. Se pliega por completo para guardarla o transportarla. Por tamaño, es una jaula para perros medianos o grandes; la ficha no indica un rango de peso, así que conviene medir al perro antes de comprarla. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Doble puerta (delantera y lateral) y divisor interior", "Bandeja de plástico en la base, fácil de limpiar", "Plegable, con asa superior"],
+    cons: ["La ficha no indica el peso ni la talla máxima del perro: hay que medirlo antes de comprarla", "Es de alambre y de uso interior, no sirve como transportín para el coche o el avión", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Medidas": "106,7 x 71,1 x 76,2 cm (largo x ancho x alto)", "Material": "Alambre metálico", "Puertas": "2 (delantera y lateral)", "Incluye": "Divisor y bandeja de plástico", "Plegable": "Sí, con asa superior", "Vendido por": "Amazon" },
+    relatedPosts: ["cuidados-cachorro-primer-mes", "adoptar-perro-guia-primera-vez"],
+  },
+  {
     slug: "amazon-basics-cama-elevada-perros-110x65",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Cama Elevada Refrescante para Perros, tela, talla M, 110 x 65 x 19 cm",
