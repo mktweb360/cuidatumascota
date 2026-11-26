@@ -3729,6 +3729,25 @@ export const products: Product[] = [
     relatedPosts: ["cuidados-cachorro-primer-mes", "perro-mayor-cuidados-senior"],
   },
   {
+    slug: "amazon-basics-panales-desechables-perro-macho-m-50",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Pañales desechables para perros macho, talla M, 50 unidades",
+    asin: "B08HSGK66F",
+    category: "Salud e higiene",
+    categorySlug: "salud-higiene",
+    categoryName: "Salud e higiene",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Pañales desechables para perros macho de talla M, con cintura de 41 a 53 cm, indicador de humedad y cierres reposicionables; paquete de 50.",
+    fullDescription: "Pañales desechables de Amazon Basics para perros macho en talla M, en paquete de 50. Según la ficha de Amazon, sirven para la incontinencia, la micción por excitación y el marcaje de territorio, y se ajustan a perros con una cintura de 41 a 53 cm. Llevan núcleo absorbente, capas transpirables con protección antifugas, cierres reposicionables y un indicador de humedad que cambia de color. Cada pañal mide 66 x 21 cm y la ficha indica certificación FSC. Si el perro tiene incontinencia o marca de forma repentina, conviene consultarlo antes con el veterinario, porque el pañal protege pero no trata la causa. No los hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendidos y enviados por Amazon", "Indicador de humedad que cambia de color", "Cierres reposicionables y capas transpirables", "Paquete de 50, para uso continuado"],
+    cons: ["Solo para machos y para una cintura de 41 a 53 cm: hay que medir antes de elegir talla", "No resuelven la causa de la incontinencia: ante cambios repentinos, consulta al veterinario", "Son desechables: el gasto se repite mientras se usen", "No los hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Talla": "M, cintura de 41 a 53 cm", "Para": "Perros macho", "Unidades": "50", "Medidas": "66 x 21 cm por pañal", "Extras": "Indicador de humedad y cierres reposicionables", "Vendido por": "Amazon" },
+    relatedPosts: ["perro-mayor-cuidados-senior"],
+  },
+  {
     slug: "amazon-basics-cama-elevada-perros-130x80",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Cama Elevada Refrescante para Perros, talla L, 130 x 80 x 19 cm, gris",
