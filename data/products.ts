@@ -3748,6 +3748,28 @@ export const products: Product[] = [
     relatedPosts: ["perro-mayor-cuidados-senior"],
   },
   {
+    slug: "amazon-basics-correa-perro-dos-asas-182cm",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Correa para perros con dos asas acolchadas y anillo en D, 182,9 cm",
+    asin: "B0FWBSBJC7",
+    category: "Accesorios para perros",
+    categorySlug: "accesorios-perros",
+    categoryName: "Accesorios para perros",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Correa fija de cuerda de poliéster de 182,9 cm con dos asas acolchadas, hilos reflectantes y mosquetón de 360 grados.",
+    fullDescription: "Correa de paseo de Amazon Basics para cachorros y perros pequeños, medianos y grandes. Según la ficha de Amazon, está hecha de cuerda de poliéster con hilos reflectantes para verla de noche, tiene dos asas acolchadas con agarre antideslizante (una cerca del mosquetón para acortar el agarre en cruces y zonas con tráfico) y un cierre de metal de 360 grados para el arnés o el collar. Mide unos 182 cm y pesa 143 g, y contiene un 69 % de poliéster reciclado certificado GRS. Al ser de longitud fija, no sustituye a una extensible ni a una larga de adiestramiento. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Dos asas acolchadas: se puede acortar el agarre", "Hilos reflectantes para paseos de noche", "Ligera: 143 g"],
+    cons: ["Longitud fija de 182 cm, sin extensión ni modo de adiestramiento a distancia", "La ficha no indica un peso máximo del perro: para perros muy fuertes conviene elegir con cuidado", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Largo": "182,9 cm", "Material": "Cuerda de poliéster (69 % reciclado)", "Asas": "2, acolchadas", "Cierre": "Mosquetón metálico de 360 grados", "Peso": "143 g", "Reflectante": "Sí", "Vendido por": "Amazon" },
+    relatedPosts: [
+      "pasear-perro-correctamente-guia",
+      "perro-tira-de-la-correa-solucion",
+    ],
+  },
+  {
     slug: "amazon-basics-transportin-plegable-4-puertas-m-76x54",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Transportín plegable de 4 puertas para perros y gatos, talla M, 76 x 54 x 54 cm, gris",
