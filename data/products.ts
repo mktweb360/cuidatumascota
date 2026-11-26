@@ -3710,6 +3710,25 @@ export const products: Product[] = [
     relatedPosts: ["cuidados-cachorro-primer-mes", "adoptar-perro-guia-primera-vez"],
   },
   {
+    slug: "amazon-basics-almohadillas-adiestramiento-perros-xl-40",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendidas y enviadas por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Almohadillas de adiestramiento para perros y cachorros, 40 unidades, XL, 5 capas",
+    asin: "B016C6EJ4S",
+    category: "Accesorios para perros",
+    categorySlug: "accesorios-perros",
+    categoryName: "Accesorios para perros",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "40 empapadores XL de 71 x 86 cm con cinco capas, núcleo que convierte el líquido en gel y forro a prueba de fugas.",
+    fullDescription: "Pack de 40 almohadillas de adiestramiento de Amazon Basics en tamaño XL (71 x 86 cm), pensadas para enseñar a los cachorros dónde hacer sus necesidades, ayudar a perros mayores o servir de alternativa cuando no se puede salir a la calle. Según la ficha de Amazon, tienen cinco capas: un núcleo superabsorbente que convierte el líquido en gel, una superficie de secado rápido con atrayente incorporado y un forro de plástico a prueba de fugas. Se pueden usar en interior, exterior y en el coche. La ficha indica que la celulosa tiene certificación FSC. No las hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendidas y enviadas por Amazon", "40 unidades en tamaño XL (71 x 86 cm)", "Cinco capas con forro a prueba de fugas", "Con atrayente incorporado para el adiestramiento, según la ficha"],
+    cons: ["Son desechables: hay que reponerlas y el forro es de plástico", "Un perro que no las reconoce puede tardar en usarlas; no sustituyen a los paseos ni al adiestramiento", "No las hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Cantidad": "40 unidades", "Tamaño": "XL, 71 x 86 cm (zona central de 60 x 75 cm)", "Capas": "5, con núcleo superabsorbente y forro a prueba de fugas", "Uso": "Interior, exterior y coche", "Vendido por": "Amazon" },
+    relatedPosts: ["cuidados-cachorro-primer-mes", "perro-mayor-cuidados-senior"],
+  },
+  {
     slug: "amazon-basics-cama-elevada-perros-110x65",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Cama Elevada Refrescante para Perros, tela, talla M, 110 x 65 x 19 cm",
