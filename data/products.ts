@@ -3766,6 +3766,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-cinturon-seguridad-perro-67cm-cuenco",
+    image: "https://m.media-amazon.com/images/I/71wA9b0GfdL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Cinturón de seguridad para perros, ajustable hasta 67 cm, con cuenco de viaje plegable",
     asin: "B0DSG5GB9Y",
@@ -3788,6 +3789,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-correa-perro-dos-asas-182cm",
+    image: "https://m.media-amazon.com/images/I/61yikS8ZxHL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Correa para perros con dos asas acolchadas y anillo en D, 182,9 cm",
     asin: "B0FWBSBJC7",
@@ -3810,6 +3812,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-cepillo-bano-perro-2-unidades-toalla",
+    image: "https://m.media-amazon.com/images/I/811XI+AV7-L._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Cepillo de baño para perros con toalla de secado rápido, 2 cepillos",
     asin: "B0DP437Q3H",
@@ -3829,6 +3832,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-transportin-plegable-2-puertas-l-91x61",
+    image: "https://m.media-amazon.com/images/I/911pV+Mo8EL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Transportín portátil plegable de 2 puertas para perros y gatos, talla L, 91 x 61 x 61 cm, beige",
     asin: "B0722KW6YJ",
@@ -3848,6 +3852,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-transportin-rigido-2-puertas-58cm",
+    image: "https://m.media-amazon.com/images/I/71KLUcxRWML._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Caseta para mascotas de 2 puertas con carga superior, 58 cm, azul",
     asin: "B00OP6SVJW",
@@ -3867,6 +3872,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-transportin-plegable-4-puertas-m-76x54",
+    image: "https://m.media-amazon.com/images/I/81teyuPnMQL._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Transportín plegable de 4 puertas para perros y gatos, talla M, 76 x 54 x 54 cm, gris",
     asin: "B0D1CB5CSL",
@@ -3889,6 +3895,7 @@ export const products: Product[] = [
   },
   {
     slug: "amazon-basics-cama-felpa-lavable-espiral-59x46",
+    image: "https://m.media-amazon.com/images/I/71A0e8GM5lS._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Cama lavable a máquina para mascotas, felpa en espiral, 59 x 46 x 6 cm, gris",
     asin: "B07DZJR1P7",
