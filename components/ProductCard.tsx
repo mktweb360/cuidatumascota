@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Product } from "@/data/products";
+import { syncedImage } from "@/lib/amazon-sync";
 
 interface Props {
   product: Product;
@@ -16,7 +17,7 @@ const CATEGORY_IMAGES: Record<string, string> = {
 };
 
 export default function ProductCard({ product }: Props) {
-  const imgSrc = product.image ?? CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/alimentacion-perros.jpg";
+  const imgSrc = product.image ?? syncedImage(product.asin) ?? CATEGORY_IMAGES[product.categorySlug] ?? "/images/products/alimentacion-perros.jpg";
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col">
       <Link href={`/tienda/${product.categorySlug}/${product.slug}`} className="block overflow-hidden bg-gray-50">

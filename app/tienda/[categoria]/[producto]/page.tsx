@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { categories, products, getProductBySlug, getProductsByCategory, amazonLink } from "@/data/products";
 import { getPostBySlug } from "@/data/posts";
 import ProductCard from "@/components/ProductCard";
+import { syncedImage } from "@/lib/amazon-sync";
 import VetDisclaimer from "@/components/VetDisclaimer";
 import { productTitle, productTitleUnique, relatedInCategory, publicDescription } from "@/lib/seo";
 import { CATEGORIA_GUIA } from "@/lib/categoria-guia";
@@ -109,7 +110,7 @@ export default async function ProductoPage({ params }: { params: Promise<{ categ
           <div className="relative">
             <div className="rounded-2xl overflow-hidden bg-gradient-to-br from-cyan-50 to-gray-50 border border-gray-100 aspect-square flex items-center justify-center">
               <img
-                src={product.image ?? `/images/products/${product.categorySlug}.jpg`}
+                src={product.image ?? syncedImage(product.asin) ?? `/images/products/${product.categorySlug}.jpg`}
                 alt={product.name}
                 className="w-full h-full object-cover"
                 loading="eager"
