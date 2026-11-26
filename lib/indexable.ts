@@ -94,6 +94,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "ferplast-atlas-20-open-transportin-gato-8kg",
   "amazon-basics-transportin-blando-gato-entrada-superior",
   "amazon-basics-cama-elevada-perros-110x65",
+  "amazon-basics-cama-felpa-lavable-espiral-59x46",
   "amazon-basics-cama-elevada-perros-130x80",
   "amazon-basics-transportin-plegable-4-puertas-m-76x54",
   "amazon-basics-transportin-rigido-2-puertas-58cm",
