@@ -1,5 +1,2044 @@
 {
- "generatedAt": null,
+ "generatedAt": "2026-11-26",
  "marketplace": "www.amazon.es",
- "items": {}
+ "items": {
+  "B0002AR0HO": {
+   "status": "ok",
+   "title": "KONG Classic Juguete Rellenable para Perros, Talla XL | Juguete Masticable de Caucho Natural Rojo, Rellenable con Premios y Snacks, Duradero para el Juego del Día a Día",
+   "image": "https://m.media-amazon.com/images/I/31lf1xkSJTL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0002AR0I8": {
+   "status": "ok",
+   "title": "KONG Classic Juguete Rellenable para Perros, Talla Grande | Juguete Masticable de Caucho Natural Rojo, Rellenable con Premios y Snacks, Duradero para el Juego del Día a Día",
+   "image": "https://m.media-amazon.com/images/I/31lf1xkSJTL._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "Pattern EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0002I9O70": {
+   "status": "ok",
+   "title": "Vet's Best Champú hipoalergénico para perros 500 ml | Champú para perros con piel sensible. Alivia piel seca con picor. Limpia, hidrata y acondiciona la piel y el pelaje.",
+   "image": "https://m.media-amazon.com/images/I/311+YtJegfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0009585RQ": {
+   "status": "ok",
+   "title": "TRIXIE Tijeras para Uñas para Perros",
+   "image": "https://m.media-amazon.com/images/I/31xgvFZxuEL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B000958616": {
+   "status": "ok",
+   "title": "Trixie Cuerda de juego de algodón 26cm, 3272, colores surtidos",
+   "image": "https://m.media-amazon.com/images/I/31Hk0uSucwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 4 en stock."
+   },
+   "merchant": "Animatural",
+   "checkedAt": "2026-11-26"
+  },
+  "B0009VKK9G": {
+   "status": "ok",
+   "title": "Puppy Goodie Bone Small",
+   "image": "https://m.media-amazon.com/images/I/31XiTVX52lL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Clearly Authentic",
+   "checkedAt": "2026-11-26"
+  },
+  "B000A216F6": {
+   "status": "ok",
+   "title": "TRIXIE Cuerda doble de algodón para perros, pequeños y medianos – 60 cm | Para tirar y aflojar juntos: fortalece el vínculo y mantiene al perro ocupado activamente en el juego diario",
+   "image": "https://m.media-amazon.com/images/I/31NWoifi6dL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B000A216GK": {
+   "status": "ok",
+   "title": "TRIXIE Túnel de Juego para Gatos",
+   "image": "https://m.media-amazon.com/images/I/41ibpeHZqlL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 2 en stock."
+   },
+   "merchant": "Animatural",
+   "checkedAt": "2026-11-26"
+  },
+  "B000F4AVPA": {
+   "status": "ok",
+   "title": "Chuckit Ultra Ball Medium - 2 Pelotas para Perros",
+   "image": "https://m.media-amazon.com/images/I/3163UrejgNL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B000GUDZO2": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B000OLYIE4": {
+   "status": "ok",
+   "title": "TRIXIE Zapatos Walker para perros talla L, con suela de vinilo | Poliéster suave con suela antideslizante y doble cierre de velcro para proteger patas heridas de humedad y frío",
+   "image": "https://m.media-amazon.com/images/I/41AQrBeU0mS._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B000VJW2GA": {
+   "status": "ok",
+   "title": "Royal Canin C-08406 S.N. Medium Adult - 15 Kg",
+   "image": "https://m.media-amazon.com/images/I/41B1Bx6oc+L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "MascotaPlanet",
+   "checkedAt": "2026-11-26"
+  },
+  "B000ZGSV2I": {
+   "status": "ok",
+   "title": "Kerbl Pet Tabla para rascar Maxi, rascador de pared, beige, sisal, 70x17 cm, para gatos, para montaje en pared, protección de muebles, cuidado de garras",
+   "image": "https://m.media-amazon.com/images/I/31IlAIQVndL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0014TE6FG": {
+   "status": "ok",
+   "title": "Royal Canin C-08466 S.N. Maxi Adult - 15 Kg",
+   "image": "https://m.media-amazon.com/images/I/31dViKzFbpL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "ZooArt",
+   "checkedAt": "2026-11-26"
+  },
+  "B0015U0NB0": {
+   "status": "ok",
+   "title": "Royal Canin C-58504 Indoor - 4 Kg",
+   "image": "https://m.media-amazon.com/images/I/31rVGZougtL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "Medpets",
+   "checkedAt": "2026-11-26"
+  },
+  "B0015U0QIK": {
+   "status": "ok",
+   "title": "Royal Canin Alimento para Gatos Sterilised 37-2 kg | Apoya la salud del tracto urinario y el control de peso saludable",
+   "image": "https://m.media-amazon.com/images/I/31DgR19RbmL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Adyro Global",
+   "checkedAt": "2026-11-26"
+  },
+  "B0015U850Q": {
+   "status": "ok",
+   "title": "Royal Canin para Gato C-58467 Sterilised - 4 Kg",
+   "image": "https://m.media-amazon.com/images/I/41TFba2bCQL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B001LWRFW2": {
+   "status": "ok",
+   "title": "Hagen Catit Design Senses Play Circuit, Todos Los Tamaños De Razas",
+   "image": "https://m.media-amazon.com/images/I/51-4ND3RWbL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B001MZYPTE": {
+   "status": "ok",
+   "title": "GimCat Malt-Soft Extra, pasta con malta- Anti-Hairball snack para gatos favorece la excreción de bolas de pelo - 1 tubo (1 x 100 g)",
+   "image": "https://m.media-amazon.com/images/I/41Th-wWSGaL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00280MUGC": {
+   "status": "ok",
+   "title": "¡Chuckit! Lanzador de pelotas deportivas para perros con pelota de tenis mediana, 46 cm",
+   "image": "https://m.media-amazon.com/images/I/31-yGwcKXfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00280MUVC": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B00388MYF0": {
+   "status": "ok",
+   "title": "Advance Medium Puppy, Pienso para Perros Puppy (2 a 15 meses) de Razas Medianas con Pollo, 3kg",
+   "image": "https://m.media-amazon.com/images/I/41DltSNG59L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00388RFJ0": {
+   "status": "ok",
+   "title": "Advance Medium Adult Chicken, Pienso para Perros Adultos de Razas Medianas con Pollo, 3kg",
+   "image": "https://m.media-amazon.com/images/I/41BIvd0NqjL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B003TOKTEG": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B003TOQ0CG": {
+   "status": "ok",
+   "title": "TRIXIE Comedero Plástico Slow Feed para Perros",
+   "image": "https://m.media-amazon.com/images/I/413BP4vdZCL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B003ZEJI2E": {
+   "status": "ok",
+   "title": "Hill`s Science Plan Alimento con Sabor a Pollo para Gatos Adultos Esterilizados - 1,5 kg",
+   "image": "https://m.media-amazon.com/images/I/41Gn67BZ+FL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Adyro Global",
+   "checkedAt": "2026-11-26"
+  },
+  "B004W78GGC": {
+   "status": "ok",
+   "title": "Arnés de control frontal HALTI - Para evitar que tu perro tire de la correa, Ajustable, Ligero y Fácil de Usar. Adiestramiento canino antitirones Arnés para perros medianos (Talla M)",
+   "image": "https://m.media-amazon.com/images/I/41EHc8v053L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0057FZXHI": {
+   "status": "ok",
+   "title": "TRIXIE Bola de premios para perros, de goma natural – Petróleo, ø 9 cm",
+   "image": "https://m.media-amazon.com/images/I/41Pm72B-GPL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0057H1HZI": {
+   "status": "ok",
+   "title": "PetSafe Clik-R Clicker de Entrenamiento, Púrpura | Para Educación Diaria, Diseño Ergonómico, Banda para el Dedo",
+   "image": "https://m.media-amazon.com/images/I/3170i2NBAQL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B00600YMDK": {
+   "status": "ok",
+   "title": "Arnés para Perros Easy Walk de PetSafe, arnés antitirones para Perros – para adiestramiento con Correa y arnés – Evita tirones y Asfixia en los Paseos – Mediano, Negro",
+   "image": "https://m.media-amazon.com/images/I/41pbdlr6rNL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Pattern EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B007N2MGJQ": {
+   "status": "ok",
+   "title": "Trixie Peine antipulgas y polvo, tamaño 7 cm",
+   "image": "https://m.media-amazon.com/images/I/41PufgFsYpL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B007ZY4D0W": {
+   "status": "ok",
+   "title": "Pedigree Dentastix Snack Dental para la Higiene Oral de Perros Medianos (1 Pack de 56ud)",
+   "image": "https://m.media-amazon.com/images/I/41R89QttdOL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B009B83V76": {
+   "status": "ok",
+   "title": "Catit Smartsift - Bandeja Sanitaria Automática, gris",
+   "image": "https://m.media-amazon.com/images/I/31YMcJ2vR7L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B009FYKI54": {
+   "status": "ok",
+   "title": "Pro Plan Pienso gato Adulto Esterilizado Pavo 10 kg",
+   "image": "https://m.media-amazon.com/images/I/41igNsLCVwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B009FYKL6K": {
+   "status": "ok",
+   "title": "Pro Plan Pienso gato Adulto Esterilizado Salmon 10 kg | Comida seca para gatos adultos con salmón",
+   "image": "https://m.media-amazon.com/images/I/41M7bnwDwTL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B009SJAUYK": {
+   "status": "ok",
+   "title": "Beaphar VETOpure pipetas de Tratamiento antiparásito para Perros.",
+   "image": "https://m.media-amazon.com/images/I/51XettCJ8UL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 4 a 5 días"
+   },
+   "merchant": "Comercial Mida",
+   "checkedAt": "2026-11-26"
+  },
+  "B00E3302YE": {
+   "status": "ok",
+   "title": "Candure Cortauñas para Perro y Gato con Mascota Protector de Seguridad - Acero Inoxidable Alicates Uñas Profesionales para Mascotas, Perros, Gatos (Verde S, Pequeños Animales)",
+   "image": "https://m.media-amazon.com/images/I/31IpgzU-FUL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Fairdealshop",
+   "checkedAt": "2026-11-26"
+  },
+  "B00F5ZTI08": {
+   "status": "ok",
+   "title": "Ferplast Transportín Gato, Transportín Perro Pequeño y Gatos de hasta 5 Kg, Puerta de Hierro Plastificado, Ranuras de Ventilación, 32,5 x 48 x h 29 cm, Transportín Mascotas Rígido Atlas 10 EL, Negro",
+   "image": "https://m.media-amazon.com/images/I/41fkE1uE6zL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00F5ZTPMO": {
+   "status": "ok",
+   "title": "Ferplast Transportín Gato, Transportín Perro Pequeño hasta 8 Kg, Techo Abrible, con Cojín y Comedero, 37,4 x 58 x h 33 cm, Transportín Mascotas Rígido Atlas 20 Open Deluxe, Negro",
+   "image": "https://m.media-amazon.com/images/I/41RrWe0VMsL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 1 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00FU6PDLU": {
+   "status": "ok",
+   "title": "Epica - Cortaúñas profesionales para perros, recortador de uñas para perros grandes, cortaúñas fácil y seguro para mascotas, recortador de garras de gato con protector de seguridad (grande)",
+   "image": "https://m.media-amazon.com/images/I/31XOnumy4-L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00GSAD292": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B00I2SR6OU": {
+   "status": "ok",
+   "title": "Virbac Champú Sebocalm - 250ml",
+   "image": "https://m.media-amazon.com/images/I/31qevA6ql6L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B00JME4USS": {
+   "status": "ok",
+   "title": "arenero Gato - Savic Nestor - Gris - Cerrado - con Tapa - Frontal abatible - Filtro de carbón - diseño Moderno - 56x39x38,5 cm",
+   "image": "https://m.media-amazon.com/images/I/21BLgOE9L8L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Ami Animal",
+   "checkedAt": "2026-11-26"
+  },
+  "B00N4UFEZO": {
+   "status": "ok",
+   "title": "Pienso seco Applaws para Gatos Adultos, Pollo con salmón, 7,5 kg (1 Bolsa) – sin Cereales, Rico en proteínas, Ingredientes Naturales",
+   "image": "https://m.media-amazon.com/images/I/41t-sT4B26L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00NABTG60": {
+   "status": "ok",
+   "title": "Amazon Basics Bolsas de basura para perros con dispensador y clip para correa, sin perfume, 600 bolsas (40 paquetes de 15 bolsas)",
+   "image": "https://m.media-amazon.com/images/I/41yjV8iXySL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00O0UIPTY": {
+   "status": "ok",
+   "title": "Comedero para mascotas SureFeed Sure Petcare con lector de microchip y tapa sellada, compatible con placas de identificación RFID, para comida húmeda y seca, blanco, necesita 4 pilas C (no incluidas).",
+   "image": "https://m.media-amazon.com/images/I/31oNx2tWCtL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "CRAZYPET",
+   "checkedAt": "2026-11-26"
+  },
+  "B00O3B1VDM": {
+   "status": "ok",
+   "title": "flexi® Classic S Correa Extensible Perro 8m Cordón Negro | Correa resistente y antienredos, freno a una mano y agarre suave y firme para paseos y entrenamiento de perros hasta 12 kg",
+   "image": "https://m.media-amazon.com/images/I/313W5ngqpWL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00O3B2RG2": {
+   "status": "ok",
+   "title": "Trixie flexi New Classic Cinta Enrollable para Perro | El Original flexi®: correa retráctil fabricada en Alemania desde 1973, para perros de hasta 15 kg",
+   "image": "https://m.media-amazon.com/images/I/41E0xdXNkvL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00O4BBB7C": {
+   "status": "ok",
+   "title": "Dog Chow Pienso pienso perro control de peso 14 kg | Comida Perro Tamaño Medio Sabor Pavo - Ayuda para controlar el peso, rica en proteínas - Alimentación para perros",
+   "image": "https://m.media-amazon.com/images/I/51May98zUoL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B00OP6SMCI": {
+   "status": "ok",
+   "title": "Amazon Basics Gato Trasportín de 2 puertas con carga superior, 48 cm, Azul",
+   "image": "https://m.media-amazon.com/images/I/41najSl8TvL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00PTTO41S": {
+   "status": "ok",
+   "title": "Royal Canin Comida para gatos Urinary Care 2 Kg | Ayuda a mantener la salud del tracto urinario, resultados probados en 10 días",
+   "image": "https://m.media-amazon.com/images/I/412cFKJagnL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SUMINISTROS SINGULARES",
+   "checkedAt": "2026-11-26"
+  },
+  "B00Y9SSHU4": {
+   "status": "ok",
+   "title": "Pro Plan Medium Puppy Start pienso perro Cachorro con calostro 4x3 kg",
+   "image": "https://m.media-amazon.com/images/I/41EdxlHvohL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B00Y9SSYJS": {
+   "status": "ok",
+   "title": "Pro Plan Medium Every Day Nutrition pienso perro Adulto Pollo 14 kg",
+   "image": "https://m.media-amazon.com/images/I/41fW6yF7CfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SUMINISTROS SINGULARES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0146QXOB0": {
+   "status": "ok",
+   "title": "Catit 43742W Bebedero Fuente Flor 3, 3 L | Iluminación nocturna LED integrada, sistema de filtración multietapa, capacidad de 3 litros, plástico sin BPA",
+   "image": "https://m.media-amazon.com/images/I/31WPsfReV-L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0160VM4LU": {
+   "status": "ok",
+   "title": "TRIXIE Wild Cat rascador para gatos con hierba gatera – 41 × 24 × 7 cm | Tabla de cartón corrugado renovable con catnip incluido para afilar uñas y proteger sofás y alfombras",
+   "image": "https://m.media-amazon.com/images/I/41O58gYY3bL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B016C6EJ4S": {
+   "status": "ok",
+   "title": "Amazon Basics Almohadillas de adiestramiento de perros y cachorros, 40 Unidad, diseño de 5 capas a prueba de fugas con superficie de secado rápido, XL, Azul",
+   "image": "https://m.media-amazon.com/images/I/31eWNdzkAwL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0173NA0AG": {
+   "status": "ok",
+   "title": "Pedigree Dentastix - Friandises pour grand chien, 56 bâtonnets à mâcher pour l'hygiène bucco-dentaire (8 sachets de 7 Sticks)",
+   "image": "https://m.media-amazon.com/images/I/51GWnSxzfHL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "CRAZYPET",
+   "checkedAt": "2026-11-26"
+  },
+  "B017NJ2CMO": {
+   "status": "ok",
+   "title": "Applaws, latas de Comida húmeda Natural para Gatos, selección variada en Caldo, 12 x 70 g",
+   "image": "https://m.media-amazon.com/images/I/41sId+TYJ9L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B01980UMF0": {
+   "status": "ok",
+   "title": "MENFORSAN Champú Aloe Vera para Perros | Hidrata en profundidad | Acción Anti Irritaciones y Anti Eczemas | 100% Natural | Herbácea | 1L",
+   "image": "https://m.media-amazon.com/images/I/41BXMcES6kL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B019FO2U5Y": {
+   "status": "ok",
+   "title": "FELIWAY Classic Difusor + Recambio de Feromonas Calmantes para Gatos | Ayuda a tu Gato a estar Más Tranquilo y Seguro, Eficacia Demostrada, Sin olores, Recomendado por Veterinarios, 30 días",
+   "image": "https://m.media-amazon.com/images/I/51rKxeufw7L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Feliway_Adaptil",
+   "checkedAt": "2026-11-26"
+  },
+  "B01C6UHTAU": {
+   "status": "ok",
+   "title": "Acana Senior Dog Comida para Perros, sabor a Pollo - 11400 gr",
+   "image": "https://m.media-amazon.com/images/I/41P54WDReuL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Ami Animal",
+   "checkedAt": "2026-11-26"
+  },
+  "B01DOP5S9K": {
+   "status": "ok",
+   "title": "Amazon Basics Comedero para perro (acero inoxidable, 2 comederos), Plateado",
+   "image": "https://m.media-amazon.com/images/I/41N2as5PoEL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B01HS7GC6S": {
+   "status": "ok",
+   "title": "FRONTLINE Plus Tratamiento de pulgas y garrapatas para perros pequeños (2-10 kg) - 3 pipetas",
+   "image": "https://m.media-amazon.com/images/I/51r3GtEspAS._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B01J7AMV64": {
+   "status": "ok",
+   "title": "Feandrea Árbol para Gatos, Rascador con Nidos, Hamaca, 154 cm | Plataformas y Bolas de Juego, Beige Arena, Colección CLAWFY PCT86M",
+   "image": "https://m.media-amazon.com/images/I/41Rdg-P0nLL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B01M8JT6FT": {
+   "status": "ok",
+   "title": "rabbitgoo Arnes Perro Grande Mediano Pequeño Arnés Pecho Antitirones Perros Coche con Lineas Reflecantes Cómodo Transpirable Chaleco Acolchado Ajustable para Adiesreamiento Correr Negro Tamaño Grande",
+   "image": "https://m.media-amazon.com/images/I/413zV0pkZpL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "RabbitgooES",
+   "checkedAt": "2026-11-26"
+  },
+  "B01M9CMKNF": {
+   "status": "ok",
+   "title": "Pedigree - Pienso para Perros Vital Protection Adulto Buey 15 kg",
+   "image": "https://m.media-amazon.com/images/I/41tOKdV8sLL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "PETS_EMPIRE",
+   "checkedAt": "2026-11-26"
+  },
+  "B01MDOZ6JF": {
+   "status": "ok",
+   "title": "EzyDog Arnes Coche Perro Homologado - Cinturón De Seguridad para Perros - Mascotas Perros Accesorios, Multifunción, Ajustable (L, Negro)",
+   "image": "https://m.media-amazon.com/images/I/41iDaGNLJeL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "EzyDog Europe",
+   "checkedAt": "2026-11-26"
+  },
+  "B01MZ9COT8": {
+   "status": "ok",
+   "title": "Ruffwear - Approach Pack",
+   "image": "https://m.media-amazon.com/images/I/41CiKNhKHXL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 2 en stock."
+   },
+   "merchant": "Ruffwear Europe",
+   "checkedAt": "2026-11-26"
+  },
+  "B06X6J3L65": {
+   "status": "ok",
+   "title": "Amazon Basics Torre multinivel para gatos con postes rascadores para uso en interiores, color beige, L (45L x 45W x 117H cm)",
+   "image": "https://m.media-amazon.com/images/I/41rGgJnpJZL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B06XNBWL48": {
+   "status": "ok",
+   "title": "Orijen Original Comida Para Perro 11.4 Kg 11400 g",
+   "image": "https://m.media-amazon.com/images/I/41UgsLfROvL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Mundo Mascota Express",
+   "checkedAt": "2026-11-26"
+  },
+  "B06XSZ194G": {
+   "status": "ok",
+   "title": "HAPPY HACHI Correa Larga de Entrenamiento para Perros Longitud 10M | con Mango Acolchado y Clip Giratorio 360°, Cinta de Nylon Resistente 2cm, Ideal para Entrenamiento, Senderismo y Playa",
+   "image": "https://m.media-amazon.com/images/I/51wFvIgWnzL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "UDOGGY",
+   "checkedAt": "2026-11-26"
+  },
+  "B07117QSBK": {
+   "status": "ok",
+   "title": "Amazon Basics - Alfombra para arenero de gatos, Sin fragancia, 61 x 88,9 cm, Tostado",
+   "image": "https://m.media-amazon.com/images/I/511etWprfYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B072LRHTBH": {
+   "status": "ok",
+   "title": "BIOCANINA Fiprocat 50 MG, solución spot-on para gatos, 3 pipetas de 0,5 ML",
+   "image": "https://m.media-amazon.com/images/I/41meWAH8XoL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Buy&you",
+   "checkedAt": "2026-11-26"
+  },
+  "B072PWWV31": {
+   "status": "ok",
+   "title": "flexi® Classic L Correa Extensible Perro 5m Cinta Negro | Correa resistente y antienredos, freno a una mano y agarre suave y firme para paseos y entrenamiento de perros hasta 50 kg",
+   "image": "https://m.media-amazon.com/images/I/31ifmwZdznL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B073SZ6NT8": {
+   "status": "ok",
+   "title": "KONG Ring Anillo Masticable de Caucho Natural, Talla Mediana/Grande | Anillo Masticable de Caucho Natural Resistente, para Dientes y Encías Sanos, Favorece una Masticación Saludable",
+   "image": "https://m.media-amazon.com/images/I/316toMVbdnL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Pattern EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B073ZGBSR4": {
+   "status": "ok",
+   "title": "Virbac SAC PYODERM CHAMPU CLORHEXIDINA 3% 200ML",
+   "image": "https://m.media-amazon.com/images/I/41Ssx+KlGYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "F Y S H O P . E S",
+   "checkedAt": "2026-11-26"
+  },
+  "B074KFBTXY": {
+   "status": "ok",
+   "title": "Sheba Comida húmeda para Gatos, Varios sabores, 72 tarrinas (6 x 12 x 85 g)",
+   "image": "https://m.media-amazon.com/images/I/51rPjzfdUML._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 5 en stock."
+   },
+   "merchant": "PETS_EMPIRE",
+   "checkedAt": "2026-11-26"
+  },
+  "B074N6RHP6": {
+   "status": "ok",
+   "title": "Candure Cortauñas para Perro y Gato con Mascota Protector de Seguridad - Acero Inoxidable Alicates Uñas Profesionales para Mascotas, Perros, Gatos (Azul, Grande a Mediano)",
+   "image": "https://m.media-amazon.com/images/I/41WskivBf1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Fairdealshop",
+   "checkedAt": "2026-11-26"
+  },
+  "B0761X8LDN": {
+   "status": "ok",
+   "title": "Virbac - Solución limpiadora Auricular para Perros y Gatos epi otic 125 ml",
+   "image": "https://m.media-amazon.com/images/I/317UnHXkcSL._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "MASCOTANDO",
+   "checkedAt": "2026-11-26"
+  },
+  "B076VSF333": {
+   "status": "ok",
+   "title": "Amazon Basics Cama para perros, elevada refrescante para mascotas, tela, Medium, Gris, 110 x 65 x 19 cm (L x An x Al)",
+   "image": "https://m.media-amazon.com/images/I/31CdxyJFRES._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B076VXVB2L": {
+   "status": "ok",
+   "title": "Amazon Basics Perro Cama elevada refrescante para mascotas, Large, 130 x 80 x 19 cm (L x An x Al), Gris",
+   "image": "https://m.media-amazon.com/images/I/31ewRrLBa1S._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0788BTQNJ": {
+   "status": "ok",
+   "title": "Nature's Variety Original No Grain, Pienso para Perros Adultos Medianos y grandes, Sin cereales, con Pavo deshuesado, 12kg",
+   "image": "https://m.media-amazon.com/images/I/41AqLAXqHWL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "CRAZYPET",
+   "checkedAt": "2026-11-26"
+  },
+  "B0797CV53M": {
+   "status": "ok",
+   "title": "Ferplast Transportín Gato, Transportín Perro Pequeño y Gatos hasta 5 Kg, Techo Abrible, con Cojín y Comedero, 32,5 x 48 x h 29 cm, Transportín Mascotas Rígido Atlas 10 Open",
+   "image": "https://m.media-amazon.com/images/I/41iQQZG1zTL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock."
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07CPDVRD9": {
+   "status": "ok",
+   "title": "Biokat's Diamond Care Classic, para gatos, sin fragancia - Arena fina con carbón activo y aloe vera 1 saco (1 x 10 l)",
+   "image": "https://m.media-amazon.com/images/I/41jfJdimPoL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07D4DWRFF": {
+   "status": "ok",
+   "title": "Royal Canin KITTEN alimento seco para gatitos - 4kg",
+   "image": "https://m.media-amazon.com/images/I/41weiGZavsL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Ami Animal",
+   "checkedAt": "2026-11-26"
+  },
+  "B07DFPXYSR": {
+   "status": "ok",
+   "title": "ARTERO Samba bayeta Toalla para Perros de Secado rápido, Talla M | De PVA, 85 x 33 cm, se escurre y vuelve a absorber, menos tiempo de secador, también gatos, bolsa zip",
+   "image": "https://m.media-amazon.com/images/I/41QD4ea8BjL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "ARTERO Oficial",
+   "checkedAt": "2026-11-26"
+  },
+  "B07DPGQQ5V": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B07G3T7DVM": {
+   "status": "ok",
+   "title": "Amazon Basics Rascador para gatos de interior, resistente, con suelo de madera, 90 cm, color marrón",
+   "image": "https://m.media-amazon.com/images/I/312mBO+c9SS._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07H2YR3WV": {
+   "status": "ok",
+   "title": "Complejo de Glucosamina y Condroitina 500mg para Perros y Gatos - 180 Cápsulas para Reforzar Articulaciones y Huesos - Condroprotector para Perros con Vitamina C, Cúrcuma, Jengibre y Rosa Mosqueta",
+   "image": "https://m.media-amazon.com/images/I/41-7Hf+B0SL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Comfort Click",
+   "checkedAt": "2026-11-26"
+  },
+  "B07H8KHVRL": {
+   "status": "ok",
+   "title": "Edgard & Cooper Pienso Para Perros Adultos Medianos, Cordero Fresco (2.5kg), Comida Perro Seca Sin Cereales, Hipoalergénica, Ingredientes Naturales, Con equilibrio de fibra añadido",
+   "image": "https://m.media-amazon.com/images/I/31d5mUBO2rL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07HBGT7B5": {
+   "status": "ok",
+   "title": "by Amazon Alimento seco completo para gatos adultos con salmón y arroz, 10 kg (Paquete de 1) (Anteriormente una marca Lifelong, el mismo producto)",
+   "image": "https://m.media-amazon.com/images/I/41JOlbcOILL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07J32Y5SF": {
+   "status": "ok",
+   "title": "Iris Ohyama Arenero Gato Cubierto con Pala, hasta 7kg, Gris/Blanco, Caixa de areia para Gatos, Caja, para Gatos Grandes y pequeños, Cerrado, Cagadero, WC, Libre de BPA, Cat Litter Box, TECL-20",
+   "image": "https://m.media-amazon.com/images/I/31+mMoEkJdL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07MGH27ZS": {
+   "status": "ok",
+   "title": "Morpilot Transport­n Perro, Bolsa Transporte Transpirable para Mascotas, Portador de Viaje con Correa de Hombro Ajustable, Transporte de Gato con Colch³n Suave+Taz³n (Negro 44 x 31 x 34 cm)",
+   "image": "https://m.media-amazon.com/images/I/51XIBu4DfuL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07NRX7QQ7": {
+   "status": "ok",
+   "title": "IAMS Alimento Seco para Gatos Esterilizados, con Pollo Fresco, 3 kg | Para gatos adultos de más de 1 año | Con pollo fresco | Comida seca para gatos",
+   "image": "https://m.media-amazon.com/images/I/41H+QjG4QNL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07NSL5MD8": {
+   "status": "ok",
+   "title": "FURminator deShedding, Cepillo para perros grandes de pelo corto, talla L | Eliminar el subpelo | Eliminar el pelo suelto | Skin Guard | Mango ergonómico y antideslizante",
+   "image": "https://m.media-amazon.com/images/I/512zfiQv0zL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07NSL5V36": {
+   "status": "ok",
+   "title": "FURminator deShedding, Tool para perros grandes de pelo largo, Cepillo talla L para eliminar el pelo suelto, Diseño mejorado",
+   "image": "https://m.media-amazon.com/images/I/31E3M47h3RL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07NSMFPMX": {
+   "status": "ok",
+   "title": "Arnés anti tirones HALTI - Para evitar que tu perro tire de la correa, Ajustable, Ligero y Fácil de Usar. Reflexiva Adiestramiento canino Arnés para perros medianos (Talla M, Negro)",
+   "image": "https://m.media-amazon.com/images/I/41J75YWMpGL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07PMPQZWD": {
+   "status": "ok",
+   "title": "Makife Guante de Mascotas 2pcs Guantes Manopla Masaje para Perros mascotas gatos15pcs Bolsas para excrementos de perro",
+   "image": "https://m.media-amazon.com/images/I/51Ek+gM88aL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "ShunYis",
+   "checkedAt": "2026-11-26"
+  },
+  "B07PRYW63P": {
+   "status": "ok",
+   "title": "FURminator Peine de rastrillo para perros y gatos de pelo largo - cepillo para evitar nudos y pelo enmarañado",
+   "image": "https://m.media-amazon.com/images/I/41bIbfZ8f0L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07YRKTF9Y": {
+   "status": "ok",
+   "title": "Yaheetech Árbol Rascador para Gatos 139cm Torre con Poste Sisal Gris Oscuro | Estable a los saltos, postes cuerda de sisal, Bola colgante sustituible，Condominio grande，Correa antivuelco, fácil de montar",
+   "image": "https://m.media-amazon.com/images/I/41QSKrxjjnL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B07Z6JRQ6R": {
+   "status": "ok",
+   "title": "JosiCat Sterilised Classic (1 x 10 kg) | Pienso completo para gatos adultos castrados | impulsado por josera |1 unidad",
+   "image": "https://m.media-amazon.com/images/I/31OfdMOQKIL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0819XVK92": {
+   "status": "ok",
+   "title": "ACE2ACE Rodillos Quitapelos Mascotas, Reutilizable Quita Pelos Mascotas | Cepillo Quitapelos Mascotas para Gatos y Perros, Depilación Pelos para Alfombras, Ropa y Sofá",
+   "image": "https://m.media-amazon.com/images/I/41aSu0x5ODL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Tylasom",
+   "checkedAt": "2026-11-26"
+  },
+  "B083SSRJ8D": {
+   "status": "ok",
+   "title": "Hills Science Plan Canine Adult Large Breed Pollo 14Kg 14000 g",
+   "image": "https://m.media-amazon.com/images/I/51k-mj9O5vL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 3 en stock."
+   },
+   "merchant": "Adyro Global",
+   "checkedAt": "2026-11-26"
+  },
+  "B084GXKGFS": {
+   "status": "ok",
+   "title": "Trixie Cama para Perros Vital Bendson - Gris 90x80cm",
+   "image": "https://m.media-amazon.com/images/I/41ckduRDp1L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0859BLHFB": {
+   "status": "ok",
+   "title": "Idepet Impermeable para Perros con Capucha y Cuello, Poncho Impermeable para Lluvia para Perros Chaqueta Impermeable para Lluvia con Capucha para Perros pequeños, medianos y Grandes Azul",
+   "image": "https://m.media-amazon.com/images/I/51xudq-clfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Idebala",
+   "checkedAt": "2026-11-26"
+  },
+  "B085HDMC6D": {
+   "status": "ok",
+   "title": "Pawaboo Palo de Gato Divertido, Juguete Interactivo con Plumas para Gatos | Combiado con Pez y Libélula, Contiene una Caña de Pescar Retráctil Tipo Palo de Gato - Multicolor 2",
+   "image": "https://m.media-amazon.com/images/I/41GyRfJPgrL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Joiel EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0872JDX24": {
+   "status": "ok",
+   "title": "Nina Ottosson por Petstages Melon Madness - Rompecabezas para Gatos - Juguete Interactivo con dispensador de premios",
+   "image": "https://m.media-amazon.com/images/I/41imYYOrkdL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B087PXTRLW": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0883QM8QN": {
+   "status": "ok",
+   "title": "DOUXO S3 Calm Champú Pieles Sensibles para Perros y Gatos | Alivia el Picor, Calma e Hidrata la Piel, Restaura la Barrera Cutánea, Recomendado por Veterinarios, 200ml",
+   "image": "https://m.media-amazon.com/images/I/315F3MuetWL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Feliway_Adaptil",
+   "checkedAt": "2026-11-26"
+  },
+  "B08BH4C7C4": {
+   "status": "ok",
+   "title": "Sanicat - Arena para Gatos Aglomerante Sin Perfume, Hecha de minerales con Control de Olor garantizado, Absorbe la Humedad y facilita la Limpieza, 6L de Capacidad",
+   "image": "https://m.media-amazon.com/images/I/51bpZPW-YKL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08CP3JWQT": {
+   "status": "ok",
+   "title": "Purina ONE Medium Maxi pienso perro Activo 7 kg Pollo",
+   "image": "https://m.media-amazon.com/images/I/41gur2mHEgL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08GD8L28L": {
+   "status": "ok",
+   "title": "by Amazon Comida Húmeda para Gatos, Paté de Carne de Caza, 300g, Paquete de 10",
+   "image": "https://m.media-amazon.com/images/I/416aLSd7q1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08GVXR7V9": {
+   "status": "ok",
+   "title": "Catit Go Natural! Arena Guisantes, Aroma Vainilla 5.6 kg",
+   "image": "https://m.media-amazon.com/images/I/41VF7ik1DoL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08GYDSWXR": {
+   "status": "ok",
+   "title": "Hill´s Science Plan Gato Adult No Grain Pollo",
+   "image": "https://m.media-amazon.com/images/I/41MZ1N2Kd3L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B08HPRK34R": {
+   "status": "ok",
+   "title": "AMZPET ISOFIX Funda Coche Perros - Impermeable, Resistente a arañazos, Antideslizante, Lavable (133 x 56 cm)",
+   "image": "https://m.media-amazon.com/images/I/41OEF5FOjCL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 2 en stock."
+   },
+   "merchant": "DavaonLtd",
+   "checkedAt": "2026-11-26"
+  },
+  "B08HSGK66F": {
+   "status": "ok",
+   "title": "Amazon Basics Pañales Desechables para Perros Macho, M, Paquete de 50, Color Blanco",
+   "image": "https://m.media-amazon.com/images/I/31lQus+1e-L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08LNYV9ZV": {
+   "status": "ok",
+   "title": "ACANA Pacifica Cat 4,5 KG",
+   "image": "https://m.media-amazon.com/images/I/41hcaPT9THL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Miscota Ecommerce",
+   "checkedAt": "2026-11-26"
+  },
+  "B08LVGFBLZ": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B08NC88YD7": {
+   "status": "ok",
+   "title": "Bedsure Sofá Cama Ortopédica Lavable para Perros Grandes, 89x63cm, Gris | Sofá suave de franela con espuma ortopédica tipo huevera, forro impermeable, funda lavable a máquina y base antideslizante",
+   "image": "https://m.media-amazon.com/images/I/41d92VZNjML._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Bedsure Comfy Pet",
+   "checkedAt": "2026-11-26"
+  },
+  "B08Q36NWLK": {
+   "status": "ok",
+   "title": "Bedsure Cama para Gato Lavable - Ø 50 cm, Cama Suave para Perro, Lugar de Descanso para Gatos y Perros pequeños y medianos, cojín Redondo de Peluche, Cama acogedora para Gato, Gris Claro",
+   "image": "https://m.media-amazon.com/images/I/51xsl3NcskL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Bedsure Comfy Pet",
+   "checkedAt": "2026-11-26"
+  },
+  "B08XTMNMMZ": {
+   "status": "ok",
+   "title": "Feandrea Árbol para Gatos, Altura 143 cm, Multinivel, 4 Postes Rascadores | Torre de Gatos, 2 Plataformas, 1 Cueva, 1 Hamaca, 2 Pompones, Tela de Felpa, Gris Paloma, Colección CLAWFY PCT161W01",
+   "image": "https://m.media-amazon.com/images/I/31T1Frwe-SL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08XTS5LH9": {
+   "status": "ok",
+   "title": "Feandrea Árbol para Gatos, Altura 137,7 cm, Multinivel, 4 Postes Rascadores | Torre de Gatos, 2 Plataformas, 1 Cueva, 1 Hamaca, 2 Pompones, Tela de Felpa, Gris Oscuro, Colección CLAWFY PCT161G01",
+   "image": "https://m.media-amazon.com/images/I/41y68ximtbL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08Y73NM8N": {
+   "status": "ok",
+   "title": "Nature's Variety No Grain Pienso para Gatos Esterilizados con Pollo - 3kg",
+   "image": "https://m.media-amazon.com/images/I/41O8tTi-SXL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08Y8TDVTB": {
+   "status": "ok",
+   "title": "SnackOMio - Snack Premium para Perros - tiernas Tiras de Filete de pechuga de Pollo, sin Cereales, 1 Pack (1 x 500g)",
+   "image": "https://m.media-amazon.com/images/I/41eb06PFkzL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B08ZLCBGG9": {
+   "status": "ok",
+   "title": "Petsly® Spray Antipulgas Perros y Gatos 500ml - Antipulgas Hogar, Muebles | No mancha | Textiles, ropa y muebles | Aroma vainilla-limón | Geraniol | Pulgas, garrapatas y ácaros",
+   "image": "https://m.media-amazon.com/images/I/41ELt7YjZFL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Vivere GmbH",
+   "checkedAt": "2026-11-26"
+  },
+  "B092DGDXCX": {
+   "status": "ok",
+   "title": "PURINA Pro Plan Sterilised Adult Savoury Duo - Pienso para Gato, con Pato e hígado, 10 kg",
+   "image": "https://m.media-amazon.com/images/I/41ZJ4Mi-V-L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B092HP8B9X": {
+   "status": "ok",
+   "title": "ENSOBO Transportín Gato Perro, Bolsa de Transporte para Gatos | Material de Mezclilla Resistente a Los Arañazos, Transportín para Mascotas Aerolínea Aprobado",
+   "image": "https://m.media-amazon.com/images/I/41PKb0VehzL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "ENSOBO-EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B092WGYFYJ": {
+   "status": "ok",
+   "title": "FRONTLINE Plus Tratamiento contra pulgas y garrapatas para Perros Grandes - 6 pipetas",
+   "image": "https://m.media-amazon.com/images/I/41fFxvH65cL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B094YG6TRC": {
+   "status": "ok",
+   "title": "Artero X-Top polvo hemostático para perros y gatos, corte de uñas, 15 g | Se aplica con un pellizco, no hace falta retirarlo, bote compacto, peluquería canina y casa, cachorros",
+   "image": "https://m.media-amazon.com/images/I/41NxKQe1G0L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "ARTERO Oficial",
+   "checkedAt": "2026-11-26"
+  },
+  "B096KTYMTN": {
+   "status": "ok",
+   "title": "Pecute Transportin Mochila para Mascotas con Ventana de Malla, Bolsa portátil y Plegable para Gatos, Bolsa Transpirable y Ligera para Perros, Tela Oxford Impermeable con Gran Espacio Antideslizante",
+   "image": "https://m.media-amazon.com/images/I/51lLVOb+7DL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Nirong",
+   "checkedAt": "2026-11-26"
+  },
+  "B096WB6PBD": {
+   "status": "ok",
+   "title": "Catit Pixi Bebedero fuente de acero inoxidable para Gatos, 2.5 l, Blanca | Cuenco de acero inoxidable apto para lavavajillas, bomba de agua silenciosa, cojín de filtro integrado, luz nocturna LED",
+   "image": "https://m.media-amazon.com/images/I/31aaXCmhTSS._SL500_.jpg",
+   "availability": {
+    "type": "AVAILABLE_DATE",
+    "message": ""
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0979GL7LC": {
+   "status": "ok",
+   "title": "Edipets, Comedero Perro Antivoracidad, Gato Alimentación Lenta, para Mascotas Medianas y Grandes, Plato Interactivo, Evita la Ansiedad (Negro)",
+   "image": "https://m.media-amazon.com/images/I/51BTLcAOu9L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "EDIESI",
+   "checkedAt": "2026-11-26"
+  },
+  "B0979GWC5D": {
+   "status": "ok",
+   "title": "Edipets, Comedero Perro Antivoracidad, Gato Alimentación Lenta, para Mascotas Medianas y Grandes, Plato Interactivo, Evita la Ansiedad (Azul)",
+   "image": "https://m.media-amazon.com/images/I/512cz1F1CjL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "EDIESI",
+   "checkedAt": "2026-11-26"
+  },
+  "B09G4MP29H": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B09HMP785Z": {
+   "status": "ok",
+   "title": "Snuffle Mat Juguetes interactivos para perros, pelota cerebro de perro, rompecabezas estimulante mental, juguetes para perros, tapete de alimentación para aliviar el estrés, portátil, lavable a",
+   "image": "https://m.media-amazon.com/images/I/51Gpi7rtEbL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "maiyue2012-EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B09L4LJCHH": {
+   "status": "ok",
+   "title": "Navaris Rascador de Pared para Gatos - 1x Alfombra de sisal para arañazos de Gato con 2X Set de Montaje para Paredes y Esquina - Arañador 60 x 32 cm",
+   "image": "https://m.media-amazon.com/images/I/51jIgXRcIvL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B09NMQT4YX": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B09PGZ11LT": {
+   "status": "ok",
+   "title": "Feandrea Arenero para Gatos, con Bandeja Extraíble, Carga de 15 kg | Caja Arena, Pala, Cepillo, Espacioso para Gatos Grandes, Antifiltración, Antiescapes, COLECCIÓN BOXAL PPT001G01",
+   "image": "https://m.media-amazon.com/images/I/41vDReUrfJL._SL500_.jpg",
+   "availability": {
+    "type": "LEADTIME",
+    "message": "Envío en 2 a 3 días"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09SHH7TDS": {
+   "status": "ok",
+   "title": "PETKIT EVERSWEET Fuente para Gatos, Acero Inoxidable, Bomba Inalámbrica, Control de App, 1.8L Bebedero Gatos/Perros, Ultrasilencioso, Filtro Triple, 3 Flujos de Agua, no es Fácil de Retener Bacterias",
+   "image": "https://m.media-amazon.com/images/I/318hDvT3RFL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B09T45VHNG": {
+   "status": "ok",
+   "title": "Amazon Basics Escalones plegables para perros y gatos, Gris, 60.7 x 40.9 x 50.2 cm",
+   "image": "https://m.media-amazon.com/images/I/41carCwOMIL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B09XR91B7N": {
+   "status": "ok",
+   "title": "Rotho MyPet Biala Arenero Gato 51 x 39,5 x 44,3 cm Cubierto con Tapa Verde | Arenero para gatos cubierto, puerta con imán, filtro de carbón activo, pala incluida, fácil de limpiar, diseño cerrado",
+   "image": "https://m.media-amazon.com/images/I/21elLML+bmL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Barakaldo Vet Shop",
+   "checkedAt": "2026-11-26"
+  },
+  "B09YLP7H7M": {
+   "status": "ok",
+   "title": "Feandrea Rascador para Gatos Grandes, 165 cm de Altura, Multinivel | Árbol, 13 Postes, 2 Plataformas, 2 Cuevas, Cesta, Hamaca, 2 Pompones, Gris Paloma, Colección CLAWFY PCT165W01",
+   "image": "https://m.media-amazon.com/images/I/41Ns5aKAbWL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B4W8FDBV": {
+   "status": "ok",
+   "title": "PETKIT EVERSWEET Fuente para Gatos 2L, Bomba Inalámbrica, Control de App, Bebedero Gatos Automatico, Ultrasilencioso, 3 Flujos de Agua, Filtro Triple, Ventana de Nivel de Agua, Luz Led",
+   "image": "https://m.media-amazon.com/images/I/31HuzoIu8IL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "PETKIT-ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B4W9581V": {
+   "status": "ok",
+   "title": "Cortauñas Gato Profesional Fabricado en acero inoxidable, corte limpio, sin astillas, acabado de espejo. Pequeños animales tijeras gatos uñas Para Gatos, Gatitos, Kittys, Cachorros, y Más Mascotas",
+   "image": "https://m.media-amazon.com/images/I/51CEj9HhMYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Cleanan Home",
+   "checkedAt": "2026-11-26"
+  },
+  "B0B8DF1P3F": {
+   "status": "ok",
+   "title": "Dokas Dog PECHUGA DE Pollo en Tiras | Paquete Doble | 2 x 500 g | Alimento complementario para Perros | Pechuga de Pollo deshidratada en Tiras | Apto para Perros de Todos los tamaños y Razas",
+   "image": "https://m.media-amazon.com/images/I/41yRi+dKthL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "FeedMyAnimal",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BC2B2CRC": {
+   "status": "ok",
+   "title": "Knuffelwuff Cama ortopédica para perros Midland M-L 80 x 60 cm gris – Cojín para perros grandes, medianos y pequeños – lavable",
+   "image": "https://m.media-amazon.com/images/I/31ZPbz7+8KL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Knuffelwuff",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BD5CXR6H": {
+   "status": "ok",
+   "title": "HILL'S HSP CANINE ADULT SMALL MINI POLLO 10KG",
+   "image": "https://m.media-amazon.com/images/I/31hJlGj6aRL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 4 en stock."
+   },
+   "merchant": "MascotaPlanet",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BG7N7PKZ": {
+   "status": "ok",
+   "title": "PETKIT EVERSWEET Fuente Automática para Gatos 1,85L, Bomba de Agua Inalámbrica, Bebedero Gatos Ultra Silenciosa, 35dB, Luz LED Inteligente, Unidad de Filtrado 3.0, Fuente Agua para Gato",
+   "image": "https://m.media-amazon.com/images/I/31ZGfgFXTcL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "PETKIT-ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BHSD5X5W": {
+   "status": "ok",
+   "title": "Purina One Bifensis - Pienso para Gato Sterilcat Hairball, 8 Paquetes de 800 g",
+   "image": "https://m.media-amazon.com/images/I/41vPigySMYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BKZ6BDL3": {
+   "status": "ok",
+   "title": "Feandrea Arenero para Gatos, con Bandeja Extraíble, Carga de 15 kg | Caja Arena, Pala, Cepillo, Espacioso para Gatos Grandes, Antifiltración, Antiescapes, COLECCIÓN BOXAL PPT001W01",
+   "image": "https://m.media-amazon.com/images/I/41EDNDmsIUL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BL3NJPT9": {
+   "status": "ok",
+   "title": "Amazon Basics Arnés para perro con diseño sin tirones, ajustable, suave, acolchado, chaleco, con tiras reflectantes, grande, Color negro",
+   "image": "https://m.media-amazon.com/images/I/41xsKesDA7L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BNLW1SGV": {
+   "status": "ok",
+   "title": "EHEYCIGA Cama Perros Medianos 76x51x16cm, Cama Perros Pequeños Impermeable Lavable con Espuma Viscoelástica, Sofá Perro Desmontable, Gris",
+   "image": "https://m.media-amazon.com/images/I/41MdsKLZoWL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "EHEYCIGA EU",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BSFF63QY": {
+   "status": "ok",
+   "title": "Feandrea Árbol para Gatos, Altura 112 cm, Multinivel, 4 Postes Rascadores | Torre de Gatos, 2 Plataformas, 1 Cueva, 1 Hamaca, 2 Pompones, Tela de Felpa, Gris Paloma, Colección CLAWFY PCT261W01",
+   "image": "https://m.media-amazon.com/images/I/41XEXUWDw+L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0BZ55GD8R": {
+   "status": "ok",
+   "title": "Cat's Best Arena original para gatos, 100 % vegetales, con máxima absorción, combate los olores de forma natural activa, 10 l (4,3 kg)",
+   "image": "https://m.media-amazon.com/images/I/4174UZpAqqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "WeLoveMascotas",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CB5CXGWY": {
+   "status": "ok",
+   "title": "Mateeylife Comedero para Perros, Comedero Perro Antivoracidad para Cani Mediani e Grandi, Slow Feeder Anti Ingozzamento, Mediano 1 Unidad",
+   "image": "https://m.media-amazon.com/images/I/51wdhLmYnnL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Zd United",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CC4Z5CS9": {
+   "status": "ok",
+   "title": "GWAWG Bolsa Premios Perro Bolsa Perro Adiestramiento Riñonera Perro Pequeña con Clip para Cinturón Color Camuflaje para Viajes de Mascotas Cachorros o Uso al Aire Libre",
+   "image": "https://m.media-amazon.com/images/I/51GvVIvUXTL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0CD7NRW37": {
+   "status": "ok",
+   "title": "PETKIT Comedero Gato Automatico, 2.4G WiFi, 3L Dispensador Comida Gatos/Perros, Control de App, 1-10 Comidas al Día, Liofilizados Compatibles, Cubeta de Acero Inoxidable, Cable USB (Blanco Leche)",
+   "image": "https://m.media-amazon.com/images/I/31ocyarecxL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK_SCARCE",
+    "message": "Sólo queda(n) 2 en stock."
+   },
+   "merchant": "PETKIT-ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CDR4YLXQ": {
+   "status": "ok",
+   "title": "Comedero Gato Antivoracidad de Melamina - Cuenco para Gatos de Alimentación Lenta Anti Vómitos - Plato Interactivo con Laberinto - Apto para lavavajillas - Blanca",
+   "image": "https://m.media-amazon.com/images/I/31JVP2SwOsL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0CDWDYLGZ": {
+   "status": "ok",
+   "title": "Amazon Basics Fuente de Agua Potable para Gatos de Acero Inoxidable con 3 filtros, 3 L, Blanco",
+   "image": "https://m.media-amazon.com/images/I/31XLe1ji1YL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CKPFFMHL": {
+   "status": "ok",
+   "title": "FUKUMARU Arena de Tofu para Gatos 10.8kg - Arena aglomerante para Gatos, Mezcla de pellets de maíz, Libre de Polvo y fácil de aglomerar, Control de olores, se Puede desechar en el Inodoro",
+   "image": "https://m.media-amazon.com/images/I/41zCDaLsMRL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Taire Home",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CLB5222N": {
+   "status": "ok",
+   "title": "RUFFWEAR Arnés Front Range, arnés para Perros pequeños, arnés Reflectante en Y, Ajustable y cómodo, arnés para Perro sin tirones, 2 Accesorios de Correa y Anillo en V, Talla S, Spring Mountains",
+   "image": "https://m.media-amazon.com/images/I/41orA9FeKVL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0CMXXSJ1Z": {
+   "status": "ok",
+   "title": "Beaphar VERMIpure Comprimidos Naturales Gatos y Gatitos - 50 Comprimidos",
+   "image": "https://m.media-amazon.com/images/I/41yTsr3rVkL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CMZ7L79D": {
+   "status": "ok",
+   "title": "KSIIA Cama Perro Grande Cama Ortopédica para Perros, Gris XL 105x70x18cm | Sofá ortopédico para perros, soporte de articulaciones, 3 bordes elevados, desenfundable y lavable, base antideslizante",
+   "image": "https://m.media-amazon.com/images/I/31DgHNI2CRL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "KSIIA PET ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CP3GBRKJ": {
+   "status": "ok",
+   "title": "Comedero Perro Elevado de 5 Alturas Ajustables, Antivoracidad y Antigoteo | Favorece la alimentación lenta, Bebedero sin salpicaduras, Cuenco inox, Separación comida y agua, Uso flexible",
+   "image": "https://m.media-amazon.com/images/I/415oZnS0RpL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "NICLIGHT",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CQX4HFL8": {
+   "status": "ok",
+   "title": "rabbitgoo Arnes Perro Mediano con 3 Hebillas, Liberacion del Cuello, Arnes Perro Ajustable con Asa y Clip Frontal, Arnés Antitirones para Perros Reflectante para Adiestramiento Correr, Negro, L",
+   "image": "https://m.media-amazon.com/images/I/417roeeH50L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "RabbitgooES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CT2RB4X7": {
+   "status": "ok",
+   "title": "Feandrea Poste Rascador para Gatos Medianos y Grandes, 85 cm de Alto | De Sisal, Pompón de Muelle con Campana, Gris Paloma, Colección CLAWFY PCA041G01",
+   "image": "https://m.media-amazon.com/images/I/310-5T11bYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SONGMICS HOME ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CV7ZD91Q": {
+   "status": "ok",
+   "title": "ARQUIVET Rascador cartón para Gatos Green - 38,5x20,5x4,2cm",
+   "image": "https://m.media-amazon.com/images/I/516QLQTKVqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0CZBP6WFW": {
+   "status": "ok",
+   "title": "Bozal De Cesta Baskerville Classic | Tamaño 1 | Pueden jadear y beber, evita mordidas y hurgar en comida, Bozal de adiestramiento perros pequeños para los de nariz larga",
+   "image": "https://m.media-amazon.com/images/I/41Sf9ROgDfL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D1CT7WYZ": {
+   "status": "ok",
+   "title": "Applaws Natural Cat Treats, Freeze Dried Chicken Breast - Pack of 12 x 10g Bags",
+   "image": "https://m.media-amazon.com/images/I/41bPSRSXNxL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D6G3GF3P": {
+   "status": "ok",
+   "title": "Bedsure Cama Perro Lavable Grande, 91x68x9 cm Gris | Tejido oxford, cojín plano para jaula, colchón perro exterior grande, plegable y fácil de transportar",
+   "image": "https://m.media-amazon.com/images/I/31uH6xCf2aL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Bedsure Comfy Pet",
+   "checkedAt": "2026-11-26"
+  },
+  "B0D9QGW2M6": {
+   "status": "ok",
+   "title": "PETKIT Pura MAX 2 Arenero Gatos Autolimpiable, Inodoro para Gato, Arenero Autolimpiable para Gatos, Anti-Fugas, xSecure/Eliminar olores/APP/76L, para Varios Gato (Sin Purificador, con N50",
+   "image": "https://m.media-amazon.com/images/I/31fC81VIsCL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "PETKIT-ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DB85ZXVZ": {
+   "status": "ok",
+   "title": "KAMABOKO Árbol moderno para gatos de madera maciza de 39 pulgadas para | Para gatos de interior, postes rascadores de sisal natural, condominio para gatos tejido a mano con percha superior",
+   "image": "https://m.media-amazon.com/images/I/51z-1b+ua1L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Acı Store",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DG59SQ5P": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DJNJG1MM": {
+   "status": "ok",
+   "title": "Nobleza Alfombrilla refrescante para Perros Gatos, 140x90cm Manta Rrefrescante para Perro, Cama Refrescante Mascotas Grande, Alfombra de Gel Activada por Presión XXXL",
+   "image": "https://m.media-amazon.com/images/I/51eS8eY9a8L._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0DM9JDSB2": {
+   "status": "ok",
+   "title": "FURminator deShedding,Cepillo para gatos medianos/grandes de pelo largo,M/L | Eliminar el subpelo | Eliminar el pelo suelto | Skin Guard | Mango ergonómico y antideslizante | Embalaje reciclable",
+   "image": "https://m.media-amazon.com/images/I/51918SiTyTL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DM9JKNXZ": {
+   "status": "ok",
+   "title": "FURminator deShedding,Cepillo para gatos medianos/grandes de pelo corto,M/L | Eliminar el subpelo | Eliminar el pelo suelto | Skin Guard | Mango ergonómico y antideslizante | Embalaje reciclable",
+   "image": "https://m.media-amazon.com/images/I/51Ux1QXXQjL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DQ78YBN9": {
+   "status": "ok",
+   "title": "Amazon Basics Transportín Suave Tipo Bolso para Gatos y Perros con Correa de Hombro Ajustable, Aprobado por Aerolíneas, Diseño Plegable y Portátil, Ventilación de Malla, 43,2 x 27,9 x 27,9 cm, Gris",
+   "image": "https://m.media-amazon.com/images/I/41QrVbKTdZL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DRY5G74Y": {
+   "status": "ok",
+   "title": "Amazon Basics Árbol para Gatos de Interior, Torre para Gatos de Varios Niveles con rascador, acogedora Hamaca y Perchas para Gatos Adultos, Pelota Colgante interactiva, L – 152,7 cm de Altura, Gris",
+   "image": "https://m.media-amazon.com/images/I/31pZgJpaseL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DS2RVB1K": {
+   "status": "ok",
+   "title": "Amazon Basics Rascador para Gatos, Rascador para Gatos de Interior con Hierba Gatera, una Sola Capa con Curva, 41,9 x 20,6 x 4,1 cm, Paquete de 2",
+   "image": "https://m.media-amazon.com/images/I/3155K80aToL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DT753TQB": {
+   "status": "ok",
+   "title": "Dog Feeder Ball, Funny Snuffle Toys for Dogs, Interactive Dog Toys, Dog Tooth Cleaning Toy Ball, Portable Dog Toys for Travel, Snuffle Mat for Dogs, Dog Puzzle Alimentador, Slow Feeder Ball for Dogs",
+   "image": "https://m.media-amazon.com/images/I/41hikVYtWgL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "yueyuer",
+   "checkedAt": "2026-11-26"
+  },
+  "B0DZCQHX85": {
+   "status": "ok",
+   "title": "Heybly Rascador para Gatos, El Cepillo de Autolimpieza, El Árbol para Gatos Domésticos, con Peluche Liso, Silla de Descanso, Nido de Gato con Panel y Postes de Raspado, Gris Claro HCT005SW",
+   "image": "https://m.media-amazon.com/images/I/41lGHDyvh+L._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Heybly Home ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F22KMRZB": {
+   "status": "ok",
+   "title": "Genérico Snuffle Mat for Dogs, Pet Interactive Snuffle Training Food Pad, Engaging Dog Sniffing Toy, Encourages Natural Foraging Skills, Helps Reduce Boredom and, Perfect for Home",
+   "image": "https://m.media-amazon.com/images/I/41kTbcSbaYL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0F2FLJM7S": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F387675S": {
+   "status": "ok",
+   "title": "Kerbl Pet Caja de Transporte Expedion, Menta/Gris Claro, 45x30x30 cm, transportín para Perros, transportín para Gatos, plástico, Perros pequeños",
+   "image": "https://m.media-amazon.com/images/I/41gfKJozcjL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0F6TWRXL7": {
+   "status": "ok",
+   "title": "Bedsure Cama Cueva Gato Iglú - Casa Gato Esponjosa, 40x40cm | Cojín Extraíble Lavable, Cama Mascota Plegable Portátil, Peluche Suave, Gris Oscuro",
+   "image": "https://m.media-amazon.com/images/I/51eNJkin5JL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Bedsure Comfy Pet",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FB7WZVM4": {
+   "status": "ok",
+   "title": "Feandrea Arenero Gato, Bordes Altos, Abierto, XL | Accesorios Para Gatos, 50,5 x 37,5 x 19,5 cm, Entrada Baja, Fácil Limpieza, Gris Pizarra, Colección Boxal, PPT009GN01",
+   "image": "https://m.media-amazon.com/images/I/41-0x9VA+qL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FDB7V6TC": {
+   "status": "ok",
+   "title": "PEPPER® Transportín Gato Perro Pequeño (hasta 7kg) | Bolsa de Transporte Plegable Homologada para Avión y Coche | Ventilación 360º, Cojín Lavable y Bebedero Incluido",
+   "image": "https://m.media-amazon.com/images/I/51TpHei-tYL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "PEPPER ES ⭐",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FF48X5N8": {
+   "status": "ok",
+   "title": "FEELNEEDY 2.8L Fuente para Gatos Acero Inoxidable con 3 Filtros | Bebedero Gatos Ultra Silencioso, Filtración de Cuatro Capas, Fácil de Limpiar, Apta para Lavavajillas",
+   "image": "https://m.media-amazon.com/images/I/411ZF0VHMEL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "FeelNeedy Direct",
+   "checkedAt": "2026-11-26"
+  },
+  "B0FSR5WWJT": {
+   "status": "ok",
+   "title": "COZY KISS Cama Ortopédica para Perros Grandes, Lavable, 112x81x18cm, Gris | Sofá impermeable para perros con espuma de huevera, suave piel sintética y funda de pana, Ergonómica, desmontable y lavable",
+   "image": "https://m.media-amazon.com/images/I/41sRLdADxxL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SUNWIN US",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GK9C4F6B": {
+   "status": "ok",
+   "title": "Feandrea Cama para Perro Grande Ortopédica Lavable, 112 x 81 x 17 cm | Sofá Perro de Franela, Funda Extraíble, Colchón Perro Impermeable, Espuma de Soporte, Colección BLOMFY PGW324GN01",
+   "image": "https://m.media-amazon.com/images/I/41-3JggcclL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "SONGMICS HOME ES",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GTYCSCWT": {
+   "status": "no-accesible",
+   "checkedAt": "2026-11-26"
+  },
+  "B0GZVS1QHZ": {
+   "status": "ok",
+   "title": "Purina Pro Plan Medium Adult Digestion Pienso para Perro Mediano Adulto, Digestión Sensible con Cordero, Saco de 16kg",
+   "image": "https://m.media-amazon.com/images/I/51FmZj8EFqL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Amazon",
+   "checkedAt": "2026-11-26"
+  },
+  "B0H35LPVDG": {
+   "status": "ok",
+   "title": "PETKIT PUROBOT MAX 3 Arenero Gatos Autolimpiable, Entrada Mayor, Eliminación Múltiple de Olores, Arenero Autolimpiable para Gatos, Anti-Fugas, xSecure/Control de APP/76L, para Varios Gatos",
+   "image": "https://m.media-amazon.com/images/I/41XDAzdCMRL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0H5K7SBV2": {
+   "status": "ok",
+   "title": "Meowant Arenero Gatos Autolimpiable,Diseño Abierto,Doble rastrillo | Compatible con Arena aglomerante,Anti-atrapamiento,Control de olores y fácil Limpieza.Ideal para hogares con múltiples Gatos",
+   "image": "https://m.media-amazon.com/images/I/41r-H6TFLvL._SL500_.jpg",
+   "availability": {
+    "type": "OUT_OF_STOCK",
+    "message": "No disponible."
+   },
+   "checkedAt": "2026-11-26"
+  },
+  "B0HCVK5642": {
+   "status": "ok",
+   "title": "Joytale Collar LED para Perros, Luminoso, Ligero para Noche, Morado, M | Visibilidad nocturna: LED de fibra óptica, 7 colores, 3 modos, USB-C y nailon ligero resistente a la lluvia",
+   "image": "https://m.media-amazon.com/images/I/41G5OUXb+qL._SL500_.jpg",
+   "availability": {
+    "type": "IN_STOCK",
+    "message": "En stock"
+   },
+   "merchant": "Joytale Pet",
+   "checkedAt": "2026-11-26"
+  }
+ }
 }
