@@ -3729,6 +3729,28 @@ export const products: Product[] = [
     relatedPosts: ["cuidados-cachorro-primer-mes", "perro-mayor-cuidados-senior"],
   },
   {
+    slug: "amazon-basics-cama-elevada-perros-130x80",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Cama Elevada Refrescante para Perros, talla L, 130 x 80 x 19 cm, gris",
+    asin: "B076VXVB2L",
+    category: "Camas y transportines",
+    categorySlug: "camas-transportines",
+    categoryName: "Camas y transportines",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cama elevada refrescante de 130 x 80 x 19 cm para razas grandes, que separa al perro del suelo y deja circular el aire.",
+    fullDescription: "Cama elevada de Amazon Basics en talla L, con estructura de 130 x 80 x 19 cm y malla de 112 x 82 cm. Según la ficha de Amazon, mantiene a la mascota a más de 19 cm del suelo, favorece la circulación del aire y reduce la presión sobre las articulaciones. Se monta con facilidad y se limpia solo con agua del grifo. La ficha la recomienda para razas grandes, como el pastor alemán o el bóxer, y da un peso de 3,85 kg. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Elevada 19 cm: el aire circula por debajo", "Se limpia con agua del grifo", "Talla L, para razas grandes según la ficha"],
+    cons: ["Es una superficie de malla tensada: sin relleno, no abriga en invierno", "Con 130 x 80 cm ocupa bastante espacio", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Talla": "L", "Medidas": "130 x 80 x 19 cm", "Malla": "112 x 82 cm", "Peso": "3,85 kg", "Color": "Gris", "Vendido por": "Amazon" },
+    relatedPosts: [
+      "cama-perro-como-elegir-tamano",
+      "cama-ortopedica-perros-mayores",
+    ],
+  },
+  {
     slug: "amazon-basics-cama-elevada-perros-110x65",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Cama Elevada Refrescante para Perros, tela, talla M, 110 x 65 x 19 cm",
