@@ -3830,6 +3830,25 @@ export const products: Product[] = [
     relatedPosts: ["transportin-viaje-mascotas"],
   },
   {
+    slug: "amazon-basics-transportin-rigido-2-puertas-58cm",
+    // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Caseta para mascotas de 2 puertas con carga superior, 58 cm, azul",
+    asin: "B00OP6SVJW",
+    category: "Camas y transportines",
+    categorySlug: "camas-transportines",
+    categoryName: "Camas y transportines",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Transportín para perros y gatos de 58 cm con puerta frontal y puerta superior, ventilación en laterales, parte superior y trasera, y tornillos de fijación incluidos.",
+    fullDescription: "Transportín de Amazon Basics de 58 cm con dos puertas, una frontal y otra de carga superior. Según la ficha de Amazon, la puerta superior tiene asa y pestillos y puede abrirse hacia la izquierda o hacia la derecha, hay ventilación en los laterales, la parte superior y la trasera, y el pestillo tiene resorte para una apertura suave. Incluye tornillos para fijar la parte superior con la inferior y dar más seguridad. Mide 58 x 38 x 33 cm y pesa 2,06 kg. Es el hermano mayor del modelo de 48 cm que ya tenemos. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Puerta superior con asa: facilita meter al animal por arriba", "Ventilación en laterales, parte superior y trasera", "Tornillos incluidos para fijar las dos mitades"],
+    cons: ["La ficha no indica un peso máximo del animal: comprueba que tu mascota cabe cómoda", "Para el avión conviene comprobar las normas de la compañía", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Medidas": "58 x 38 x 33 cm", "Peso": "2,06 kg", "Puertas": "2, frontal y superior", "Modelo": "6009-M-APL", "Vendido por": "Amazon" },
+    relatedPosts: ["transportin-viaje-mascotas"],
+  },
+  {
     slug: "amazon-basics-transportin-plegable-4-puertas-m-76x54",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Transportín plegable de 4 puertas para perros y gatos, talla M, 76 x 54 x 54 cm, gris",
