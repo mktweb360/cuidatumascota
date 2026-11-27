@@ -603,7 +603,7 @@ export const posts: Post[] = [
     category: "Adiestramiento",
     date: "2025-08-05",
     readTime: 8,
-    relatedProducts: ["ruffwear-front-range-arnes-2024", "rabbitgoo-arnes-perro-antitirones-l", "petsafe-easy-walk-arnes-antitirones", "amazon-basics-arnes-perro-antitirones-grande"],
+    relatedProducts: ["ruffwear-front-range-arnes-2024", "rabbitgoo-arnes-perro-antitirones-l", "petsafe-easy-walk-arnes-antitirones", "amazon-basics-arnes-perro-antitirones-grande", "amazon-basics-arnes-perro-antitirones-medio-negro", "amazon-basics-arnes-perro-antitirones-pequeno-clip-frontal-negro"],
     relatedPosts: ["ordenes-basicas-perro-guia", "pasear-perro-correctamente-guia", "cuidados-cachorro-primer-mes", "arnes-o-collar-perro-guia-elegir-medir", "cuanto-ejercicio-necesita-un-perro-paseos-edad-raza", "baskerville-bozal-cesta-analisis"],
     categoryCta: { href: "/tienda/accesorios-perros", text: "Ver arneses y accesorios de paseo →" },
   },
