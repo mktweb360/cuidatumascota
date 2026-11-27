@@ -101,6 +101,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "amazon-basics-transportin-rigido-2-puertas-58cm",
   "amazon-basics-transportin-plegable-2-puertas-l-91x61",
   "errechome-brushy-cepillo-autolimpieza-perros-gatos",
+  "beaphar-cepillo-dental-doble-cabezal-perros-gatos",
   "amazon-basics-cepillo-bano-perro-2-unidades-toalla",
   "amazon-basics-correa-perro-dos-asas-182cm",
   "amazon-basics-cinturon-seguridad-perro-67cm-cuenco",
