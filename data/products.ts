@@ -4098,7 +4098,7 @@ export const products: Product[] = [
     slug: "amazon-basics-dispensador-agua-comederos-acero-perros-gatos",
     image: "https://m.media-amazon.com/images/I/51udHXmIAFS._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
-    name: "Amazon Basics Dispensador de agua pequeño con 2 comederos de acero inoxidable para mascotas",
+    name: "Amazon Basics Dispensador de agua y comederos de acero",
     asin: "B087S2KYWT",
     category: "Accesorios para perros",
     categorySlug: "accesorios-perros",
