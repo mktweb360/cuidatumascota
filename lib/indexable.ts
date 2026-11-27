@@ -28,6 +28,8 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "petsafe-easy-walk-arnes-antitirones",
   "rabbitgoo-arnes-perro-antitirones-l",
   "amazon-basics-arnes-perro-antitirones-grande",
+  "amazon-basics-arnes-perro-antitirones-medio-negro",
+  "amazon-basics-arnes-perro-antitirones-pequeno-clip-frontal-negro",
   "amazon-basics-fuente-agua-gatos-acero-3l",
   "amazon-basics-pack-20-juguetes-gato-variado",
   "amazon-basics-bolsas-excrementos-perro-600-dispensador",
