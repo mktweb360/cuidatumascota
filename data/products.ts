@@ -590,6 +590,26 @@ export const products: Product[] = [
     isHealth: true,
   },
   {
+    slug: "beaphar-pasta-dental-enzimatica-perros-gatos-carne",
+    image: "https://m.media-amazon.com/images/I/61zgnZ6t9TL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Beaphar Pasta dental enzimática para perros y gatos, sabor a carne",
+    asin: "B00O4B5AFG",
+    category: "Salud e higiene",
+    categorySlug: "salud-higiene",
+    categoryName: "Salud e higiene",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Pasta dental enzimática con sabor a carne para perros y gatos, pensada para usarse con cepillo.",
+    fullDescription: "Pasta dental de Beaphar para perros y gatos. Según la ficha de Amazon, tiene una formulación enzimática con acción antiplaca y antisarro, sabor a carne para que el animal la acepte mejor y está pensada para usarse con cepillado; el fabricante recomienda combinarla con sus cepillos dentales, el de doble cabezal o el de dedo. El título habla de 100 g y la tabla de datos de 80 g, así que conviene mirar el envase. Como cualquier higiene dental casera, no sustituye la revisión veterinaria: ante mal aliento persistente, encías enrojecidas o sarro visible, consulta al veterinario. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendida y enviada por Amazon", "Formulación enzimática antiplaca y antisarro, según la ficha", "Sabor a carne para favorecer la aceptación", "Para perros y gatos"],
+    cons: ["Hay que cepillar: la pasta sola no limpia, y el cepillo se compra aparte", "La ficha da 100 g en el título y 80 g en la tabla: confirma el contenido antes de comprar", "No retira el sarro ya endurecido: eso lo valora el veterinario", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Beaphar", "Tipo": "Pasta dental enzimática", "Sabor": "Carne", "Para": "Perros y gatos", "Referencia": "BEA15684", "Vendido por": "Amazon" },
+    relatedPosts: ["higiene-dental-perros-gatos"],
+  },
+  {
     slug: "beaphar-cepillo-dental-doble-cabezal-perros-gatos",
     image: "https://m.media-amazon.com/images/I/61E91tosmJL._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.

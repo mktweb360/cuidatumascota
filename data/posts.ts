@@ -237,7 +237,7 @@ export const posts: Post[] = [
     category: "Salud",
     date: "2025-03-01",
     readTime: 8,
-    relatedProducts: ["tropiclean-kit-dental-perro", "virbac-sebocalm-champu-perro", "beaphar-cepillo-dental-doble-cabezal-perros-gatos"],
+    relatedProducts: ["tropiclean-kit-dental-perro", "virbac-sebocalm-champu-perro", "beaphar-cepillo-dental-doble-cabezal-perros-gatos", "beaphar-pasta-dental-enzimatica-perros-gatos-carne"],
     relatedPosts: ["cuidado-preventivo-mascotas-guia", "antiparasitarios-perros-guia", "perro-mayor-cuidados-senior"],
     isHealth: true,
   },
