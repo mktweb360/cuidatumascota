@@ -629,7 +629,7 @@ export const posts: Post[] = [
     date: "2025-08-10",
     readTime: 8,
     image: "/images/blog/cepillado-pelo-perro-guia.jpg",
-    relatedProducts: ["virbac-sebocalm-champu-perro", "furminator-deshedding-perro", "errechome-brushy-cepillo-autolimpieza-perros-gatos"],
+    relatedProducts: ["virbac-sebocalm-champu-perro", "furminator-deshedding-perro", "errechome-brushy-cepillo-autolimpieza-perros-gatos", "zivacate-cepillo-quitapelos-perros-gatos-un-clic-azul"],
     relatedPosts: ["higiene-dental-perros-gatos", "cuidado-preventivo-mascotas-guia", "perro-mayor-cuidados-senior", "banar-perro-en-casa-guia-frecuencia-paso-a-paso", "cortar-unas-perro-gato-guia-paso-a-paso"],
     isHealth: true,
     categoryCta: { href: "/tienda/salud-higiene", text: "Ver cepillos y productos de higiene →" },
