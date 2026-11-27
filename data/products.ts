@@ -3871,6 +3871,26 @@ export const products: Product[] = [
     relatedPosts: ["cepillado-pelo-perro-guia"],
   },
   {
+    slug: "zivacate-cepillo-quitapelos-perros-gatos-un-clic-azul",
+    image: "https://m.media-amazon.com/images/I/71H6Kf2jCIL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Zivacate Cepillo quitapelos para perros y gatos con limpieza de un clic, azul",
+    asin: "B0C6TRLCJH",
+    category: "Salud e higiene",
+    categorySlug: "salud-higiene",
+    categoryName: "Salud e higiene",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cepillo con mango en forma de garra, cerdas redondeadas recubiertas de resina y botón para soltar el pelo acumulado.",
+    fullDescription: "Cepillo para perros, gatos y conejos de la marca Zivacate, en color azul. Según la ficha de Amazon, tiene un mango ergonómico antideslizante con forma de garra de gato, un cabezal de cerdas redondeadas recubiertas de resina que masajea la piel durante el cepillado y una función de limpieza con un solo clic para retirar el pelo acumulado. La ficha lo presenta como válido para pelo corto y largo. Mide 19 x 10 x 5,5 cm y pesa 123,5 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Cerdas redondeadas recubiertas de resina", "Botón de limpieza para soltar el pelo acumulado", "Mango ergonómico antideslizante", "Ligero: unos 123 g"],
+    cons: ["La ficha no indica el largo de las cerdas ni el tipo de pelaje para el que rinde mejor: en pelo muy denso o con nudos duros puede hacer falta otro cepillo", "En pieles sensibles, irritadas o con heridas conviene consultar antes con el veterinario", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Zivacate", "Color": "Azul", "Medidas": "19 x 10 x 5,5 cm", "Peso": "123,5 g", "Animales": "Perros, gatos y conejos", "Vendido por": "Amazon" },
+    relatedPosts: ["cepillado-pelo-perro-guia"],
+  },
+  {
     slug: "amazon-basics-cepillo-bano-perro-2-unidades-toalla",
     image: "https://m.media-amazon.com/images/I/811XI+AV7-L._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
