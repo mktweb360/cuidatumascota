@@ -3811,6 +3811,26 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "errechome-brushy-cepillo-autolimpieza-perros-gatos",
+    image: "https://m.media-amazon.com/images/I/61E16cZNRqL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "ErrecHome Brushy Cepillo para perros y gatos con sistema de autolimpieza",
+    asin: "B0HHJ556CB",
+    category: "Salud e higiene",
+    categorySlug: "salud-higiene",
+    categoryName: "Salud e higiene",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cepillo de púas de acero inoxidable con puntas protegidas y botón para retirar el pelo acumulado.",
+    fullDescription: "Cepillo para perros y gatos de la marca ErrecHome. Según la ficha de Amazon, tiene púas de acero inoxidable con puntas protegidas para desenredar nudos sin arañar la piel, retira pelo muerto, subpelo y suciedad durante el cepillado y dispone de un botón de autolimpieza que expulsa el pelo acumulado sin tener que quitarlo con la mano. El mango es ergonómico y antideslizante. Mide unos 10 x 3 x 25 cm y pesa 140 g. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Púas de acero inoxidable con puntas protegidas", "Botón de autolimpieza para retirar el pelo acumulado", "Mango ergonómico antideslizante", "Ligero: unos 140 g"],
+    cons: ["La ficha no distingue entre pelo corto y largo ni indica el largo de las púas: en pelajes muy densos o con nudos duros puede hacer falta otro tipo de cepillo", "En pieles sensibles o con heridas conviene consultar antes con el veterinario", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "ErrecHome", "Modelo": "Brushy", "Material de las púas": "Acero inoxidable", "Medidas": "10 x 3 x 25 cm", "Peso": "140 g", "Vendido por": "Amazon" },
+    relatedPosts: ["cepillado-pelo-perro-guia"],
+  },
+  {
     slug: "amazon-basics-cepillo-bano-perro-2-unidades-toalla",
     image: "https://m.media-amazon.com/images/I/811XI+AV7-L._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
