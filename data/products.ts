@@ -4080,7 +4080,7 @@ export const products: Product[] = [
     slug: "amazon-basics-arnes-perro-antitirones-pequeno-clip-frontal-negro",
     image: "https://m.media-amazon.com/images/I/61sl6kmM3qL._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
-    name: "Amazon Basics Arnés para perro sin tirones, clip frontal, talla pequeña, negro",
+    name: "Amazon Basics Arnés pequeño para perro sin tirones, clip frontal, negro",
     asin: "B0BL3M6P79",
     category: "Accesorios para perros",
     categorySlug: "accesorios-perros",
