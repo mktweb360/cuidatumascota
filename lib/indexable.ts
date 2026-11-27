@@ -33,6 +33,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "amazon-basics-bolsas-excrementos-perro-600-dispensador",
   "amazon-basics-escalones-plegables-perros-gatos-gris",
   "amazon-basics-comederos-acero-inoxidable-2",
+  "amazon-basics-dispensador-agua-comederos-acero-perros-gatos",
   "amazon-basics-comedero-elevado-perros-ajustable-5-alturas-negro",
   "amazon-basics-torre-multinivel-gatos-117cm",
   "royal-canin-medium-adult-15kg",

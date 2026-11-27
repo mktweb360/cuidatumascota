@@ -4095,6 +4095,26 @@ export const products: Product[] = [
     relatedPosts: ["adoptar-perro-guia-primera-vez", "gato-primer-dia-casa-guia"],
   },
   {
+    slug: "amazon-basics-dispensador-agua-comederos-acero-perros-gatos",
+    image: "https://m.media-amazon.com/images/I/51udHXmIAFS._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Dispensador de agua pequeño con 2 comederos de acero inoxidable para mascotas",
+    asin: "B087S2KYWT",
+    category: "Accesorios para perros",
+    categorySlug: "accesorios-perros",
+    categoryName: "Accesorios para perros",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Dispensador de agua por gravedad de hasta 3,79 L y dos comederos de acero inoxidable de unos 900 ml cada uno.",
+    fullDescription: "Conjunto de Amazon Basics para perros o gatos que reúne un dispensador de agua pequeño y dos comederos de acero inoxidable. Según la ficha de Amazon, el dispensador funciona por gravedad, tiene una botella de boca extra ancha de hasta 3,79 L, una base de PP con asas laterales y patas de goma antideslizantes, y se lava solo a mano. La botella es de PET transparente, de modo que se ve el nivel de un vistazo. Los dos comederos son de acero inoxidable, admiten hasta unos 900 ml cada uno y valen para cachorros, perros o gatos. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Botella transparente de hasta 3,79 L para ver el nivel de agua", "Incluye dos comederos de acero inoxidable", "Patas de goma antideslizantes y asas laterales"],
+    cons: ["El dispensador se lava solo a mano", "Es un dispensador pequeño: en un perro grande o varios animales se vacía rápido", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Dispensador": "Por gravedad, hasta 3,79 L", "Material del dispensador": "Base de PP y botella de PET", "Comederos": "2, de acero inoxidable, hasta unos 900 ml cada uno", "Limpieza del dispensador": "A mano", "Vendido por": "Amazon" },
+    relatedPosts: ["adoptar-perro-guia-primera-vez", "gato-primer-dia-casa-guia"],
+  },
+  {
     slug: "amazon-basics-comedero-elevado-perros-ajustable-5-alturas-negro",
     image: "https://m.media-amazon.com/images/I/61p8CBdmYvL._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.

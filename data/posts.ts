@@ -457,7 +457,7 @@ export const posts: Post[] = [
     category: "Cuidados",
     date: "2025-07-14",
     readTime: 9,
-    relatedProducts: ["kong-classic-xl-caucho", "bedsure-cama-antistress-invierno-50cm", "royal-canin-adult-maxi", "amazon-basics-comederos-acero-inoxidable-2", "amazon-basics-bolsas-excrementos-perro-600-dispensador", "amazon-basics-jaula-perro-alambre-plegable-107x71x76"],
+    relatedProducts: ["kong-classic-xl-caucho", "bedsure-cama-antistress-invierno-50cm", "royal-canin-adult-maxi", "amazon-basics-comederos-acero-inoxidable-2", "amazon-basics-bolsas-excrementos-perro-600-dispensador", "amazon-basics-jaula-perro-alambre-plegable-107x71x76", "amazon-basics-dispensador-agua-comederos-acero-perros-gatos"],
     relatedPosts: ["desparasitacion-perros-guia-completa", "kong-classic-guia-uso", "cuidado-preventivo-mascotas-guia", "cama-perro-como-elegir-tamano", "mejor-pienso-cachorro-guia", "calendario-vacunas-cachorro"],
     categoryCta: { href: "/tienda/accesorios-perros", text: "Ver todos los accesorios para perros →" },
   },
