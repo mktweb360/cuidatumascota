@@ -4095,6 +4095,26 @@ export const products: Product[] = [
     relatedPosts: ["adoptar-perro-guia-primera-vez", "gato-primer-dia-casa-guia"],
   },
   {
+    slug: "amazon-basics-comedero-elevado-perros-ajustable-5-alturas-negro",
+    image: "https://m.media-amazon.com/images/I/61p8CBdmYvL._SL500_.jpg",
+    // Comprobada en amazon.es el 27/11/2026: botón de compra activo, vendido y enviado por Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Soporte elevado para perros con dos cuencos de acero inoxidable, ajustable en altura, negro",
+    asin: "B0DPWF2SJZ",
+    category: "Accesorios para perros",
+    categorySlug: "accesorios-perros",
+    categoryName: "Accesorios para perros",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Soporte con dos cuencos de acero inoxidable, cinco alturas de 8 a 33 cm y base antideslizante, de unos 44 x 24 x 30,5 cm.",
+    fullDescription: "Comedero elevado de Amazon Basics para perros, en color negro y modelo YE24081973BL. Según la ficha de Amazon, tiene un sistema de ajuste de cinco alturas, de 8 a 33 cm, incluye dos cuencos de acero inoxidable aptos para lavavajillas y una base antideslizante con bordes de goma. La ficha añade que está hecho con materiales con certificación Global Recycled Standard, que se monta sin herramientas y que el diseño resiste los derrames. Mide unos 44 x 24 x 30,5 cm y pesa 1,11 kg. El fabricante lo presenta como adecuado para cachorros que crecen y para perros mayores o de raza grande. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Vendido y enviado por Amazon", "Cinco alturas de 8 a 33 cm: se adapta a un cachorro que crece o a varios perros", "Dos cuencos de acero inoxidable aptos para lavavajillas", "Base antideslizante con bordes de goma", "Se monta sin herramientas"],
+    cons: ["Que un comedero elevado convenga a un perro mayor o de raza grande es una afirmación del fabricante: en perros de pecho profundo hay veterinarios que lo desaconsejan por el riesgo de torsión gástrica, así que conviene consultarlo antes con el veterinario", "La ficha no indica la capacidad de los cuencos: comprueba que cabe la ración de tu perro", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "YE24081973BL", "Cuencos": "2, de acero inoxidable", "Alturas": "5, de 8 a 33 cm", "Medidas": "44 x 24 x 30,5 cm", "Peso": "1,11 kg", "Color": "Negro", "Vendido por": "Amazon" },
+    relatedPosts: ["perro-mayor-cuidados-senior", "perro-come-muy-rapido-comedero-lento"],
+  },
+  {
     slug: "amazon-basics-bolsas-excrementos-perro-600-dispensador",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendidas y enviadas por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Bolsas para excrementos de perro con dispensador y clip para correa, sin perfume, 600 bolsas",
