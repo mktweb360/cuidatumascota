@@ -2919,6 +2919,28 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "amazon-basics-rascador-carton-gato-con-caja-4-tablas",
+    image: "https://m.media-amazon.com/images/I/81it4o-dvrL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Rascador de cartón con caja para gatos, 4 tablas",
+    asin: "B0DS2S1LFG",
+    category: "Accesorios para gatos",
+    categorySlug: "accesorios-gatos",
+    categoryName: "Accesorios para gatos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Juego de 4 tablas de cartón corrugado con hierba gatera y una caja que sirve de casita, de Amazon Basics.",
+    fullDescription: "Juego de rascadores de cartón corrugado de Amazon Basics con caja. Según la ficha de Amazon, son 4 piezas de cartón de alta densidad con hierba gatera infusionada en cada tabla, y se pueden usar como rascador, lugar de descanso, casita o estructura para trepar. La ficha indica unas medidas de 41,91 x 25,4 x 3,81 cm, un peso de 476 g y Vietnam como país de origen. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Cuatro tablas de cartón en un solo juego", "Incluye hierba gatera en cada tabla, según la ficha", "Se puede montar como casita o estructura para trepar"],
+    cons: ["El cartón se desgasta y suelta restos: hay que reponerlo", "La ficha no detalla cómo se monta la caja ni cuánto aguanta", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Tipo": "Rascador de cartón con caja", "Piezas": "4 tablas", "Medidas": "41,91 x 25,4 x 3,81 cm", "Peso": "476 g", "Incluye": "Hierba gatera", "Origen": "Vietnam", "Vendido por": "Amazon" },
+    relatedPosts: [
+      "arbol-rascador-gatos-guia-compra",
+    ],
+  },
+  {
     slug: "neakasa-m1-lite-arenero-autolimpiable-abierto",
     image: "https://m.media-amazon.com/images/I/71EGbFvHLaL._SL500_.jpg",
     name: "Neakasa M1 Lite Arenero Autolimpiable Abierto con App",

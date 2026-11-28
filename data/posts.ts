@@ -403,7 +403,7 @@ export const posts: Post[] = [
     category: "Accesorios",
     date: "2025-07-10",
     readTime: 8,
-    relatedProducts: ["feandrea-arbol-gatos-143cm", "amazon-basics-poste-rascador-gato-90cm", "kerbl-rascador-pared-sisal-maxi-70cm", "trixie-rascador-carton-wild-cat", "amazon-basics-rascador-carton-gato-pack-2", "petfusion-arbol-rascador", "feandrea-rascador-gatos-165cm-multinivel", "feandrea-arbol-gatos-112cm-4-postes", "arquivet-rascador-carton-gatos-green", "feandrea-poste-rascador-gatos-85-cm-sisal", "amazon-basics-torre-multinivel-gatos-117cm"],
+    relatedProducts: ["feandrea-arbol-gatos-143cm", "amazon-basics-poste-rascador-gato-90cm", "kerbl-rascador-pared-sisal-maxi-70cm", "trixie-rascador-carton-wild-cat", "amazon-basics-rascador-carton-gato-pack-2", "petfusion-arbol-rascador", "feandrea-rascador-gatos-165cm-multinivel", "feandrea-arbol-gatos-112cm-4-postes", "arquivet-rascador-carton-gatos-green", "feandrea-poste-rascador-gatos-85-cm-sisal", "amazon-basics-torre-multinivel-gatos-117cm", "amazon-basics-rascador-carton-gato-con-caja-4-tablas"],
     relatedPosts: ["gato-interior-bienestar-enriquecimiento", "cortar-unas-perro-gato-guia-paso-a-paso", "gato-primer-dia-casa-guia", "transportin-para-gato-guia"],
     categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver rascadores y accesorios para gatos →" },
   },
