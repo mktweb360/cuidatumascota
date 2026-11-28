@@ -3996,6 +3996,29 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "amazon-basics-transportin-plegable-4-puertas-s-66x46",
+    image: "https://m.media-amazon.com/images/I/81mUSHCk2oL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Transportín plegable de 4 puertas para perros y gatos, talla S, 66 x 46 x 46 cm, gris",
+    asin: "B0D1CDTF7L",
+    category: "Camas y transportines",
+    categorySlug: "camas-transportines",
+    categoryName: "Camas y transportines",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Transportín de tela plegable de 4 puertas, talla S, de 66 x 46 x 46 cm, con asa y correa acolchada para el hombro.",
+    fullDescription: "Transportín de viaje plegable de Amazon Basics en talla S, de paredes blandas y 4 puertas, pensado para gatos, perros pequeños, conejos y otros animales pequeños. Según la ficha de Amazon, tiene puerta superior, puerta delantera y puertas laterales con cierre de cremallera y clips, más correas para enrollar y asegurar las puertas de tela cuando no se usan, y un asa de transporte y una correa acolchada para el hombro para llevarlo plegado. Mide 66 x 46 x 46 cm y pesa unos 3,5 kg. No lo hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "4 puertas con cremallera, entre ellas una superior", "Plegable, con asa y correa acolchada para el hombro", "Talla S, más manejable para gatos y perros pequeños"],
+    cons: ["Es de tela: no protege como un transportín rígido ante un golpe o si el animal muerde o araña", "La ficha no indica un peso máximo del animal: comprueba que tu mascota cabe cómoda", "Para avión o coche conviene comprobar las normas de la compañía o del trayecto", "No lo hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Talla": "S", "Medidas": "66 x 46 x 46 cm", "Peso": "3,5 kg", "Puertas": "4, con cremallera", "Color": "Gris", "Vendido por": "Amazon" },
+    relatedPosts: [
+      "transportin-viaje-mascotas",
+      "transportin-para-gato-guia",
+    ],
+  },
+  {
     slug: "amazon-basics-cama-felpa-lavable-espiral-59x46",
     image: "https://m.media-amazon.com/images/I/71A0e8GM5lS._SL500_.jpg",
     // Comprobada en amazon.es el 26/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.

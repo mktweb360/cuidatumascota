@@ -250,7 +250,7 @@ export const posts: Post[] = [
     category: "Accesorios",
     date: "2025-03-15",
     readTime: 7,
-    relatedProducts: ["ferplast-atlas-10-el-negro", "ferplast-atlas-10-open-techo-abrible", "kerbl-expedion-transportin-45x30x30", "amazon-basics-transportin-plegable-4-puertas-m-76x54", "amazon-basics-transportin-plegable-2-puertas-l-91x61", "amazon-basics-transportin-rigido-2-puertas-58cm", "amazon-basics-cinturon-seguridad-perro-67cm-cuenco"],
+    relatedProducts: ["ferplast-atlas-10-el-negro", "ferplast-atlas-10-open-techo-abrible", "kerbl-expedion-transportin-45x30x30", "amazon-basics-transportin-plegable-4-puertas-m-76x54", "amazon-basics-transportin-plegable-4-puertas-s-66x46", "amazon-basics-transportin-plegable-2-puertas-l-91x61", "amazon-basics-transportin-rigido-2-puertas-58cm", "amazon-basics-cinturon-seguridad-perro-67cm-cuenco"],
     relatedPosts: ["transportin-para-gato-guia", "adoptar-perro-guia-primera-vez", "cuidado-preventivo-mascotas-guia", "kong-classic-guia-uso"],
     categoryCta: { href: "/tienda/camas-transportines", text: "Ver todos los transportines y camas →" },
   },
