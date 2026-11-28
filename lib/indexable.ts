@@ -118,6 +118,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "kerbl-rascador-pared-sisal-maxi-70cm",
   "amazon-basics-poste-rascador-gato-90cm",
   "amazon-basics-rascador-carton-gato-pack-2",
+  "amazon-basics-rascador-carton-gato-con-caja-4-tablas",
   "neakasa-m1-lite-arenero-autolimpiable-abierto",
   "petkit-purobot-max-3-arenero-autolimpiable",
   "catlink-c08-arenero-autolimpiable-abierto",
