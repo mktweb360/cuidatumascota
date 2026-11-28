@@ -4038,6 +4038,28 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: "amazon-basics-cama-perro-sofa-goma-cubierta-extraible-112x89",
+    image: "https://m.media-amazon.com/images/I/51-e-CFvkKL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Cama para perro estilo sofá con cubierta extraíble, 112 x 89 cm, taupe",
+    asin: "B0BBV8483Y",
+    category: "Camas y transportines",
+    categorySlug: "camas-transportines",
+    categoryName: "Camas y transportines",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Cama estilo sofá con base de goma en forma de cartón de huevos, cubierta de poliéster extraíble y parte inferior antideslizante, de 112 x 89 x 20 cm.",
+    fullDescription: "Cama para perro de Amazon Basics con forma de sofá y de U, en talla XL. Según la ficha de Amazon, tiene una base de goma con forma de cartón de huevos que distribuye el peso de forma uniforme y alivia los puntos de presión, una cubierta suave de poliéster en color taupe y una parte inferior de plástico antideslizante que evita que la cama se mueva. Mide 112 x 89 x 20 cm y pesa unos 4,7 kg. No la hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Base de goma en forma de cartón de huevos que reparte el peso, según la ficha", "Parte inferior antideslizante", "Cubierta de poliéster extraíble"],
+    cons: ["Con 112 x 89 cm ocupa bastante espacio", "La ficha no detalla cómo se lava la cubierta", "No la hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Medidas": "112 x 89 x 20 cm", "Peso": "4,7 kg", "Base": "Goma en forma de cartón de huevos", "Color": "Taupe", "Vendido por": "Amazon" },
+    relatedPosts: [
+      "cama-perro-como-elegir-tamano",
+    ],
+  },
+  {
     slug: "amazon-basics-cama-elevada-perros-110x65",
     // Comprobada en amazon.es el 25/11/2026: botón de compra activo, vendida y enviada por Amazon. Datos solo de la ficha de Amazon.
     name: "Amazon Basics Cama Elevada Refrescante para Perros, tela, talla M, 110 x 65 x 19 cm",

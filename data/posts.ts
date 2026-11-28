@@ -126,7 +126,7 @@ export const posts: Post[] = [
     date: "2026-10-27",
     readTime: 8,
     image: "/images/blog/cama-perro-como-elegir-tamano.jpg",
-    relatedProducts: ["feandrea-cama-perro-donut-60cm", "eheyciga-cama-perro-mediano-viscoelastica-76x51", "bedsure-colchoneta-perro-lavable-91x68", "bedsure-sofa-cama-ortopedica-perro-grande", "ksiia-cama-ortopedica-perro-xl", "gardner-pet-cama-elevada-hamaca-perro-m", "feandrea-cama-ortopedica-perro-grande", "cozy-kiss-cama-ortopedica-perros-grandes-112x81", "knuffelwuff-midland-cama-ortopedica-perros-80x60-gris", "amazon-basics-cama-elevada-perros-110x65", "amazon-basics-cama-elevada-perros-130x80", "amazon-basics-cama-felpa-lavable-espiral-59x46"],
+    relatedProducts: ["feandrea-cama-perro-donut-60cm", "eheyciga-cama-perro-mediano-viscoelastica-76x51", "bedsure-colchoneta-perro-lavable-91x68", "bedsure-sofa-cama-ortopedica-perro-grande", "ksiia-cama-ortopedica-perro-xl", "gardner-pet-cama-elevada-hamaca-perro-m", "feandrea-cama-ortopedica-perro-grande", "cozy-kiss-cama-ortopedica-perros-grandes-112x81", "knuffelwuff-midland-cama-ortopedica-perros-80x60-gris", "amazon-basics-cama-elevada-perros-110x65", "amazon-basics-cama-elevada-perros-130x80", "amazon-basics-cama-felpa-lavable-espiral-59x46", "amazon-basics-cama-perro-sofa-goma-cubierta-extraible-112x89"],
     relatedPosts: ["cama-ortopedica-perros-mayores", "perro-mayor-cuidados-senior", "transportin-viaje-mascotas", "regalos-navidad-reyes-perros-gatos"],
     categoryCta: { href: "/tienda/camas-transportines", text: "Ver camas para perros →" },
   },
