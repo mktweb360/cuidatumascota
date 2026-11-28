@@ -94,6 +94,7 @@ export const FEATURED_PRODUCT_SLUGS = new Set<string>([
   "feandrea-arenero-gato-bordes-altos-abierto-xl",
   "rotho-biala-arenero-cerrado-filtro-carbon",
   "iris-ohyama-arenero-entrada-superior-tecl-20",
+  "iris-ohyama-arenero-abierto-pala-48x38-gris",
   "petkit-pura-max-2-arenero-autolimpiable",
   "biokats-diamond-care-classic-arena-sin-fragancia-10l",
   "cats-best-original-arena-vegetal-aglomerante-10l",
