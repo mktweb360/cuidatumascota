@@ -766,7 +766,7 @@ export const posts: Post[] = [
     date: "2026-10-18",
     readTime: 10,
     image: "/images/blog/mejor-arenero-para-gatos-guia.jpg",
-    relatedProducts: ["feandrea-arenero-gato-bordes-altos-abierto-xl", "rotho-biala-arenero-cerrado-filtro-carbon", "savic-nestor-arenero-cerrado-gatos", "iris-ohyama-arenero-entrada-superior-tecl-20", "petkit-pura-max-2-arenero-autolimpiable", "biokats-diamond-care-classic-arena-sin-fragancia-10l", "cats-best-original-arena-vegetal-aglomerante-10l", "amazon-basics-alfombra-arenero-gatos"],
+    relatedProducts: ["feandrea-arenero-gato-bordes-altos-abierto-xl", "rotho-biala-arenero-cerrado-filtro-carbon", "savic-nestor-arenero-cerrado-gatos", "iris-ohyama-arenero-entrada-superior-tecl-20", "iris-ohyama-arenero-abierto-pala-48x38-gris", "petkit-pura-max-2-arenero-autolimpiable", "biokats-diamond-care-classic-arena-sin-fragancia-10l", "cats-best-original-arena-vegetal-aglomerante-10l", "amazon-basics-alfombra-arenero-gatos"],
     relatedPosts: ["arenero-autolimpiable-gatos", "savic-nestor-arenero-analisis", "gato-primer-dia-casa-guia", "cuidados-gatito-primer-mes", "gato-interior-bienestar-enriquecimiento"],
     isHealth: true,
     categoryCta: { href: "/tienda/accesorios-gatos", text: "Ver areneros y arenas para gatos →" },
