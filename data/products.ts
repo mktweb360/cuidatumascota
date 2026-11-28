@@ -3999,7 +3999,7 @@ export const products: Product[] = [
     slug: "amazon-basics-transportin-plegable-4-puertas-s-66x46",
     image: "https://m.media-amazon.com/images/I/81mUSHCk2oL._SL500_.jpg",
     // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
-    name: "Amazon Basics Transportín plegable de 4 puertas para perros y gatos, talla S, 66 x 46 x 46 cm, gris",
+    name: "Amazon Basics Transportín pequeño plegable de tela, 4 puertas, talla S, 66 x 46 cm, gris",
     asin: "B0D1CDTF7L",
     category: "Camas y transportines",
     categorySlug: "camas-transportines",
