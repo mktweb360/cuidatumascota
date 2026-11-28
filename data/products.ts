@@ -4202,6 +4202,26 @@ export const products: Product[] = [
     relatedPosts: ["adoptar-perro-guia-primera-vez", "gato-primer-dia-casa-guia"],
   },
   {
+    slug: "amazon-basics-comederos-elevados-gatos-orejas-pack-2",
+    image: "https://m.media-amazon.com/images/I/61SShJ2goPL._SL500_.jpg",
+    // Comprobada en amazon.es el 28/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.
+    name: "Amazon Basics Comederos elevados para gatos con orejas, pack de 2",
+    asin: "B0DPWGNQ5F",
+    category: "Alimentación para gatos",
+    categorySlug: "alimentacion-gatos",
+    categoryName: "Alimentación para gatos",
+    price: "Consultar precio",
+    priceMin: 0,
+    rating: 0,
+    reviewCount: 0,
+    shortDescription: "Pack de dos cuencos de polipropileno para gatos, inclinados, anchos y poco profundos, con forma de orejas de gato, sin BPA.",
+    fullDescription: "Pack de dos comederos elevados para gatos de Amazon Basics, en naranja y azul. Según la ficha de Amazon, tienen un diseño inclinado, ancho y poco profundo, con forma de orejas de gato en el borde, pensado para que el gato coma con comodidad y sin que le roce los bigotes. Están hechos de polipropileno apto para uso alimentario, sin BPA, con bordes lisos y base estable, y miden unos 13,2 x 13,2 x 11,4 cm cada uno. Su número de modelo es YE24081973CL. No los hemos probado: la información procede de la ficha de Amazon.",
+    pros: ["Remitente y vendedor Amazon", "Pack de dos cuencos", "Diseño ancho y poco profundo, según la ficha", "Polipropileno apto para uso alimentario y sin BPA", "Base estable y bordes lisos"],
+    cons: ["Son de plástico: si prefieres acero inoxidable, hay otros cuencos en la tienda", "La ficha no indica la capacidad de cada cuenco", "No los hemos probado: la información procede de la ficha de Amazon"],
+    specs: { "Marca": "Amazon Basics", "Modelo": "YE24081973CL", "Piezas": "2 comederos", "Material": "Polipropileno sin BPA", "Medidas": "13,2 x 13,2 x 11,4 cm", "Colores": "Naranja y azul", "Vendido por": "Amazon" },
+    relatedPosts: ["gato-primer-dia-casa-guia"],
+  },
+  {
     slug: "amazon-basics-dispensador-agua-comederos-acero-perros-gatos",
     image: "https://m.media-amazon.com/images/I/51udHXmIAFS._SL500_.jpg",
     // Comprobada en amazon.es el 27/11/2026: botón de compra activo, remitente y vendedor Amazon. Datos solo de la ficha de Amazon.

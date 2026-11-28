@@ -498,7 +498,7 @@ export const posts: Post[] = [
     category: "Cuidados",
     date: "2025-07-17",
     readTime: 7,
-    relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador", "royal-canin-indoor-adult", "bedsure-cama-cueva-gato-40cm", "amazon-basics-comederos-acero-inoxidable-2"],
+    relatedProducts: ["catit-flower-fountain", "petfusion-arbol-rascador", "royal-canin-indoor-adult", "bedsure-cama-cueva-gato-40cm", "amazon-basics-comederos-acero-inoxidable-2", "amazon-basics-comederos-elevados-gatos-orejas-pack-2"],
     relatedPosts: ["mejor-arenero-para-gatos-guia", "transportin-para-gato-guia", "gato-interior-bienestar-enriquecimiento", "arbol-rascador-gatos-guia-compra", "desparasitacion-gatos-guia", "esterilizacion-gatos-guia-completa"],
   },
   {
